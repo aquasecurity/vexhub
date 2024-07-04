@@ -1,0 +1,23 @@
+{
+  "name": "VEX Hub",
+  "description": "VEX Repository by Aqua Security",
+  "versions": {
+    "v0": {
+      "spec_version": "v0.1",
+      "locations": [
+        {
+          "url": "https://github.com/aquasecurity/vexhub/archive/refs/heads/main.tar.gz//vexhub-main"
+        }
+      ],
+      "update_interval": "24h",
+      "repository_specific": {
+        "location": {
+          "repository_type": "db",
+          "db_type": "bbolt",
+          "url": "oci://ghcr.io/example.com/vex-db:0"
+        }
+      }
+    }
+  },
+  "latest_version": "v0"
+}

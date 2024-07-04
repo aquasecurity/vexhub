@@ -1,0 +1,11 @@
+pkg:
+  golang:
+    - namespace: github.com/knqyf263
+      name: vextest
+    - namespace: github.com/aquasecurity
+      name: trivy
+  oci:
+    - name: trivy
+      qualifiers:
+        - key: repository_url
+          value: ghcr.io/aquasecurity/trivy
