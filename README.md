@@ -88,7 +88,7 @@ Example with special character encoding:
 - `pkg:npm/@angular/core` → `/npm/%40angular/core/`
 
 ## Distribution
-To distribute VEX documents, we will add vex_repository.json and index.json files to conform to the VEX Repository Specification.
+To distribute VEX documents, we will add vex_repository.json and index.json files to conform to [the VEX Repository (VEXR) Specification][vexr-spec].
 
 ### Multiple VEX Documents per PURL
 
@@ -133,5 +133,6 @@ Contributions to improve VEX Hub are welcome. Please submit issues and pull requ
 
 [vex]: https://www.ntia.gov/files/ntia/publications/vex_one-page_summary.pdf
 [purl]: https://github.com/package-url/purl-spec
+[vexr-spec]: https://github.com/aquasecurity/vexr-spec
 [openvex]: https://github.com/openvex/spec
 [csaf]: https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html
