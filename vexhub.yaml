@@ -6,4 +6,12 @@ pkg:
     - name: trivy
       qualifiers:
         - key: repository_url
+          value: index.docker.io/aquasec/trivy
+    - name: trivy
+      qualifiers:
+        - key: repository_url
           value: ghcr.io/aquasecurity/trivy
+    - name: trivy
+      qualifiers:
+        - key: repository_url
+          value: public.ecr.aws/aquasecurity/trivy
