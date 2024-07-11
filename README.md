@@ -19,40 +19,11 @@ That's it!
 VEX Hub will automatically retrieve and process your VEX documents.
 
 ## List of PURLs
-VEX Hub maintains a list of PURLs for discovering VEX documents.
-The PURL definition file format is as follows:
+VEX Hub maintains [a list of PURLs][purl-list] for discovering VEX documents.
+It periodically crawls VEX documents of registered PURLs and keeps them up-to-date.
+The list of PURLs can be updated by anyone through Pull Requests.
 
-```yaml
-pkg:
-  npm:
-    - namespace: "@angular"
-      name: animations
-  golang:
-    - namespace: github.com/aquasecurity
-      name: trivy
-  pypi:
-      - name: django
-  maven:
-    - namespace: org.junit.jupiter
-      name: junit-jupiter-api
-  oci:
-    - name: trivy
-      qualifiers:
-        - key: repository_url
-          value: ghcr.io/aquasecurity/trivy
-```
-
-When specifying PURLs, the following components are required:
-
-* type
-* namespace
-* name
-
-The `version` must be omitted.
-The `namespace`, `qualifiers` and `subpath` may be necessary for certain ecosystems (such as `oci`).
-For detailed information about PURL composition, please refer to the PURL [specification](https://github.com/package-url/purl-spec/blob/b33dda1cf4515efa8eabbbe8e9b140950805f845/PURL-SPECIFICATION.rst).
-
-The list of PURLs can be updated by anyone through Pull Requests. If VEX documents are already stored in the source repository of an open-source project, individuals other than the project's maintainers are welcome to register the PURL in VEX Hub.
+For detailed information on PURL registration, supported ecosystems, and specific requirements, please refer to [vexhub-crawler][vexhub-crawler].
 
 ## Identifying Source Repositories
 The method for identifying source repositories varies by ecosystem. For detailed information on how source repositories are identified and crawled for different package types, please refer to the [vex-crawler documentation](https://github.com/aquasecurity/vex-crawler).
@@ -73,7 +44,7 @@ For detailed information on the discovery process, supported ecosystems, and spe
 Directories are created based on the Package URL (PURL), excluding `version`, `qualifiers` and `subpath`.
 The structure adheres to the following rules:
 
-1. The directory hierarchy is derived from the PURL's scheme, type, namespace (if present), and name components.
+1. The directory hierarchy is derived from the PURL's scheme, type, namespace (if present), and name components. In case of `oci`, the `repository_url` qualifier is used instead.
 2. Version and qualifiers are omitted from the directory structure. These elements must be specified within the `products` field of the VEX documents.
 3. URL encoding is applied to special characters in the PURL components.
 
@@ -82,13 +53,14 @@ Directory structure formation examples:
 - `pkg:npm/express` → `/npm/express/`
 - `pkg:golang/github.com/gorilla/mux` → `/golang/github.com/gorilla/mux/`
 - `pkg:maven/org.apache.xmlgraphics/batik-anim` → `/maven/org.apache.xmlgraphics/batik-anim/`
+- `pkg:oci/trivy?repository_url=ghcr.io/aquasecurity/trivy` → `/oci/ghcr.io/aquasecurity/trivy/`
 
 Example with special character encoding:
 
 - `pkg:npm/@angular/core` → `/npm/%40angular/core/`
 
 ## Distribution
-To distribute VEX documents, we will add vex_repository.json and index.json files to conform to [the VEX Repository (VEXR) Specification][vexr-spec].
+To distribute VEX documents, we will add vex_repository.json and index.json files to conform to [the VEX Repository Specification][vex-repo-spec].
 
 ### Multiple VEX Documents per PURL
 
@@ -101,14 +73,24 @@ To comply with this specification, VEX Hub implements the following distribution
 
 ### VEX Document Creation for VEX Hub
 
-To prevent confusion and ensure consistency, we recommend creating only one VEX file per PURL.
-Note that it is common and acceptable for a single source repository to publish multiple VEX files for different PURLs.
+To prevent confusion and ensure consistency, splitting VEX statements for the same PURL into multiple files is not recommended, as VEX Hub distributes only one VEX file per PURL.
 
+The recommended approaches are:
+
+1. Consolidate VEX statements for all products managed by the source repository into a single file.
+2. Split VEX documents by PURL.
+ 
 Example scenario:
-Consider a source repository `https://github.com/org/repo` that publishes two VEX files:
+Consider a source repository `https://github.com/org/repo` that maintains two products, a Go module and an OCi image.
+
+The first approach is to create a single VEX file, `vex.json`, containing VEX statements for both products.
+
+- `openvex.json`: For both products, with PURLs `pkg:golang/github.com/org/repo`, `pkg:oci/repo?repository_url=docker.io/org/repo` and `pkg:oci/repo?repository_url=ghcr.io/org/repo`
+
+The second approach is to create separate VEX files for each product.
 
 - `golang.vex`: For the Go module, with PURL `pkg:golang/github.com/org/repo`
-- `oci.vex`: For the OCI image, with PURL `pkg:oci/repo?repository_url=docker.io/org/repo`
+- `oci.vex`: For the OCI image, with PURLs, `pkg:oci/repo?repository_url=docker.io/org/repo` and `pkg:oci/repo?repository_url=ghcr.io/org/repo`
 
 The following structure is not recommended:
 
@@ -133,6 +115,8 @@ Contributions to improve VEX Hub are welcome. Please submit issues and pull requ
 
 [vex]: https://www.ntia.gov/files/ntia/publications/vex_one-page_summary.pdf
 [purl]: https://github.com/package-url/purl-spec
-[vexr-spec]: https://github.com/aquasecurity/vexr-spec
+[vexhub-crawler]: https://github.com/aquasecurity/vexhub-crawler
+[purl-list]: https://github.com/aquasecurity/vexhub-crawler/blob/main/crawler.yaml
+[vex-repo-spec]: https://github.com/aquasecurity/vex-repo-spec
 [openvex]: https://github.com/openvex/spec
 [csaf]: https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html
