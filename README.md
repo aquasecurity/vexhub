@@ -10,7 +10,7 @@ By identifying the source repository from the registered [Package URL (PURL)][pu
 
 1. Create your VEX file
     1. VEX Hub supports [OpenVEX][openvex] or [CSAF][csaf] formats.
-    2. Store your VEX files in your source code repository under the `/.vex` directory at the root of your repository. More info [here](#discovery-of-vex-documents).
+    2. Store your VEX files in your source code repository under the `.vex/` directory at the root of your repository. More info [here](#discovery-of-vex-documents).
     3. For additional guidance on VEX Document Creation for VEX Hub, See [here](#vex-document-creation-for-vex-hub).
 2. Register your package with VEX Hub
     1. Make a Pull Request that adds the PURL of your package to the [crawled packages][purl-list] file.
@@ -34,7 +34,7 @@ The method for identifying source repositories varies by ecosystem. For detailed
 
 After identifying the source code repository, VEX Hub automatically discovers VEX documents in it. The discovery process involves the following key points:
 
-- VEX documents are searched for in the `/.vex` directory at the root of the repository.
+- VEX documents are searched for in the `.vex/` directory at the root of the repository.
 - Supported VEX formats are OpenVEX and CSAF.
 - File names matching specific patterns (e.g., `*.vex.json`, `*.csaf.json`) are considered.
 - PURLs must be used for products and subcomponents in the VEX documents.
@@ -119,7 +119,7 @@ If VEX documents in the source repository of a registered PURL are not being upd
 1. Ensure that the VEX documents are placed in the correct location (`.vex/` directory at the root of the repository).
 2. Verify that the VEX documents use one of the supported file naming conventions.
 3. Confirm that the PURL in the VEX document matches the registered PURL in VEX Hub.
-4. Review the [vex-crawler documentation][vexhub-crawler] to ensure all specifications for crawling are met.
+4. Review the [vexhub-crawler documentation][vexhub-crawler] to ensure all specifications for crawling are met.
 
 If issues persist after confirming these points, please open an issue in the VEX Hub repository for further assistance.
 
@@ -127,7 +127,7 @@ If issues persist after confirming these points, please open an issue in the VEX
 Contributions to improve VEX Hub are welcome!
 Please note that the packages list, and associated code is maintained in the [VEX Hub Crawler repository][vexhub-crawler].
 Pull Requests directly adding VEX documents to this repo are discouraged.
-This project and everyone participating in it is governed by the [Aquasecurity Code of Conduct][coc].
+This project and everyone participating in it is governed by the [Aqua Security Code of Conduct][coc].
 
 [vex]: https://www.ntia.gov/files/ntia/publications/vex_one-page_summary.pdf
 [purl]: https://github.com/package-url/purl-spec
