@@ -1,4 +1,4 @@
-# VEX Hub
+![VEX Hub Logo](./vexhub-logo.png)
 
 VEX Hub is a centralized repository that collects and manages [Vulnerability Exploitability eXchange (VEX)][vex] documents from various open-source software projects.
 It serves as a comprehensive resource for vulnerability information, helping users and security tools to efficiently access and utilize VEX data across multiple projects and ecosystems.
