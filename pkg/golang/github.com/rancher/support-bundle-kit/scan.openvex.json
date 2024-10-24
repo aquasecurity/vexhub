@@ -1,0 +1,561 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "author": "Rancher Security team",
+  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
+  "last_updated": "2024-09-18T20:05:45.334804463Z",
+  "version": 25,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GO-2021-0072",
+        "aliases": [
+          "CVE-2017-11468",
+          "GHSA-h62f-wm92-2cmw"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:29.588205633Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/distribution@v0.0.0-20191216044856-a8371794149d"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0274",
+        "aliases": [
+          "CVE-2021-43784",
+          "GHSA-v95c-p5hm-xq8f"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:29.93752812Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.0.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0379",
+        "aliases": [
+          "GHSA-qq97-vm5h-rrhg"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:30.088039667Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/distribution@v0.0.0-20191216044856-a8371794149d"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0603",
+        "aliases": [
+          "CVE-2022-28948",
+          "GHSA-hp87-p4gw-j4gq"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:30.494617984Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0617",
+        "aliases": [
+          "CVE-2020-8562",
+          "GHSA-qh36-44jv-c8xj"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:30.964666327Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0619",
+        "aliases": [
+          "CVE-2022-1996",
+          "GHSA-r48q-9g5r-8q2h"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:31.184573398Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/emicklei/go-restful@v2.15.0+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0646",
+        "aliases": [
+          "CVE-2020-8911",
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:31.97062033Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.65"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1515",
+        "aliases": [
+          "CVE-2022-43756",
+          "GHSA-8fcj-gf77-47mg"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:33.433775267Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.1-0.20220520195731-8eeded9bae2a"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1519",
+        "aliases": [
+          "CVE-2022-31249",
+          "GHSA-qrg7-hfx7-95c5"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:33.694100864Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.1-0.20220520195731-8eeded9bae2a"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1546",
+        "aliases": [
+          "CVE-2023-25151",
+          "GHSA-5r5m-65gx-7vrh"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:34.100382244Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1546",
+        "aliases": [
+          "CVE-2023-25151",
+          "GHSA-5r5m-65gx-7vrh"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:34.147034745Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1631",
+        "aliases": [
+          "CVE-2023-24535",
+          "GHSA-hw7c-3rfg-p46j"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:34.596798631Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2048",
+        "aliases": [
+          "GHSA-6xv5-86q9-7xr8"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:36.481890782Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2113",
+        "aliases": [
+          "CVE-2023-45142",
+          "GHSA-rcjv-mgp8-qvmr"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.332585324Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2113",
+        "aliases": [
+          "CVE-2023-45142",
+          "GHSA-rcjv-mgp8-qvmr"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.376462599Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2170",
+        "aliases": [
+          "CVE-2023-3955",
+          "GHSA-q78c-gwqw-jcmc"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.778186767Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2330",
+        "aliases": [
+          "CVE-2023-3676",
+          "GHSA-7fxm-f474-hf8w"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.951958958Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2341",
+        "aliases": [
+          "CVE-2023-5528",
+          "GHSA-hq6q-c2x6-hmch"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:38.257560798Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.11"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2402",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:38.920371215Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2402",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:38.96706839Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2491",
+        "aliases": [
+          "CVE-2024-21626",
+          "GHSA-xr7r-f8xq-vfvv"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:39.106408501Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.0.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2631",
+        "aliases": [
+          "CVE-2024-28180",
+          "GHSA-c5q2-7r4c-mv6g"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:41.392606434Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.2.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2631",
+        "aliases": [
+          "CVE-2024-28180",
+          "GHSA-c5q2-7r4c-mv6g"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:41.437047106Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2978",
+        "aliases": [
+          "GHSA-xr7q-jx4m-x55m"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:45.334805254Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/support-bundle-kit",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@v1.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}

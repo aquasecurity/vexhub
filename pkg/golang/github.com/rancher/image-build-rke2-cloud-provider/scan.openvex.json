@@ -1,0 +1,249 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "author": "Rancher Security team",
+  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
+  "last_updated": "2024-10-01T21:12:32.190961303Z",
+  "version": 12,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2023-47108"
+      },
+      "timestamp": "2024-10-01T21:12:14.566900186Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Manually confirmed after executing govulncheck against https://github.com/rancher/image-build-rke2-cloud-provider/tree/v1.30.4-build20240910"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-47108"
+      },
+      "timestamp": "2024-10-01T21:12:14.611056323Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Manually confirmed after executing govulncheck against https://github.com/rancher/image-build-rke2-cloud-provider/tree/v1.31.0-build20240910"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110"
+      },
+      "timestamp": "2024-10-01T21:12:15.050670761Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.5+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Manually confirmed after executing govulncheck against https://github.com/rancher/image-build-rke2-cloud-provider/tree/v1.30.4-build20240910"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1546",
+        "aliases": [
+          "CVE-2023-25151",
+          "GHSA-5r5m-65gx-7vrh"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:19.976332795Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2113",
+        "aliases": [
+          "CVE-2023-45142",
+          "GHSA-rcjv-mgp8-qvmr"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:23.346954489Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2163",
+        "aliases": [
+          "CVE-2023-46129",
+          "GHSA-mr45-rx8q-wcm9"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:23.790309266Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/nats-io/nkeys@v0.4.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2331",
+        "aliases": [
+          "CVE-2023-47108",
+          "GHSA-8pgv-569h-w5rw"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:24.229540724Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2402",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:25.110375978Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2567",
+        "aliases": [
+          "GHSA-fqpg-rq76-99pq"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:26.737280904Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/jackc/pgx/v5@v5.4.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2737",
+        "aliases": [
+          "CVE-2024-32473",
+          "GHSA-x84c-p2g9-rqv9"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:28.94949995Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3005",
+        "aliases": [
+          "CVE-2024-41110"
+        ]
+      },
+      "timestamp": "2024-10-01T21:12:32.190961895Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}
