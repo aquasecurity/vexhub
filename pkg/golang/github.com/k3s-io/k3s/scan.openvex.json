@@ -1,0 +1,352 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "author": "Rancher Security team",
+  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
+  "last_updated": "2024-09-18T20:05:45.649978062Z",
+  "version": 16,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GO-2023-1546",
+        "aliases": [
+          "CVE-2023-25151",
+          "GHSA-5r5m-65gx-7vrh"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:33.918772436Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2113",
+        "aliases": [
+          "CVE-2023-45142",
+          "GHSA-rcjv-mgp8-qvmr"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.060367837Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/github.com/emicklei/go-restful/otelrestful@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2113",
+        "aliases": [
+          "CVE-2023-45142",
+          "GHSA-rcjv-mgp8-qvmr"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:37.109648863Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-2402",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:38.788369802Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2512",
+        "aliases": [
+          "CVE-2024-24557",
+          "GHSA-xw73-rw38-6vjc"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:39.32572486Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.10-0.20240723193628-852759a7df45+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2512",
+        "aliases": [
+          "CVE-2024-24557",
+          "GHSA-xw73-rw38-6vjc"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:39.368849844Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.8+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2631",
+        "aliases": [
+          "CVE-2024-28180",
+          "GHSA-c5q2-7r4c-mv6g"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:41.188310341Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2659",
+        "aliases": [
+          "CVE-2024-29018",
+          "GHSA-mq39-4gv4-mvpx"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:41.613395627Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.10-0.20240723193628-852759a7df45+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2659",
+        "aliases": [
+          "CVE-2024-29018",
+          "GHSA-mq39-4gv4-mvpx"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:41.658256469Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.8+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2737",
+        "aliases": [
+          "CVE-2024-32473",
+          "GHSA-x84c-p2g9-rqv9"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:42.359081373Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.10-0.20240723193628-852759a7df45+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2737",
+        "aliases": [
+          "CVE-2024-32473",
+          "GHSA-x84c-p2g9-rqv9"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:42.403008281Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.8+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2737",
+        "aliases": [
+          "CVE-2024-32473",
+          "GHSA-x84c-p2g9-rqv9"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:42.447249635Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3005",
+        "aliases": [
+          "CVE-2024-41110"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:45.563061438Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.10-0.20240723193628-852759a7df45+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3005",
+        "aliases": [
+          "CVE-2024-41110"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:45.607241039Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v24.0.8+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3005",
+        "aliases": [
+          "CVE-2024-41110"
+        ]
+      },
+      "timestamp": "2024-09-18T20:05:45.649978552Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}
