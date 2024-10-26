@@ -3,20 +3,23 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-09-19T10:47:11.75956683Z",
+  "last_updated": "2024-10-25T10:24:53.919186048Z",
   "version": 2,
   "statements": [
     {
       "vulnerability": {
         "name": "GHSA-m425-mq94-257g"
       },
-      "timestamp": "2024-09-19T10:47:11.759567421Z",
+      "timestamp": "2024-10-25T10:24:53.919186621Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/confd",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/grpc@v1.26.0"
+            },
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@1.26.0"
             }
           ]
         }

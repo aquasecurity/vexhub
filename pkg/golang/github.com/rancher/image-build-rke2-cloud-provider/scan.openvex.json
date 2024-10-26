@@ -3,20 +3,23 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-10-01T21:12:32.190961303Z",
+  "last_updated": "2024-10-25T10:25:21.058916956Z",
   "version": 12,
   "statements": [
     {
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-10-01T21:12:14.566900186Z",
+      "timestamp": "2024-10-25T10:24:53.117092643Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0"
+            },
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@0.45.0"
             }
           ]
         }
@@ -29,13 +32,16 @@
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-10-01T21:12:14.611056323Z",
+      "timestamp": "2024-10-25T10:24:53.163759633Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0"
+            },
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@0.45.0"
             }
           ]
         }
@@ -48,13 +54,16 @@
       "vulnerability": {
         "name": "CVE-2024-41110"
       },
-      "timestamp": "2024-10-01T21:12:15.050670761Z",
+      "timestamp": "2024-10-25T10:24:53.636855894Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v25.0.5+incompatible"
+            },
+            {
+              "@id": "pkg:golang/github.com/docker/docker@25.0.5+incompatible"
             }
           ]
         }
@@ -71,13 +80,16 @@
           "GHSA-5r5m-65gx-7vrh"
         ]
       },
-      "timestamp": "2024-10-01T21:12:19.976332795Z",
+      "timestamp": "2024-10-25T10:25:01.800710275Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            },
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.35.1"
             }
           ]
         }
@@ -94,13 +106,16 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-10-01T21:12:23.346954489Z",
+      "timestamp": "2024-10-25T10:25:07.171247601Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            },
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.35.1"
             }
           ]
         }
@@ -117,13 +132,16 @@
           "GHSA-mr45-rx8q-wcm9"
         ]
       },
-      "timestamp": "2024-10-01T21:12:23.790309266Z",
+      "timestamp": "2024-10-25T10:25:07.880416488Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/nats-io/nkeys@v0.4.4"
+            },
+            {
+              "@id": "pkg:golang/github.com/nats-io/nkeys@0.4.4"
             }
           ]
         }
@@ -140,13 +158,16 @@
           "GHSA-8pgv-569h-w5rw"
         ]
       },
-      "timestamp": "2024-10-01T21:12:24.229540724Z",
+      "timestamp": "2024-10-25T10:25:08.45403743Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.35.0"
+            },
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@0.35.0"
             }
           ]
         }
@@ -163,13 +184,16 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-10-01T21:12:25.110375978Z",
+      "timestamp": "2024-10-25T10:25:09.523733816Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
             }
           ]
         }
@@ -185,13 +209,16 @@
           "GHSA-fqpg-rq76-99pq"
         ]
       },
-      "timestamp": "2024-10-01T21:12:26.737280904Z",
+      "timestamp": "2024-10-25T10:25:12.329909933Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/jackc/pgx/v5@v5.4.2"
+            },
+            {
+              "@id": "pkg:golang/github.com/jackc/pgx/v5@5.4.2"
             }
           ]
         }
@@ -208,13 +235,16 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-10-01T21:12:28.94949995Z",
+      "timestamp": "2024-10-25T10:25:15.16043581Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            },
+            {
+              "@id": "pkg:golang/github.com/docker/docker@25.0.4+incompatible"
             }
           ]
         }
@@ -230,13 +260,16 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-10-01T21:12:32.190961895Z",
+      "timestamp": "2024-10-25T10:25:21.058917613Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v25.0.4+incompatible"
+            },
+            {
+              "@id": "pkg:golang/github.com/docker/docker@25.0.4+incompatible"
             }
           ]
         }
