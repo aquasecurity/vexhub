@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-05T10:09:21.117953483Z",
-  "version": 11,
+  "last_updated": "2024-12-10T22:08:01.173888871Z",
+  "version": 12,
   "statements": [
     {
       "vulnerability": {
@@ -16,7 +16,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-05T10:08:56.877883921Z",
+      "timestamp": "2024-12-10T22:07:35.506858369Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -44,7 +44,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-05T10:08:56.921893031Z",
+      "timestamp": "2024-12-10T22:07:35.554002694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -70,7 +70,7 @@
           "GHSA-3fwx-pjgw-3558"
         ]
       },
-      "timestamp": "2024-12-05T10:09:08.789184395Z",
+      "timestamp": "2024-12-10T22:07:48.377018493Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -96,7 +96,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-05T10:09:09.456569767Z",
+      "timestamp": "2024-12-10T22:07:49.055837921Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -122,7 +122,7 @@
           "GHSA-v2cv-wwxq-qq97"
         ]
       },
-      "timestamp": "2024-12-05T10:09:09.996933249Z",
+      "timestamp": "2024-12-10T22:07:49.588328756Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -148,7 +148,7 @@
           "GHSA-v994-f8vw-g7j4"
         ]
       },
-      "timestamp": "2024-12-05T10:09:18.642875635Z",
+      "timestamp": "2024-12-10T22:07:58.476624552Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -173,7 +173,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-05T10:09:20.106371898Z",
+      "timestamp": "2024-12-10T22:08:00.038412662Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -199,7 +199,7 @@
           "GHSA-29wx-vh33-7x7r"
         ]
       },
-      "timestamp": "2024-12-05T10:09:20.721502223Z",
+      "timestamp": "2024-12-10T22:08:00.682420506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -225,7 +225,7 @@
           "GHSA-2mj3-vfvx-fc43"
         ]
       },
-      "timestamp": "2024-12-05T10:09:21.010202962Z",
+      "timestamp": "2024-12-10T22:08:00.979018651Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -251,7 +251,33 @@
           "GHSA-gh5c-3h97-2f3q"
         ]
       },
-      "timestamp": "2024-12-05T10:09:21.117954084Z",
+      "timestamp": "2024-12-10T22:08:01.076057046Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            },
+            {
+              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3311",
+        "aliases": [
+          "CVE-2024-36620",
+          "GHSA-q59j-vv4j-v33c"
+        ]
+      },
+      "timestamp": "2024-12-10T22:08:01.173889481Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
