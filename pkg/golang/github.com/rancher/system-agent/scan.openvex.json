@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-11-28T20:09:09.496952991Z",
-  "version": 4,
+  "last_updated": "2024-12-11T19:07:38.498091319Z",
+  "version": 5,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-11-28T20:08:42.631958684Z",
+      "timestamp": "2024-12-11T19:07:11.918420717Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -40,7 +40,7 @@
           "GHSA-82m2-cv7p-4m75"
         ]
       },
-      "timestamp": "2024-11-28T20:09:07.792077357Z",
+      "timestamp": "2024-12-11T19:07:36.545164407Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -66,7 +66,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-11-28T20:09:09.496953541Z",
+      "timestamp": "2024-12-11T19:07:38.12311624Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -76,6 +76,31 @@
             },
             {
               "@id": "pkg:golang/k8s.io/kubernetes@1.29.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337"
+        ]
+      },
+      "timestamp": "2024-12-11T19:07:38.498091739Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-agent",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.24.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.24.0"
             }
           ]
         }

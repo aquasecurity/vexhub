@@ -3,14 +3,14 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-10-30T17:24:05.876654912Z",
-  "version": 13,
+  "last_updated": "2024-12-11T19:07:38.636500358Z",
+  "version": 16,
   "statements": [
     {
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-10-30T17:23:45.914440548Z",
+      "timestamp": "2024-12-11T19:07:08.033412112Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -36,7 +36,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-10-30T17:23:48.913994784Z",
+      "timestamp": "2024-12-11T19:07:11.963854618Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -62,7 +62,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-10-30T17:23:48.952976458Z",
+      "timestamp": "2024-12-11T19:07:12.011201497Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -88,7 +88,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-10-30T17:23:48.99277773Z",
+      "timestamp": "2024-12-11T19:07:12.05800819Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -114,7 +114,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-10-30T17:23:49.032798377Z",
+      "timestamp": "2024-12-11T19:07:12.105167017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -140,7 +140,7 @@
           "GHSA-5r5m-65gx-7vrh"
         ]
       },
-      "timestamp": "2024-10-30T17:23:53.439417097Z",
+      "timestamp": "2024-12-11T19:07:17.430825722Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -166,7 +166,7 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-10-30T17:23:58.01595653Z",
+      "timestamp": "2024-12-11T19:07:23.112068291Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -192,7 +192,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2024-10-30T17:24:02.024789178Z",
+      "timestamp": "2024-12-11T19:07:27.88531589Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -218,7 +218,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2024-10-30T17:24:02.066090369Z",
+      "timestamp": "2024-12-11T19:07:27.934441252Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -244,7 +244,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-10-30T17:24:03.060052356Z",
+      "timestamp": "2024-12-11T19:07:29.241438402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -270,7 +270,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-10-30T17:24:05.836075185Z",
+      "timestamp": "2024-12-11T19:07:32.466364046Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -296,7 +296,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-10-30T17:24:05.876655638Z",
+      "timestamp": "2024-12-11T19:07:32.513484839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook",
@@ -306,6 +306,81 @@
             },
             {
               "@id": "pkg:golang/k8s.io/kubernetes@1.28.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337"
+        ]
+      },
+      "timestamp": "2024-12-11T19:07:38.54400155Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/webhook",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337"
+        ]
+      },
+      "timestamp": "2024-12-11T19:07:38.591223533Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/webhook",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337"
+        ]
+      },
+      "timestamp": "2024-12-11T19:07:38.636501018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/webhook",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.28.0"
             }
           ]
         }
