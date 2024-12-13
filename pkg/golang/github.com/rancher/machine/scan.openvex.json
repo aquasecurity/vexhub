@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-10T22:08:01.173888871Z",
-  "version": 12,
+  "last_updated": "2024-12-12T19:00:01.030065453Z",
+  "version": 13,
   "statements": [
     {
       "vulnerability": {
@@ -16,7 +16,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-10T22:07:35.506858369Z",
+      "timestamp": "2024-12-12T18:59:33.688051814Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -44,7 +44,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-10T22:07:35.554002694Z",
+      "timestamp": "2024-12-12T18:59:33.734489226Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -70,7 +70,7 @@
           "GHSA-3fwx-pjgw-3558"
         ]
       },
-      "timestamp": "2024-12-10T22:07:48.377018493Z",
+      "timestamp": "2024-12-12T18:59:46.451859663Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -96,7 +96,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-10T22:07:49.055837921Z",
+      "timestamp": "2024-12-12T18:59:47.12417038Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -122,7 +122,7 @@
           "GHSA-v2cv-wwxq-qq97"
         ]
       },
-      "timestamp": "2024-12-10T22:07:49.588328756Z",
+      "timestamp": "2024-12-12T18:59:47.651935844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -148,7 +148,7 @@
           "GHSA-v994-f8vw-g7j4"
         ]
       },
-      "timestamp": "2024-12-10T22:07:58.476624552Z",
+      "timestamp": "2024-12-12T18:59:56.426884751Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -173,7 +173,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-10T22:08:00.038412662Z",
+      "timestamp": "2024-12-12T18:59:57.987193983Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -199,7 +199,7 @@
           "GHSA-29wx-vh33-7x7r"
         ]
       },
-      "timestamp": "2024-12-10T22:08:00.682420506Z",
+      "timestamp": "2024-12-12T18:59:58.611370314Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -225,7 +225,7 @@
           "GHSA-2mj3-vfvx-fc43"
         ]
       },
-      "timestamp": "2024-12-10T22:08:00.979018651Z",
+      "timestamp": "2024-12-12T18:59:58.899197297Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -251,7 +251,7 @@
           "GHSA-gh5c-3h97-2f3q"
         ]
       },
-      "timestamp": "2024-12-10T22:08:01.076057046Z",
+      "timestamp": "2024-12-12T18:59:58.995129818Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -277,7 +277,7 @@
           "GHSA-q59j-vv4j-v33c"
         ]
       },
-      "timestamp": "2024-12-10T22:08:01.173889481Z",
+      "timestamp": "2024-12-12T18:59:59.089946269Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine",
@@ -293,6 +293,31 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337"
+        ]
+      },
+      "timestamp": "2024-12-12T19:00:01.030066243Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]
