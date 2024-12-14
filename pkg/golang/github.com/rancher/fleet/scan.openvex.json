@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-12T19:00:00.474780074Z",
-  "version": 30,
+  "last_updated": "2024-12-13T19:48:19.712715606Z",
+  "version": 35,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-12T18:59:31.558972502Z",
+      "timestamp": "2024-12-13T19:47:43.056921867Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -40,7 +40,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-12T18:59:31.605971154Z",
+      "timestamp": "2024-12-13T19:47:43.104356933Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -66,7 +66,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-12T18:59:31.654302866Z",
+      "timestamp": "2024-12-13T19:47:43.15191172Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -92,7 +92,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-12T18:59:31.700433238Z",
+      "timestamp": "2024-12-13T19:47:43.199815019Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -118,7 +118,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-12T18:59:31.745327769Z",
+      "timestamp": "2024-12-13T19:47:43.249028187Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -138,6 +138,32 @@
     },
     {
       "vulnerability": {
+        "name": "GO-2022-0635",
+        "aliases": [
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "timestamp": "2024-12-13T19:47:44.383762136Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "GO-2022-0646",
         "aliases": [
           "CVE-2020-8911",
@@ -146,7 +172,33 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-12T18:59:33.398622612Z",
+      "timestamp": "2024-12-13T19:47:45.574298147Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0646",
+        "aliases": [
+          "CVE-2020-8911",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2024-12-13T19:47:46.572724657Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -172,7 +224,7 @@
           "GHSA-q78c-gwqw-jcmc"
         ]
       },
-      "timestamp": "2024-12-12T18:59:44.130049245Z",
+      "timestamp": "2024-12-13T19:47:58.304129797Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -198,7 +250,7 @@
           "GHSA-7fxm-f474-hf8w"
         ]
       },
-      "timestamp": "2024-12-12T18:59:44.369720795Z",
+      "timestamp": "2024-12-13T19:47:58.961695386Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -224,7 +276,7 @@
           "GHSA-hq6q-c2x6-hmch"
         ]
       },
-      "timestamp": "2024-12-12T18:59:44.803436442Z",
+      "timestamp": "2024-12-13T19:47:59.640977882Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -250,7 +302,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-12T18:59:46.828760193Z",
+      "timestamp": "2024-12-13T19:48:02.157725022Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -276,7 +328,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-12T18:59:46.879246438Z",
+      "timestamp": "2024-12-13T19:48:02.204709068Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -302,7 +354,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-12T18:59:46.928307203Z",
+      "timestamp": "2024-12-13T19:48:02.251112231Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -328,7 +380,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-12T18:59:50.460416746Z",
+      "timestamp": "2024-12-13T19:48:06.347827441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -354,7 +406,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-12T18:59:50.508502609Z",
+      "timestamp": "2024-12-13T19:48:06.394849576Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -380,7 +432,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-12T18:59:50.556068773Z",
+      "timestamp": "2024-12-13T19:48:06.446133985Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -406,7 +458,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-12T18:59:51.512279493Z",
+      "timestamp": "2024-12-13T19:48:07.549387791Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -432,7 +484,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-12T18:59:51.558337006Z",
+      "timestamp": "2024-12-13T19:48:07.597914164Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -458,7 +510,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-12T18:59:51.60435138Z",
+      "timestamp": "2024-12-13T19:48:07.643680381Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -484,7 +536,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-12T18:59:52.666799684Z",
+      "timestamp": "2024-12-13T19:48:08.695044074Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -510,7 +562,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-12T18:59:52.714428358Z",
+      "timestamp": "2024-12-13T19:48:08.741910707Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -536,7 +588,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-12T18:59:52.762140822Z",
+      "timestamp": "2024-12-13T19:48:08.7886205Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -562,7 +614,7 @@
           "GHSA-82m2-cv7p-4m75"
         ]
       },
-      "timestamp": "2024-12-12T18:59:57.107379909Z",
+      "timestamp": "2024-12-13T19:48:13.414056462Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -587,7 +639,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-12T18:59:57.635512069Z",
+      "timestamp": "2024-12-13T19:48:14.077754784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -612,7 +664,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-12T18:59:57.683290905Z",
+      "timestamp": "2024-12-13T19:48:14.12335819Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -637,7 +689,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-12T18:59:57.736237052Z",
+      "timestamp": "2024-12-13T19:48:14.170072583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -663,7 +715,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-12T18:59:58.707388795Z",
+      "timestamp": "2024-12-13T19:48:15.176011281Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -688,7 +740,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-12T19:00:00.380210203Z",
+      "timestamp": "2024-12-13T19:48:16.823963174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -713,7 +765,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-12T19:00:00.427632388Z",
+      "timestamp": "2024-12-13T19:48:16.871552552Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -738,7 +790,85 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-12T19:00:00.474780634Z",
+      "timestamp": "2024-12-13T19:48:16.918834748Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-13T19:48:19.618369335Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.24.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-13T19:48:19.665696791Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-13T19:48:19.712716146Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
