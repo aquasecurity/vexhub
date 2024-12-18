@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-13T04:17:01.435361152Z",
-  "version": 4,
+  "last_updated": "2024-12-17T23:08:16.162055867Z",
+  "version": 6,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-13T04:16:47.305725299Z",
+      "timestamp": "2024-12-17T23:08:01.531476131Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -39,7 +39,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-13T04:16:59.000561512Z",
+      "timestamp": "2024-12-17T23:08:13.593239126Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -65,7 +65,33 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-13T04:17:01.435361842Z",
+      "timestamp": "2024-12-17T23:08:16.078816686Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.18.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-17T23:08:16.120292971Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -75,6 +101,32 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/crypto@0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-17T23:08:16.162056447Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.22.0"
             }
           ]
         }
