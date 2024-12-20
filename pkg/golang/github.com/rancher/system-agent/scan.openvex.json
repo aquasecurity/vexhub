@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-13T04:17:03.210500841Z",
-  "version": 6,
+  "last_updated": "2024-12-19T21:07:54.265846547Z",
+  "version": 7,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-13T04:16:28.541277121Z",
+      "timestamp": "2024-12-19T21:07:15.276454418Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -40,7 +40,7 @@
           "GHSA-82m2-cv7p-4m75"
         ]
       },
-      "timestamp": "2024-12-13T04:16:56.327682904Z",
+      "timestamp": "2024-12-19T21:07:43.167011593Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -66,7 +66,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-13T04:16:58.056515797Z",
+      "timestamp": "2024-12-19T21:07:45.45526943Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -91,7 +91,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-13T04:17:00.580779273Z",
+      "timestamp": "2024-12-19T21:07:47.748765978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -117,7 +117,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-13T04:17:03.210501201Z",
+      "timestamp": "2024-12-19T21:07:50.755481409Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-agent",
@@ -127,6 +127,31 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/crypto@0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338"
+        ]
+      },
+      "timestamp": "2024-12-19T21:07:54.265847017Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-agent",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.26.0"
             }
           ]
         }
