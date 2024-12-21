@@ -3,14 +3,14 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-19T21:07:54.182829356Z",
-  "version": 28,
+  "last_updated": "2024-12-20T13:12:44.322186156Z",
+  "version": 31,
   "statements": [
     {
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-12-19T21:07:11.017096565Z",
+      "timestamp": "2024-12-20T13:10:45.373536341Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -32,7 +32,7 @@
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-12-19T21:07:11.059861425Z",
+      "timestamp": "2024-12-20T13:10:45.409871147Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -58,7 +58,33 @@
           "GHSA-7f33-f4f5-xwgw"
         ]
       },
-      "timestamp": "2024-12-19T21:07:16.179816024Z",
+      "timestamp": "2024-12-20T13:10:52.559158707Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.51.21"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.51.21"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0635",
+        "aliases": [
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "timestamp": "2024-12-20T13:10:52.595652646Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -86,7 +112,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:17.465463362Z",
+      "timestamp": "2024-12-20T13:10:53.864848888Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -114,7 +140,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:17.504854874Z",
+      "timestamp": "2024-12-20T13:10:53.901366385Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -140,7 +166,33 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:18.14886358Z",
+      "timestamp": "2024-12-20T13:10:55.640161944Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.51.21"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.51.21"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0646",
+        "aliases": [
+          "CVE-2020-8911",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2024-12-20T13:10:55.677494817Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -166,7 +218,7 @@
           "GHSA-5r5m-65gx-7vrh"
         ]
       },
-      "timestamp": "2024-12-19T21:07:21.889962258Z",
+      "timestamp": "2024-12-20T13:11:00.61981931Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -192,7 +244,7 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-12-19T21:07:28.01129439Z",
+      "timestamp": "2024-12-20T13:11:18.359159155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -218,7 +270,7 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-12-19T21:07:28.051988588Z",
+      "timestamp": "2024-12-20T13:11:18.397286273Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -244,7 +296,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.422404Z",
+      "timestamp": "2024-12-20T13:11:27.115046187Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -270,7 +322,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:33.034123334Z",
+      "timestamp": "2024-12-20T13:11:36.363282634Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -296,7 +348,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:33.074928951Z",
+      "timestamp": "2024-12-20T13:11:36.40068559Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -322,7 +374,7 @@
           "GHSA-c5q2-7r4c-mv6g"
         ]
       },
-      "timestamp": "2024-12-19T21:07:36.254586561Z",
+      "timestamp": "2024-12-20T13:11:46.693613355Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -348,7 +400,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-19T21:07:37.189240075Z",
+      "timestamp": "2024-12-20T13:11:49.476299934Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -374,7 +426,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-19T21:07:37.230447562Z",
+      "timestamp": "2024-12-20T13:11:49.51262373Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -400,7 +452,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:38.339522885Z",
+      "timestamp": "2024-12-20T13:11:54.894984223Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -426,7 +478,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:38.377924153Z",
+      "timestamp": "2024-12-20T13:11:54.93137982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -452,7 +504,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:38.415920512Z",
+      "timestamp": "2024-12-20T13:11:54.967572967Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -477,7 +529,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:44.199347853Z",
+      "timestamp": "2024-12-20T13:12:10.913241598Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -502,7 +554,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:44.241246331Z",
+      "timestamp": "2024-12-20T13:12:10.949736647Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -527,7 +579,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:44.282847756Z",
+      "timestamp": "2024-12-20T13:12:10.987000257Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -552,7 +604,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-19T21:07:47.626571033Z",
+      "timestamp": "2024-12-20T13:12:24.0670772Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -577,7 +629,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-19T21:07:47.667484388Z",
+      "timestamp": "2024-12-20T13:12:24.104865929Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -603,7 +655,33 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:50.6317246Z",
+      "timestamp": "2024-12-20T13:12:31.245456871Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-20T13:12:31.283907896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -629,7 +707,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:50.672670081Z",
+      "timestamp": "2024-12-20T13:12:31.321482743Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -654,7 +732,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:54.140934011Z",
+      "timestamp": "2024-12-20T13:12:44.283066893Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
@@ -679,7 +757,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:54.182829931Z",
+      "timestamp": "2024-12-20T13:12:44.322186724Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2",
