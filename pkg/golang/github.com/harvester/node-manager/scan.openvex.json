@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-19T21:07:51.930121261Z",
-  "version": 10,
+  "last_updated": "2024-12-21T22:09:00.469252492Z",
+  "version": 11,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-19T21:07:35.128981007Z",
+      "timestamp": "2024-12-21T22:07:57.601455277Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -39,7 +39,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-19T21:07:46.391301671Z",
+      "timestamp": "2024-12-21T22:08:37.008872224Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -65,7 +65,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:48.746565846Z",
+      "timestamp": "2024-12-21T22:08:40.225757341Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -91,7 +91,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:48.786934511Z",
+      "timestamp": "2024-12-21T22:08:40.261995604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -117,7 +117,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:48.828435539Z",
+      "timestamp": "2024-12-21T22:08:40.298854125Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -142,7 +142,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:51.808120993Z",
+      "timestamp": "2024-12-21T22:08:48.925379174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -167,7 +167,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:51.848213588Z",
+      "timestamp": "2024-12-21T22:08:48.961524214Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -192,7 +192,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:51.888940528Z",
+      "timestamp": "2024-12-21T22:08:48.997386709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -217,7 +217,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:51.930121878Z",
+      "timestamp": "2024-12-21T22:08:49.034842822Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -227,6 +227,32 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2024-12-21T22:09:00.46925299Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
