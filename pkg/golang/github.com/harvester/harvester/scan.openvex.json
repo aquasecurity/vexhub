@@ -3,14 +3,14 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-21T22:08:59.970434186Z",
-  "version": 59,
+  "last_updated": "2024-12-24T00:31:52.459118247Z",
+  "version": 64,
   "statements": [
     {
       "vulnerability": {
         "name": "CVE-2019-11881"
       },
-      "timestamp": "2024-12-21T22:07:00.429036798Z",
+      "timestamp": "2024-12-24T00:29:27.693495691Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -32,7 +32,7 @@
       "vulnerability": {
         "name": "CVE-2019-12274"
       },
-      "timestamp": "2024-12-21T22:07:00.465779912Z",
+      "timestamp": "2024-12-24T00:29:27.736331422Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -54,7 +54,7 @@
       "vulnerability": {
         "name": "CVE-2021-25313"
       },
-      "timestamp": "2024-12-21T22:07:00.542793206Z",
+      "timestamp": "2024-12-24T00:29:27.823906053Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -76,7 +76,7 @@
       "vulnerability": {
         "name": "CVE-2021-36775"
       },
-      "timestamp": "2024-12-21T22:07:00.584821539Z",
+      "timestamp": "2024-12-24T00:29:27.867089925Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -98,7 +98,7 @@
       "vulnerability": {
         "name": "GHSA-wm2r-rp98-8pmh"
       },
-      "timestamp": "2024-12-21T22:07:02.035071799Z",
+      "timestamp": "2024-12-24T00:29:29.574204573Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -124,7 +124,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-21T22:07:04.413666946Z",
+      "timestamp": "2024-12-24T00:29:32.432419543Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -150,7 +150,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-21T22:07:04.449826105Z",
+      "timestamp": "2024-12-24T00:29:32.476654941Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -176,7 +176,33 @@
           "GHSA-7f33-f4f5-xwgw"
         ]
       },
-      "timestamp": "2024-12-21T22:07:07.047238045Z",
+      "timestamp": "2024-12-24T00:29:35.625459346Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.46.1"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.46.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0635",
+        "aliases": [
+          "CVE-2020-8912",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "timestamp": "2024-12-24T00:29:35.670023406Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -202,7 +228,7 @@
           "GHSA-9qq2-xhmc-h9qr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:08.542729197Z",
+      "timestamp": "2024-12-24T00:29:37.444454855Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -228,7 +254,7 @@
           "GHSA-9qq2-xhmc-h9qr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:08.579774129Z",
+      "timestamp": "2024-12-24T00:29:37.488296441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -254,7 +280,7 @@
           "GHSA-9qq2-xhmc-h9qr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:08.617469047Z",
+      "timestamp": "2024-12-24T00:29:37.532322328Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -282,7 +308,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:08.993881376Z",
+      "timestamp": "2024-12-24T00:29:37.979775852Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -310,7 +336,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:09.031364811Z",
+      "timestamp": "2024-12-24T00:29:38.023374297Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -336,7 +362,33 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:10.11632722Z",
+      "timestamp": "2024-12-24T00:29:39.343290632Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.46.1"
+            },
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.46.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2022-0646",
+        "aliases": [
+          "CVE-2020-8911",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "timestamp": "2024-12-24T00:29:39.387965763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -362,7 +414,7 @@
           "GHSA-xhg2-rvm8-w2jh"
         ]
       },
-      "timestamp": "2024-12-21T22:07:11.63873465Z",
+      "timestamp": "2024-12-24T00:29:41.174141968Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -388,7 +440,7 @@
           "GHSA-xhg2-rvm8-w2jh"
         ]
       },
-      "timestamp": "2024-12-21T22:07:11.675332391Z",
+      "timestamp": "2024-12-24T00:29:41.218330996Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -414,7 +466,7 @@
           "GHSA-xhg2-rvm8-w2jh"
         ]
       },
-      "timestamp": "2024-12-21T22:07:11.712139963Z",
+      "timestamp": "2024-12-24T00:29:41.263029997Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -440,7 +492,7 @@
           "GHSA-5r5m-65gx-7vrh"
         ]
       },
-      "timestamp": "2024-12-21T22:07:15.553508364Z",
+      "timestamp": "2024-12-24T00:29:45.84877634Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -466,7 +518,7 @@
           "GHSA-xc8m-28vv-4pjc"
         ]
       },
-      "timestamp": "2024-12-21T22:07:21.620735876Z",
+      "timestamp": "2024-12-24T00:29:53.033814713Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -492,7 +544,7 @@
           "GHSA-qc2g-gmh6-95p4"
         ]
       },
-      "timestamp": "2024-12-21T22:07:21.807691779Z",
+      "timestamp": "2024-12-24T00:29:53.251707916Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -518,7 +570,7 @@
           "GHSA-cgcv-5272-97pr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:21.993484158Z",
+      "timestamp": "2024-12-24T00:29:53.47468343Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -544,7 +596,7 @@
           "GHSA-w3x4-9854-95x8"
         ]
       },
-      "timestamp": "2024-12-21T22:07:22.178946166Z",
+      "timestamp": "2024-12-24T00:29:53.693327838Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -570,7 +622,7 @@
           "GHSA-w3x4-9854-95x8"
         ]
       },
-      "timestamp": "2024-12-21T22:07:22.215088946Z",
+      "timestamp": "2024-12-24T00:29:53.737668176Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -596,7 +648,7 @@
           "GHSA-w3x4-9854-95x8"
         ]
       },
-      "timestamp": "2024-12-21T22:07:22.251278624Z",
+      "timestamp": "2024-12-24T00:29:53.782412615Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -622,7 +674,7 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:32.981695018Z",
+      "timestamp": "2024-12-24T00:30:06.907798272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -648,7 +700,7 @@
           "GHSA-q78c-gwqw-jcmc"
         ]
       },
-      "timestamp": "2024-12-21T22:07:36.365448033Z",
+      "timestamp": "2024-12-24T00:30:11.010784859Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -674,7 +726,7 @@
           "GHSA-7fxm-f474-hf8w"
         ]
       },
-      "timestamp": "2024-12-21T22:07:38.778676192Z",
+      "timestamp": "2024-12-24T00:30:13.963160393Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -700,7 +752,7 @@
           "GHSA-hq6q-c2x6-hmch"
         ]
       },
-      "timestamp": "2024-12-21T22:07:40.122557357Z",
+      "timestamp": "2024-12-24T00:30:15.567531611Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -725,7 +777,7 @@
           "GHSA-7ww5-4wqc-m92c"
         ]
       },
-      "timestamp": "2024-12-21T22:07:43.008236714Z",
+      "timestamp": "2024-12-24T00:30:19.082085973Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -751,7 +803,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-21T22:07:49.466092981Z",
+      "timestamp": "2024-12-24T00:30:26.87242356Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -777,7 +829,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-21T22:07:49.502962311Z",
+      "timestamp": "2024-12-24T00:30:26.916660958Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -803,7 +855,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2024-12-21T22:07:52.66917905Z",
+      "timestamp": "2024-12-24T00:30:30.796251675Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -829,7 +881,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-21T22:08:02.383653327Z",
+      "timestamp": "2024-12-24T00:30:42.587281317Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -855,7 +907,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-21T22:08:02.420921348Z",
+      "timestamp": "2024-12-24T00:30:42.631952462Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -881,7 +933,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-21T22:08:07.764846508Z",
+      "timestamp": "2024-12-24T00:30:49.060120154Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -907,7 +959,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-21T22:08:07.805275263Z",
+      "timestamp": "2024-12-24T00:30:49.105550303Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -933,7 +985,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-21T22:08:10.741930518Z",
+      "timestamp": "2024-12-24T00:30:52.605693513Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -959,7 +1011,7 @@
           "GHSA-53pj-67m4-9w98"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.013654651Z",
+      "timestamp": "2024-12-24T00:30:54.134827508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -985,7 +1037,7 @@
           "GHSA-53pj-67m4-9w98"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.05038412Z",
+      "timestamp": "2024-12-24T00:30:54.180073155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1011,7 +1063,7 @@
           "GHSA-53pj-67m4-9w98"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.087741122Z",
+      "timestamp": "2024-12-24T00:30:54.224815389Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1037,7 +1089,7 @@
           "GHSA-6r7x-4q7g-h83j"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.474806585Z",
+      "timestamp": "2024-12-24T00:30:54.684636862Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1063,7 +1115,7 @@
           "GHSA-6r7x-4q7g-h83j"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.511942737Z",
+      "timestamp": "2024-12-24T00:30:54.729645507Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1089,7 +1141,7 @@
           "GHSA-6r7x-4q7g-h83j"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.549125069Z",
+      "timestamp": "2024-12-24T00:30:54.775029185Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1115,7 +1167,7 @@
           "GHSA-f9xf-jq4j-vqw4"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.933528972Z",
+      "timestamp": "2024-12-24T00:30:55.234014703Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1141,7 +1193,7 @@
           "GHSA-f9xf-jq4j-vqw4"
         ]
       },
-      "timestamp": "2024-12-21T22:08:12.970336798Z",
+      "timestamp": "2024-12-24T00:30:55.279987834Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1167,7 +1219,7 @@
           "GHSA-f9xf-jq4j-vqw4"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.008139049Z",
+      "timestamp": "2024-12-24T00:30:55.325103661Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1193,7 +1245,7 @@
           "GHSA-pvxj-25m6-7vqr"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.398306314Z",
+      "timestamp": "2024-12-24T00:30:55.788341982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1219,7 +1271,7 @@
           "GHSA-pvxj-25m6-7vqr"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.435207166Z",
+      "timestamp": "2024-12-24T00:30:55.833213137Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1245,7 +1297,7 @@
           "GHSA-pvxj-25m6-7vqr"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.473460545Z",
+      "timestamp": "2024-12-24T00:30:55.87767119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1271,7 +1323,7 @@
           "GHSA-xh8x-j8h3-m5ph"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.858631129Z",
+      "timestamp": "2024-12-24T00:30:56.339031051Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1297,7 +1349,7 @@
           "GHSA-xh8x-j8h3-m5ph"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.89529838Z",
+      "timestamp": "2024-12-24T00:30:56.384135667Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1323,7 +1375,7 @@
           "GHSA-xh8x-j8h3-m5ph"
         ]
       },
-      "timestamp": "2024-12-21T22:08:13.933269275Z",
+      "timestamp": "2024-12-24T00:30:56.430274699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1348,7 +1400,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-21T22:08:23.276022399Z",
+      "timestamp": "2024-12-24T00:31:07.69948928Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1373,7 +1425,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-21T22:08:23.313659008Z",
+      "timestamp": "2024-12-24T00:31:07.745769953Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1393,12 +1445,38 @@
     },
     {
       "vulnerability": {
+        "name": "GO-2024-3286",
+        "aliases": [
+          "CVE-2024-10220",
+          "GHSA-27wf-5967-98gx"
+        ]
+      },
+      "timestamp": "2024-12-24T00:31:21.554270244Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            },
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "GO-2024-3321",
         "aliases": [
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-21T22:08:36.599358464Z",
+      "timestamp": "2024-12-24T00:31:23.851826766Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1424,7 +1502,33 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:39.712719813Z",
+      "timestamp": "2024-12-24T00:31:27.652380484Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-24T00:31:27.697291227Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1449,7 +1553,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:48.255490888Z",
+      "timestamp": "2024-12-24T00:31:38.203843124Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
@@ -1475,7 +1579,33 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:08:59.970434793Z",
+      "timestamp": "2024-12-24T00:31:52.413755566Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2024-12-24T00:31:52.459118827Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester",
