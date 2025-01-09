@@ -20,15 +20,15 @@ VEX Hub will automatically retrieve and process your VEX documents.
 
 ## VEX Crawling
 
-[VEX Hub Crawler](vexhub-crawler) periodically crawls VEX documents of registered packages and maintains them in VEX Hub.
-Registered packages are defined as a list of [PURLs][purl] in [a file](purl-list] that can be updated by anyone through Pull Requests.
+[VEX Hub Crawler][vexhub-crawler] periodically crawls VEX documents of registered packages and maintains them in VEX Hub.
+Registered packages are defined as a list of [PURLs][purl] in [a file][purl-list] that can be updated by anyone through Pull Requests.
 
 For detailed information on PURL registration, supported ecosystems, and specific requirements, please refer to [VEX Hub Crawler][vexhub-crawler].
 
 ### Identifying Source Repositories
 
 The packages file specifies only PURL of the package to be crawled, and VEX Hub Crawler automatically identifies the source code repository where the VEX file is located.
-The method for identifying source repositories varies by ecosystem. For detailed information on how source repositories are identified and crawled for different package types, please refer to the [vex-crawler documentation](vexhub-crawler).
+The method for identifying source repositories varies by ecosystem. For detailed information on how source repositories are identified and crawled for different package types, please refer to the [vex-crawler documentation][vexhub-crawler].
 
 ### Discovery of VEX Documents
 
