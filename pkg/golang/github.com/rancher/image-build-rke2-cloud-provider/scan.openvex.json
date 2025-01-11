@@ -3,14 +3,14 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-21T22:09:04.291636288Z",
-  "version": 24,
+  "last_updated": "2025-01-10T20:32:00.483073603Z",
+  "version": 27,
   "statements": [
     {
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-12-21T22:07:01.129205094Z",
+      "timestamp": "2025-01-10T20:29:21.177191029Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -32,7 +32,7 @@
       "vulnerability": {
         "name": "CVE-2023-47108"
       },
-      "timestamp": "2024-12-21T22:07:01.165872306Z",
+      "timestamp": "2025-01-10T20:29:21.220913939Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -54,7 +54,7 @@
       "vulnerability": {
         "name": "CVE-2024-41110"
       },
-      "timestamp": "2024-12-21T22:07:01.549127818Z",
+      "timestamp": "2025-01-10T20:29:21.675321381Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -76,7 +76,7 @@
       "vulnerability": {
         "name": "CVE-2024-45337"
       },
-      "timestamp": "2024-12-21T22:07:01.737204612Z",
+      "timestamp": "2025-01-10T20:29:21.904277693Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -96,13 +96,79 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2024-45337"
+      },
+      "timestamp": "2025-01-10T20:29:21.949147482Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.29.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Confirmed by manually executing govulncheck against the modsync version as executed in https://github.com/rancher/image-build-rke2-cloud-provider/actions/runs/12565669634/job/35030204785"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338"
+      },
+      "timestamp": "2025-01-10T20:29:22.177811164Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Confirmed by manually executing govulncheck against the modsync version as executed in https://github.com/rancher/image-build-rke2-cloud-provider/actions/runs/12565669634/job/35030204785"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338"
+      },
+      "timestamp": "2025-01-10T20:29:22.224013415Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.31.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Confirmed by manually executing govulncheck against the modsync version as executed in https://github.com/rancher/image-build-rke2-cloud-provider/actions/runs/12565669634/job/35030204785"
+    },
+    {
+      "vulnerability": {
         "name": "GO-2023-1546",
         "aliases": [
           "CVE-2023-25151",
           "GHSA-5r5m-65gx-7vrh"
         ]
       },
-      "timestamp": "2024-12-21T22:07:16.035655688Z",
+      "timestamp": "2025-01-10T20:29:41.774812032Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -128,7 +194,7 @@
           "GHSA-rcjv-mgp8-qvmr"
         ]
       },
-      "timestamp": "2024-12-21T22:07:33.588827392Z",
+      "timestamp": "2025-01-10T20:30:08.225412421Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -154,7 +220,7 @@
           "GHSA-mr45-rx8q-wcm9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:36.214516276Z",
+      "timestamp": "2025-01-10T20:30:13.62178878Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -180,7 +246,7 @@
           "GHSA-8pgv-569h-w5rw"
         ]
       },
-      "timestamp": "2024-12-21T22:07:39.813396524Z",
+      "timestamp": "2025-01-10T20:30:16.149641836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -206,7 +272,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-12-21T22:07:42.248625697Z",
+      "timestamp": "2025-01-10T20:30:20.131197142Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -231,7 +297,7 @@
           "GHSA-fqpg-rq76-99pq"
         ]
       },
-      "timestamp": "2024-12-21T22:07:53.371228618Z",
+      "timestamp": "2025-01-10T20:30:37.656896422Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -257,7 +323,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-21T22:08:09.692114102Z",
+      "timestamp": "2025-01-10T20:30:57.480549999Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -282,7 +348,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-21T22:08:25.320329826Z",
+      "timestamp": "2025-01-10T20:31:14.862390889Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -308,7 +374,7 @@
           "GHSA-29wx-vh33-7x7r"
         ]
       },
-      "timestamp": "2024-12-21T22:08:34.373194999Z",
+      "timestamp": "2025-01-10T20:31:16.854934146Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -333,7 +399,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-21T22:08:37.60815575Z",
+      "timestamp": "2025-01-10T20:31:21.541672983Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -359,7 +425,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:44.278524541Z",
+      "timestamp": "2025-01-10T20:31:31.16757869Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -385,7 +451,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:44.314750638Z",
+      "timestamp": "2025-01-10T20:31:31.21460509Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -411,7 +477,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:44.350885932Z",
+      "timestamp": "2025-01-10T20:31:31.260588729Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -436,7 +502,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:56.468483Z",
+      "timestamp": "2025-01-10T20:31:48.482202428Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -461,7 +527,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:56.506039367Z",
+      "timestamp": "2025-01-10T20:31:48.527700842Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -486,7 +552,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:56.54332467Z",
+      "timestamp": "2025-01-10T20:31:48.574452367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -512,7 +578,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:04.212602497Z",
+      "timestamp": "2025-01-10T20:32:00.38956124Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -538,7 +604,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:04.251581181Z",
+      "timestamp": "2025-01-10T20:32:00.436583182Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
@@ -564,7 +630,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:04.291636942Z",
+      "timestamp": "2025-01-10T20:32:00.483074263Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
