@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-25T16:10:29.31141542Z",
-  "version": 36,
+  "last_updated": "2025-01-20T21:09:35.069755215Z",
+  "version": 37,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-8mjg-8c8g-6h85"
         ]
       },
-      "timestamp": "2024-12-25T16:08:02.981629253Z",
+      "timestamp": "2025-01-20T21:07:04.272678201Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -40,7 +40,7 @@
           "GHSA-p782-xgp4-8hr8"
         ]
       },
-      "timestamp": "2024-12-25T16:08:04.714105663Z",
+      "timestamp": "2025-01-20T21:07:06.527514535Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -66,7 +66,7 @@
           "GHSA-p782-xgp4-8hr8"
         ]
       },
-      "timestamp": "2024-12-25T16:08:04.757587009Z",
+      "timestamp": "2025-01-20T21:07:06.571244903Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -92,7 +92,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.570229692Z",
+      "timestamp": "2025-01-20T21:07:08.699567802Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -118,7 +118,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.614282751Z",
+      "timestamp": "2025-01-20T21:07:08.743320012Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -144,7 +144,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.658418031Z",
+      "timestamp": "2025-01-20T21:07:08.787464436Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -170,7 +170,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.702283339Z",
+      "timestamp": "2025-01-20T21:07:08.832488359Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -196,7 +196,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.746855102Z",
+      "timestamp": "2025-01-20T21:07:08.876977277Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -222,7 +222,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2024-12-25T16:08:06.792240139Z",
+      "timestamp": "2025-01-20T21:07:08.92101539Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -242,13 +242,39 @@
     },
     {
       "vulnerability": {
+        "name": "GO-2022-0617",
+        "aliases": [
+          "CVE-2020-8562",
+          "GHSA-qh36-44jv-c8xj"
+        ]
+      },
+      "timestamp": "2025-01-20T21:07:08.964130994Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.32.1"
+            },
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@1.32.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "GO-2022-0907",
         "aliases": [
           "CVE-2021-25735",
           "GHSA-g42g-737j-qx6j"
         ]
       },
-      "timestamp": "2024-12-25T16:08:15.182914297Z",
+      "timestamp": "2025-01-20T21:07:17.670434405Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -274,7 +300,7 @@
           "GHSA-mfv7-gq43-w965"
         ]
       },
-      "timestamp": "2024-12-25T16:08:15.229621009Z",
+      "timestamp": "2025-01-20T21:07:17.714592296Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -300,7 +326,7 @@
           "GHSA-2394-5535-8j88"
         ]
       },
-      "timestamp": "2024-12-25T16:08:21.805606475Z",
+      "timestamp": "2025-01-20T21:07:25.334734313Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -326,7 +352,7 @@
           "GHSA-jh36-q97c-9928"
         ]
       },
-      "timestamp": "2024-12-25T16:08:22.03050294Z",
+      "timestamp": "2025-01-20T21:07:25.555952953Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -352,7 +378,7 @@
           "GHSA-7fxm-f474-hf8w"
         ]
       },
-      "timestamp": "2024-12-25T16:08:47.782139546Z",
+      "timestamp": "2025-01-20T21:07:55.654438143Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -378,7 +404,7 @@
           "GHSA-7fxm-f474-hf8w"
         ]
       },
-      "timestamp": "2024-12-25T16:08:47.827480086Z",
+      "timestamp": "2025-01-20T21:07:55.698773722Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -404,7 +430,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-25T16:09:26.970759605Z",
+      "timestamp": "2025-01-20T21:08:38.794594503Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -430,7 +456,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-25T16:09:27.015279173Z",
+      "timestamp": "2025-01-20T21:08:38.838879903Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -456,7 +482,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-25T16:09:27.060064243Z",
+      "timestamp": "2025-01-20T21:08:38.883267114Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -482,7 +508,7 @@
           "GHSA-pxhw-596r-rwq5"
         ]
       },
-      "timestamp": "2024-12-25T16:09:27.105411006Z",
+      "timestamp": "2025-01-20T21:08:38.927925928Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -508,7 +534,7 @@
           "GHSA-5x96-j797-5qqw"
         ]
       },
-      "timestamp": "2024-12-25T16:09:28.01012309Z",
+      "timestamp": "2025-01-20T21:08:40.034446811Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -534,7 +560,7 @@
           "GHSA-82m2-cv7p-4m75"
         ]
       },
-      "timestamp": "2024-12-25T16:09:40.725315948Z",
+      "timestamp": "2025-01-20T21:08:50.454037933Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -560,7 +586,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-25T16:09:56.085041612Z",
+      "timestamp": "2025-01-20T21:08:57.48554797Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -586,7 +612,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-25T16:09:56.12991507Z",
+      "timestamp": "2025-01-20T21:08:57.53047337Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -612,7 +638,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-25T16:09:56.174979989Z",
+      "timestamp": "2025-01-20T21:08:57.57538312Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -638,7 +664,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2024-12-25T16:09:56.219277193Z",
+      "timestamp": "2025-01-20T21:08:57.62130136Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -663,7 +689,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-25T16:10:17.448770405Z",
+      "timestamp": "2025-01-20T21:09:22.512085761Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -688,7 +714,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-25T16:10:17.493941022Z",
+      "timestamp": "2025-01-20T21:09:22.55623868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -713,7 +739,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-25T16:10:17.538306925Z",
+      "timestamp": "2025-01-20T21:09:22.600404689Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -738,7 +764,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-25T16:10:17.583832414Z",
+      "timestamp": "2025-01-20T21:09:22.645137474Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -763,7 +789,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-25T16:10:17.630670032Z",
+      "timestamp": "2025-01-20T21:09:22.689245722Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -789,7 +815,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-25T16:10:29.130212538Z",
+      "timestamp": "2025-01-20T21:09:34.89113919Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -815,7 +841,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-25T16:10:29.17586176Z",
+      "timestamp": "2025-01-20T21:09:34.936596992Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -841,7 +867,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-25T16:10:29.221862935Z",
+      "timestamp": "2025-01-20T21:09:34.980830841Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -867,7 +893,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-25T16:10:29.266600942Z",
+      "timestamp": "2025-01-20T21:09:35.025119062Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
@@ -893,7 +919,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-25T16:10:29.31141605Z",
+      "timestamp": "2025-01-20T21:09:35.069755715Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
