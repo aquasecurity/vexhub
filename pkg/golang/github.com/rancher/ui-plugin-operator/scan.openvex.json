@@ -1,0 +1,87 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "author": "Rancher Security team",
+  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
+  "last_updated": "2024-12-20T13:12:44.642336171Z",
+  "version": 4,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GO-2023-1515",
+        "aliases": [
+          "CVE-2022-43756",
+          "GHSA-8fcj-gf77-47mg"
+        ]
+      },
+      "timestamp": "2024-12-20T13:10:59.420390537Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
+            },
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2023-1519",
+        "aliases": [
+          "CVE-2022-31249",
+          "GHSA-qrg7-hfx7-95c5"
+        ]
+      },
+      "timestamp": "2024-12-20T13:10:59.88998045Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
+            },
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338"
+        ]
+      },
+      "timestamp": "2024-12-20T13:12:44.642336955Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}

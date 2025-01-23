@@ -1,0 +1,139 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "author": "Rancher Security team",
+  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
+  "last_updated": "2024-12-20T13:12:44.60334552Z",
+  "version": 6,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "GO-2023-2402",
+        "aliases": [
+          "CVE-2023-48795",
+          "GHSA-45x7-px36-x8w8"
+        ]
+      },
+      "timestamp": "2024-12-20T13:11:27.22891813Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2536",
+        "aliases": [
+          "CVE-2023-32193",
+          "GHSA-r8f4-hv23-6qp6"
+        ]
+      },
+      "timestamp": "2024-12-20T13:11:37.851766749Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20210709145327-afd06f533ca3"
+            },
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20210709145327-afd06f533ca3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-2687",
+        "aliases": [
+          "CVE-2023-45288",
+          "GHSA-4v7x-pqxf-cx7m"
+        ]
+      },
+      "timestamp": "2024-12-20T13:11:52.313537306Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3321",
+        "aliases": [
+          "CVE-2024-45337",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "timestamp": "2024-12-20T13:12:31.583917847Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338"
+        ]
+      },
+      "timestamp": "2024-12-20T13:12:44.603346069Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    }
+  ]
+}
