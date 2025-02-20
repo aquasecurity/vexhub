@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-20T13:12:44.040315779Z",
-  "version": 10,
+  "last_updated": "2025-02-19T11:05:17.211455089Z",
+  "version": 11,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-pwcw-6f5g-gxf8"
         ]
       },
-      "timestamp": "2024-12-20T13:11:01.002488599Z",
+      "timestamp": "2025-02-19T11:02:50.804899353Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -40,7 +40,7 @@
           "GHSA-hw7c-3rfg-p46j"
         ]
       },
-      "timestamp": "2024-12-20T13:11:03.704920731Z",
+      "timestamp": "2025-02-19T11:02:53.589756207Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -66,7 +66,7 @@
           "GHSA-2wrh-6pvc-2jm9"
         ]
       },
-      "timestamp": "2024-12-20T13:11:11.176234586Z",
+      "timestamp": "2025-02-19T11:03:05.586020033Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -91,7 +91,7 @@
           "GHSA-6xv5-86q9-7xr8"
         ]
       },
-      "timestamp": "2024-12-20T13:11:13.473887323Z",
+      "timestamp": "2025-02-19T11:03:08.216601178Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -117,7 +117,7 @@
           "GHSA-4374-p667-p6c8"
         ]
       },
-      "timestamp": "2024-12-20T13:11:17.231341123Z",
+      "timestamp": "2025-02-19T11:03:13.30384609Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -143,7 +143,7 @@
           "GHSA-v53g-5gjp-272r"
         ]
       },
-      "timestamp": "2024-12-20T13:11:38.149178325Z",
+      "timestamp": "2025-02-19T11:03:46.517439017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -169,7 +169,7 @@
           "GHSA-r53h-jv2g-vpx6"
         ]
       },
-      "timestamp": "2024-12-20T13:11:38.445662331Z",
+      "timestamp": "2025-02-19T11:03:46.969632703Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -195,7 +195,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-20T13:11:45.702704237Z",
+      "timestamp": "2025-02-19T11:03:51.916486208Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
@@ -220,7 +220,33 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-20T13:12:44.040316351Z",
+      "timestamp": "2025-02-19T11:05:00.898741929Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-02-19T11:05:17.211455839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",

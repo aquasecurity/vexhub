@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-20T13:12:44.642336171Z",
-  "version": 4,
+  "last_updated": "2025-02-19T11:05:18.399578715Z",
+  "version": 5,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-8fcj-gf77-47mg"
         ]
       },
-      "timestamp": "2024-12-20T13:10:59.420390537Z",
+      "timestamp": "2025-02-19T11:02:48.111499739Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
@@ -40,7 +40,7 @@
           "GHSA-qrg7-hfx7-95c5"
         ]
       },
-      "timestamp": "2024-12-20T13:10:59.88998045Z",
+      "timestamp": "2025-02-19T11:02:48.750499874Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
@@ -65,7 +65,33 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-20T13:12:44.642336955Z",
+      "timestamp": "2025-02-19T11:05:01.583636864Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2024-3333",
+        "aliases": [
+          "CVE-2024-45338",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "timestamp": "2025-02-19T11:05:18.399579365Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
