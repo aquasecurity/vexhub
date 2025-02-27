@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-01-10T19:09:41.008597451Z",
-  "version": 3,
+  "last_updated": "2025-02-26T22:05:32.52095628Z",
+  "version": 6,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-01-10T19:09:13.812616793Z",
+      "timestamp": "2025-02-26T22:04:36.853492021Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/kine",
@@ -40,7 +40,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-01-10T19:09:41.008598071Z",
+      "timestamp": "2025-02-26T22:05:07.726979235Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/kine",
@@ -50,6 +50,81 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:32.433292648Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/kine",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:32.476970939Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/kine",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:32.52095679Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/kine",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.32.0"
             }
           ]
         }

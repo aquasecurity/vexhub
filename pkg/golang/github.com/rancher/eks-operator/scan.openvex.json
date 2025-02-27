@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-21T22:09:03.805860396Z",
-  "version": 15,
+  "last_updated": "2025-02-26T22:05:41.00743571Z",
+  "version": 19,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-7f33-f4f5-xwgw"
         ]
       },
-      "timestamp": "2024-12-21T22:07:07.72120858Z",
+      "timestamp": "2025-02-26T22:02:40.896356369Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -40,7 +40,7 @@
           "GHSA-7f33-f4f5-xwgw"
         ]
       },
-      "timestamp": "2024-12-21T22:07:07.757965932Z",
+      "timestamp": "2025-02-26T22:02:40.941169722Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -66,7 +66,7 @@
           "GHSA-7f33-f4f5-xwgw"
         ]
       },
-      "timestamp": "2024-12-21T22:07:07.79478414Z",
+      "timestamp": "2025-02-26T22:02:40.985107445Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -92,7 +92,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:10.78896357Z",
+      "timestamp": "2025-02-26T22:02:44.742608791Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -118,7 +118,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:10.826237239Z",
+      "timestamp": "2025-02-26T22:02:44.785395674Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -144,7 +144,7 @@
           "GHSA-f5pg-7wfw-84q9"
         ]
       },
-      "timestamp": "2024-12-21T22:07:10.863237244Z",
+      "timestamp": "2025-02-26T22:02:44.828951818Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -169,7 +169,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:55.952475082Z",
+      "timestamp": "2025-02-26T22:04:59.76128756Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -194,7 +194,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:55.988998363Z",
+      "timestamp": "2025-02-26T22:04:59.804202823Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -219,7 +219,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:56.02487701Z",
+      "timestamp": "2025-02-26T22:04:59.847691845Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -244,7 +244,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:56.061152942Z",
+      "timestamp": "2025-02-26T22:04:59.892491786Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -270,7 +270,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.69354531Z",
+      "timestamp": "2025-02-26T22:05:15.898001644Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -296,7 +296,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.731929453Z",
+      "timestamp": "2025-02-26T22:05:15.943284195Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -322,7 +322,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.769117181Z",
+      "timestamp": "2025-02-26T22:05:15.987221266Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -348,7 +348,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.805861031Z",
+      "timestamp": "2025-02-26T22:05:16.031739536Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -358,6 +358,106 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.875818287Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.20.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.919626748Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.963463549Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:41.00743629Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
             }
           ]
         }

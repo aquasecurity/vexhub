@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-21T22:09:00.161210921Z",
-  "version": 12,
+  "last_updated": "2025-02-26T22:05:31.8074208Z",
+  "version": 13,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-232p-vwff-86mp"
         ]
       },
-      "timestamp": "2024-12-21T22:07:19.623838848Z",
+      "timestamp": "2025-02-26T22:02:58.749209256Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -40,7 +40,7 @@
           "GHSA-33pg-m6jh-5237"
         ]
       },
-      "timestamp": "2024-12-21T22:07:20.073805244Z",
+      "timestamp": "2025-02-26T22:02:59.328012517Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -66,7 +66,7 @@
           "GHSA-6wrf-mxfj-pf5p"
         ]
       },
-      "timestamp": "2024-12-21T22:07:20.528247525Z",
+      "timestamp": "2025-02-26T22:02:59.903231047Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -92,7 +92,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-21T22:07:49.540085984Z",
+      "timestamp": "2025-02-26T22:03:42.52318176Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -118,7 +118,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-21T22:08:02.458807863Z",
+      "timestamp": "2025-02-26T22:03:58.580402424Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -144,7 +144,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-21T22:08:07.84428508Z",
+      "timestamp": "2025-02-26T22:04:05.619432834Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -169,7 +169,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-21T22:08:23.350394886Z",
+      "timestamp": "2025-02-26T22:04:22.625780681Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -194,7 +194,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2024-12-21T22:08:36.823816887Z",
+      "timestamp": "2025-02-26T22:04:31.003626049Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -220,7 +220,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:39.934432054Z",
+      "timestamp": "2025-02-26T22:04:35.168164084Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -245,7 +245,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:48.595065965Z",
+      "timestamp": "2025-02-26T22:04:50.704287411Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -271,7 +271,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:00.161211422Z",
+      "timestamp": "2025-02-26T22:05:06.278581962Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
@@ -287,6 +287,31 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:31.80742117Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]

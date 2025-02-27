@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-01-30T18:22:03.613284154Z",
-  "version": 7,
+  "last_updated": "2025-02-26T22:05:40.787238695Z",
+  "version": 10,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-01-30T18:21:44.351986008Z",
+      "timestamp": "2025-02-26T22:04:59.44814077Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -38,7 +38,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-01-30T18:21:44.397142769Z",
+      "timestamp": "2025-02-26T22:04:59.493199061Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -64,7 +64,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-01-30T18:21:56.308045881Z",
+      "timestamp": "2025-02-26T22:05:15.58628562Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -90,7 +90,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-01-30T18:21:56.353709533Z",
+      "timestamp": "2025-02-26T22:05:15.63090149Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -116,7 +116,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-01-30T18:22:03.567886933Z",
+      "timestamp": "2025-02-26T22:05:30.736612606Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -142,7 +142,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-01-30T18:22:03.613284904Z",
+      "timestamp": "2025-02-26T22:05:30.780434237Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -158,6 +158,81 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.697951314Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.742930335Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-26T22:05:40.787239115Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]
