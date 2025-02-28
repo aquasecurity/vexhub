@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-26T22:05:40.787238695Z",
-  "version": 10,
+  "last_updated": "2025-02-27T22:06:02.412751686Z",
+  "version": 11,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:59.44814077Z",
+      "timestamp": "2025-02-27T22:05:20.631500152Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -38,7 +38,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:59.493199061Z",
+      "timestamp": "2025-02-27T22:05:20.675306765Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -64,7 +64,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:15.58628562Z",
+      "timestamp": "2025-02-27T22:05:36.7271594Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -90,7 +90,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:15.63090149Z",
+      "timestamp": "2025-02-27T22:05:36.773751299Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -116,7 +116,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-02-26T22:05:30.736612606Z",
+      "timestamp": "2025-02-27T22:05:52.063596735Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -142,7 +142,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-02-26T22:05:30.780434237Z",
+      "timestamp": "2025-02-27T22:05:52.108325174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -167,7 +167,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:40.697951314Z",
+      "timestamp": "2025-02-27T22:06:02.280158109Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -192,7 +192,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:40.742930335Z",
+      "timestamp": "2025-02-27T22:06:02.324150368Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -217,7 +217,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:40.787239115Z",
+      "timestamp": "2025-02-27T22:06:02.368753376Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -227,6 +227,31 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-27T22:06:02.412752236Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.25.0"
             }
           ]
         }
