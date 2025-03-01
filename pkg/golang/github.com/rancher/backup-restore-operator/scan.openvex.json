@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-21T22:09:03.540601878Z",
-  "version": 6,
+  "last_updated": "2025-02-28T21:05:42.38371617Z",
+  "version": 9,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-21T22:08:43.801379392Z",
+      "timestamp": "2025-02-28T21:04:46.021573003Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -39,7 +39,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:55.626022663Z",
+      "timestamp": "2025-02-28T21:05:03.098774803Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -64,7 +64,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-21T22:08:55.661961893Z",
+      "timestamp": "2025-02-28T21:05:03.138458192Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -90,7 +90,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.502696392Z",
+      "timestamp": "2025-02-28T21:05:17.995396079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -116,7 +116,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2024-12-21T22:09:03.540602422Z",
+      "timestamp": "2025-02-28T21:05:18.03565853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -126,6 +126,81 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-02-28T21:05:35.743760773Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-28T21:05:42.341709216Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3488",
+        "aliases": [
+          "CVE-2025-22868"
+        ]
+      },
+      "timestamp": "2025-02-28T21:05:42.383716775Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
             }
           ]
         }
