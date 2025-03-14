@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-26T22:05:38.076295214Z",
-  "version": 14,
+  "last_updated": "2025-03-13T21:06:12.804081416Z",
+  "version": 15,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "CVE-2024-45337"
         ]
       },
-      "timestamp": "2025-02-26T22:04:31.188690097Z",
+      "timestamp": "2025-03-13T21:04:53.799131364Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -39,7 +39,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:35.432644741Z",
+      "timestamp": "2025-03-13T21:04:58.035834642Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -65,7 +65,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:35.475931745Z",
+      "timestamp": "2025-03-13T21:04:58.080387202Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -91,7 +91,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:35.519498538Z",
+      "timestamp": "2025-03-13T21:04:58.124865031Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -116,7 +116,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:50.97625348Z",
+      "timestamp": "2025-03-13T21:05:13.820798161Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -141,7 +141,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:51.021645021Z",
+      "timestamp": "2025-03-13T21:05:13.865050041Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -166,7 +166,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:51.067672652Z",
+      "timestamp": "2025-03-13T21:05:13.908975149Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -192,7 +192,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:06.50285512Z",
+      "timestamp": "2025-03-13T21:05:29.452716326Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -218,7 +218,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:06.547037671Z",
+      "timestamp": "2025-03-13T21:05:29.496504273Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -244,7 +244,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:06.591393033Z",
+      "timestamp": "2025-03-13T21:05:29.54010645Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -269,7 +269,7 @@
           "CVE-2025-22869"
         ]
       },
-      "timestamp": "2025-02-26T22:05:31.986894872Z",
+      "timestamp": "2025-03-13T21:05:55.872091538Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -294,7 +294,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:38.032107784Z",
+      "timestamp": "2025-03-13T21:06:02.969055874Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -319,7 +319,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:38.076295644Z",
+      "timestamp": "2025-03-13T21:06:03.013568155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-disk-manager",
@@ -329,6 +329,31 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:12.804082036Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-disk-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.33.0"
             }
           ]
         }

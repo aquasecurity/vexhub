@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-26T22:05:40.831562206Z",
-  "version": 15,
+  "last_updated": "2025-03-13T21:06:17.882324367Z",
+  "version": 16,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2025-02-26T22:02:37.798157121Z",
+      "timestamp": "2025-03-13T21:02:58.96939725Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -40,7 +40,7 @@
           "GHSA-qh36-44jv-c8xj"
         ]
       },
-      "timestamp": "2025-02-26T22:02:37.841106304Z",
+      "timestamp": "2025-03-13T21:02:59.014543738Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -66,7 +66,7 @@
           "GHSA-8fcj-gf77-47mg"
         ]
       },
-      "timestamp": "2025-02-26T22:02:50.286132115Z",
+      "timestamp": "2025-03-13T21:03:11.854003788Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -92,7 +92,7 @@
           "GHSA-qrg7-hfx7-95c5"
         ]
       },
-      "timestamp": "2025-02-26T22:02:50.903158404Z",
+      "timestamp": "2025-03-13T21:03:12.476994558Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -118,7 +118,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2025-02-26T22:03:46.695399504Z",
+      "timestamp": "2025-03-13T21:04:09.087306157Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -144,7 +144,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2025-02-26T22:03:52.423729198Z",
+      "timestamp": "2025-03-13T21:04:14.878280032Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -170,7 +170,7 @@
           "GHSA-27wf-5967-98gx"
         ]
       },
-      "timestamp": "2025-02-26T22:04:28.99087574Z",
+      "timestamp": "2025-03-13T21:04:51.629163248Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -195,7 +195,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:59.629273375Z",
+      "timestamp": "2025-03-13T21:05:22.4550552Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -220,7 +220,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:59.672527387Z",
+      "timestamp": "2025-03-13T21:05:22.49948431Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -245,7 +245,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:04:59.717099899Z",
+      "timestamp": "2025-03-13T21:05:22.54362797Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -271,7 +271,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:15.762197663Z",
+      "timestamp": "2025-03-13T21:05:38.800842744Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -297,7 +297,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:15.807862153Z",
+      "timestamp": "2025-03-13T21:05:38.845664637Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -323,7 +323,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:15.853170604Z",
+      "timestamp": "2025-03-13T21:05:38.890269789Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -348,7 +348,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:40.831562776Z",
+      "timestamp": "2025-03-13T21:06:06.240096555Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
@@ -358,6 +358,31 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:17.882324897Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.26.0"
             }
           ]
         }

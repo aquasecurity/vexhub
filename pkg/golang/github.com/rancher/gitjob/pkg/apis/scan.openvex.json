@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-01-09T14:09:55.860453486Z",
-  "version": 2,
+  "last_updated": "2025-03-13T21:06:18.414909422Z",
+  "version": 4,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-01-09T14:09:55.860454115Z",
+      "timestamp": "2025-03-13T21:05:39.65966762Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gitjob/pkg/apis",
@@ -24,6 +24,56 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:18.371614547Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gitjob/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:18.414909932Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gitjob/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.33.0"
             }
           ]
         }

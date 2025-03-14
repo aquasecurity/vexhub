@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-01-09T14:09:56.91916192Z",
-  "version": 4,
+  "last_updated": "2025-03-13T21:06:19.321444386Z",
+  "version": 5,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2025-01-09T14:08:36.204765826Z",
+      "timestamp": "2025-03-13T21:04:09.403603975Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher/pkg/client",
@@ -40,7 +40,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2025-01-09T14:08:36.24924523Z",
+      "timestamp": "2025-03-13T21:04:09.449225077Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher/pkg/client",
@@ -66,7 +66,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-01-09T14:09:56.919162462Z",
+      "timestamp": "2025-03-13T21:05:40.887137505Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher/pkg/client",
@@ -82,6 +82,31 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:19.321444736Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher/pkg/client",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]

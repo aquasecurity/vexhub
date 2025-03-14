@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-26T22:05:41.317262095Z",
-  "version": 16,
+  "last_updated": "2025-03-13T21:06:18.504532849Z",
+  "version": 18,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:41.364881451Z",
+      "timestamp": "2025-03-13T21:05:04.063231988Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -40,7 +40,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:41.41015145Z",
+      "timestamp": "2025-03-13T21:05:04.108749573Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -66,7 +66,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-26T22:04:41.454914441Z",
+      "timestamp": "2025-03-13T21:05:04.153223092Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -91,7 +91,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:05:00.203954788Z",
+      "timestamp": "2025-03-13T21:05:23.033745377Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -116,7 +116,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:05:00.249642799Z",
+      "timestamp": "2025-03-13T21:05:23.079129043Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -141,7 +141,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-26T22:05:00.293777881Z",
+      "timestamp": "2025-03-13T21:05:23.123753785Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -167,7 +167,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:16.654002797Z",
+      "timestamp": "2025-03-13T21:05:39.703718269Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -193,7 +193,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:16.697379868Z",
+      "timestamp": "2025-03-13T21:05:39.749113725Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -219,7 +219,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-26T22:05:16.741373599Z",
+      "timestamp": "2025-03-13T21:05:39.793492846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -244,7 +244,7 @@
           "CVE-2025-22869"
         ]
       },
-      "timestamp": "2025-02-26T22:05:34.019561888Z",
+      "timestamp": "2025-03-13T21:05:58.12991194Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -269,7 +269,7 @@
           "CVE-2025-22869"
         ]
       },
-      "timestamp": "2025-02-26T22:05:34.065115699Z",
+      "timestamp": "2025-03-13T21:05:58.174282868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -294,7 +294,7 @@
           "CVE-2025-22869"
         ]
       },
-      "timestamp": "2025-02-26T22:05:34.109987919Z",
+      "timestamp": "2025-03-13T21:05:58.218136423Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -319,7 +319,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:41.229367773Z",
+      "timestamp": "2025-03-13T21:06:06.688914063Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -344,7 +344,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:41.273245034Z",
+      "timestamp": "2025-03-13T21:06:06.733571385Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -369,7 +369,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-02-26T22:05:41.317262445Z",
+      "timestamp": "2025-03-13T21:06:06.77895715Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -385,6 +385,56 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:18.459207923Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-03-13T21:06:18.504533429Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]
