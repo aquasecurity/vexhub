@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-03-13T21:06:17.838116617Z",
-  "version": 16,
+  "last_updated": "2025-04-16T23:06:53.864621416Z",
+  "version": 21,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-03-13T21:05:22.276470581Z",
+      "timestamp": "2025-04-16T23:05:25.926839406Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -38,7 +38,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-03-13T21:05:22.320964463Z",
+      "timestamp": "2025-04-16T23:05:25.970878382Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -64,7 +64,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:38.622074395Z",
+      "timestamp": "2025-04-16T23:05:42.267961053Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -90,7 +90,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:38.666278695Z",
+      "timestamp": "2025-04-16T23:05:42.312626402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -116,7 +116,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-03-13T21:05:54.239965955Z",
+      "timestamp": "2025-04-16T23:05:57.847739659Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -142,7 +142,7 @@
           "GHSA-6wxm-mpqj-6jpf"
         ]
       },
-      "timestamp": "2025-03-13T21:05:54.284158292Z",
+      "timestamp": "2025-04-16T23:05:57.892450368Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -167,7 +167,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-03-13T21:06:06.017224428Z",
+      "timestamp": "2025-04-16T23:06:17.030195583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -192,7 +192,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-03-13T21:06:06.062112351Z",
+      "timestamp": "2025-04-16T23:06:17.075103518Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -217,7 +217,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-03-13T21:06:06.106551112Z",
+      "timestamp": "2025-04-16T23:06:17.118536696Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -242,7 +242,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-03-13T21:06:06.151466095Z",
+      "timestamp": "2025-04-16T23:06:17.162606746Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -267,7 +267,7 @@
           "CVE-2025-22868"
         ]
       },
-      "timestamp": "2025-03-13T21:06:06.195813565Z",
+      "timestamp": "2025-04-16T23:06:17.206227874Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -292,7 +292,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:17.703694746Z",
+      "timestamp": "2025-04-16T23:06:35.938560682Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -317,7 +317,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:17.749342564Z",
+      "timestamp": "2025-04-16T23:06:35.982525267Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -342,7 +342,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:17.794106427Z",
+      "timestamp": "2025-04-16T23:06:36.026211441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -367,7 +367,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:17.838117127Z",
+      "timestamp": "2025-04-16T23:06:36.069982765Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/cis-operator",
@@ -377,6 +377,131 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:53.684261465Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:53.729291332Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:53.774195489Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:53.819276587Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:53.864621936Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/cis-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.36.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.36.0"
             }
           ]
         }

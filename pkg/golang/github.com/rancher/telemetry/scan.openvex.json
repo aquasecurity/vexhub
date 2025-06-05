@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-19T11:05:18.354718283Z",
-  "version": 7,
+  "last_updated": "2025-04-15T23:06:17.214666446Z",
+  "version": 9,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2025-02-19T11:03:28.657659676Z",
+      "timestamp": "2025-04-15T23:03:37.096731502Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",
@@ -40,7 +40,7 @@
           "GHSA-r8f4-hv23-6qp6"
         ]
       },
-      "timestamp": "2025-02-19T11:03:46.064003544Z",
+      "timestamp": "2025-04-15T23:03:54.121388254Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",
@@ -66,7 +66,7 @@
           "GHSA-4v7x-pqxf-cx7m"
         ]
       },
-      "timestamp": "2025-02-19T11:04:04.35644869Z",
+      "timestamp": "2025-04-15T23:04:11.965567213Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",
@@ -92,7 +92,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2025-02-19T11:04:42.609761824Z",
+      "timestamp": "2025-04-15T23:04:49.679726981Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",
@@ -117,7 +117,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2025-02-19T11:05:01.538457532Z",
+      "timestamp": "2025-04-15T23:05:08.209115319Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",
@@ -143,7 +143,57 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-02-19T11:05:18.354718913Z",
+      "timestamp": "2025-04-15T23:05:25.113024732Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3487",
+        "aliases": [
+          "CVE-2025-22869"
+        ]
+      },
+      "timestamp": "2025-04-15T23:05:45.206212887Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/telemetry",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3503",
+        "aliases": [
+          "CVE-2025-22870"
+        ]
+      },
+      "timestamp": "2025-04-15T23:06:17.214666946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/telemetry",

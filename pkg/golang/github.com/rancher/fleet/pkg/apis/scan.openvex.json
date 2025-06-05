@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-03-13T21:06:18.327958159Z",
-  "version": 10,
+  "last_updated": "2025-04-16T23:06:54.599363681Z",
+  "version": 15,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:39.390816383Z",
+      "timestamp": "2025-04-16T23:05:43.041196607Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -40,7 +40,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:39.435132653Z",
+      "timestamp": "2025-04-16T23:05:43.085512865Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -66,7 +66,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:39.479083651Z",
+      "timestamp": "2025-04-16T23:05:43.129714582Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -92,7 +92,7 @@
           "GHSA-w32m-9786-jp63"
         ]
       },
-      "timestamp": "2025-03-13T21:05:39.523729513Z",
+      "timestamp": "2025-04-16T23:05:43.175499636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -117,7 +117,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:18.151741691Z",
+      "timestamp": "2025-04-16T23:06:36.477220108Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -142,7 +142,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:18.196039392Z",
+      "timestamp": "2025-04-16T23:06:36.523241144Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -167,7 +167,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:18.240380833Z",
+      "timestamp": "2025-04-16T23:06:36.568749098Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -192,7 +192,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:18.28402182Z",
+      "timestamp": "2025-04-16T23:06:36.614037541Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -217,7 +217,7 @@
           "CVE-2025-22870"
         ]
       },
-      "timestamp": "2025-03-13T21:06:18.327958659Z",
+      "timestamp": "2025-04-16T23:06:36.658473759Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
@@ -227,6 +227,131 @@
             },
             {
               "@id": "pkg:golang/golang.org/x/net@0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:54.418628058Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:54.464321128Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:54.508640693Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.31.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:54.554222683Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "GO-2025-3595",
+        "aliases": [
+          "CVE-2025-22872"
+        ]
+      },
+      "timestamp": "2025-04-16T23:06:54.599364501Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.36.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/net@0.36.0"
             }
           ]
         }

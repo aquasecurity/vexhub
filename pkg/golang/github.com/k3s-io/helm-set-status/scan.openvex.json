@@ -3,9 +3,31 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2024-12-19T21:07:52.598038598Z",
-  "version": 85,
+  "last_updated": "2025-04-23T14:21:39.557004551Z",
+  "version": 86,
   "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869"
+      },
+      "timestamp": "2025-04-23T14:18:49.590588661Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            },
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
     {
       "vulnerability": {
         "name": "GO-2021-0113",
@@ -14,7 +36,7 @@
           "GHSA-ppp9-7jff-5vj2"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.186580985Z",
+      "timestamp": "2025-04-23T14:18:50.464192797Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -40,7 +62,7 @@
           "GHSA-83g2-8m93-v3w7"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.404722955Z",
+      "timestamp": "2025-04-23T14:18:50.891077611Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -66,7 +88,7 @@
           "GHSA-8c26-wmh5-6g9v"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.663349418Z",
+      "timestamp": "2025-04-23T14:18:51.368027746Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -92,7 +114,7 @@
           "GHSA-v95c-p5hm-xq8f"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.790839219Z",
+      "timestamp": "2025-04-23T14:18:51.732076404Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -118,7 +140,7 @@
           "GHSA-mvff-h3cj-wj9c"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.877212291Z",
+      "timestamp": "2025-04-23T14:18:51.836687125Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -144,7 +166,7 @@
           "GHSA-vc3p-29h2-gpcp"
         ]
       },
-      "timestamp": "2024-12-19T21:07:12.962045789Z",
+      "timestamp": "2025-04-23T14:18:51.940966982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -170,7 +192,7 @@
           "GHSA-cg3q-j54f-5p7p"
         ]
       },
-      "timestamp": "2024-12-19T21:07:13.17718123Z",
+      "timestamp": "2025-04-23T14:18:52.398408472Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -195,7 +217,7 @@
           "GHSA-qq97-vm5h-rrhg"
         ]
       },
-      "timestamp": "2024-12-19T21:07:13.307710656Z",
+      "timestamp": "2025-04-23T14:18:52.553315612Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -221,7 +243,7 @@
           "GHSA-p782-xgp4-8hr8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:13.609340935Z",
+      "timestamp": "2025-04-23T14:18:52.909219363Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -247,7 +269,7 @@
           "GHSA-hp87-p4gw-j4gq"
         ]
       },
-      "timestamp": "2024-12-19T21:07:14.036920504Z",
+      "timestamp": "2025-04-23T14:18:53.754741677Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -273,7 +295,7 @@
           "GHSA-7hfp-qfw3-5jxh"
         ]
       },
-      "timestamp": "2024-12-19T21:07:18.839330319Z",
+      "timestamp": "2025-04-23T14:19:06.195312089Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -299,7 +321,7 @@
           "GHSA-gwc9-m7rh-j2ww"
         ]
       },
-      "timestamp": "2024-12-19T21:07:18.927723659Z",
+      "timestamp": "2025-04-23T14:19:06.356324946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -325,7 +347,7 @@
           "GHSA-69cg-p879-7622"
         ]
       },
-      "timestamp": "2024-12-19T21:07:19.101420103Z",
+      "timestamp": "2025-04-23T14:19:06.619396175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -351,7 +373,7 @@
           "GHSA-69ch-w2m2-3vjp"
         ]
       },
-      "timestamp": "2024-12-19T21:07:19.439162994Z",
+      "timestamp": "2025-04-23T14:19:07.5044123Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -377,7 +399,7 @@
           "GHSA-xrjj-mj9h-534m"
         ]
       },
-      "timestamp": "2024-12-19T21:07:19.822353762Z",
+      "timestamp": "2025-04-23T14:19:08.439878075Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -403,7 +425,7 @@
           "GHSA-53c4-hhmh-vw5q"
         ]
       },
-      "timestamp": "2024-12-19T21:07:20.080011882Z",
+      "timestamp": "2025-04-23T14:19:09.179480442Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -429,7 +451,7 @@
           "GHSA-67fx-wx78-jx33"
         ]
       },
-      "timestamp": "2024-12-19T21:07:20.123380851Z",
+      "timestamp": "2025-04-23T14:19:09.284686257Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -455,7 +477,7 @@
           "GHSA-6rx9-889q-vv2r"
         ]
       },
-      "timestamp": "2024-12-19T21:07:20.165784691Z",
+      "timestamp": "2025-04-23T14:19:09.407752527Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -481,7 +503,7 @@
           "GHSA-fxg5-wq6x-vr4w"
         ]
       },
-      "timestamp": "2024-12-19T21:07:20.4982667Z",
+      "timestamp": "2025-04-23T14:19:09.89846817Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -507,7 +529,7 @@
           "GHSA-pwcw-6f5g-gxf8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.061488152Z",
+      "timestamp": "2025-04-23T14:19:14.462319245Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -533,7 +555,7 @@
           "GHSA-pwcw-6f5g-gxf8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.10381233Z",
+      "timestamp": "2025-04-23T14:19:14.512506774Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -559,7 +581,7 @@
           "GHSA-259w-8hf6-59c2"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.146132719Z",
+      "timestamp": "2025-04-23T14:19:15.004429608Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -585,7 +607,7 @@
           "GHSA-259w-8hf6-59c2"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.188840722Z",
+      "timestamp": "2025-04-23T14:19:15.059150408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -611,7 +633,7 @@
           "GHSA-hmfx-3pcx-653p"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.276899727Z",
+      "timestamp": "2025-04-23T14:19:15.322763925Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -637,7 +659,7 @@
           "GHSA-hmfx-3pcx-653p"
         ]
       },
-      "timestamp": "2024-12-19T21:07:22.320556672Z",
+      "timestamp": "2025-04-23T14:19:15.378215276Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -663,7 +685,7 @@
           "GHSA-hw7c-3rfg-p46j"
         ]
       },
-      "timestamp": "2024-12-19T21:07:23.2175618Z",
+      "timestamp": "2025-04-23T14:19:17.171674542Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -689,7 +711,7 @@
           "GHSA-hw7c-3rfg-p46j"
         ]
       },
-      "timestamp": "2024-12-19T21:07:23.260316362Z",
+      "timestamp": "2025-04-23T14:19:17.225703908Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -715,7 +737,7 @@
           "GHSA-hw7c-3rfg-p46j"
         ]
       },
-      "timestamp": "2024-12-19T21:07:23.30271428Z",
+      "timestamp": "2025-04-23T14:19:17.278723857Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -741,7 +763,7 @@
           "GHSA-2wrh-6pvc-2jm9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:26.100068492Z",
+      "timestamp": "2025-04-23T14:19:30.479132363Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -767,7 +789,7 @@
           "GHSA-2wrh-6pvc-2jm9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:26.144759735Z",
+      "timestamp": "2025-04-23T14:19:30.541033462Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -793,7 +815,7 @@
           "GHSA-2wrh-6pvc-2jm9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:26.18960084Z",
+      "timestamp": "2025-04-23T14:19:30.59996636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -818,7 +840,7 @@
           "GHSA-6xv5-86q9-7xr8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:26.54130021Z",
+      "timestamp": "2025-04-23T14:19:39.414061208Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -843,7 +865,7 @@
           "GHSA-6xv5-86q9-7xr8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:26.583939081Z",
+      "timestamp": "2025-04-23T14:19:39.464493666Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -869,7 +891,7 @@
           "GHSA-4374-p667-p6c8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:27.14245922Z",
+      "timestamp": "2025-04-23T14:19:40.941780453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -895,7 +917,7 @@
           "GHSA-4374-p667-p6c8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:27.185095411Z",
+      "timestamp": "2025-04-23T14:19:40.991068492Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -921,7 +943,7 @@
           "GHSA-4374-p667-p6c8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:27.227923832Z",
+      "timestamp": "2025-04-23T14:19:41.041258746Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -946,7 +968,7 @@
           "GHSA-m425-mq94-257g"
         ]
       },
-      "timestamp": "2024-12-19T21:07:28.372756388Z",
+      "timestamp": "2025-04-23T14:19:52.702243174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -971,7 +993,7 @@
           "GHSA-m425-mq94-257g"
         ]
       },
-      "timestamp": "2024-12-19T21:07:28.419763515Z",
+      "timestamp": "2025-04-23T14:19:52.753376425Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -996,7 +1018,7 @@
           "GHSA-m425-mq94-257g"
         ]
       },
-      "timestamp": "2024-12-19T21:07:28.461320318Z",
+      "timestamp": "2025-04-23T14:19:52.805132042Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1022,7 +1044,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.003686557Z",
+      "timestamp": "2025-04-23T14:20:04.330202816Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1048,7 +1070,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.045456937Z",
+      "timestamp": "2025-04-23T14:20:04.37991758Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1074,7 +1096,7 @@
           "GHSA-45x7-px36-x8w8"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.088383753Z",
+      "timestamp": "2025-04-23T14:20:04.434465525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1099,7 +1121,7 @@
           "GHSA-7ww5-4wqc-m92c"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.58681244Z",
+      "timestamp": "2025-04-23T14:20:10.031711796Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1124,7 +1146,7 @@
           "GHSA-7ww5-4wqc-m92c"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.627917233Z",
+      "timestamp": "2025-04-23T14:20:10.085438821Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1149,7 +1171,7 @@
           "GHSA-7ww5-4wqc-m92c"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.670452994Z",
+      "timestamp": "2025-04-23T14:20:10.137990975Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1175,7 +1197,7 @@
           "GHSA-xr7r-f8xq-vfvv"
         ]
       },
-      "timestamp": "2024-12-19T21:07:31.88156407Z",
+      "timestamp": "2025-04-23T14:20:19.512887802Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1201,7 +1223,7 @@
           "GHSA-3fwx-pjgw-3558"
         ]
       },
-      "timestamp": "2024-12-19T21:07:32.044406325Z",
+      "timestamp": "2025-04-23T14:20:20.569692177Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1227,7 +1249,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:32.452300054Z",
+      "timestamp": "2025-04-23T14:20:21.531526183Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1253,7 +1275,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:32.493384563Z",
+      "timestamp": "2025-04-23T14:20:21.581414625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1279,7 +1301,7 @@
           "GHSA-xw73-rw38-6vjc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:32.535606156Z",
+      "timestamp": "2025-04-23T14:20:21.631595838Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1305,7 +1327,7 @@
           "GHSA-v2cv-wwxq-qq97"
         ]
       },
-      "timestamp": "2024-12-19T21:07:33.409535566Z",
+      "timestamp": "2025-04-23T14:20:25.673679728Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1331,7 +1353,7 @@
           "GHSA-v53g-5gjp-272r"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.315706464Z",
+      "timestamp": "2025-04-23T14:20:27.157836908Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1357,7 +1379,7 @@
           "GHSA-v53g-5gjp-272r"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.357373298Z",
+      "timestamp": "2025-04-23T14:20:27.208710971Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1383,7 +1405,7 @@
           "GHSA-v53g-5gjp-272r"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.399845477Z",
+      "timestamp": "2025-04-23T14:20:27.26059538Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1409,7 +1431,7 @@
           "GHSA-r53h-jv2g-vpx6"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.484999257Z",
+      "timestamp": "2025-04-23T14:20:27.669557225Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1435,7 +1457,7 @@
           "GHSA-r53h-jv2g-vpx6"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.526850181Z",
+      "timestamp": "2025-04-23T14:20:27.718534347Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1461,7 +1483,7 @@
           "GHSA-r53h-jv2g-vpx6"
         ]
       },
-      "timestamp": "2024-12-19T21:07:34.568746974Z",
+      "timestamp": "2025-04-23T14:20:27.766827879Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1487,7 +1509,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-19T21:07:35.64402076Z",
+      "timestamp": "2025-04-23T14:20:29.776514075Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1513,7 +1535,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-19T21:07:35.68796829Z",
+      "timestamp": "2025-04-23T14:20:29.825454082Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1539,7 +1561,7 @@
           "GHSA-8r3f-844c-mc37"
         ]
       },
-      "timestamp": "2024-12-19T21:07:35.73209297Z",
+      "timestamp": "2025-04-23T14:20:29.873981204Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1565,7 +1587,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-19T21:07:36.64465895Z",
+      "timestamp": "2025-04-23T14:20:39.759247662Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1591,7 +1613,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-19T21:07:36.685629814Z",
+      "timestamp": "2025-04-23T14:20:39.811192207Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1617,7 +1639,7 @@
           "GHSA-mq39-4gv4-mvpx"
         ]
       },
-      "timestamp": "2024-12-19T21:07:36.72615282Z",
+      "timestamp": "2025-04-23T14:20:39.862368175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1643,7 +1665,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:37.737665179Z",
+      "timestamp": "2025-04-23T14:20:48.013076225Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1669,7 +1691,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:37.78092554Z",
+      "timestamp": "2025-04-23T14:20:48.064747567Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1695,7 +1717,7 @@
           "GHSA-x84c-p2g9-rqv9"
         ]
       },
-      "timestamp": "2024-12-19T21:07:37.823432324Z",
+      "timestamp": "2025-04-23T14:20:48.117754784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1720,7 +1742,7 @@
           "GHSA-c9cp-9c75-9v8c"
         ]
       },
-      "timestamp": "2024-12-19T21:07:41.862619954Z",
+      "timestamp": "2025-04-23T14:20:57.635060453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1746,7 +1768,7 @@
           "GHSA-99pg-grm5-qq3v"
         ]
       },
-      "timestamp": "2024-12-19T21:07:41.950408085Z",
+      "timestamp": "2025-04-23T14:20:57.784051923Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1772,7 +1794,7 @@
           "GHSA-v994-f8vw-g7j4"
         ]
       },
-      "timestamp": "2024-12-19T21:07:42.12359962Z",
+      "timestamp": "2025-04-23T14:20:57.983186155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1797,7 +1819,7 @@
           "CVE-2022-30636"
         ]
       },
-      "timestamp": "2024-12-19T21:07:42.471741441Z",
+      "timestamp": "2025-04-23T14:20:58.522523447Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1822,7 +1844,7 @@
           "GHSA-xr7q-jx4m-x55m"
         ]
       },
-      "timestamp": "2024-12-19T21:07:42.775442644Z",
+      "timestamp": "2025-04-23T14:21:00.27221416Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1847,7 +1869,7 @@
           "GHSA-xr7q-jx4m-x55m"
         ]
       },
-      "timestamp": "2024-12-19T21:07:42.819334131Z",
+      "timestamp": "2025-04-23T14:21:00.320236272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1872,7 +1894,7 @@
           "GHSA-xr7q-jx4m-x55m"
         ]
       },
-      "timestamp": "2024-12-19T21:07:42.863010438Z",
+      "timestamp": "2025-04-23T14:21:00.373011148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1897,7 +1919,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:43.505731219Z",
+      "timestamp": "2025-04-23T14:21:06.902242033Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1922,7 +1944,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:43.5477361Z",
+      "timestamp": "2025-04-23T14:21:06.950956448Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1947,7 +1969,7 @@
           "CVE-2024-41110"
         ]
       },
-      "timestamp": "2024-12-19T21:07:43.590478048Z",
+      "timestamp": "2025-04-23T14:21:06.999476846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1973,7 +1995,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:49.287892636Z",
+      "timestamp": "2025-04-23T14:21:22.175083894Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -1999,7 +2021,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:49.330492548Z",
+      "timestamp": "2025-04-23T14:21:22.223393821Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2025,7 +2047,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:49.373521171Z",
+      "timestamp": "2025-04-23T14:21:22.273010982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2051,7 +2073,7 @@
           "GHSA-v778-237x-gjrc"
         ]
       },
-      "timestamp": "2024-12-19T21:07:49.416829609Z",
+      "timestamp": "2025-04-23T14:21:22.322978674Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2076,7 +2098,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:52.472168015Z",
+      "timestamp": "2025-04-23T14:21:39.400240658Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2101,7 +2123,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:52.514236008Z",
+      "timestamp": "2025-04-23T14:21:39.450359886Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2126,7 +2148,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:52.556448159Z",
+      "timestamp": "2025-04-23T14:21:39.501003499Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
@@ -2151,7 +2173,7 @@
           "CVE-2024-45338"
         ]
       },
-      "timestamp": "2024-12-19T21:07:52.598039424Z",
+      "timestamp": "2025-04-23T14:21:39.557005543Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/helm-set-status",
