@@ -46,7 +46,7 @@ jobs:
 
       - name: Run vexhub-crawler
         run: |
-          vexhub-crawler --vexhub-dir ./vexhub
+          vexhub-crawler --config ./vexhub-crawler/crawler.yaml --vexhub-dir ./vexhub
 
       - name: Commit and push changes
         run: |
