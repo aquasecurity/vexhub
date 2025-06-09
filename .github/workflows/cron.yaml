@@ -1,0 +1,60 @@
+name: Update VEX Hub
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every day
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  update:
+    name: Update VEX Hub
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      VEXHUB_CRAWLER_COMMIT: "691c2aaad9e15493af3416edb96b787e954ef1f7"
+    steps:
+      - name: Check out vexhub repository
+        uses: actions/checkout@v4
+        with:
+          path: vexhub
+
+      - name: Check out vexhub-crawler
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/vexhub-crawler
+          ref: ${{ env.VEXHUB_CRAWLER_COMMIT }}
+          path: vexhub-crawler
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: vexhub-crawler/go.mod
+
+      - name: Set up git user
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+      - name: Build vexhub-crawler
+        run: |
+          cd vexhub-crawler
+          go build -o ../vexhub-crawler .
+          cd ..
+
+      - name: Run vexhub-crawler
+        run: |
+          ./vexhub-crawler --vexhub-dir ./vexhub
+
+      - name: Commit and push changes
+        run: |
+          cd vexhub
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "Update VEX documents"
+            git push
+          else
+            echo "No changes to commit"
+          fi
