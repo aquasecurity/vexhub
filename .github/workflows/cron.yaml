@@ -41,12 +41,12 @@ jobs:
       - name: Build vexhub-crawler
         run: |
           cd vexhub-crawler
-          go build -o ../vexhub-crawler .
+          go install .
           cd ..
 
       - name: Run vexhub-crawler
         run: |
-          ./vexhub-crawler --vexhub-dir ./vexhub
+          vexhub-crawler --vexhub-dir ./vexhub
 
       - name: Commit and push changes
         run: |
