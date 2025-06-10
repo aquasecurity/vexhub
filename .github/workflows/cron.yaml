@@ -11,7 +11,7 @@ permissions:
 jobs:
   update:
     name: Update VEX Hub
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       VEXHUB_CRAWLER_COMMIT: "691c2aaad9e15493af3416edb96b787e954ef1f7"
     steps:
