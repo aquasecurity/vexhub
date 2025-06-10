@@ -13,7 +13,6 @@ jobs:
     name: Update VEX Hub
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VEXHUB_CRAWLER_COMMIT: "691c2aaad9e15493af3416edb96b787e954ef1f7"
     steps:
       - name: Check out vexhub repository
