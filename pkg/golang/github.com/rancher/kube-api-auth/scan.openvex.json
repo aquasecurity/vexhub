@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:55.111102987Z",
-  "version": 210,
+  "last_updated": "2025-06-26T04:19:55.382550726Z",
+  "version": 78,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2023-1991"
         ]
       },
-      "timestamp": "2025-04-16T23:02:53.716294418Z",
+      "timestamp": "2025-06-26T03:46:05.348835799Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -28,6 +28,420 @@
       "status": "not_affected",
       "justification": "inline_mitigations_already_exist",
       "impact_statement": "The vulnerability is already patched since version v0.2.0 of kube-api-auth."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:07.898646358Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:07.95538006Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:08.01185384Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:08.06965073Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:08.126867045Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:08.185527852Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.292002463Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.353705868Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.415832527Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.476983307Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.540456459Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:19.604213893Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:36.746840033Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:36.818493366Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:36.884600148Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:36.950439768Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:37.017413988Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:37.087396935Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
@@ -37,7 +451,7 @@
           "GO-2024-2760"
         ]
       },
-      "timestamp": "2025-04-16T23:02:53.844579509Z",
+      "timestamp": "2025-06-26T03:46:44.50478048Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -54,2976 +468,19 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2024-52280"
-      },
-      "timestamp": "2025-04-16T23:02:56.470310034Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20231016202603-993540401906"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@0.0.0-20231016202603-993540401906"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-52280"
-      },
-      "timestamp": "2025-04-16T23:02:56.514208458Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20240709130809-47871606146c"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@0.0.0-20240709130809-47871606146c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-52280"
-      },
-      "timestamp": "2025-04-16T23:02:56.559027787Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20240913181958-99e479ba0f08"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/steve@0.0.0-20240913181958-99e479ba0f08"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2021-0113",
-        "aliases": [
-          "CVE-2021-38561",
-          "GHSA-ppp9-7jff-5vj2"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:57.144468925Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/text@v0.3.5"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/text@0.3.5"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2021-0238",
-        "aliases": [
-          "CVE-2021-33194",
-          "GHSA-83g2-8m93-v3w7"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:57.5075786Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2021-0356",
-        "aliases": [
-          "CVE-2022-27191",
-          "GHSA-8c26-wmh5-6g9v"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:57.966088374Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0278",
-        "aliases": [
-          "CVE-2021-43816",
-          "GHSA-mvff-h3cj-wj9c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.320678264Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.4.4"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.4.4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0288",
-        "aliases": [
-          "CVE-2021-44716",
-          "GHSA-vc3p-29h2-gpcp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.453711874Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0288",
-        "aliases": [
-          "CVE-2021-44716",
-          "GHSA-vc3p-29h2-gpcp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.498223621Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0322",
-        "aliases": [
-          "CVE-2022-21698",
-          "GHSA-cg3q-j54f-5p7p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.808248344Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/prometheus/client_golang@v1.11.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/prometheus/client_golang@1.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0322",
-        "aliases": [
-          "CVE-2022-21698",
-          "GHSA-cg3q-j54f-5p7p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.85252747Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/prometheus/client_golang@v1.9.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/prometheus/client_golang@1.9.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0379",
-        "aliases": [
-          "GHSA-qq97-vm5h-rrhg"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:58.942270337Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/distribution@v2.7.1+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/distribution@2.7.1+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0493",
-        "aliases": [
-          "CVE-2022-29526",
-          "GHSA-p782-xgp4-8hr8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:59.394142615Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/sys@v0.0.0-20210615035016-665e8c7367d1"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/sys@0.0.0-20210615035016-665e8c7367d1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0493",
-        "aliases": [
-          "CVE-2022-29526",
-          "GHSA-p782-xgp4-8hr8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:02:59.440091027Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/sys@v0.0.0-20211013075003-97ac67df715c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/sys@0.0.0-20211013075003-97ac67df715c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0603",
-        "aliases": [
-          "CVE-2022-28948",
-          "GHSA-hp87-p4gw-j4gq"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:00.078801868Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b"
-            },
-            {
-              "@id": "pkg:golang/gopkg.in/yaml.v3@3.0.0-20210107192922-496545a6307b"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.361208097Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.405886575Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.22.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.22.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.451180885Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.495950723Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.54039824Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.30.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0635",
-        "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:05.45148271Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.65"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.38.65"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0635",
-        "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:05.494939255Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.294"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.294"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0635",
-        "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:05.538099919Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.322"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0635",
-        "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:05.582625509Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.50.38"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0635",
-        "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:05.627105948Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.5"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.729774754Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.774062632Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.818357751Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.862533409Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.906937998Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0644",
-        "aliases": [
-          "CVE-2018-20321",
-          "GHSA-9qq2-xhmc-h9qr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.951198397Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:07.178187213Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.65"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.38.65"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:07.222234711Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.294"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.294"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:07.267035462Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.322"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:07.31121015Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.50.38"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:07.354691025Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.5"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:09.508250406Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.38.65"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.38.65"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:09.552092963Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.294"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.294"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:09.59592996Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.322"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.44.322"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:09.640436059Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.50.38"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0646",
-        "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:09.684349766Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.5"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.784011349Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.828459058Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.873025288Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.917779389Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.962092467Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0755",
-        "aliases": [
-          "CVE-2019-13209",
-          "GHSA-xhg2-rvm8-w2jh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:11.007191069Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0968",
-        "aliases": [
-          "CVE-2021-43565",
-          "GHSA-gwc9-m7rh-j2ww"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:11.31959191Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0969",
-        "aliases": [
-          "CVE-2022-27664",
-          "GHSA-69cg-p879-7622"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:11.586080175Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0969",
-        "aliases": [
-          "CVE-2022-27664",
-          "GHSA-69cg-p879-7622"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:11.632251231Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-1059",
-        "aliases": [
-          "CVE-2022-32149",
-          "GHSA-69ch-w2m2-3vjp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:12.295997098Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/text@v0.3.5"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/text@0.3.5"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-1059",
-        "aliases": [
-          "CVE-2022-32149",
-          "GHSA-69ch-w2m2-3vjp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:12.34113096Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/text@v0.3.7"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/text@0.3.7"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-1144",
-        "aliases": [
-          "CVE-2022-41717",
-          "GHSA-xrjj-mj9h-534m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:13.046638765Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-1144",
-        "aliases": [
-          "CVE-2022-41717",
-          "GHSA-xrjj-mj9h-534m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:13.091209454Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1495",
-        "aliases": [
-          "CVE-2022-41721",
-          "GHSA-fxg5-wq6x-vr4w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:14.192213103Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1495",
-        "aliases": [
-          "CVE-2022-41721",
-          "GHSA-fxg5-wq6x-vr4w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:14.236681252Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1515",
-        "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:15.033911157Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220217210408-3ecd23dfea3b"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.11-0.20220217210408-3ecd23dfea3b"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1515",
-        "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:15.078819739Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.7"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.7"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1519",
-        "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:15.658101986Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220217210408-3ecd23dfea3b"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.11-0.20220217210408-3ecd23dfea3b"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1519",
-        "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:15.702835266Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.7"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.7"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1546",
-        "aliases": [
-          "CVE-2023-25151",
-          "GHSA-5r5m-65gx-7vrh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:16.536679317Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.20.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1573",
-        "aliases": [
-          "CVE-2023-25153",
-          "GHSA-259w-8hf6-59c2"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.234494577Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.4.4"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.4.4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1574",
-        "aliases": [
-          "CVE-2023-25173",
-          "GHSA-hmfx-3pcx-653p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.504757768Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.4.4"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.4.4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1628",
-        "aliases": [
-          "CVE-2022-3162",
-          "GHSA-2394-5535-8j88"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.817830901Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1629",
-        "aliases": [
-          "CVE-2022-3294",
-          "GHSA-jh36-q97c-9928"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:19.042527221Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:20.504681595Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.26.0-rc.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.26.0-rc.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:20.551083304Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1699",
-        "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:23.703783591Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1699",
-        "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:23.751179464Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1700",
-        "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.295859878Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1700",
-        "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.341662284Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1701",
-        "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.885390264Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1701",
-        "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.932061904Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1864",
-        "aliases": [
-          "CVE-2023-2431",
-          "GHSA-xc8m-28vv-4pjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.031710855Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1891",
-        "aliases": [
-          "CVE-2023-2727",
-          "GHSA-qc2g-gmh6-95p4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.259141519Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1892",
-        "aliases": [
-          "CVE-2023-2728",
-          "GHSA-cgcv-5272-97pr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.48569453Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.892590463Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.938840491Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.984940739Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:27.031504398Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:27.078037758Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1973",
-        "aliases": [
-          "CVE-2017-7297",
-          "GHSA-w3x4-9854-95x8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:27.124681288Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:32.394687206Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:32.442555441Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:32.490108935Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.12.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.12.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2048",
-        "aliases": [
-          "GHSA-6xv5-86q9-7xr8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:35.150528746Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.2"
-            },
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2048",
-        "aliases": [
-          "GHSA-6xv5-86q9-7xr8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:35.198160982Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.3"
-            },
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:40.07050352Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:40.116594788Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:40.162646977Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.12.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.12.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2113",
-        "aliases": [
-          "CVE-2023-45142",
-          "GHSA-rcjv-mgp8-qvmr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:43.070486756Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.20.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2153",
-        "aliases": [
-          "GHSA-m425-mq94-257g"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:46.487728823Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.34.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.34.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2153",
-        "aliases": [
-          "GHSA-m425-mq94-257g"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:46.534139664Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.40.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.40.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2153",
-        "aliases": [
-          "GHSA-m425-mq94-257g"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:46.580026642Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.56.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.56.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.05812147Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.10656976Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.22.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.22.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.15297433Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.200315565Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:50.191997814Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:50.240587315Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.22.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.22.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:50.287139586Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:50.334718182Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2341",
-        "aliases": [
-          "CVE-2023-5528",
-          "GHSA-hq6q-c2x6-hmch"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:52.040617906Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2402",
-        "aliases": [
-          "CVE-2023-48795",
-          "GHSA-45x7-px36-x8w8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:55.176829458Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2402",
-        "aliases": [
-          "CVE-2023-48795",
-          "GHSA-45x7-px36-x8w8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:55.223277333Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.11.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2412",
-        "aliases": [
-          "GHSA-7ww5-4wqc-m92c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:59.742051787Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.4.4"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.4.4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2412",
-        "aliases": [
-          "GHSA-7ww5-4wqc-m92c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:59.788884544Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.6.18"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.6.18"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2500",
-        "aliases": [
-          "CVE-2021-41091",
-          "GHSA-3fwx-pjgw-3558"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:07.485106084Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:10.675347148Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:10.721073888Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:10.767706372Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2534",
-        "aliases": [
-          "CVE-2023-32192",
-          "GHSA-833m-37f7-jq55"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.028862322Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20210922180056-297b6df8d714"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@0.0.0-20210922180056-297b6df8d714"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2534",
-        "aliases": [
-          "CVE-2023-32192",
-          "GHSA-833m-37f7-jq55"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.075647877Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20220125032650-a2ef3682eca9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@0.0.0-20220125032650-a2ef3682eca9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2534",
-        "aliases": [
-          "CVE-2023-32192",
-          "GHSA-833m-37f7-jq55"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.12208389Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20230515173455-c3b182bdbf7d"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@0.0.0-20230515173455-c3b182bdbf7d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2534",
+        "name": "CVE-2023-32192",
         "aliases": [
-          "CVE-2023-32192",
-          "GHSA-833m-37f7-jq55"
+          "GHSA-833m-37f7-jq55",
+          "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-04-16T23:04:12.169103526Z",
+      "timestamp": "2025-06-26T03:47:03.162774018Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20240205154815-a3b9e3721c1b"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/apiserver@0.0.0-20240205154815-a3b9e3721c1b"
             }
           ]
         }
@@ -3034,100 +491,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2536",
+        "name": "CVE-2023-32192",
         "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
+          "GHSA-833m-37f7-jq55",
+          "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-04-16T23:04:12.535807301Z",
+      "timestamp": "2025-06-26T03:47:03.235148788Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20210608202517-59b3523c3133"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20210608202517-59b3523c3133"
+              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20240205154815-a3b9e3721c1b"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2536",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:12.585282027Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20220107203912-4feb41eafabd"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20220107203912-4feb41eafabd"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2536",
-        "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.633992721Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20230426211126-d3552b018687"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20230426211126-d3552b018687"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2536",
-        "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.682464383Z",
+      "timestamp": "2025-06-26T03:47:06.828350005Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20240205154641-a6a6cf569608"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20240205154641-a6a6cf569608"
             }
           ]
         }
@@ -3138,22 +537,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:18.46910957Z",
+      "timestamp": "2025-06-26T03:47:06.899515563Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.26.0-rc.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.26.0-rc.1"
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20240205154641-a6a6cf569608"
             }
           ]
         }
@@ -3164,74 +560,157 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-04-16T23:04:18.516375497Z",
+      "timestamp": "2025-06-26T03:49:23.151108636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-04-16T23:04:18.563312503Z",
+      "timestamp": "2025-06-26T03:49:23.251296366Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:44.998371444Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.31.0"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:04:18.610222798Z",
+      "timestamp": "2025-06-26T03:49:45.100195697Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:45.205417361Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:45.30894941Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:12.026624692Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.32.0"
             }
           ]
         }
@@ -3242,256 +721,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2659",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-04-16T23:04:26.927759492Z",
+      "timestamp": "2025-06-26T03:50:12.136166196Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2659",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:26.97485165Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2659",
-        "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:27.02276401Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:34.276017447Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:34.324121479Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:34.370872194Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:36.550585596Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:36.59936416Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.22.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.22.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:36.647695293Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:36.694471809Z",
+      "timestamp": "2025-06-26T03:51:13.236646805Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
             }
           ]
         }
@@ -3502,22 +767,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2762",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:37.736999046Z",
+      "timestamp": "2025-06-26T03:51:13.35080193Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
             }
           ]
         }
@@ -3528,977 +790,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2762",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:37.785324609Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2762",
-        "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:37.833968873Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2762",
-        "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:37.880528758Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2762",
-        "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:37.92876274Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2762",
-        "aliases": [
-          "CVE-2019-12303",
-          "GHSA-53pj-67m4-9w98"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:37.976047198Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.296571589Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.346618339Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.393564685Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.441198425Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.488448523Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2764",
-        "aliases": [
-          "CVE-2019-6287",
-          "GHSA-6r7x-4q7g-h83j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.536175073Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.85831128Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.906688723Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:38.954423563Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.003441429Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.051605581Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2768",
-        "aliases": [
-          "CVE-2021-25318",
-          "GHSA-f9xf-jq4j-vqw4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.099274581Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.420539744Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.471120937Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.51958185Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.568122884Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.615710753Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2778",
-        "aliases": [
-          "CVE-2021-31999",
-          "GHSA-pvxj-25m6-7vqr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.664126119Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:39.987922411Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20211025214238-44fbb84703e9"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20211025214238-44fbb84703e9"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.035080005Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20220225023242-635286172d41"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20220225023242-635286172d41"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.08247545Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230712102934-01a8529371b2"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20230712102934-01a8529371b2"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.130155953Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240205190724-2f7113dc32d4"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240205190724-2f7113dc32d4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.178782744Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20240730202829-9e0cc54e7e3a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20240730202829-9e0cc54e7e3a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2784",
-        "aliases": [
-          "CVE-2019-11202",
-          "GHSA-xh8x-j8h3-m5ph"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.226748956Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241004204441-d3c434633444"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/rancher@0.0.0-20241004204441-d3c434633444"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2846",
-        "aliases": [
-          "GHSA-c9cp-9c75-9v8c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.456831977Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.4.4"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.4.4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2912",
-        "aliases": [
-          "CVE-2021-41092",
-          "GHSA-99pg-grm5-qq3v"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.598115722Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/cli@v20.10.3+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/cli@20.10.3+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2913",
-        "aliases": [
-          "CVE-2021-41089",
-          "GHSA-v994-f8vw-g7j4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:40.830588975Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2961",
-        "aliases": [
-          "CVE-2022-30636"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:41.337437013Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2978",
-        "aliases": [
-          "GHSA-xr7q-jx4m-x55m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:44.972409598Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.34.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.34.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2978",
-        "aliases": [
-          "GHSA-xr7q-jx4m-x55m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:45.020907493Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.40.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.40.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2978",
-        "aliases": [
-          "GHSA-xr7q-jx4m-x55m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:45.069800841Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.56.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.56.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3005",
-        "aliases": [
-          "CVE-2024-41110"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:51.690750904Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3005",
-        "aliases": [
-          "CVE-2024-41110"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:51.740006283Z",
+      "timestamp": "2025-06-26T03:51:37.337686362Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
             }
           ]
         }
@@ -4509,21 +812,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-41110"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:51.788253008Z",
+      "timestamp": "2025-06-26T03:51:37.457637675Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.6+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.6+incompatible"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
             }
           ]
         }
@@ -4534,22 +834,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:55.66449084Z",
+      "timestamp": "2025-06-26T03:51:37.576357727Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.21.0"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.21.0"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
             }
           ]
         }
@@ -4560,22 +856,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:55.711967811Z",
+      "timestamp": "2025-06-26T03:51:37.694022028Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.22.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.22.3"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
             }
           ]
         }
@@ -4586,123 +878,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:04:55.760691288Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.11"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.11"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3286",
-        "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:55.809813536Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.27.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.27.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:58.462881961Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:58.513117233Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.11.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:58.561692638Z",
+      "timestamp": "2025-06-26T03:52:28.499890172Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.17.0"
             }
           ]
         }
@@ -4713,21 +901,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:04:58.610186303Z",
+      "timestamp": "2025-06-26T03:52:28.624940621Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
             }
           ]
         }
@@ -4738,21 +924,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:04:58.658392437Z",
+      "timestamp": "2025-06-26T03:52:28.746267566Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.26.0"
             }
           ]
         }
@@ -4763,74 +947,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:08.160998146Z",
+      "timestamp": "2025-06-26T03:52:28.869131435Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20210921155107-089bfa567519"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20210921155107-089bfa567519"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:08.208712958Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.11.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:08.258630619Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.17.0"
             }
           ]
         }
@@ -4841,22 +970,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:08.30862435Z",
+      "timestamp": "2025-06-26T03:52:28.993044694Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
             }
           ]
         }
@@ -4867,22 +993,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:08.356660703Z",
+      "timestamp": "2025-06-26T03:52:29.115730731Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.26.0"
             }
           ]
         }
@@ -4893,96 +1016,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:26.998631251Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210315170653-34ac3e1c2000"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210315170653-34ac3e1c2000"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:27.046364913Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20210805182204-aaa1db679c0d"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20210805182204-aaa1db679c0d"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:27.094994478Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.12.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.12.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:27.143342152Z",
+      "timestamp": "2025-06-26T03:55:04.339543231Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
             }
           ]
         }
@@ -4993,21 +1039,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:27.191420065Z",
+      "timestamp": "2025-06-26T03:55:04.485832329Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
             }
           ]
         }
@@ -5018,21 +1062,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:27.240831904Z",
+      "timestamp": "2025-06-26T03:55:04.628438912Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -5043,22 +1085,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:43.696741573Z",
+      "timestamp": "2025-06-26T03:55:04.775255105Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
             }
           ]
         }
@@ -5069,22 +1108,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:43.747420618Z",
+      "timestamp": "2025-06-26T03:55:04.917841788Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
             }
           ]
         }
@@ -5095,22 +1131,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:43.796185644Z",
+      "timestamp": "2025-06-26T03:55:05.06147217Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -5121,96 +1154,75 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
+        "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-04-16T23:06:04.958877808Z",
+      "timestamp": "2025-06-26T03:59:58.541013318Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.17.0"
+              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20231016202603-993540401906"
             }
           ]
         }
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
+        "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-04-16T23:06:05.006038949Z",
+      "timestamp": "2025-06-26T03:59:58.706558525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
+              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20240709130809-47871606146c"
             }
           ]
         }
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
+        "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-04-16T23:06:05.053876223Z",
+      "timestamp": "2025-06-26T03:59:58.875702766Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.26.0"
+              "@id": "pkg:golang/github.com/rancher/steve@v0.0.0-20240913181958-99e479ba0f08"
             }
           ]
         }
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+      "impact_statement": "rancher/steve is a transitory dependency for the kube-api-auth, because rancher/rancher is a dependency, however it's not used in any way."
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:17.971053576Z",
+      "timestamp": "2025-06-26T04:01:35.558941447Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.15.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.15.0"
             }
           ]
         }
@@ -5221,21 +1233,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:18.018535935Z",
+      "timestamp": "2025-06-26T04:01:35.742508229Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
             }
           ]
         }
@@ -5246,21 +1255,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:18.067042688Z",
+      "timestamp": "2025-06-26T04:01:35.922536428Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.22.0"
             }
           ]
         }
@@ -5271,21 +1277,84 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:37.02060772Z",
+      "timestamp": "2025-06-26T04:01:36.100203585Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.15.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:36.280404746Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:36.459295854Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:27.980115722Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
             }
           ]
         }
@@ -5296,21 +1365,150 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22869",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-04-16T23:06:37.069513552Z",
+      "timestamp": "2025-06-26T04:06:28.180887344Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:28.386108597Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:28.591711364Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:28.797067139Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:29.003448623Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:38.034552911Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:38.255932081Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
             }
           ]
         }
@@ -5321,21 +1519,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:37.118783677Z",
+      "timestamp": "2025-06-26T04:10:38.473954119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -5346,21 +1541,84 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:55.060946177Z",
+      "timestamp": "2025-06-26T04:10:38.693778774Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:38.910119966Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:39.131617817Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:54.161417604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
             }
           ]
         }
@@ -5371,21 +1629,106 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-04-16T23:06:55.111103917Z",
+      "timestamp": "2025-06-26T04:19:54.406870274Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:54.652710017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:54.899306378Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:55.145237512Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:55.382551296Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
             }
           ]
         }

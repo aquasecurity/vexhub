@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:53.63771512Z",
-  "version": 28,
+  "last_updated": "2025-06-26T04:19:20.473383906Z",
+  "version": 130,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2023-1515",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-04-16T23:03:14.900421999Z",
+      "timestamp": "2025-06-26T03:46:51.721329715Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@1.0.0"
             }
           ]
         }
@@ -34,22 +31,272 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1519",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-04-16T23:03:15.524340276Z",
+      "timestamp": "2025-06-26T03:46:51.790431234Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:51.86022053Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:51.930504679Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.000697128Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.070525714Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.14033144Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.210820881Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.280013761Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.351183619Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.420857753Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.491971971Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.047556541Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@1.0.0"
             }
           ]
         }
@@ -60,22 +307,272 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1699",
+        "name": "CVE-2022-43756",
         "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
         ]
       },
-      "timestamp": "2025-04-16T23:03:23.654966562Z",
+      "timestamp": "2025-06-26T03:46:56.120712337Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.191545591Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.262665479Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.334106059Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.403689222Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.474363086Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.54404347Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.614112048Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.687860599Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.758132768Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.830047093Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:42.755682048Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -86,22 +583,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1700",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:03:24.249777041Z",
+      "timestamp": "2025-06-26T03:49:42.857885018Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -112,22 +606,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1701",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:03:24.838842024Z",
+      "timestamp": "2025-06-26T03:49:42.960152678Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -138,72 +629,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2048",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "GHSA-6xv5-86q9-7xr8"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:03:35.056823491Z",
+      "timestamp": "2025-06-26T03:49:43.061089646Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.3"
-            },
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2412",
-        "aliases": [
-          "GHSA-7ww5-4wqc-m92c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:59.695826103Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@v1.7.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/containerd/containerd@1.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:10.225959941Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -214,22 +652,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2512",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:04:10.271098318Z",
+      "timestamp": "2025-06-26T03:49:43.163170344Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v24.0.7+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@24.0.7+incompatible"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
             }
           ]
         }
@@ -240,22 +675,180 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2554",
+        "name": "CVE-2024-24557",
         "aliases": [
-          "CVE-2024-25620",
-          "GHSA-v53g-5gjp-272r"
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-04-16T23:04:13.228149671Z",
+      "timestamp": "2025-06-26T03:49:43.263436056Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.363804568Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.466493892Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.567964595Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.670677919Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.771547826Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:43.873644705Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:39.665543756Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
-            },
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@3.12.1"
             }
           ]
         }
@@ -266,22 +859,272 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2575",
+        "name": "CVE-2024-25620",
         "aliases": [
-          "CVE-2024-26147",
-          "GHSA-r53h-jv2g-vpx6"
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
         ]
       },
-      "timestamp": "2025-04-16T23:04:13.681866557Z",
+      "timestamp": "2025-06-26T03:50:39.775397335Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:39.88581565Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:39.997534558Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.107252876Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.216131717Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.327956345Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.435397872Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.545883537Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.655089411Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.763058553Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:40.875092963Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.184676118Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
-            },
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@3.12.1"
             }
           ]
         }
@@ -292,22 +1135,271 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2659",
+        "name": "CVE-2024-26147",
         "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
         ]
       },
-      "timestamp": "2025-04-16T23:04:26.609228371Z",
+      "timestamp": "2025-06-26T03:50:42.293074154Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.400840974Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.509413112Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.617505055Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.730793327Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.84099963Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:42.952252262Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:43.061433976Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:43.170510958Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:43.281708271Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:43.391006075Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.12.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:34.106071454Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -318,22 +1410,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2737",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:33.911987075Z",
+      "timestamp": "2025-06-26T03:51:34.224387842Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -344,21 +1432,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-41110"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:51.200315314Z",
+      "timestamp": "2025-06-26T03:51:34.347712036Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.24+incompatible"
             }
           ]
         }
@@ -369,21 +1454,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-41110"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:51.24404565Z",
+      "timestamp": "2025-06-26T03:51:34.46459348Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v24.0.7+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@24.0.7+incompatible"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
             }
           ]
         }
@@ -394,22 +1476,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:05:07.396043863Z",
+      "timestamp": "2025-06-26T03:51:34.580044522Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.21.0"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
             }
           ]
         }
@@ -420,22 +1498,173 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:05:07.440580511Z",
+      "timestamp": "2025-06-26T03:51:34.701247306Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:34.822980425Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:34.942748726Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:35.065857378Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:35.187570547Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:35.304644633Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:35.423185713Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.24+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:23.714495324Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.22.0"
             }
           ]
         }
@@ -446,22 +1675,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:42.178326354Z",
+      "timestamp": "2025-06-26T03:52:23.837933708Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
             }
           ]
         }
@@ -472,22 +1698,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:42.222759952Z",
+      "timestamp": "2025-06-26T03:52:23.958709106Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:24.083184719Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:55.843162854Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.24.0"
             }
           ]
         }
@@ -498,71 +1767,87 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:06:04.513868472Z",
+      "timestamp": "2025-06-26T03:54:55.987315571Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.22.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:06:04.558579742Z",
+      "timestamp": "2025-06-26T03:54:56.133776741Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.32.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2025-22868"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:06:16.942362984Z",
+      "timestamp": "2025-06-26T03:54:56.279851006Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:12.63620155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.16.0"
             }
           ]
         }
@@ -573,21 +1858,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:16.986612275Z",
+      "timestamp": "2025-06-26T04:01:12.816542194Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.25.0"
             }
           ]
         }
@@ -598,21 +1880,524 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:35.849395344Z",
+      "timestamp": "2025-06-26T04:01:12.997047029Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:13.176414614Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:13.358317222Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:13.537235132Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:13.720068569Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:13.899853388Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:14.075505508Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:14.258467966Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:14.440928109Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:14.621448275Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:14.794772013Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:19.623798702Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:19.819611096Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:20.019194406Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:20.21713592Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:20.414673371Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:20.617901755Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:20.830296977Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:21.036297967Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:21.234868048Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:21.442429523Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:21.647459285Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:21.858937187Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:20.116753893Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.24.0"
             }
           ]
         }
@@ -623,21 +2408,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:35.89345858Z",
+      "timestamp": "2025-06-26T04:10:20.333629583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.34.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.34.0"
             }
           ]
         }
@@ -648,21 +2430,238 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:53.592526432Z",
+      "timestamp": "2025-06-26T04:10:20.554345349Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:20.76919234Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:20.982796849Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:21.195023816Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:21.403327285Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:21.616651212Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:21.832588453Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:22.044248664Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:22.261523737Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:22.474715483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:17.75927542Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.24.0"
             }
           ]
         }
@@ -673,21 +2672,238 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-04-16T23:06:53.63771593Z",
+      "timestamp": "2025-06-26T04:19:18.0029191Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.34.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:18.256230541Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.0",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.34.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:18.50406936Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:18.748934681Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v0.0.0-kuberlr.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:18.999617397Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v5.0.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:19.248711768Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:19.501059389Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v6.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:19.746196353Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:19.988199547Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v7.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:20.231104239Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:20.473384756Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator/tests@v8.0.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
             }
           ]
         }

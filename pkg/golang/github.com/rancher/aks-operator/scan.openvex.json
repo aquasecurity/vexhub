@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:53.40984278Z",
-  "version": 29,
+  "last_updated": "2025-06-26T04:27:14.153593881Z",
+  "version": 39,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2024-3250",
+        "name": "CVE-2024-51744",
         "aliases": [
-          "CVE-2024-51744",
-          "GHSA-29wx-vh33-7x7r"
+          "GHSA-29wx-vh33-7x7r",
+          "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-04-16T23:04:53.589717789Z",
+      "timestamp": "2025-06-26T03:59:43.582860129Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@4.5.0"
             }
           ]
         }
@@ -34,429 +31,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:05:07.175131429Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.23.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:07.219154005Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:07.262751809Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.28.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:07.307098187Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.29.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:25.612590309Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.25.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:25.656846656Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:25.702051437Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.30.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:25.746970827Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.31.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.31.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:25.791579205Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.32.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.32.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:41.910716331Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.25.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:41.955576111Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:41.999674897Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.30.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:42.045466031Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.31.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.31.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:04.336610436Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.29.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:04.380761634Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.32.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:04.42664398Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.33.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.33.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3488",
-        "aliases": [
-          "CVE-2025-22868"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:16.634305892Z",
+      "timestamp": "2025-06-26T04:01:07.83655901Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.20.0"
             }
           ]
         }
@@ -467,21 +53,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:16.678299442Z",
+      "timestamp": "2025-06-26T04:01:08.011349182Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
             }
           ]
         }
@@ -492,21 +75,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:16.723591659Z",
+      "timestamp": "2025-06-26T04:01:08.185055123Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.22.0"
             }
           ]
         }
@@ -517,21 +97,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:16.767051836Z",
+      "timestamp": "2025-06-26T04:01:08.359496632Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
             }
           ]
         }
@@ -542,21 +119,480 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:35.630916405Z",
+      "timestamp": "2025-06-26T04:01:08.537000939Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:08.716668987Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:08.890800572Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.067756034Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.24620506Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.423847689Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.5-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.597342139Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.777039896Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.6-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:09.954601234Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:10.12976407Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:10.310546637Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:10.492047572Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:10.668490089Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:10.849094765Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.3-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.024109809Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.10",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.203448524Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.10-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.383246112Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.56078601Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.735888125Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.9",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:11.916016396Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.9-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:19.221639643Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:19.26586995Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.34.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.34.0"
             }
           ]
         }
@@ -567,21 +603,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-04-16T23:06:35.675405914Z",
+      "timestamp": "2025-06-26T04:19:14.531517267Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.35.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
             }
           ]
         }
@@ -592,130 +625,223 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3553",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-30204",
-          "GHSA-mh63-6h87-95cp"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-04-16T23:06:47.802830511Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@4.5.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3553",
-        "aliases": [
-          "CVE-2025-30204",
-          "GHSA-mh63-6h87-95cp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:47.846605032Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.1"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@4.5.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3553",
-        "aliases": [
-          "CVE-2025-30204",
-          "GHSA-mh63-6h87-95cp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:47.890362983Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.2.1"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang-jwt/jwt/v5@5.2.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3595",
-        "aliases": [
-          "CVE-2025-22872"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:53.364074379Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/aks-operator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.35.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3595",
-        "aliases": [
-          "CVE-2025-22872"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:53.40984332Z",
+      "timestamp": "2025-06-26T04:19:14.78715032Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.37.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.37.0"
             }
           ]
         }
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:15.025352628Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:15.27459774Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:15.528339845Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:15.772888053Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:16.016918206Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:16.261732117Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:16.511253482Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:16.750143556Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-30204",
+        "aliases": [
+          "GHSA-mh63-6h87-95cp",
+          "GO-2025-3553"
+        ]
+      },
+      "timestamp": "2025-06-26T04:27:14.153594621Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]

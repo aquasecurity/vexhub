@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-19T11:05:18.399578715Z",
-  "version": 5,
+  "last_updated": "2025-06-26T04:20:20.295104315Z",
+  "version": 13,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2023-1515",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-02-19T11:02:48.111499739Z",
+      "timestamp": "2025-06-26T03:46:52.915863339Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.8"
             }
           ]
         }
@@ -34,22 +31,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1519",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-02-19T11:02:48.750499874Z",
+      "timestamp": "2025-06-26T03:46:52.985922987Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:57.251233387Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.8"
             }
           ]
         }
@@ -60,21 +77,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2022-43756",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
         ]
       },
-      "timestamp": "2025-02-19T11:05:01.583636864Z",
+      "timestamp": "2025-06-26T03:46:57.324396242Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.8"
             }
           ]
         }
@@ -85,22 +100,174 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-02-19T11:05:18.399579365Z",
+      "timestamp": "2025-06-26T03:55:18.204743527Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:18.348457816Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:54.410087284Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:54.594001278Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:57.264465019Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:57.491413716Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:20.051092085Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:20.295104905Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/ui-plugin-operator@v0.1.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
             }
           ]
         }

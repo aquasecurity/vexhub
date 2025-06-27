@@ -3,79 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:53.911791573Z",
-  "version": 17,
+  "last_updated": "2025-06-26T04:19:28.311743892Z",
+  "version": 55,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-04-16T23:03:02.043585014Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/csp-adapter",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.30.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:02.089252216Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/csp-adapter",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.31.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.31.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1515",
-        "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:14.943823694Z",
+      "timestamp": "2025-06-26T03:46:52.565127886Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.11-0.20220411195911-c2b951ab3480"
             }
           ]
         }
@@ -86,22 +31,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1519",
+        "name": "CVE-2022-31249",
         "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
         ]
       },
-      "timestamp": "2025-04-16T23:03:15.568256533Z",
+      "timestamp": "2025-06-26T03:46:52.63369256Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-31249",
+        "aliases": [
+          "GHSA-qrg7-hfx7-95c5",
+          "GO-2023-1519"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:52.704275963Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:56.900424833Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@0.8.11-0.20220411195911-c2b951ab3480"
             }
           ]
         }
@@ -112,22 +100,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2536",
+        "name": "CVE-2022-43756",
         "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
         ]
       },
-      "timestamp": "2025-04-16T23:04:12.488644514Z",
+      "timestamp": "2025-06-26T03:46:56.970621452Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-43756",
+        "aliases": [
+          "GHSA-8fcj-gf77-47mg",
+          "GO-2023-1515"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:57.040488608Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/wrangler@v0.8.11-0.20220411195911-c2b951ab3480"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.606403597Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20220406153559-82478fb169cb"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20220406153559-82478fb169cb"
             }
           ]
         }
@@ -138,22 +169,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:18.377763771Z",
+      "timestamp": "2025-06-26T03:47:06.681871058Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.31.0"
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20220406153559-82478fb169cb"
             }
           ]
         }
@@ -164,22 +192,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:55.483880904Z",
+      "timestamp": "2025-06-26T03:47:06.755263518Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20220406153559-82478fb169cb"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:22.764314443Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.30.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.30.1"
             }
           ]
         }
@@ -190,21 +238,111 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-04-16T23:05:26.104303775Z",
+      "timestamp": "2025-06-26T03:49:22.861229904Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v4.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:11.500149497Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:11.602863898Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:11.707504287Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:57.281616041Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
             }
           ]
         }
@@ -215,21 +353,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:26.1481074Z",
+      "timestamp": "2025-06-26T03:54:57.42804007Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.26.0"
             }
           ]
         }
@@ -240,21 +376,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:26.191641784Z",
+      "timestamp": "2025-06-26T03:54:57.573306058Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
             }
           ]
         }
@@ -265,22 +399,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:42.449361851Z",
+      "timestamp": "2025-06-26T03:54:57.716534547Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.19.0"
             }
           ]
         }
@@ -291,22 +422,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:42.493720639Z",
+      "timestamp": "2025-06-26T03:54:57.856122602Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:57.997252201Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v4.0.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.26.0"
             }
           ]
         }
@@ -317,22 +468,41 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:42.538409458Z",
+      "timestamp": "2025-06-26T03:54:58.140536751Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v5.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:17.648792569Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
             }
           ]
         }
@@ -343,21 +513,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:17.250272585Z",
+      "timestamp": "2025-06-26T04:01:17.826950592Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
             }
           ]
         }
@@ -368,21 +535,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:36.20525683Z",
+      "timestamp": "2025-06-26T04:01:18.009592037Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.26.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
             }
           ]
         }
@@ -393,21 +557,656 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:53.911792513Z",
+      "timestamp": "2025-06-26T04:01:18.187409097Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:18.365673132Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:18.550442917Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:18.726876984Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v4.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:18.902849647Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v5.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:19.084274171Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:19.261633747Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:19.444157621Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v7.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:25.481848538Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:25.697980881Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/csp-adapter",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.26.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:25.908264349Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.26.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:26.122991609Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:26.335895492Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:26.545033769Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:26.760477115Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v4.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:26.976865091Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v5.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:27.191835763Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:27.408218068Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:25.602057073Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:25.845404761Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:26.089391755Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:26.334424369Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:26.581049249Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:26.827402115Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:27.06927878Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v3.0.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.19.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:27.312273195Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v4.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:27.56380314Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v5.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:27.819687695Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:28.064940242Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v6.0.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:28.311744482Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/csp-adapter@v7.0.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.36.0"
             }
           ]
         }

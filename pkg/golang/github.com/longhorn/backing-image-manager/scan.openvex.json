@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-05-19T01:34:40.630545446Z",
-  "version": 19,
+  "last_updated": "2025-06-26T04:18:30.706415733Z",
+  "version": 44,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0635",
+        "name": "CVE-2020-8911",
         "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-05-19T01:30:59.7808471Z",
+      "timestamp": "2025-06-26T03:46:11.750375197Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.34.2"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.34.2"
             }
           ]
         }
@@ -34,22 +31,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0635",
+        "name": "CVE-2020-8911",
         "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-05-19T01:30:59.823371315Z",
+      "timestamp": "2025-06-26T03:46:11.807824335Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.5"
             }
           ]
         }
@@ -60,22 +54,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0635",
+        "name": "CVE-2020-8911",
         "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-05-19T01:30:59.86634254Z",
+      "timestamp": "2025-06-26T03:46:11.866053228Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.6"
             }
           ]
         }
@@ -86,22 +77,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0635",
+        "name": "CVE-2020-8911",
         "aliases": [
-          "CVE-2020-8912",
-          "GHSA-7f33-f4f5-xwgw"
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-05-19T01:30:59.909078703Z",
+      "timestamp": "2025-06-26T03:46:11.925613151Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.7"
             }
           ]
         }
@@ -112,22 +100,318 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0646",
+        "name": "CVE-2020-8911",
         "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-05-19T01:31:03.998930457Z",
+      "timestamp": "2025-06-26T03:46:11.98329832Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.34.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.041197981Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.09881564Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.157156824Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.215016084Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.273303238Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.332235736Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.393386682Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.452429091Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.512894892Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.574346849Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.637928103Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:12.700309338Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:28.699157188Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.34.2"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.34.2"
             }
           ]
         }
@@ -138,22 +422,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0646",
+        "name": "CVE-2020-8912",
         "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-05-19T01:31:04.04232165Z",
+      "timestamp": "2025-06-26T03:46:28.763145345Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.5"
             }
           ]
         }
@@ -164,22 +445,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0646",
+        "name": "CVE-2020-8912",
         "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-05-19T01:31:04.085008557Z",
+      "timestamp": "2025-06-26T03:46:28.827958079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.6"
             }
           ]
         }
@@ -190,22 +468,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0646",
+        "name": "CVE-2020-8912",
         "aliases": [
-          "CVE-2020-8911",
-          "GHSA-f5pg-7wfw-84q9"
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-05-19T01:31:04.128415356Z",
+      "timestamp": "2025-06-26T03:46:28.896068774Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
-            },
-            {
-              "@id": "pkg:golang/github.com/aws/aws-sdk-go@1.55.7"
             }
           ]
         }
@@ -216,21 +491,318 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2020-8912",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-05-19T01:33:11.850381171Z",
+      "timestamp": "2025-06-26T03:46:28.961874277Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.34.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.025103047Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.09191889Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.157472311Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.222741799Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.2871281Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.350839034Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.415718129Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.481828565Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.550751618Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.617328668Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.680715659Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:29.744652095Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:27.040446188Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
@@ -241,21 +813,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-05-19T01:33:11.89199616Z",
+      "timestamp": "2025-06-26T03:54:27.177773164Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }
@@ -266,72 +836,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2024-45338"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-05-19T01:33:11.933790695Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.30.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-05-19T01:33:11.975457008Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.32.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.32.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-05-19T01:33:26.777858489Z",
+      "timestamp": "2025-06-26T04:18:29.222004013Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
@@ -342,73 +858,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-05-19T01:33:26.821929254Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.30.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-05-19T01:33:26.866167861Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.32.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.32.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3595",
-        "aliases": [
-          "CVE-2025-22872"
-        ]
-      },
-      "timestamp": "2025-05-19T01:34:40.543167117Z",
+      "timestamp": "2025-06-26T04:18:29.461159856Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.33.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.33.0"
             }
           ]
         }
@@ -419,21 +880,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-05-19T01:34:40.586973385Z",
+      "timestamp": "2025-06-26T04:18:29.718733811Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.34.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.34.0"
             }
           ]
         }
@@ -444,21 +902,84 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-05-19T01:34:40.630546201Z",
+      "timestamp": "2025-06-26T04:18:29.978700908Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.36.0"
-            },
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:30.227697873Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.36.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:30.464546414Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:30.706416623Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
             }
           ]
         }

@@ -3,651 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:50.954946745Z",
-  "version": 54,
+  "last_updated": "2025-06-26T04:18:00.630711322Z",
+  "version": 138,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:03:00.808139969Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:00.852660947Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:00.897032153Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-1144",
-        "aliases": [
-          "CVE-2022-41717",
-          "GHSA-xrjj-mj9h-534m"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:12.695506779Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20220906165146-f3363e06e74c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20220906165146-f3363e06e74c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1495",
-        "aliases": [
-          "CVE-2022-41721",
-          "GHSA-fxg5-wq6x-vr4w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:13.840231424Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20220906165146-f3363e06e74c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20220906165146-f3363e06e74c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1515",
-        "aliases": [
-          "CVE-2022-43756",
-          "GHSA-8fcj-gf77-47mg"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:14.721106925Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.1-0.20220520195731-8eeded9bae2a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@1.0.1-0.20220520195731-8eeded9bae2a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1519",
-        "aliases": [
-          "CVE-2022-31249",
-          "GHSA-qrg7-hfx7-95c5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:15.348938299Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@v1.0.1-0.20220520195731-8eeded9bae2a"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/wrangler@1.0.1-0.20220520195731-8eeded9bae2a"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1628",
-        "aliases": [
-          "CVE-2022-3162",
-          "GHSA-2394-5535-8j88"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.727408476Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1629",
-        "aliases": [
-          "CVE-2022-3294",
-          "GHSA-jh36-q97c-9928"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.951709522Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:19.632164167Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1864",
-        "aliases": [
-          "CVE-2023-2431",
-          "GHSA-xc8m-28vv-4pjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:25.986462351Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1891",
-        "aliases": [
-          "CVE-2023-2727",
-          "GHSA-qc2g-gmh6-95p4"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.213037152Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1892",
-        "aliases": [
-          "CVE-2023-2728",
-          "GHSA-cgcv-5272-97pr"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:26.439925664Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:27.908342185Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20220906165146-f3363e06e74c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20220906165146-f3363e06e74c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:35.871987652Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20220906165146-f3363e06e74c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20220906165146-f3363e06e74c"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:48.692427163Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:48.737728148Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:48.782869393Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.78472669Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.830078475Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.875022209Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2341",
-        "aliases": [
-          "CVE-2023-5528",
-          "GHSA-hq6q-c2x6-hmch"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:51.902830058Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2402",
-        "aliases": [
-          "CVE-2023-48795",
-          "GHSA-45x7-px36-x8w8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:53.07692197Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220321153916-2c7772ba3064"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220321153916-2c7772ba3064"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2402",
-        "aliases": [
-          "CVE-2023-48795",
-          "GHSA-45x7-px36-x8w8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:53.121742118Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2536",
-        "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:12.442953015Z",
+      "timestamp": "2025-06-26T03:47:05.650425577Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20221205184727-32ef2e185b99"
             }
           ]
         }
@@ -658,22 +31,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:15.00554196Z",
+      "timestamp": "2025-06-26T03:47:05.724223161Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.1"
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
             }
           ]
         }
@@ -684,48 +54,571 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:15.056725924Z",
+      "timestamp": "2025-06-26T03:47:05.79647713Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.31.0"
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:15.103903341Z",
+      "timestamp": "2025-06-26T03:47:05.870484696Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:05.944175339Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.01865735Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.091365684Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.16442225Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.237140004Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.309692306Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.382920364Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.455282634Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:06.530596843Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.923727622Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.020982765Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.118243048Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.213636224Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.310882268Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.40914832Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.508765005Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.609223598Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.706396881Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.810242285Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:20.912431964Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:21.008736739Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:21.107172123Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:00.156690766Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.32.0"
             }
           ]
         }
@@ -736,74 +629,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2746",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-04-16T23:04:35.59931945Z",
+      "timestamp": "2025-06-26T03:50:00.260567718Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2746",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:35.644641879Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:35.690607601Z",
+      "timestamp": "2025-06-26T03:51:10.172002562Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
             }
           ]
         }
@@ -814,74 +675,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:54.540618233Z",
+      "timestamp": "2025-06-26T03:51:10.2864595Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.23.14"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.23.14"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3286",
-        "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:54.585858874Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3286",
-        "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:54.630677995Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.26.13"
             }
           ]
         }
@@ -892,21 +698,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-45337"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:57.742802727Z",
+      "timestamp": "2025-06-26T03:51:10.400889538Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220321153916-2c7772ba3064"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220321153916-2c7772ba3064"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
             }
           ]
         }
@@ -917,21 +721,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-45337"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:57.789142013Z",
+      "timestamp": "2025-06-26T03:51:10.516040022Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
             }
           ]
         }
@@ -942,21 +744,226 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-45337"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:57.833974882Z",
+      "timestamp": "2025-06-26T03:51:10.630099777Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:10.745474834Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:10.861365965Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:10.975844583Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:11.089761996Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:11.203231876Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:11.313908719Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:11.428006054Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:11.538391124Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:58.160878795Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.18.0"
             }
           ]
         }
@@ -967,100 +974,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:02.201315694Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220321153916-2c7772ba3064"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220321153916-2c7772ba3064"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:02.246411494Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:02.292179198Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.18.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:02.339142296Z",
+      "timestamp": "2025-06-26T03:51:58.278730504Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.21.0"
             }
           ]
         }
@@ -1071,21 +997,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.866435633Z",
+      "timestamp": "2025-06-26T03:51:58.397790905Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.0.0-20220906165146-f3363e06e74c"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.0.0-20220906165146-f3363e06e74c"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
             }
           ]
         }
@@ -1096,21 +1020,272 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.912423717Z",
+      "timestamp": "2025-06-26T03:51:58.518078417Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:58.637679973Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:58.758060066Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:58.881137783Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.00520317Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.12305391Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.243100509Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.363288761Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.483389321Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.608037093Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:59.72670033Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:09.434023662Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -1121,21 +1296,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.957302987Z",
+      "timestamp": "2025-06-26T03:54:09.567980422Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
@@ -1146,22 +1319,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:33.392705094Z",
+      "timestamp": "2025-06-26T03:54:09.708105649Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -1172,22 +1342,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:33.437983065Z",
+      "timestamp": "2025-06-26T03:54:09.841959338Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
@@ -1198,22 +1365,249 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3372",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45339",
-          "GHSA-6wxm-mpqj-6jpf"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:57.756907594Z",
+      "timestamp": "2025-06-26T03:54:09.979859425Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.112454082Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.24840546Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.388041813Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.524360845Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.660179052Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.797554523Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:10.934276799Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:11.071340068Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:11.205943844Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:35.799425075Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang/glog@1.1.2"
             }
           ]
         }
@@ -1224,71 +1618,294 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:01.17943856Z",
+      "timestamp": "2025-06-26T03:59:35.973151793Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.18.0"
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:01.225193085Z",
+      "timestamp": "2025-06-26T03:59:36.145161676Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.21.0"
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
             }
           ]
         }
       ],
       "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22868"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.985536559Z",
+      "timestamp": "2025-06-26T03:59:36.317086857Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:36.48806467Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:36.653173068Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:36.826521903Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:36.992202547Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:37.159515525Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:37.329541239Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:37.493538167Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:37.663516031Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:37.834933638Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:28.727358407Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.13.0"
             }
           ]
         }
@@ -1299,21 +1916,590 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.945448322Z",
+      "timestamp": "2025-06-26T04:00:28.904463793Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.080816491Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.258788115Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.435611247Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.620699037Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.798405089Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:29.976616364Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:30.164247378Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:30.3388717Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:30.514779964Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:30.691647327Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:30.870027915Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:45.217401531Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:45.419348287Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:45.617453187Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.18.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:45.810724621Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:46.015033219Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:46.222597337Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:46.429928563Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:46.633833767Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:46.825614918Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:47.03044088Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:47.229144076Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:47.429974451Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:47.627918589Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:47.82935284Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:05.662685449Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -1324,21 +2510,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.99156534Z",
+      "timestamp": "2025-06-26T04:09:05.874746868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
             }
           ]
         }
@@ -1349,21 +2532,568 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.954947145Z",
+      "timestamp": "2025-06-26T04:09:06.094634791Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:06.315494253Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:06.536820509Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:06.759014374Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:06.978554114Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:07.196386787Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:07.408370976Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:07.625768155Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:07.845315795Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:08.062073908Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:08.279903682Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:09:08.502623921Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:57.487543173Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:57.725829973Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:57.966085313Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.23.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:58.207860737Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:58.444827615Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:58.682946464Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:58.922597188Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:59.170021345Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:59.41621446Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:59.657384678Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:59.894886022Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:00.135712637Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:00.381413827Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:18:00.630712172Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
             }
           ]
         }

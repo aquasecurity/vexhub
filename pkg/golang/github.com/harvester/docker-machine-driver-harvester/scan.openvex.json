@@ -3,521 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:50.508903817Z",
-  "version": 75,
+  "last_updated": "2025-06-26T04:17:39.225879771Z",
+  "version": 83,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2019-14271",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-v2cv-wwxq-qq97",
+          "GO-2024-2521"
         ]
       },
-      "timestamp": "2025-04-16T23:03:00.489946154Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0617",
-        "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:00.534918463Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.30.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0638",
-        "aliases": [
-          "CVE-2015-3630",
-          "GHSA-8fvr-5rqf-3wwh"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:06.418509968Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2022-0647",
-        "aliases": [
-          "CVE-2015-3629",
-          "GHSA-g44j-7vp3-68cv"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:10.475031153Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1628",
-        "aliases": [
-          "CVE-2022-3162",
-          "GHSA-2394-5535-8j88"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.638031056Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1629",
-        "aliases": [
-          "CVE-2022-3294",
-          "GHSA-jh36-q97c-9928"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.863876978Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:19.359432168Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:19.404845033Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1699",
-        "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:23.473824796Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1699",
-        "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:23.518806539Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1700",
-        "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.069544328Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1700",
-        "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.113974779Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1701",
-        "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.656652564Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1701",
-        "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.701421746Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:27.62946461Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:35.782501577Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2170",
-        "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:48.602149224Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2330",
-        "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:49.648870655Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2500",
-        "aliases": [
-          "CVE-2021-41091",
-          "GHSA-3fwx-pjgw-3558"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:07.304913105Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2500",
-        "aliases": [
-          "CVE-2021-41091",
-          "GHSA-3fwx-pjgw-3558"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:07.349863893Z",
+      "timestamp": "2025-06-26T03:46:08.24310944Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -528,22 +31,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2512",
+        "name": "CVE-2019-14271",
         "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
+          "GHSA-v2cv-wwxq-qq97",
+          "GO-2024-2521"
         ]
       },
-      "timestamp": "2025-04-16T23:04:07.892707048Z",
+      "timestamp": "2025-06-26T03:46:08.299427899Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -554,22 +54,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2512",
+        "name": "CVE-2019-14271",
         "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
+          "GHSA-v2cv-wwxq-qq97",
+          "GO-2024-2521"
         ]
       },
-      "timestamp": "2025-04-16T23:04:07.938203197Z",
+      "timestamp": "2025-06-26T03:46:08.355787208Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -580,48 +77,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2512",
+        "name": "CVE-2021-41089",
         "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
+          "GHSA-v994-f8vw-g7j4",
+          "GO-2024-2913"
         ]
       },
-      "timestamp": "2025-04-16T23:04:07.984636171Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.9+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:08.029922999Z",
+      "timestamp": "2025-06-26T03:46:44.982648572Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -632,22 +100,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2521",
+        "name": "CVE-2021-41089",
         "aliases": [
-          "CVE-2019-14271",
-          "GHSA-v2cv-wwxq-qq97"
+          "GHSA-v994-f8vw-g7j4",
+          "GO-2024-2913"
         ]
       },
-      "timestamp": "2025-04-16T23:04:11.666621716Z",
+      "timestamp": "2025-06-26T03:46:45.050645761Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -658,22 +123,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2521",
+        "name": "CVE-2021-41089",
         "aliases": [
-          "CVE-2019-14271",
-          "GHSA-v2cv-wwxq-qq97"
+          "GHSA-v994-f8vw-g7j4",
+          "GO-2024-2913"
         ]
       },
-      "timestamp": "2025-04-16T23:04:11.711333132Z",
+      "timestamp": "2025-06-26T03:46:45.120447417Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-41091",
+        "aliases": [
+          "GHSA-3fwx-pjgw-3558",
+          "GO-2024-2500"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:45.899240485Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -684,22 +169,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2536",
+        "name": "CVE-2021-41091",
         "aliases": [
-          "CVE-2023-32193",
-          "GHSA-r8f4-hv23-6qp6"
+          "GHSA-3fwx-pjgw-3558",
+          "GO-2024-2500"
         ]
       },
-      "timestamp": "2025-04-16T23:04:12.215320748Z",
+      "timestamp": "2025-06-26T03:46:45.969108301Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-41091",
+        "aliases": [
+          "GHSA-3fwx-pjgw-3558",
+          "GO-2024-2500"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:46.037619995Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:03.306332277Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
-            },
-            {
-              "@id": "pkg:golang/github.com/rancher/norman@0.0.0-20221205184727-32ef2e185b99"
             }
           ]
         }
@@ -710,22 +238,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-32193",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-04-16T23:04:14.40907856Z",
+      "timestamp": "2025-06-26T03:47:03.378691296Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3676",
+        "aliases": [
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:08.081775173Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
             }
           ]
         }
@@ -736,22 +284,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-04-16T23:04:14.453555024Z",
+      "timestamp": "2025-06-26T03:47:08.154209074Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3955",
+        "aliases": [
+          "GHSA-q78c-gwqw-jcmc",
+          "GO-2023-2170"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:31.759451174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.0"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
             }
           ]
         }
@@ -762,22 +330,249 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2023-3955",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-q78c-gwqw-jcmc",
+          "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-04-16T23:04:14.497973629Z",
+      "timestamp": "2025-06-26T03:47:31.838092449Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.343294041Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.440660405Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:33.998421662Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.094979679Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.194174801Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.292352663Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.389047942Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.486350506Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GHSA-xw73-rw38-6vjc",
+          "GO-2024-2512"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:34.584646959Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:58.271270202Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.31.0"
             }
           ]
         }
@@ -788,22 +583,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2659",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-04-16T23:04:24.424059725Z",
+      "timestamp": "2025-06-26T03:49:58.377630987Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
             }
           ]
         }
@@ -814,152 +606,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2659",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:24.468680412Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2659",
-        "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:24.514027231Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.9+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:31.658024117Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:31.705398655Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:31.75185755Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.9+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2746",
-        "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:35.46304777Z",
+      "timestamp": "2025-06-26T03:51:09.486644865Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
             }
           ]
         }
@@ -970,22 +629,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2913",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2021-41089",
-          "GHSA-v994-f8vw-g7j4"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:40.645229607Z",
+      "timestamp": "2025-06-26T03:51:09.602356605Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
             }
           ]
         }
@@ -996,22 +652,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2913",
+        "name": "CVE-2024-36621",
         "aliases": [
-          "CVE-2021-41089",
-          "GHSA-v994-f8vw-g7j4"
+          "GHSA-2mj3-vfvx-fc43",
+          "GO-2024-3304"
         ]
       },
-      "timestamp": "2025-04-16T23:04:40.690558297Z",
+      "timestamp": "2025-06-26T03:51:18.086701224Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -1022,21 +675,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2961",
+        "name": "CVE-2024-36621",
         "aliases": [
-          "CVE-2022-30636"
+          "GHSA-2mj3-vfvx-fc43",
+          "GO-2024-3304"
         ]
       },
-      "timestamp": "2025-04-16T23:04:41.016481383Z",
+      "timestamp": "2025-06-26T03:51:18.202457594Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-36621",
+        "aliases": [
+          "GHSA-2mj3-vfvx-fc43",
+          "GO-2024-3304"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:18.314822583Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-36623",
+        "aliases": [
+          "GHSA-gh5c-3h97-2f3q",
+          "GO-2024-3305"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:19.374915394Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220411220226-7b82a4e95df4"
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -1047,21 +744,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-36623",
         "aliases": [
-          "CVE-2024-41110"
+          "GHSA-gh5c-3h97-2f3q",
+          "GO-2024-3305"
         ]
       },
-      "timestamp": "2025-04-16T23:04:48.690549359Z",
+      "timestamp": "2025-06-26T03:51:19.495804542Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@1.4.2-0.20200203170920-46ec8731fbce"
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
             }
           ]
         }
@@ -1072,21 +767,41 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-36623",
         "aliases": [
-          "CVE-2024-41110"
+          "GHSA-gh5c-3h97-2f3q",
+          "GO-2024-3305"
         ]
       },
-      "timestamp": "2025-04-16T23:04:48.737289357Z",
+      "timestamp": "2025-06-26T03:51:19.615251306Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:23.499169546Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
             }
           ]
         }
@@ -1097,21 +812,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-41110"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:48.7828822Z",
+      "timestamp": "2025-06-26T03:51:23.616829988Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.9+incompatible"
             }
           ]
         }
@@ -1122,21 +834,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3005",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-41110"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:48.828290883Z",
+      "timestamp": "2025-06-26T03:51:23.733890234Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
           "subcomponents": [
             {
-              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.9+incompatible"
             }
           ]
         }
@@ -1147,22 +856,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3286",
+        "name": "CVE-2024-41110",
         "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
+          "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-04-16T23:04:54.404487345Z",
+      "timestamp": "2025-06-26T03:51:23.853742745Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.10"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.10"
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
             }
           ]
         }
@@ -1173,151 +878,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3304",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-36621",
-          "GHSA-2mj3-vfvx-fc43"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:04:56.748861475Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3305",
-        "aliases": [
-          "CVE-2024-36623",
-          "GHSA-gh5c-3h97-2f3q"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:56.839737139Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3311",
-        "aliases": [
-          "CVE-2024-36620",
-          "GHSA-q59j-vv4j-v33c"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:56.930322822Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/moby/moby@v1.4.2-0.20170731201646-1009e6a40b29"
-            },
-            {
-              "@id": "pkg:golang/github.com/moby/moby@1.4.2-0.20170731201646-1009e6a40b29"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:57.157666743Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:01.10742795Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220411220226-7b82a4e95df4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:01.152327079Z",
+      "timestamp": "2025-06-26T03:51:53.359255965Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.14.0"
             }
           ]
         }
@@ -1328,48 +901,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:01.198678175Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.19.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.19.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:01.245400023Z",
+      "timestamp": "2025-06-26T03:51:53.479843328Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
             }
           ]
         }
@@ -1380,22 +924,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:01.291219227Z",
+      "timestamp": "2025-06-26T03:51:53.596688816Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
             }
           ]
         }
@@ -1406,21 +947,111 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-04-16T23:05:16.650068617Z",
+      "timestamp": "2025-06-26T03:51:53.719190107Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:53.837409058Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:53.958373355Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:54.081935667Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:02.898296487Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -1431,46 +1062,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:16.696453753Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.21.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:16.742298457Z",
+      "timestamp": "2025-06-26T03:54:03.036167703Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
             }
           ]
         }
@@ -1481,21 +1085,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:16.78811084Z",
+      "timestamp": "2025-06-26T03:54:03.171977799Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
             }
           ]
         }
@@ -1506,47 +1108,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:16.833567682Z",
+      "timestamp": "2025-06-26T03:54:03.307447753Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:32.443336114Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -1557,22 +1131,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:32.488752946Z",
+      "timestamp": "2025-06-26T03:54:03.442716994Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
             }
           ]
         }
@@ -1583,22 +1154,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:32.534241689Z",
+      "timestamp": "2025-06-26T03:54:03.577874045Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
             }
           ]
         }
@@ -1609,22 +1177,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3372",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45339",
-          "GHSA-6wxm-mpqj-6jpf"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:57.388469784Z",
+      "timestamp": "2025-06-26T03:54:03.712995916Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:29.436111274Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang/glog@1.2.1"
             }
           ]
         }
@@ -1635,21 +1223,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:00.436599514Z",
+      "timestamp": "2025-06-26T03:59:29.6041684Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
             }
           ]
         }
@@ -1660,21 +1246,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:00.483971096Z",
+      "timestamp": "2025-06-26T03:59:29.772612409Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.27.0"
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
             }
           ]
         }
@@ -1685,21 +1269,41 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22868"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.241804649Z",
+      "timestamp": "2025-06-26T03:59:29.945421529Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:12.535423184Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.13.0"
             }
           ]
         }
@@ -1710,21 +1314,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.287751955Z",
+      "timestamp": "2025-06-26T04:00:12.709733866Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.21.0"
             }
           ]
         }
@@ -1735,21 +1336,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.334469124Z",
+      "timestamp": "2025-06-26T04:00:12.886620302Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
             }
           ]
         }
@@ -1760,21 +1358,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.252197234Z",
+      "timestamp": "2025-06-26T04:00:13.054930998Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
             }
           ]
         }
@@ -1785,21 +1380,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.298621204Z",
+      "timestamp": "2025-06-26T04:00:13.226844129Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
             }
           ]
         }
@@ -1810,21 +1402,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.345744056Z",
+      "timestamp": "2025-06-26T04:00:13.407868933Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
             }
           ]
         }
@@ -1835,21 +1424,40 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.41840791Z",
+      "timestamp": "2025-06-26T04:00:13.582675209Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:34.834577093Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
             }
           ]
         }
@@ -1860,21 +1468,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22869",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.463009556Z",
+      "timestamp": "2025-06-26T04:05:35.034263367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
             }
           ]
         }
@@ -1885,21 +1490,370 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22869",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.508904297Z",
+      "timestamp": "2025-06-26T04:05:35.234265625Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:35.435876917Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:35.633281891Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:50.966758701Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:51.18615342Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:51.405947742Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.29.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:51.624861447Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.29.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:51.840745623Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:52.059047002Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:52.274285932Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:37.769177535Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:38.007676336Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:38.255550344Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:38.491086538Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.6.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:38.73185363Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:38.978263065Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v0.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:39.225880431Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/docker-machine-driver-harvester@v1.0.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.29.0"
             }
           ]
         }

@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:50.689052388Z",
-  "version": 29,
+  "last_updated": "2025-06-26T04:17:42.591166591Z",
+  "version": 64,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-04-16T23:03:00.716215194Z",
+      "timestamp": "2025-06-26T03:47:08.228296631Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -34,48 +31,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-04-16T23:03:00.762325407Z",
+      "timestamp": "2025-06-26T03:47:08.302768372Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.3"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.30.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1628",
-        "aliases": [
-          "CVE-2022-3162",
-          "GHSA-2394-5535-8j88"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:18.682427105Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -86,22 +54,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1629",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2022-3294",
-          "GHSA-jh36-q97c-9928"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-04-16T23:03:18.907818565Z",
+      "timestamp": "2025-06-26T03:47:08.375880479Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -112,22 +77,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1631",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-04-16T23:03:19.586940943Z",
+      "timestamp": "2025-06-26T03:47:08.447171529Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
             }
           ]
         }
@@ -138,48 +100,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1988",
+        "name": "CVE-2023-39325",
         "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
         ]
       },
-      "timestamp": "2025-04-16T23:03:27.863325132Z",
+      "timestamp": "2025-06-26T03:47:10.373713952Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:35.827016068Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
             }
           ]
         }
@@ -190,22 +123,134 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2330",
+        "name": "CVE-2023-39325",
         "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
         ]
       },
-      "timestamp": "2025-04-16T23:03:49.739390925Z",
+      "timestamp": "2025-06-26T03:47:10.450670507Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-39325",
+        "aliases": [
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:10.525178568Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:33.942729707Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:34.023165528Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:34.106017912Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.53698708Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -216,22 +261,88 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-04-16T23:04:14.773388654Z",
+      "timestamp": "2025-06-26T03:49:19.63278591Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.729441597Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:19.825685531Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:59.110606106Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.27.1"
             }
           ]
         }
@@ -242,22 +353,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-04-16T23:04:14.81821423Z",
+      "timestamp": "2025-06-26T03:49:59.213293297Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.32.0"
             }
           ]
         }
@@ -268,22 +376,88 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2746",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-04-16T23:04:35.553603299Z",
+      "timestamp": "2025-06-26T03:49:59.319536092Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:59.427715644Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.27.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:59.53095606Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.32.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:09.720361906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -294,47 +468,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2978",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "GHSA-xr7q-jx4m-x55m"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:04:42.788085445Z",
+      "timestamp": "2025-06-26T03:51:09.834690993Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.40.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.40.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3286",
-        "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:54.495720412Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.24.9"
             }
           ]
         }
@@ -345,21 +491,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-3177",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.154953349Z",
+      "timestamp": "2025-06-26T03:51:09.946783669Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:10.060746783Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.24.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:04.658652369Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.20.0"
             }
           ]
         }
@@ -370,21 +560,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.199244936Z",
+      "timestamp": "2025-06-26T03:54:04.796836978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -395,21 +583,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:17.244360216Z",
+      "timestamp": "2025-06-26T03:54:04.931174981Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
             }
           ]
         }
@@ -420,22 +606,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:32.766185951Z",
+      "timestamp": "2025-06-26T03:54:05.066269792Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:05.199441774Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:54:05.336296351Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.20.0"
             }
           ]
         }
@@ -446,22 +675,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:32.812054785Z",
+      "timestamp": "2025-06-26T03:54:05.473498121Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -472,22 +698,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-04-16T23:05:32.856834005Z",
+      "timestamp": "2025-06-26T03:54:05.611542909Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.2",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
             }
           ]
         }
@@ -498,22 +721,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3372",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2024-45339",
-          "GHSA-6wxm-mpqj-6jpf"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:05:57.527616003Z",
+      "timestamp": "2025-06-26T03:59:30.943459767Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.0.0"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang/glog@1.0.0"
             }
           ]
         }
@@ -524,22 +744,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3372",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2024-45339",
-          "GHSA-6wxm-mpqj-6jpf"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:05:57.573113376Z",
+      "timestamp": "2025-06-26T03:59:31.111441632Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang/glog@1.1.2"
             }
           ]
         }
@@ -550,22 +767,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3372",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2024-45339",
-          "GHSA-6wxm-mpqj-6jpf"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:05:57.618573148Z",
+      "timestamp": "2025-06-26T03:59:31.278166405Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
-            },
-            {
-              "@id": "pkg:golang/github.com/golang/glog@1.2.1"
             }
           ]
         }
@@ -576,21 +790,133 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2024-45339",
         "aliases": [
-          "CVE-2025-22868"
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.56814219Z",
+      "timestamp": "2025-06-26T03:59:31.446937487Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:31.621085909Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.0.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:31.787632951Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:31.955920909Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-06-26T03:59:32.123928284Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:15.157291022Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.0.0-20211104180415-d3ed0bb246c8"
             }
           ]
         }
@@ -601,21 +927,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:12.614282416Z",
+      "timestamp": "2025-06-26T04:00:15.332941417Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.14.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.14.0"
             }
           ]
         }
@@ -626,21 +949,150 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.486699812Z",
+      "timestamp": "2025-06-26T04:00:15.507276209Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:15.683738231Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:15.855197657Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:16.023324049Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.14.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:16.199126912Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:00:16.375904475Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:53.817639506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.20.0"
             }
           ]
         }
@@ -651,21 +1103,18 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3503",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22870"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:29.534395156Z",
+      "timestamp": "2025-06-26T04:08:54.029670905Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
             }
           ]
         }
@@ -676,21 +1125,150 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22870",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.644998584Z",
+      "timestamp": "2025-06-26T04:08:54.242959276Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:54.458320186Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:54.670351275Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:54.884768727Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:55.102721472Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:08:55.318454766Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:40.892602492Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.20.0"
             }
           ]
         }
@@ -701,21 +1279,150 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.689052948Z",
+      "timestamp": "2025-06-26T04:17:41.13397377Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:41.380774599Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-csi-driver",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:41.618987077Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.5",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:41.865611094Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:42.112294561Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.1.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:42.350820773Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:42.591167191Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-csi-driver@v0.2.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
             }
           ]
         }

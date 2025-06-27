@@ -3,27 +3,24 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-02-19T11:05:17.211455089Z",
-  "version": 11,
+  "last_updated": "2025-06-26T04:20:01.563533932Z",
+  "version": 49,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2023-1547",
+        "name": "CVE-2023-25165",
         "aliases": [
-          "CVE-2023-25165",
-          "GHSA-pwcw-6f5g-gxf8"
+          "GHSA-pwcw-6f5g-gxf8",
+          "GO-2023-1547"
         ]
       },
-      "timestamp": "2025-02-19T11:02:50.804899353Z",
+      "timestamp": "2025-06-26T03:46:59.98691401Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
           "subcomponents": [
             {
               "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
-            },
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@3.11.0"
             }
           ]
         }
@@ -34,22 +31,134 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1631",
+        "name": "CVE-2023-25165",
         "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
+          "GHSA-pwcw-6f5g-gxf8",
+          "GO-2023-1547"
         ]
       },
-      "timestamp": "2025-02-19T11:02:53.589756207Z",
+      "timestamp": "2025-06-26T03:47:00.056918518Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-39325",
+        "aliases": [
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:22.8707814Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-39325",
+        "aliases": [
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:22.947503677Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:47.581520345Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:47.663159189Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:12.667207174Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.28.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.1"
             }
           ]
         }
@@ -60,151 +169,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1988",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-02-19T11:03:05.586020033Z",
+      "timestamp": "2025-06-26T03:50:12.772900842Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2048",
-        "aliases": [
-          "GHSA-6xv5-86q9-7xr8"
-        ]
-      },
-      "timestamp": "2025-02-19T11:03:08.216601178Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.3"
-            },
-            {
-              "@id": "pkg:golang/github.com/cyphar/filepath-securejoin@0.2.3"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-2102",
-        "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
-        ]
-      },
-      "timestamp": "2025-02-19T11:03:13.30384609Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2554",
-        "aliases": [
-          "CVE-2024-25620",
-          "GHSA-v53g-5gjp-272r"
-        ]
-      },
-      "timestamp": "2025-02-19T11:03:46.517439017Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
-            },
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@3.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2575",
-        "aliases": [
-          "CVE-2024-26147",
-          "GHSA-r53h-jv2g-vpx6"
-        ]
-      },
-      "timestamp": "2025-02-19T11:03:46.969632703Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
-            },
-            {
-              "@id": "pkg:golang/helm.sh/helm/v3@3.11.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2611",
-        "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
-        ]
-      },
-      "timestamp": "2025-02-19T11:03:51.916486208Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.28.1"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.1"
             }
           ]
         }
@@ -215,21 +192,65 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-25620",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
         ]
       },
-      "timestamp": "2025-02-19T11:05:00.898741929Z",
+      "timestamp": "2025-06-26T03:50:41.636071296Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25620",
+        "aliases": [
+          "GHSA-v53g-5gjp-272r",
+          "GO-2024-2554"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:41.744192779Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-26147",
+        "aliases": [
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:44.157801642Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
             }
           ]
         }
@@ -240,22 +261,813 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-26147",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-r53h-jv2g-vpx6",
+          "GO-2024-2575"
         ]
       },
-      "timestamp": "2025-02-19T11:05:17.211455839Z",
+      "timestamp": "2025-06-26T03:50:44.266036907Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/helm.sh/helm/v3@v3.11.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:06.655386871Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/prometheus-federator",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:06.794654173Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.7.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:38.816117475Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:38.998257165Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:39.178837291Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.4.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:39.365629966Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.4.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:39.550088448Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:39.734125297Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:39.912522542Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:40.091452233Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.1.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:40.272930797Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:40.451613805Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:40.629628367Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:40.811621537Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:41.971514295Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:42.188213441Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:42.402855188Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:42.622217118Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:42.841859292Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:43.060215763Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:43.280302051Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.1.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:43.501455948Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:43.720858629Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:43.937999729Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:44.15314557Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:59.103202813Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:59.347808898Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:59.595127979Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v0.3.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:19:59.8381508Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:00.090128915Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:00.339149092Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v2.0.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:00.58403261Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.1.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:00.83024158Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:01.076744663Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.0-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:01.315422483Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:01.563534462Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/prometheus-federator@v3.2.1-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
             }
           ]
         }

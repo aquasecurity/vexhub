@@ -3,27 +3,68 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-03-07T21:06:06.620321308Z",
-  "version": 33,
+  "last_updated": "2025-06-26T04:20:19.318280528Z",
+  "version": 70,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2022-30636",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GO-2024-2961"
         ]
       },
-      "timestamp": "2025-03-07T21:02:58.491070969Z",
+      "timestamp": "2025-06-26T03:46:49.525772261Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-30636",
+        "aliases": [
+          "GO-2024-2961"
+        ]
+      },
+      "timestamp": "2025-06-26T03:46:49.594884221Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3676",
+        "aliases": [
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:08.667524151Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
             }
           ]
         }
@@ -34,100 +75,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2022-0617",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2020-8562",
-          "GHSA-qh36-44jv-c8xj"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-03-07T21:02:58.534585001Z",
+      "timestamp": "2025-06-26T03:47:08.73975365Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.31.1"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.31.1"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1546",
-        "aliases": [
-          "CVE-2023-25151",
-          "GHSA-5r5m-65gx-7vrh"
-        ]
-      },
-      "timestamp": "2025-03-07T21:03:12.107067182Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.20.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1631",
-        "aliases": [
-          "CVE-2023-24535",
-          "GHSA-hw7c-3rfg-p46j"
-        ]
-      },
-      "timestamp": "2025-03-07T21:03:16.051070353Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1864",
-        "aliases": [
-          "CVE-2023-2431",
-          "GHSA-xc8m-28vv-4pjc"
-        ]
-      },
-      "timestamp": "2025-03-07T21:03:21.486115086Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
             }
           ]
         }
@@ -138,22 +98,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1891",
+        "name": "CVE-2023-3676",
         "aliases": [
-          "CVE-2023-2727",
-          "GHSA-qc2g-gmh6-95p4"
+          "GHSA-7fxm-f474-hf8w",
+          "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-03-07T21:03:21.719124818Z",
+      "timestamp": "2025-06-26T03:47:08.813624394Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
             }
           ]
         }
@@ -164,48 +121,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-1892",
+        "name": "CVE-2023-39325",
         "aliases": [
-          "CVE-2023-2728",
-          "GHSA-cgcv-5272-97pr"
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
         ]
       },
-      "timestamp": "2025-03-07T21:03:21.95344949Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1988",
-        "aliases": [
-          "CVE-2023-3978",
-          "GHSA-2wrh-6pvc-2jm9"
-        ]
-      },
-      "timestamp": "2025-03-07T21:03:28.189628429Z",
+      "timestamp": "2025-06-26T03:47:23.024660278Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.9.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.9.0"
             }
           ]
         }
@@ -216,22 +144,111 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2102",
+        "name": "CVE-2023-39325",
         "aliases": [
-          "CVE-2023-39325",
-          "GHSA-4374-p667-p6c8"
+          "GHSA-4374-p667-p6c8",
+          "GO-2023-2102"
         ]
       },
-      "timestamp": "2025-03-07T21:03:36.004167889Z",
+      "timestamp": "2025-06-26T03:47:23.256322393Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3955",
+        "aliases": [
+          "GHSA-q78c-gwqw-jcmc",
+          "GO-2023-2170"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:32.074515998Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3955",
+        "aliases": [
+          "GHSA-q78c-gwqw-jcmc",
+          "GO-2023-2170"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:32.153400765Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3955",
+        "aliases": [
+          "GHSA-q78c-gwqw-jcmc",
+          "GO-2023-2170"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:32.234634334Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3978",
+        "aliases": [
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
+        ]
+      },
+      "timestamp": "2025-06-26T03:47:47.745114017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.9.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.9.0"
             }
           ]
         }
@@ -242,22 +259,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2113",
+        "name": "CVE-2023-3978",
         "aliases": [
-          "CVE-2023-45142",
-          "GHSA-rcjv-mgp8-qvmr"
+          "GHSA-2wrh-6pvc-2jm9",
+          "GO-2023-1988"
         ]
       },
-      "timestamp": "2025-03-07T21:03:39.054406359Z",
+      "timestamp": "2025-06-26T03:47:47.991375784Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45142",
+        "aliases": [
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
+        ]
+      },
+      "timestamp": "2025-06-26T03:48:06.266434388Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
-            },
-            {
-              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@0.20.0"
             }
           ]
         }
@@ -268,21 +305,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2153",
+        "name": "CVE-2023-45142",
         "aliases": [
-          "GHSA-m425-mq94-257g"
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-03-07T21:03:42.34661064Z",
+      "timestamp": "2025-06-26T03:48:06.352550472Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.47.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.47.0"
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
             }
           ]
         }
@@ -293,22 +328,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2170",
+        "name": "CVE-2023-45142",
         "aliases": [
-          "CVE-2023-3955",
-          "GHSA-q78c-gwqw-jcmc"
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-03-07T21:03:45.084984695Z",
+      "timestamp": "2025-06-26T03:48:06.4413199Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-06-26T03:49:25.427236815Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
             }
           ]
         }
@@ -319,22 +374,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2023-2330",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2023-3676",
-          "GHSA-7fxm-f474-hf8w"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-03-07T21:03:46.207305974Z",
+      "timestamp": "2025-06-26T03:49:25.523892863Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
             }
           ]
         }
@@ -345,22 +397,42 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-10220",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-03-07T21:04:15.109806336Z",
+      "timestamp": "2025-06-26T03:49:25.619572192Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24786",
+        "aliases": [
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
+        ]
+      },
+      "timestamp": "2025-06-26T03:50:13.510950747Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.28.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.28.0"
             }
           ]
         }
@@ -371,22 +443,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2611",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-24786",
-          "GHSA-8r3f-844c-mc37"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-03-07T21:04:15.154853024Z",
+      "timestamp": "2025-06-26T03:50:13.613469416Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/protobuf@1.31.0"
             }
           ]
         }
@@ -397,124 +466,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-2746",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-3177",
-          "GHSA-pxhw-596r-rwq5"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-03-07T21:04:33.145247297Z",
+      "timestamp": "2025-06-26T03:50:13.719223145Z",
       "products": [
         {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
           "subcomponents": [
             {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2961",
-        "aliases": [
-          "CVE-2022-30636"
-        ]
-      },
-      "timestamp": "2025-03-07T21:04:37.456861649Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220411220226-7b82a4e95df4"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2978",
-        "aliases": [
-          "GHSA-xr7q-jx4m-x55m"
-        ]
-      },
-      "timestamp": "2025-03-07T21:04:41.193082927Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@v1.47.0"
-            },
-            {
-              "@id": "pkg:golang/google.golang.org/grpc@1.47.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3286",
-        "aliases": [
-          "CVE-2024-10220",
-          "GHSA-27wf-5967-98gx"
-        ]
-      },
-      "timestamp": "2025-03-07T21:04:52.266448245Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
-            },
-            {
-              "@id": "pkg:golang/k8s.io/kubernetes@1.25.12"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-03-07T21:05:05.211816373Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.0.0-20220411220226-7b82a4e95df4"
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.28.0"
             }
           ]
         }
@@ -525,22 +489,134 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-24786",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-8r3f-844c-mc37",
+          "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-03-07T21:05:05.256918096Z",
+      "timestamp": "2025-06-26T03:50:13.824393029Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/protobuf@v1.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:14.88676721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:15.006378326Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-06-26T03:51:15.123507839Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.25.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:37.379231024Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:37.509463061Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.17.0"
             }
           ]
         }
@@ -551,22 +627,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-03-07T21:05:05.302427499Z",
+      "timestamp": "2025-06-26T03:52:37.635008685Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.26.0"
             }
           ]
         }
@@ -577,22 +650,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3321",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-03-07T21:05:05.348352732Z",
+      "timestamp": "2025-06-26T03:52:37.759084555Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.28.0"
             }
           ]
         }
@@ -603,21 +673,111 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45337",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-03-07T21:05:23.864448166Z",
+      "timestamp": "2025-06-26T03:52:37.883516329Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.0.0-20220411220226-7b82a4e95df4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:38.007294866Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:38.133156843Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-06-26T03:52:38.25903844Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:15.598029387Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
             }
           ]
         }
@@ -628,21 +788,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-03-07T21:05:23.9107312Z",
+      "timestamp": "2025-06-26T03:55:15.744467312Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
             }
           ]
         }
@@ -653,99 +811,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-03-07T21:05:23.957479295Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.9.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-03-07T21:05:40.56231366Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.17.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-03-07T21:05:40.606095473Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.28.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-03-07T21:05:40.650526905Z",
+      "timestamp": "2025-06-26T03:55:15.891163259Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.30.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.30.0"
             }
           ]
         }
@@ -756,22 +834,19 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2024-3333",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-03-07T21:05:40.695678918Z",
+      "timestamp": "2025-06-26T03:55:16.037778255Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.9.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.9.0"
             }
           ]
         }
@@ -782,21 +857,110 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3487",
+        "name": "CVE-2024-45338",
         "aliases": [
-          "CVE-2025-22869"
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-03-07T21:05:57.742934799Z",
+      "timestamp": "2025-06-26T03:55:17.336757139Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:17.483142343Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:17.629630498Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-06-26T03:55:17.777385295Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:52.878368008Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.28.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8"
             }
           ]
         }
@@ -807,27 +971,596 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3488",
+        "name": "CVE-2025-22868",
         "aliases": [
-          "CVE-2025-22868"
+          "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-03-07T21:06:06.620321718Z",
+      "timestamp": "2025-06-26T04:01:53.067330053Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
           "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/oauth2@0.23.0"
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
             }
           ]
         }
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:53.260566762Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:53.453770822Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:53.645969213Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:53.833873534Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.10.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:54.025952064Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-06-26T04:01:54.217698561Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:39.721323317Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:39.923628534Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:40.112947007Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.26.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:06:40.316670896Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:53.32148828Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:53.536224353Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:53.763704334Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:53.987511052Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:55.958191748Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:56.175436334Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:56.394391816Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-06-26T04:10:56.614747921Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:15.60914992Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:15.8541922Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:16.10464818Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:16.352164823Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:18.579610146Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.9.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:18.830803583Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.13.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:19.07664661Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.14.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:20:19.318281438Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-upgrade-controller@v0.15.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]

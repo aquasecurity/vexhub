@@ -3,309 +3,23 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-04-16T23:06:50.734133766Z",
-  "version": 14,
+  "last_updated": "2025-06-26T04:17:45.955803364Z",
+  "version": 29,
   "statements": [
     {
       "vulnerability": {
-        "name": "GO-2023-1699",
+        "name": "CVE-2025-22869",
         "aliases": [
-          "CVE-2023-28840",
-          "GHSA-232p-vwff-86mp"
+          "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-04-16T23:03:23.565130937Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1700",
-        "aliases": [
-          "CVE-2023-28841",
-          "GHSA-33pg-m6jh-5237"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.159184122Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2023-1701",
-        "aliases": [
-          "CVE-2023-28842",
-          "GHSA-6wrf-mxfj-pf5p"
-        ]
-      },
-      "timestamp": "2025-04-16T23:03:24.74687787Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2512",
-        "aliases": [
-          "CVE-2024-24557",
-          "GHSA-xw73-rw38-6vjc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:08.16267132Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2659",
-        "aliases": [
-          "CVE-2024-29018",
-          "GHSA-mq39-4gv4-mvpx"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:24.650325141Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-2737",
-        "aliases": [
-          "CVE-2024-32473",
-          "GHSA-x84c-p2g9-rqv9"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:31.887860308Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3005",
-        "aliases": [
-          "CVE-2024-41110"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:48.966351168Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
-            },
-            {
-              "@id": "pkg:golang/github.com/docker/docker@20.10.27+incompatible"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337"
-        ]
-      },
-      "timestamp": "2025-04-16T23:04:57.475719968Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3321",
-        "aliases": [
-          "CVE-2024-45337",
-          "GHSA-v778-237x-gjrc"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:01.660381127Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@v0.25.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.25.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_in_execute_path",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:17.288359882Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2024-3333",
-        "aliases": [
-          "CVE-2024-45338",
-          "GHSA-w32m-9786-jp63"
-        ]
-      },
-      "timestamp": "2025-04-16T23:05:32.901678085Z",
-      "products": [
-        {
-          "@id": "pkg:golang/github.com/harvester/harvester-installer",
-          "subcomponents": [
-            {
-              "@id": "pkg:golang/golang.org/x/net@v0.27.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/net@0.27.0"
-            }
-          ]
-        }
-      ],
-      "status": "not_affected",
-      "justification": "vulnerable_code_not_present",
-      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
-    },
-    {
-      "vulnerability": {
-        "name": "GO-2025-3487",
-        "aliases": [
-          "CVE-2025-22869"
-        ]
-      },
-      "timestamp": "2025-04-16T23:06:00.766921382Z",
+      "timestamp": "2025-06-26T04:05:37.225065564Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
-            },
-            {
-              "@id": "pkg:golang/golang.org/x/crypto@0.31.0"
             }
           ]
         }
@@ -316,21 +30,590 @@
     },
     {
       "vulnerability": {
-        "name": "GO-2025-3595",
+        "name": "CVE-2025-22869",
         "aliases": [
-          "CVE-2025-22872"
+          "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-04-16T23:06:50.734134356Z",
+      "timestamp": "2025-06-26T04:05:37.425852808Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:37.627819184Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:37.827910383Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:38.032452302Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:38.224249663Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:38.423318622Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:38.623524422Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:38.825935692Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:39.027812947Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:39.226709624Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:39.422196149Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:39.615612715Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-06-26T04:05:39.815198699Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.31.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:42.838216322Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-installer",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.33.0"
-            },
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:43.082236604Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3",
+          "subcomponents": [
             {
-              "@id": "pkg:golang/golang.org/x/net@0.33.0"
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:43.320392602Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:43.561236215Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:43.804955655Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:44.041547948Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.4.3-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:44.284857854Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:44.524662907Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:44.763846644Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:45.007306742Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:45.244760573Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:45.48493533Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:45.71693639Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-06-26T04:17:45.955804064Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-installer@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.33.0"
             }
           ]
         }
