@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:18:38.696403208Z",
-  "version": 79,
+  "last_updated": "2025-07-03T02:40:11.353328894Z",
+  "version": 84,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.367696101Z",
+      "timestamp": "2025-07-03T02:06:23.947346367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -37,7 +37,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.450909207Z",
+      "timestamp": "2025-07-03T02:06:24.036558644Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -60,7 +60,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.534355526Z",
+      "timestamp": "2025-07-03T02:06:24.124976894Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.4",
@@ -83,7 +83,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.62277796Z",
+      "timestamp": "2025-07-03T02:06:24.213645227Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250406",
@@ -106,7 +106,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.709105896Z",
+      "timestamp": "2025-07-03T02:06:24.303622694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250420",
@@ -129,7 +129,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.793297851Z",
+      "timestamp": "2025-07-03T02:06:24.393322699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250504",
@@ -152,7 +152,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.878476775Z",
+      "timestamp": "2025-07-03T02:06:24.482731975Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250518",
@@ -175,7 +175,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:03.965105113Z",
+      "timestamp": "2025-07-03T02:06:24.571939964Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250601",
@@ -198,10 +198,33 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-06-26T03:48:04.051163796Z",
+      "timestamp": "2025-07-03T02:06:24.661375669Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45142",
+        "aliases": [
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
+        ]
+      },
+      "timestamp": "2025-07-03T02:06:24.750604748Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250629",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
@@ -221,7 +244,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-06-26T03:49:21.786190019Z",
+      "timestamp": "2025-07-03T02:07:47.709191072Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -244,7 +267,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-06-26T03:49:21.883415202Z",
+      "timestamp": "2025-07-03T02:07:47.812754221Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -267,7 +290,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-06-26T03:51:11.877651291Z",
+      "timestamp": "2025-07-03T02:09:49.613937685Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -290,7 +313,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-06-26T03:51:11.992481582Z",
+      "timestamp": "2025-07-03T02:09:49.73995382Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -313,7 +336,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:07.056493801Z",
+      "timestamp": "2025-07-03T02:10:51.310165272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -336,7 +359,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:07.17538921Z",
+      "timestamp": "2025-07-03T02:10:51.44171308Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -359,7 +382,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:27.859880354Z",
+      "timestamp": "2025-07-03T02:13:29.954114998Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -382,7 +405,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:27.998028988Z",
+      "timestamp": "2025-07-03T02:13:30.106934604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -404,7 +427,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:49.372538533Z",
+      "timestamp": "2025-07-03T02:20:32.226255913Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -426,7 +449,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:49.547414408Z",
+      "timestamp": "2025-07-03T02:20:32.410338951Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -448,7 +471,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:49.723942078Z",
+      "timestamp": "2025-07-03T02:20:32.596102323Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -470,7 +493,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:49.897635632Z",
+      "timestamp": "2025-07-03T02:20:32.784358847Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -492,7 +515,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.073876749Z",
+      "timestamp": "2025-07-03T02:20:32.97012386Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.4",
@@ -514,7 +537,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.251684081Z",
+      "timestamp": "2025-07-03T02:20:33.157368532Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250406",
@@ -536,7 +559,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.431717213Z",
+      "timestamp": "2025-07-03T02:20:33.343170288Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250420",
@@ -558,7 +581,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.601793664Z",
+      "timestamp": "2025-07-03T02:20:33.528132515Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250504",
@@ -580,7 +603,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.779131941Z",
+      "timestamp": "2025-07-03T02:20:33.714644134Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250518",
@@ -602,7 +625,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:50.957271546Z",
+      "timestamp": "2025-07-03T02:20:33.903503619Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250601",
@@ -624,7 +647,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:51.137721853Z",
+      "timestamp": "2025-07-03T02:20:34.085203168Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250615",
@@ -646,7 +669,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:51.316905427Z",
+      "timestamp": "2025-07-03T02:20:34.274253823Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250629",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-03T02:20:34.467550396Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.7.3",
@@ -668,7 +713,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:51.493460038Z",
+      "timestamp": "2025-07-03T02:20:34.652634121Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.1",
@@ -690,7 +735,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:51.672936205Z",
+      "timestamp": "2025-07-03T02:20:34.842723937Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.2",
@@ -712,7 +757,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:51.846875681Z",
+      "timestamp": "2025-07-03T02:20:35.028148646Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.2-rc1",
@@ -734,7 +779,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:52.021663955Z",
+      "timestamp": "2025-07-03T02:20:35.214218574Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.2-rc2",
@@ -756,7 +801,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:52.196939724Z",
+      "timestamp": "2025-07-03T02:20:35.404363927Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.2-rc3",
@@ -778,7 +823,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:52.375872596Z",
+      "timestamp": "2025-07-03T02:20:35.597694675Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.3-dev-20250615",
@@ -800,7 +845,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:00.219018391Z",
+      "timestamp": "2025-07-03T02:26:11.203343421Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -822,7 +867,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:00.424899405Z",
+      "timestamp": "2025-07-03T02:26:11.420865755Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -844,7 +889,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:00.626972594Z",
+      "timestamp": "2025-07-03T02:26:11.63878201Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -866,7 +911,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:00.826526489Z",
+      "timestamp": "2025-07-03T02:26:11.860259518Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -888,7 +933,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:01.027592318Z",
+      "timestamp": "2025-07-03T02:26:12.074991714Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -910,7 +955,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:01.223902042Z",
+      "timestamp": "2025-07-03T02:26:12.298279598Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.4",
@@ -932,7 +977,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:01.423430356Z",
+      "timestamp": "2025-07-03T02:26:12.520298397Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250406",
@@ -954,7 +999,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:01.621877821Z",
+      "timestamp": "2025-07-03T02:26:12.740256193Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250420",
@@ -976,7 +1021,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:01.823171202Z",
+      "timestamp": "2025-07-03T02:26:12.960622729Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250504",
@@ -998,7 +1043,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:02.02092156Z",
+      "timestamp": "2025-07-03T02:26:13.181293197Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250518",
@@ -1020,7 +1065,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:02.228144627Z",
+      "timestamp": "2025-07-03T02:26:13.40212245Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250601",
@@ -1042,7 +1087,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:02.433475526Z",
+      "timestamp": "2025-07-03T02:26:13.621350829Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250615",
@@ -1064,7 +1109,29 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:02.633628977Z",
+      "timestamp": "2025-07-03T02:26:13.832951412Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250629",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-03T02:26:14.052274424Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.7.3",
@@ -1086,7 +1153,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:02.831264133Z",
+      "timestamp": "2025-07-03T02:26:14.273660685Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.1",
@@ -1108,7 +1175,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:31.914631296Z",
+      "timestamp": "2025-07-03T02:30:04.031100457Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1130,7 +1197,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:32.123499855Z",
+      "timestamp": "2025-07-03T02:30:04.263074234Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1152,7 +1219,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:32.343434839Z",
+      "timestamp": "2025-07-03T02:30:04.491448823Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1174,7 +1241,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:32.560546586Z",
+      "timestamp": "2025-07-03T02:30:04.728485305Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1196,7 +1263,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:32.772406984Z",
+      "timestamp": "2025-07-03T02:30:04.967544106Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1218,7 +1285,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:32.984872687Z",
+      "timestamp": "2025-07-03T02:30:05.198918709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -1240,7 +1307,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:33.195542584Z",
+      "timestamp": "2025-07-03T02:30:05.431562821Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.4",
@@ -1262,7 +1329,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:33.409921225Z",
+      "timestamp": "2025-07-03T02:30:05.667855594Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250406",
@@ -1284,7 +1351,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:33.629113992Z",
+      "timestamp": "2025-07-03T02:30:05.901514355Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250420",
@@ -1306,7 +1373,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:33.834419648Z",
+      "timestamp": "2025-07-03T02:30:06.134724198Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250504",
@@ -1328,7 +1395,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:34.051924499Z",
+      "timestamp": "2025-07-03T02:30:06.374042975Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250518",
@@ -1350,7 +1417,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:34.270793453Z",
+      "timestamp": "2025-07-03T02:30:06.608439984Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250601",
@@ -1372,7 +1439,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:34.48468758Z",
+      "timestamp": "2025-07-03T02:30:06.846157916Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250615",
@@ -1394,7 +1461,29 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:34.692851223Z",
+      "timestamp": "2025-07-03T02:30:07.081767714Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250629",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-03T02:30:07.320232243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.7.3",
@@ -1416,7 +1505,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:34.904696771Z",
+      "timestamp": "2025-07-03T02:30:07.552477091Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.1",
@@ -1438,7 +1527,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:35.551496061Z",
+      "timestamp": "2025-07-03T02:40:07.478901525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1460,7 +1549,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:35.797204564Z",
+      "timestamp": "2025-07-03T02:40:07.763113514Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1482,7 +1571,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:36.040437365Z",
+      "timestamp": "2025-07-03T02:40:08.039503692Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1504,7 +1593,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:36.281532986Z",
+      "timestamp": "2025-07-03T02:40:08.313934089Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager",
@@ -1526,7 +1615,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:36.516939763Z",
+      "timestamp": "2025-07-03T02:40:08.594195243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.2",
@@ -1548,7 +1637,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:36.75975757Z",
+      "timestamp": "2025-07-03T02:40:08.871802817Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.4",
@@ -1570,7 +1659,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:36.997925173Z",
+      "timestamp": "2025-07-03T02:40:09.145238239Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250406",
@@ -1592,7 +1681,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:37.232699515Z",
+      "timestamp": "2025-07-03T02:40:09.422178764Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250420",
@@ -1614,7 +1703,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:37.474922756Z",
+      "timestamp": "2025-07-03T02:40:09.699098442Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250504",
@@ -1636,7 +1725,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:37.715988426Z",
+      "timestamp": "2025-07-03T02:40:09.97111597Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250518",
@@ -1658,7 +1747,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:37.9584998Z",
+      "timestamp": "2025-07-03T02:40:10.249386854Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250601",
@@ -1680,7 +1769,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:38.205564097Z",
+      "timestamp": "2025-07-03T02:40:10.5243835Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250615",
@@ -1702,7 +1791,29 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:38.45013657Z",
+      "timestamp": "2025-07-03T02:40:10.800069487Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.6.5-dev-20250629",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-03T02:40:11.076603636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.7.3",
@@ -1724,7 +1835,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:18:38.696403948Z",
+      "timestamp": "2025-07-03T02:40:11.353329732Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/longhorn-manager@v1.8.1",
