@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:19:22.897711347Z",
-  "version": 53,
+  "last_updated": "2025-07-09T21:41:00.336081036Z",
+  "version": 62,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:23.590690578Z",
+      "timestamp": "2025-07-09T21:14:26.766485026Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -37,7 +37,30 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:24.205737354Z",
+      "timestamp": "2025-07-09T21:14:27.470737723Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-07-09T21:14:27.583651692Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -60,7 +83,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:24.32512806Z",
+      "timestamp": "2025-07-09T21:14:27.698598508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -83,7 +106,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:24.445553765Z",
+      "timestamp": "2025-07-09T21:14:27.816304019Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -106,7 +129,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:55.562082606Z",
+      "timestamp": "2025-07-09T21:16:54.360565257Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -129,7 +152,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:55.704523548Z",
+      "timestamp": "2025-07-09T21:16:54.496554833Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -152,7 +175,30 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:56.42364534Z",
+      "timestamp": "2025-07-09T21:16:55.322979529Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-07-09T21:16:55.461913822Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -175,7 +221,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:56.568709926Z",
+      "timestamp": "2025-07-09T21:16:55.597823293Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -198,7 +244,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:54:56.712324209Z",
+      "timestamp": "2025-07-09T21:16:55.733151695Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -220,7 +266,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:12.094767225Z",
+      "timestamp": "2025-07-09T21:23:01.729578287Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -242,7 +288,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:12.276742114Z",
+      "timestamp": "2025-07-09T21:23:01.904386192Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -264,7 +310,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:12.458926025Z",
+      "timestamp": "2025-07-09T21:23:02.073212907Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -286,7 +332,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:14.977041845Z",
+      "timestamp": "2025-07-09T21:23:05.493675408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.0",
@@ -308,7 +354,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:15.156791963Z",
+      "timestamp": "2025-07-09T21:23:05.666866566Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.1",
@@ -330,7 +376,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:15.3342794Z",
+      "timestamp": "2025-07-09T21:23:05.839039186Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.2",
@@ -352,7 +398,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:15.511833018Z",
+      "timestamp": "2025-07-09T21:23:06.008103145Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-09T21:23:06.176394519Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -374,7 +442,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:15.688023563Z",
+      "timestamp": "2025-07-09T21:23:06.347494793Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -396,7 +464,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:15.869000152Z",
+      "timestamp": "2025-07-09T21:23:06.516537579Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -418,7 +486,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:16.050611238Z",
+      "timestamp": "2025-07-09T21:23:06.686359853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1",
@@ -440,7 +508,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:16.224113298Z",
+      "timestamp": "2025-07-09T21:23:06.856564558Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1-rc.1",
@@ -462,7 +530,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:16.398018501Z",
+      "timestamp": "2025-07-09T21:23:07.026494496Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-09T21:23:07.198835343Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.1",
@@ -484,7 +574,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:16.570822085Z",
+      "timestamp": "2025-07-09T21:23:07.37125205Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.2",
@@ -506,7 +596,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:19.423557835Z",
+      "timestamp": "2025-07-09T21:28:04.194592974Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -528,7 +618,29 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:22.058616928Z",
+      "timestamp": "2025-07-09T21:28:07.138880234Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-09T21:28:07.332071729Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -550,7 +662,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:22.26054754Z",
+      "timestamp": "2025-07-09T21:28:07.524910797Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -572,7 +684,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:22.462405302Z",
+      "timestamp": "2025-07-09T21:28:07.719173716Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -594,7 +706,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:19.473600234Z",
+      "timestamp": "2025-07-09T21:32:02.714897009Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -616,7 +728,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:19.692914067Z",
+      "timestamp": "2025-07-09T21:32:02.922365491Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -638,7 +750,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:19.91018374Z",
+      "timestamp": "2025-07-09T21:32:03.13128893Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -660,7 +772,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:22.690046828Z",
+      "timestamp": "2025-07-09T21:32:06.372012128Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.0",
@@ -682,7 +794,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:22.904103372Z",
+      "timestamp": "2025-07-09T21:32:06.586542303Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.1",
@@ -704,7 +816,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:23.123153962Z",
+      "timestamp": "2025-07-09T21:32:06.807294611Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.2",
@@ -726,7 +838,29 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:23.339077393Z",
+      "timestamp": "2025-07-09T21:32:07.018784731Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-09T21:32:07.23191148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -748,7 +882,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:23.55035193Z",
+      "timestamp": "2025-07-09T21:32:07.447931091Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -770,7 +904,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:23.762201303Z",
+      "timestamp": "2025-07-09T21:32:07.657156129Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -792,7 +926,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:23.976721811Z",
+      "timestamp": "2025-07-09T21:32:07.869730045Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1",
@@ -814,7 +948,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:24.191481961Z",
+      "timestamp": "2025-07-09T21:32:08.084391853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1-rc.1",
@@ -836,7 +970,29 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:24.411971145Z",
+      "timestamp": "2025-07-09T21:32:08.297891232Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-09T21:32:08.513737415Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.1",
@@ -858,7 +1014,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:24.626126429Z",
+      "timestamp": "2025-07-09T21:32:08.721809489Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.2",
@@ -880,7 +1036,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:16.991473874Z",
+      "timestamp": "2025-07-09T21:40:53.546119724Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -902,7 +1058,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:17.254359235Z",
+      "timestamp": "2025-07-09T21:40:53.787786217Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -924,7 +1080,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:17.512222109Z",
+      "timestamp": "2025-07-09T21:40:54.027056282Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator",
@@ -946,7 +1102,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:20.711471283Z",
+      "timestamp": "2025-07-09T21:40:57.675211367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.0",
@@ -968,7 +1124,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:20.952797691Z",
+      "timestamp": "2025-07-09T21:40:57.915719408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.1",
@@ -990,7 +1146,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:21.196615882Z",
+      "timestamp": "2025-07-09T21:40:58.155760185Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v0.0.0-kuberlr.2",
@@ -1012,7 +1168,29 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:21.437190322Z",
+      "timestamp": "2025-07-09T21:40:58.397059029Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-09T21:40:58.643271942Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v5.0.4-rc.1",
@@ -1034,7 +1212,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:21.682096454Z",
+      "timestamp": "2025-07-09T21:40:58.884858458Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2",
@@ -1056,7 +1234,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:21.925738843Z",
+      "timestamp": "2025-07-09T21:40:59.127856035Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v6.0.2-rc.1",
@@ -1078,7 +1256,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:22.161619389Z",
+      "timestamp": "2025-07-09T21:40:59.3672206Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1",
@@ -1100,7 +1278,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:22.404431601Z",
+      "timestamp": "2025-07-09T21:40:59.605653763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.1-rc.1",
@@ -1122,7 +1300,29 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:22.647470645Z",
+      "timestamp": "2025-07-09T21:40:59.846494022Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v7.0.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.35.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-09T21:41:00.09311212Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.1",
@@ -1144,7 +1344,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:22.897711907Z",
+      "timestamp": "2025-07-09T21:41:00.336081782Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/backup-restore-operator@v8.0.0-rc.2",

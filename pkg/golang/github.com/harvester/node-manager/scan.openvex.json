@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-03T02:39:23.940868409Z",
-  "version": 69,
+  "last_updated": "2025-07-09T21:39:31.420066209Z",
+  "version": 75,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-07-03T02:08:29.530596234Z",
+      "timestamp": "2025-07-09T21:12:06.146735508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -37,7 +37,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-07-03T02:08:29.643414821Z",
+      "timestamp": "2025-07-09T21:12:06.245332345Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -60,7 +60,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-07-03T02:08:29.754258047Z",
+      "timestamp": "2025-07-09T21:12:06.344075415Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -83,7 +83,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:39.444935086Z",
+      "timestamp": "2025-07-09T21:14:00.446924426Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -106,7 +106,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:39.573029974Z",
+      "timestamp": "2025-07-09T21:14:00.556546408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -129,7 +129,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:39.704078035Z",
+      "timestamp": "2025-07-09T21:14:00.667880789Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -152,7 +152,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:39.835903819Z",
+      "timestamp": "2025-07-09T21:14:00.777992096Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -175,7 +175,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:39.967734974Z",
+      "timestamp": "2025-07-09T21:14:00.888807346Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -198,7 +198,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.100008482Z",
+      "timestamp": "2025-07-09T21:14:00.999885593Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -221,7 +221,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.233177597Z",
+      "timestamp": "2025-07-09T21:14:01.109790793Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -244,7 +244,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.362989746Z",
+      "timestamp": "2025-07-09T21:14:01.219567275Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -267,7 +267,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.496308405Z",
+      "timestamp": "2025-07-09T21:14:01.329574329Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -290,7 +290,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.626944924Z",
+      "timestamp": "2025-07-09T21:14:01.441522564Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -313,10 +313,33 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.758554237Z",
+      "timestamp": "2025-07-09T21:14:01.551976296Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-07-09T21:14:01.663452731Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
@@ -336,7 +359,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.149758241Z",
+      "timestamp": "2025-07-09T21:16:06.685872406Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -359,7 +382,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.298271202Z",
+      "timestamp": "2025-07-09T21:16:06.812716489Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -382,7 +405,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.448678796Z",
+      "timestamp": "2025-07-09T21:16:06.939967365Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -405,7 +428,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.596560164Z",
+      "timestamp": "2025-07-09T21:16:07.069311477Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -428,7 +451,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.746758245Z",
+      "timestamp": "2025-07-09T21:16:07.19658736Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -451,7 +474,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:07.896019622Z",
+      "timestamp": "2025-07-09T21:16:07.324349977Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -474,7 +497,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.044608577Z",
+      "timestamp": "2025-07-09T21:16:07.453819256Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -497,7 +520,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.193150842Z",
+      "timestamp": "2025-07-09T21:16:07.584706929Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -520,7 +543,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.341203234Z",
+      "timestamp": "2025-07-09T21:16:07.714434122Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -543,7 +566,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.491257196Z",
+      "timestamp": "2025-07-09T21:16:07.842872428Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -566,10 +589,33 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.641159935Z",
+      "timestamp": "2025-07-09T21:16:07.97118122Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-07-09T21:16:08.099821997Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"
@@ -588,7 +634,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:07.830435645Z",
+      "timestamp": "2025-07-09T21:22:16.226100456Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -610,7 +656,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.016287216Z",
+      "timestamp": "2025-07-09T21:22:16.39744079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -632,7 +678,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.202446509Z",
+      "timestamp": "2025-07-09T21:22:16.565262843Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -654,7 +700,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.394323261Z",
+      "timestamp": "2025-07-09T21:22:16.734878232Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -676,7 +722,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.582231938Z",
+      "timestamp": "2025-07-09T21:22:16.898045824Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -698,7 +744,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.769768464Z",
+      "timestamp": "2025-07-09T21:22:17.066502717Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -720,7 +766,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:08.951603999Z",
+      "timestamp": "2025-07-09T21:22:17.23328039Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -742,7 +788,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:09.142449131Z",
+      "timestamp": "2025-07-09T21:22:17.401341758Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -764,7 +810,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:09.330583828Z",
+      "timestamp": "2025-07-09T21:22:17.566320938Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -786,10 +832,32 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:09.517008735Z",
+      "timestamp": "2025-07-09T21:22:17.730324973Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-09T21:22:17.897352411Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.16.0"
@@ -808,7 +876,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:51.357452673Z",
+      "timestamp": "2025-07-09T21:27:27.081668276Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -830,7 +898,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:51.572576407Z",
+      "timestamp": "2025-07-09T21:27:27.274664889Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -852,7 +920,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:51.784806204Z",
+      "timestamp": "2025-07-09T21:27:27.470125003Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -874,7 +942,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:52.009704734Z",
+      "timestamp": "2025-07-09T21:27:27.662096826Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -896,7 +964,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:52.230306845Z",
+      "timestamp": "2025-07-09T21:27:27.852568402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -918,7 +986,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:52.446997765Z",
+      "timestamp": "2025-07-09T21:27:28.041586843Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -940,7 +1008,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:52.660803216Z",
+      "timestamp": "2025-07-09T21:27:28.232399637Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -962,7 +1030,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:52.877711171Z",
+      "timestamp": "2025-07-09T21:27:28.421957886Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -984,7 +1052,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:53.083270209Z",
+      "timestamp": "2025-07-09T21:27:28.617376181Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -1006,7 +1074,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:53.300863802Z",
+      "timestamp": "2025-07-09T21:27:28.810514349Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -1028,10 +1096,32 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:53.506444555Z",
+      "timestamp": "2025-07-09T21:27:29.004436946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-09T21:27:29.195932359Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.22.0"
@@ -1050,7 +1140,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:32.474722337Z",
+      "timestamp": "2025-07-09T21:30:44.978249228Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1072,7 +1162,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:32.713862849Z",
+      "timestamp": "2025-07-09T21:30:45.186463699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1094,7 +1184,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:32.95132363Z",
+      "timestamp": "2025-07-09T21:30:45.392020445Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1116,7 +1206,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:33.186287839Z",
+      "timestamp": "2025-07-09T21:30:45.599238071Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -1138,7 +1228,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:33.425602113Z",
+      "timestamp": "2025-07-09T21:30:45.810602604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -1160,7 +1250,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:33.662016795Z",
+      "timestamp": "2025-07-09T21:30:46.0146863Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -1182,7 +1272,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:33.894480435Z",
+      "timestamp": "2025-07-09T21:30:46.22122641Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -1204,7 +1294,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:34.132190568Z",
+      "timestamp": "2025-07-09T21:30:46.431337392Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -1226,7 +1316,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:34.365123417Z",
+      "timestamp": "2025-07-09T21:30:46.636194225Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -1248,7 +1338,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:34.59348796Z",
+      "timestamp": "2025-07-09T21:30:46.84135802Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -1270,10 +1360,32 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:34.866235323Z",
+      "timestamp": "2025-07-09T21:30:47.048677251Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-09T21:30:47.25831375Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"
@@ -1292,7 +1404,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:21.226768754Z",
+      "timestamp": "2025-07-09T21:39:28.806356115Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1314,7 +1426,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:21.505312911Z",
+      "timestamp": "2025-07-09T21:39:29.041318891Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1336,7 +1448,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:21.776858544Z",
+      "timestamp": "2025-07-09T21:39:29.278024657Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager",
@@ -1358,7 +1470,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:22.048251363Z",
+      "timestamp": "2025-07-09T21:39:29.515412499Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.1",
@@ -1380,7 +1492,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:22.316447407Z",
+      "timestamp": "2025-07-09T21:39:29.754887642Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.2.3",
@@ -1402,7 +1514,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:22.584943397Z",
+      "timestamp": "2025-07-09T21:39:29.995943983Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v0.3.4",
@@ -1424,7 +1536,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:22.852541892Z",
+      "timestamp": "2025-07-09T21:39:30.240245044Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1",
@@ -1446,7 +1558,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:23.130995396Z",
+      "timestamp": "2025-07-09T21:39:30.476243735Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc1",
@@ -1468,7 +1580,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:23.397264353Z",
+      "timestamp": "2025-07-09T21:39:30.712439055Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc2",
@@ -1490,7 +1602,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:23.667910011Z",
+      "timestamp": "2025-07-09T21:39:30.944912699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc3",
@@ -1512,10 +1624,32 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:23.940869091Z",
+      "timestamp": "2025-07-09T21:39:31.178466507Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/node-manager@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-09T21:39:31.420066815Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/node-manager@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.24.0"

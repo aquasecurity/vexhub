@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-03T02:39:28.022747715Z",
-  "version": 148,
+  "last_updated": "2025-07-09T21:39:35.242413646Z",
+  "version": 158,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.10561463Z",
+      "timestamp": "2025-07-09T21:09:22.207874041Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -37,7 +37,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.182945976Z",
+      "timestamp": "2025-07-09T21:09:22.27399589Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -60,7 +60,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.260690891Z",
+      "timestamp": "2025-07-09T21:09:22.340277083Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -83,7 +83,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.337809641Z",
+      "timestamp": "2025-07-09T21:09:22.407391626Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -106,7 +106,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.417406201Z",
+      "timestamp": "2025-07-09T21:09:22.474997095Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -129,7 +129,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.496773285Z",
+      "timestamp": "2025-07-09T21:09:22.541780686Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -152,7 +152,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.57479064Z",
+      "timestamp": "2025-07-09T21:09:22.609938138Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -175,7 +175,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.652576623Z",
+      "timestamp": "2025-07-09T21:09:22.676629259Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -198,7 +198,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.73054836Z",
+      "timestamp": "2025-07-09T21:09:22.743157197Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -221,7 +221,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.808424224Z",
+      "timestamp": "2025-07-09T21:09:22.809386784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -244,7 +244,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.886241382Z",
+      "timestamp": "2025-07-09T21:09:22.875716631Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -267,7 +267,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:22.96429048Z",
+      "timestamp": "2025-07-09T21:09:22.942699184Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -290,7 +290,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:23.040477503Z",
+      "timestamp": "2025-07-09T21:09:23.012604993Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -313,10 +313,33 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-03T02:05:23.117678052Z",
+      "timestamp": "2025-07-09T21:09:23.079416724Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-07-09T21:09:23.146218859Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
@@ -336,7 +359,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:45.624562374Z",
+      "timestamp": "2025-07-09T21:11:27.256106613Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -359,7 +382,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:45.73143795Z",
+      "timestamp": "2025-07-09T21:11:27.347428717Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -382,7 +405,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:45.835549235Z",
+      "timestamp": "2025-07-09T21:11:27.438399764Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -405,7 +428,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:45.94109651Z",
+      "timestamp": "2025-07-09T21:11:27.528819305Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -428,7 +451,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.046692255Z",
+      "timestamp": "2025-07-09T21:11:27.618093755Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -451,7 +474,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.150830649Z",
+      "timestamp": "2025-07-09T21:11:27.707465583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -474,7 +497,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.254155187Z",
+      "timestamp": "2025-07-09T21:11:27.798396926Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -497,7 +520,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.358320677Z",
+      "timestamp": "2025-07-09T21:11:27.889232879Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -520,7 +543,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.462746128Z",
+      "timestamp": "2025-07-09T21:11:27.9799411Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -543,7 +566,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.567302588Z",
+      "timestamp": "2025-07-09T21:11:28.072710892Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -566,7 +589,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.670221888Z",
+      "timestamp": "2025-07-09T21:11:28.164779241Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -589,7 +612,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.774559489Z",
+      "timestamp": "2025-07-09T21:11:28.256831213Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -612,7 +635,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.878841539Z",
+      "timestamp": "2025-07-09T21:11:28.348055648Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -635,10 +658,33 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-07-03T02:07:46.983142709Z",
+      "timestamp": "2025-07-09T21:11:28.439248506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-10220",
+        "aliases": [
+          "GHSA-27wf-5967-98gx",
+          "GO-2024-3286"
+        ]
+      },
+      "timestamp": "2025-07-09T21:11:28.5304468Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
@@ -658,7 +704,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-07-03T02:08:29.867290571Z",
+      "timestamp": "2025-07-09T21:12:06.44352155Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -681,7 +727,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-07-03T02:08:29.978924114Z",
+      "timestamp": "2025-07-09T21:12:06.544051238Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -704,7 +750,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:47.580594727Z",
+      "timestamp": "2025-07-09T21:13:15.176159716Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -727,7 +773,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:47.707066342Z",
+      "timestamp": "2025-07-09T21:13:15.28532549Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -750,7 +796,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:47.833357117Z",
+      "timestamp": "2025-07-09T21:13:15.39524084Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -773,7 +819,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:47.957181951Z",
+      "timestamp": "2025-07-09T21:13:15.504433983Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -796,7 +842,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.084785299Z",
+      "timestamp": "2025-07-09T21:13:15.614197936Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -819,7 +865,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.211809513Z",
+      "timestamp": "2025-07-09T21:13:15.723412976Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -842,7 +888,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.337759901Z",
+      "timestamp": "2025-07-09T21:13:15.833201621Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -865,7 +911,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.461482747Z",
+      "timestamp": "2025-07-09T21:13:15.941479159Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -888,7 +934,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.590966292Z",
+      "timestamp": "2025-07-09T21:13:16.049483625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -911,7 +957,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.720689028Z",
+      "timestamp": "2025-07-09T21:13:16.157833509Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -934,7 +980,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.849134041Z",
+      "timestamp": "2025-07-09T21:13:16.266054372Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -957,7 +1003,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:48.977723738Z",
+      "timestamp": "2025-07-09T21:13:16.374854844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -980,7 +1026,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:49.107048471Z",
+      "timestamp": "2025-07-09T21:13:16.484051359Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -1003,10 +1049,33 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-07-03T02:09:49.231683436Z",
+      "timestamp": "2025-07-09T21:13:16.594035405Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-3177",
+        "aliases": [
+          "GHSA-pxhw-596r-rwq5",
+          "GO-2024-2746"
+        ]
+      },
+      "timestamp": "2025-07-09T21:13:16.703109609Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.26.13"
@@ -1026,7 +1095,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:40.888042824Z",
+      "timestamp": "2025-07-09T21:14:01.77470256Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -1049,7 +1118,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.019916557Z",
+      "timestamp": "2025-07-09T21:14:01.887041788Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -1072,7 +1141,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.152201929Z",
+      "timestamp": "2025-07-09T21:14:01.999424597Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -1095,7 +1164,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.283015837Z",
+      "timestamp": "2025-07-09T21:14:02.114413903Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -1118,7 +1187,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.417155453Z",
+      "timestamp": "2025-07-09T21:14:02.22656585Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -1141,7 +1210,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.547801938Z",
+      "timestamp": "2025-07-09T21:14:02.339655383Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -1164,7 +1233,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.677992039Z",
+      "timestamp": "2025-07-09T21:14:02.452091625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -1187,7 +1256,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.810284127Z",
+      "timestamp": "2025-07-09T21:14:02.56536884Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -1210,7 +1279,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:41.939752664Z",
+      "timestamp": "2025-07-09T21:14:02.678699754Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -1233,7 +1302,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.070951455Z",
+      "timestamp": "2025-07-09T21:14:02.790463864Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -1256,7 +1325,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.202512204Z",
+      "timestamp": "2025-07-09T21:14:02.903256955Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -1279,7 +1348,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.334088838Z",
+      "timestamp": "2025-07-09T21:14:03.015545693Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -1302,7 +1371,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.465413601Z",
+      "timestamp": "2025-07-09T21:14:03.128332248Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -1325,7 +1394,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.595173067Z",
+      "timestamp": "2025-07-09T21:14:03.24050453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -1348,10 +1417,33 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-03T02:10:42.724894859Z",
+      "timestamp": "2025-07-09T21:14:03.353606516Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-07-09T21:14:03.466568124Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
@@ -1371,7 +1463,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.791575107Z",
+      "timestamp": "2025-07-09T21:16:08.22842112Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -1394,7 +1486,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:08.941573827Z",
+      "timestamp": "2025-07-09T21:16:08.358471103Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -1417,7 +1509,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.09228419Z",
+      "timestamp": "2025-07-09T21:16:08.487207199Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -1440,7 +1532,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.241881203Z",
+      "timestamp": "2025-07-09T21:16:08.617715742Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -1463,7 +1555,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.391554809Z",
+      "timestamp": "2025-07-09T21:16:08.748265446Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -1486,7 +1578,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.540411271Z",
+      "timestamp": "2025-07-09T21:16:08.878870945Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -1509,7 +1601,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.692258022Z",
+      "timestamp": "2025-07-09T21:16:09.008287377Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -1532,7 +1624,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.841072388Z",
+      "timestamp": "2025-07-09T21:16:09.137743711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -1555,7 +1647,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:09.990767247Z",
+      "timestamp": "2025-07-09T21:16:09.267232298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -1578,7 +1670,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.139692362Z",
+      "timestamp": "2025-07-09T21:16:09.398382949Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -1601,7 +1693,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.291106472Z",
+      "timestamp": "2025-07-09T21:16:09.529553972Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -1624,7 +1716,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.444807993Z",
+      "timestamp": "2025-07-09T21:16:09.657782004Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -1647,7 +1739,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.595158983Z",
+      "timestamp": "2025-07-09T21:16:09.785526466Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -1670,7 +1762,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.745953685Z",
+      "timestamp": "2025-07-09T21:16:09.915119805Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -1693,10 +1785,33 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-03T02:13:10.900222494Z",
+      "timestamp": "2025-07-09T21:16:10.044893139Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-07-09T21:16:10.175097425Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -1716,7 +1831,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:11.916465585Z",
+      "timestamp": "2025-07-09T21:21:24.578691249Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -1739,7 +1854,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:12.097236147Z",
+      "timestamp": "2025-07-09T21:21:24.742276346Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -1762,7 +1877,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:12.279521787Z",
+      "timestamp": "2025-07-09T21:21:24.906223417Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -1785,7 +1900,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:12.464783507Z",
+      "timestamp": "2025-07-09T21:21:25.070095496Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -1808,7 +1923,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:12.644724982Z",
+      "timestamp": "2025-07-09T21:21:25.233602848Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -1831,7 +1946,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:12.828150583Z",
+      "timestamp": "2025-07-09T21:21:25.398766843Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -1854,7 +1969,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.011653408Z",
+      "timestamp": "2025-07-09T21:21:25.559559951Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -1877,7 +1992,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.196802901Z",
+      "timestamp": "2025-07-09T21:21:25.724864211Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -1900,7 +2015,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.375000954Z",
+      "timestamp": "2025-07-09T21:21:25.884295882Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -1923,7 +2038,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.556463166Z",
+      "timestamp": "2025-07-09T21:21:26.043133548Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -1946,7 +2061,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.738206428Z",
+      "timestamp": "2025-07-09T21:21:26.206670516Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -1969,7 +2084,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:13.920177126Z",
+      "timestamp": "2025-07-09T21:21:26.369911313Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -1992,7 +2107,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:14.10460081Z",
+      "timestamp": "2025-07-09T21:21:26.531838995Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -2015,10 +2130,33 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-03T02:19:14.287940894Z",
+      "timestamp": "2025-07-09T21:21:26.693592628Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-07-09T21:21:26.855249343Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.1.2"
@@ -2037,7 +2175,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:09.704933103Z",
+      "timestamp": "2025-07-09T21:22:18.067042455Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -2059,7 +2197,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:09.900100927Z",
+      "timestamp": "2025-07-09T21:22:18.237790346Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -2081,7 +2219,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:10.087560638Z",
+      "timestamp": "2025-07-09T21:22:18.408447783Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -2103,7 +2241,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:10.277683857Z",
+      "timestamp": "2025-07-09T21:22:18.575845628Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -2125,7 +2263,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:10.465903562Z",
+      "timestamp": "2025-07-09T21:22:18.745759818Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -2147,7 +2285,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:10.656911347Z",
+      "timestamp": "2025-07-09T21:22:18.916980397Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -2169,7 +2307,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:10.847724866Z",
+      "timestamp": "2025-07-09T21:22:19.090982663Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -2191,7 +2329,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.03638067Z",
+      "timestamp": "2025-07-09T21:22:19.262735138Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -2213,7 +2351,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.22673226Z",
+      "timestamp": "2025-07-09T21:22:19.436305909Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -2235,7 +2373,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.414300437Z",
+      "timestamp": "2025-07-09T21:22:19.607086597Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -2257,7 +2395,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.606870022Z",
+      "timestamp": "2025-07-09T21:22:19.777421258Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -2279,7 +2417,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.794936904Z",
+      "timestamp": "2025-07-09T21:22:19.948559627Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -2301,7 +2439,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:11.985947873Z",
+      "timestamp": "2025-07-09T21:22:20.123805755Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -2323,10 +2461,32 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-03T02:20:12.172505873Z",
+      "timestamp": "2025-07-09T21:22:20.296098526Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-09T21:22:20.467468636Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.13.0"
@@ -2345,7 +2505,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:53.713613919Z",
+      "timestamp": "2025-07-09T21:27:29.389471767Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -2367,7 +2527,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:53.92113728Z",
+      "timestamp": "2025-07-09T21:27:29.582886496Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -2389,7 +2549,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:54.136579436Z",
+      "timestamp": "2025-07-09T21:27:29.775341434Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -2411,7 +2571,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:54.355252352Z",
+      "timestamp": "2025-07-09T21:27:29.966346338Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -2433,7 +2593,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:54.577969795Z",
+      "timestamp": "2025-07-09T21:27:30.158051071Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -2455,7 +2615,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:54.801388707Z",
+      "timestamp": "2025-07-09T21:27:30.35227746Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -2477,7 +2637,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:55.022593016Z",
+      "timestamp": "2025-07-09T21:27:30.547440772Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -2499,7 +2659,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:55.244220251Z",
+      "timestamp": "2025-07-09T21:27:30.745819022Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -2521,7 +2681,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:55.462296762Z",
+      "timestamp": "2025-07-09T21:27:30.941722971Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -2543,7 +2703,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:55.686871626Z",
+      "timestamp": "2025-07-09T21:27:31.136292743Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -2565,7 +2725,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:55.905604219Z",
+      "timestamp": "2025-07-09T21:27:31.331091128Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -2587,7 +2747,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:56.125229957Z",
+      "timestamp": "2025-07-09T21:27:31.524926464Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -2609,7 +2769,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:56.341251222Z",
+      "timestamp": "2025-07-09T21:27:31.718001939Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -2631,7 +2791,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:56.562727009Z",
+      "timestamp": "2025-07-09T21:27:31.91155625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -2653,10 +2813,32 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-03T02:25:56.783094696Z",
+      "timestamp": "2025-07-09T21:27:32.101542591Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-09T21:27:32.294838318Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
@@ -2675,7 +2857,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:35.092893773Z",
+      "timestamp": "2025-07-09T21:30:47.467098779Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -2697,7 +2879,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:35.324037577Z",
+      "timestamp": "2025-07-09T21:30:47.674035144Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -2719,7 +2901,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:35.556572796Z",
+      "timestamp": "2025-07-09T21:30:47.88476332Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -2741,7 +2923,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:35.790256868Z",
+      "timestamp": "2025-07-09T21:30:48.091380661Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -2763,7 +2945,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:36.025871736Z",
+      "timestamp": "2025-07-09T21:30:48.300248283Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -2785,7 +2967,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:36.256621408Z",
+      "timestamp": "2025-07-09T21:30:48.510837593Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -2807,7 +2989,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:36.486944333Z",
+      "timestamp": "2025-07-09T21:30:48.721767477Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -2829,7 +3011,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:36.714980885Z",
+      "timestamp": "2025-07-09T21:30:48.933369909Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -2851,7 +3033,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:36.950374038Z",
+      "timestamp": "2025-07-09T21:30:49.142785921Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -2873,7 +3055,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:37.185452476Z",
+      "timestamp": "2025-07-09T21:30:49.353038297Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -2895,7 +3077,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:37.419084181Z",
+      "timestamp": "2025-07-09T21:30:49.560504158Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -2917,7 +3099,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:37.659258508Z",
+      "timestamp": "2025-07-09T21:30:49.768028646Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -2939,7 +3121,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:37.890032817Z",
+      "timestamp": "2025-07-09T21:30:49.97996139Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -2961,7 +3143,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:38.122533799Z",
+      "timestamp": "2025-07-09T21:30:50.186391163Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -2983,10 +3165,32 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-03T02:29:38.352268704Z",
+      "timestamp": "2025-07-09T21:30:50.398077018Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-09T21:30:50.609867192Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -3005,7 +3209,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:24.213179261Z",
+      "timestamp": "2025-07-09T21:39:31.657515301Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -3027,7 +3231,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:24.488146179Z",
+      "timestamp": "2025-07-09T21:39:31.895513288Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices",
@@ -3049,7 +3253,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:24.764141142Z",
+      "timestamp": "2025-07-09T21:39:32.131526921Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.3.3",
@@ -3071,7 +3275,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:25.036919923Z",
+      "timestamp": "2025-07-09T21:39:32.369717617Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v0.4.3",
@@ -3093,7 +3297,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:25.311569851Z",
+      "timestamp": "2025-07-09T21:39:32.606730574Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0",
@@ -3115,7 +3319,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:25.58545291Z",
+      "timestamp": "2025-07-09T21:39:32.848572993Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-dev.2",
@@ -3137,7 +3341,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:25.858815214Z",
+      "timestamp": "2025-07-09T21:39:33.090954962Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc3",
@@ -3159,7 +3363,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:26.133566683Z",
+      "timestamp": "2025-07-09T21:39:33.329938979Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc4",
@@ -3181,7 +3385,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:26.39953844Z",
+      "timestamp": "2025-07-09T21:39:33.571231019Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.0-rc5",
@@ -3203,7 +3407,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:26.664085197Z",
+      "timestamp": "2025-07-09T21:39:33.810277205Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1",
@@ -3225,7 +3429,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:26.935475062Z",
+      "timestamp": "2025-07-09T21:39:34.049239271Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-dev.0",
@@ -3247,7 +3451,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:27.203535229Z",
+      "timestamp": "2025-07-09T21:39:34.291543579Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc1",
@@ -3269,7 +3473,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:27.477349537Z",
+      "timestamp": "2025-07-09T21:39:34.527927593Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc2",
@@ -3291,7 +3495,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:27.748808267Z",
+      "timestamp": "2025-07-09T21:39:34.765225291Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc3",
@@ -3313,10 +3517,32 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-03T02:39:28.022748385Z",
+      "timestamp": "2025-07-09T21:39:35.004034367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-09T21:39:35.242414411Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.0-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
