@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:27:14.153593881Z",
-  "version": 39,
+  "last_updated": "2025-07-16T14:02:05.90735938Z",
+  "version": 41,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-06-26T03:59:43.582860129Z",
+      "timestamp": "2025-07-16T13:33:55.795464395Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -36,7 +36,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:07.83655901Z",
+      "timestamp": "2025-07-16T13:35:24.93020678Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -58,7 +58,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.011349182Z",
+      "timestamp": "2025-07-16T13:35:25.103202336Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -80,7 +80,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.185055123Z",
+      "timestamp": "2025-07-16T13:35:25.281727105Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -102,7 +102,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.359496632Z",
+      "timestamp": "2025-07-16T13:35:25.457946764Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -124,7 +124,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.537000939Z",
+      "timestamp": "2025-07-16T13:35:25.633805771Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4",
@@ -146,7 +146,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.716668987Z",
+      "timestamp": "2025-07-16T13:35:25.810861633Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.1",
@@ -168,7 +168,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:08.890800572Z",
+      "timestamp": "2025-07-16T13:35:25.985608446Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.2",
@@ -190,7 +190,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.067756034Z",
+      "timestamp": "2025-07-16T13:35:26.16065031Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.3",
@@ -212,7 +212,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.24620506Z",
+      "timestamp": "2025-07-16T13:35:26.336189607Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.5",
@@ -234,7 +234,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.423847689Z",
+      "timestamp": "2025-07-16T13:35:26.51104037Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.5-rc.1",
@@ -256,7 +256,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.597342139Z",
+      "timestamp": "2025-07-16T13:35:26.68751892Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.6",
@@ -278,7 +278,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.777039896Z",
+      "timestamp": "2025-07-16T13:35:26.866948142Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.6-rc.1",
@@ -300,7 +300,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:09.954601234Z",
+      "timestamp": "2025-07-16T13:35:27.041710805Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.7-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.22.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-16T13:35:27.218319415Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1",
@@ -322,7 +344,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:10.12976407Z",
+      "timestamp": "2025-07-16T13:35:27.396822653Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1-rc.1",
@@ -344,7 +366,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:10.310546637Z",
+      "timestamp": "2025-07-16T13:35:27.578291384Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.2",
@@ -366,7 +388,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:10.492047572Z",
+      "timestamp": "2025-07-16T13:35:27.758051287Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.2-rc.1",
@@ -388,7 +410,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:10.668490089Z",
+      "timestamp": "2025-07-16T13:35:27.938916514Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.3",
@@ -410,7 +432,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:10.849094765Z",
+      "timestamp": "2025-07-16T13:35:28.117728824Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.3-rc.1",
@@ -432,7 +454,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.024109809Z",
+      "timestamp": "2025-07-16T13:35:28.294960957Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.4-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-16T13:35:28.47221684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.10",
@@ -454,7 +498,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.203448524Z",
+      "timestamp": "2025-07-16T13:35:28.649649134Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.10-rc.1",
@@ -476,7 +520,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.383246112Z",
+      "timestamp": "2025-07-16T13:35:28.828118142Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8",
@@ -498,7 +542,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.56078601Z",
+      "timestamp": "2025-07-16T13:35:29.005788246Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8-rc.1",
@@ -520,7 +564,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.735888125Z",
+      "timestamp": "2025-07-16T13:35:29.184294694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.9",
@@ -542,7 +586,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:11.916016396Z",
+      "timestamp": "2025-07-16T13:35:29.362348711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.9-rc.1",
@@ -564,7 +608,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:19.221639643Z",
+      "timestamp": "2025-07-16T13:40:43.871580683Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -586,7 +630,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:19.26586995Z",
+      "timestamp": "2025-07-16T13:44:51.219376911Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -608,7 +652,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:14.531517267Z",
+      "timestamp": "2025-07-16T13:53:57.605419803Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -630,7 +674,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:14.78715032Z",
+      "timestamp": "2025-07-16T13:53:57.848859311Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
@@ -652,7 +696,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:15.025352628Z",
+      "timestamp": "2025-07-16T13:53:58.091697316Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4",
@@ -674,7 +718,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:15.27459774Z",
+      "timestamp": "2025-07-16T13:53:58.333868669Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.1",
@@ -696,7 +740,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:15.528339845Z",
+      "timestamp": "2025-07-16T13:53:58.577336607Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.2",
@@ -718,7 +762,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:15.772888053Z",
+      "timestamp": "2025-07-16T13:53:58.822657403Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.10.4-rc.3",
@@ -740,7 +784,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:16.016918206Z",
+      "timestamp": "2025-07-16T13:53:59.06335211Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1",
@@ -762,7 +806,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:16.261732117Z",
+      "timestamp": "2025-07-16T13:53:59.307852212Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.1-rc.1",
@@ -784,7 +828,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:16.511253482Z",
+      "timestamp": "2025-07-16T13:53:59.552863437Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8",
@@ -806,7 +850,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:16.750143556Z",
+      "timestamp": "2025-07-16T13:53:59.801700616Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.9.8-rc.1",
@@ -829,7 +873,7 @@
           "GO-2025-3553"
         ]
       },
-      "timestamp": "2025-06-26T04:27:14.153594621Z",
+      "timestamp": "2025-07-16T14:02:05.90735993Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator",
