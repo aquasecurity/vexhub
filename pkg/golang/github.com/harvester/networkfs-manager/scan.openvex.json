@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:17:54.361944599Z",
-  "version": 40,
+  "last_updated": "2025-07-20T20:45:51.818619828Z",
+  "version": 41,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:23.25332605Z",
+      "timestamp": "2025-07-20T20:26:58.649519679Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager",
@@ -35,7 +35,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:23.425814743Z",
+      "timestamp": "2025-07-20T20:26:58.827055219Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/networkfs-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-20T20:26:59.000046675Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v0.1.2",
@@ -57,7 +79,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:23.602476584Z",
+      "timestamp": "2025-07-20T20:26:59.197389626Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0",
@@ -79,7 +101,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:23.775460941Z",
+      "timestamp": "2025-07-20T20:26:59.370873915Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-dev.0",
@@ -101,7 +123,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:23.954112721Z",
+      "timestamp": "2025-07-20T20:26:59.549949556Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc2",
@@ -123,7 +145,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:24.130690512Z",
+      "timestamp": "2025-07-20T20:26:59.731549358Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc3",
@@ -145,7 +167,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:24.306908959Z",
+      "timestamp": "2025-07-20T20:26:59.914015895Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc4",
@@ -167,7 +189,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:24.486402426Z",
+      "timestamp": "2025-07-20T20:27:00.094940311Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc5",
@@ -189,7 +211,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:24.664849415Z",
+      "timestamp": "2025-07-20T20:27:00.27632943Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-dev.0",
@@ -211,7 +233,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:24.84297627Z",
+      "timestamp": "2025-07-20T20:27:00.462700248Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc1",
@@ -233,7 +255,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:25.018065346Z",
+      "timestamp": "2025-07-20T20:27:00.646126283Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc2",
@@ -255,7 +277,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:25.19609173Z",
+      "timestamp": "2025-07-20T20:27:00.828105686Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc3",
@@ -277,7 +299,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:00:25.3672184Z",
+      "timestamp": "2025-07-20T20:27:01.010541754Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc4",
@@ -299,7 +321,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:00.301690225Z",
+      "timestamp": "2025-07-20T20:36:20.034917835Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager",
@@ -321,7 +343,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:00.514120118Z",
+      "timestamp": "2025-07-20T20:36:20.254362699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v0.1.2",
@@ -343,7 +365,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:00.731522898Z",
+      "timestamp": "2025-07-20T20:36:20.467753836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0",
@@ -365,7 +387,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:00.944147043Z",
+      "timestamp": "2025-07-20T20:36:20.67950625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-dev.0",
@@ -387,7 +409,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:01.158493453Z",
+      "timestamp": "2025-07-20T20:36:20.898727192Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc2",
@@ -409,7 +431,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:01.368065089Z",
+      "timestamp": "2025-07-20T20:36:21.124560385Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc3",
@@ -431,7 +453,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:01.577682836Z",
+      "timestamp": "2025-07-20T20:36:21.344820924Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc4",
@@ -453,7 +475,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:01.791759414Z",
+      "timestamp": "2025-07-20T20:36:21.559023028Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc5",
@@ -475,7 +497,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:02.001514332Z",
+      "timestamp": "2025-07-20T20:36:21.783302548Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-dev.0",
@@ -497,7 +519,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:02.215345028Z",
+      "timestamp": "2025-07-20T20:36:21.997427401Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc1",
@@ -519,7 +541,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:02.426878612Z",
+      "timestamp": "2025-07-20T20:36:22.210250203Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc2",
@@ -541,7 +563,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:02.64087241Z",
+      "timestamp": "2025-07-20T20:36:22.42753647Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc3",
@@ -563,7 +585,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:09:02.851502306Z",
+      "timestamp": "2025-07-20T20:36:22.649505403Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc4",
@@ -585,7 +607,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:51.472802728Z",
+      "timestamp": "2025-07-20T20:45:48.87057472Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager",
@@ -607,7 +629,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:51.715846374Z",
+      "timestamp": "2025-07-20T20:45:49.111954427Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v0.1.2",
@@ -629,7 +651,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:51.952607031Z",
+      "timestamp": "2025-07-20T20:45:49.353865579Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0",
@@ -651,7 +673,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:52.189386777Z",
+      "timestamp": "2025-07-20T20:45:49.60100909Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-dev.0",
@@ -673,7 +695,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:52.427087783Z",
+      "timestamp": "2025-07-20T20:45:49.844718305Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc2",
@@ -695,7 +717,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:52.665419744Z",
+      "timestamp": "2025-07-20T20:45:50.086591376Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc3",
@@ -717,7 +739,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:52.907084717Z",
+      "timestamp": "2025-07-20T20:45:50.328605028Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc4",
@@ -739,7 +761,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:53.152976209Z",
+      "timestamp": "2025-07-20T20:45:50.573855274Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.0-rc5",
@@ -761,7 +783,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:53.398509229Z",
+      "timestamp": "2025-07-20T20:45:50.818919189Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-dev.0",
@@ -783,7 +805,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:53.640832757Z",
+      "timestamp": "2025-07-20T20:45:51.067891664Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc1",
@@ -805,7 +827,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:53.877114229Z",
+      "timestamp": "2025-07-20T20:45:51.32215885Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc2",
@@ -827,7 +849,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:54.12284522Z",
+      "timestamp": "2025-07-20T20:45:51.570780062Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc3",
@@ -849,7 +871,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:17:54.361945299Z",
+      "timestamp": "2025-07-20T20:45:51.818620408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/networkfs-manager@v1.5.1-rc4",

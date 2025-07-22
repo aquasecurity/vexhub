@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:19:56.364671738Z",
-  "version": 29,
+  "last_updated": "2025-07-20T20:48:07.848513712Z",
+  "version": 35,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2023-2402"
         ]
       },
-      "timestamp": "2025-06-26T03:48:51.304847326Z",
+      "timestamp": "2025-07-20T20:14:37.36079833Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -37,7 +37,7 @@
           "GO-2023-2402"
         ]
       },
-      "timestamp": "2025-06-26T03:48:51.399789062Z",
+      "timestamp": "2025-07-20T20:14:37.451443849Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -60,7 +60,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-06-26T03:50:12.242904245Z",
+      "timestamp": "2025-07-20T20:16:00.842725961Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -83,7 +83,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-06-26T03:50:12.348072918Z",
+      "timestamp": "2025-07-20T20:16:00.949840855Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -106,7 +106,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:29.237292108Z",
+      "timestamp": "2025-07-20T20:18:29.516367258Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -129,7 +129,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:29.361224967Z",
+      "timestamp": "2025-07-20T20:18:29.641130346Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -152,7 +152,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:29.484652861Z",
+      "timestamp": "2025-07-20T20:18:29.766393268Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -175,7 +175,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:29.610406297Z",
+      "timestamp": "2025-07-20T20:18:29.895349208Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
@@ -198,7 +198,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:05.202773811Z",
+      "timestamp": "2025-07-20T20:21:16.484393806Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -221,7 +221,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:05.342006623Z",
+      "timestamp": "2025-07-20T20:21:16.629855051Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -244,7 +244,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:05.484754407Z",
+      "timestamp": "2025-07-20T20:21:16.77731608Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -267,7 +267,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:05.630052446Z",
+      "timestamp": "2025-07-20T20:21:16.923706351Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
@@ -289,7 +289,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.635560098Z",
+      "timestamp": "2025-07-20T20:28:22.201941073Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -311,7 +311,29 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.812451517Z",
+      "timestamp": "2025-07-20T20:28:22.384194514Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-20T20:28:22.5672217Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -333,7 +355,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.993592097Z",
+      "timestamp": "2025-07-20T20:28:22.754941113Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -355,7 +377,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:37.176647317Z",
+      "timestamp": "2025-07-20T20:28:22.937173273Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
@@ -372,12 +394,34 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-20T20:28:23.122158265Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.31",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22869",
         "aliases": [
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:29.209677686Z",
+      "timestamp": "2025-07-20T20:33:39.61025854Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -399,7 +443,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:29.410290156Z",
+      "timestamp": "2025-07-20T20:33:39.813277394Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -421,7 +465,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:29.616275366Z",
+      "timestamp": "2025-07-20T20:33:40.024158089Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -443,7 +487,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:29.818907545Z",
+      "timestamp": "2025-07-20T20:33:40.22542091Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
@@ -465,7 +509,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:39.352527932Z",
+      "timestamp": "2025-07-20T20:38:08.76274641Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -487,7 +531,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:39.576369335Z",
+      "timestamp": "2025-07-20T20:38:08.981592147Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -509,7 +553,29 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:39.791260563Z",
+      "timestamp": "2025-07-20T20:38:09.203998442Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-20T20:38:09.424633183Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -531,7 +597,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:40.005458946Z",
+      "timestamp": "2025-07-20T20:38:09.652216937Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
@@ -548,12 +614,34 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-20T20:38:09.875029294Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.31",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22872",
         "aliases": [
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:55.632189125Z",
+      "timestamp": "2025-07-20T20:48:06.559560508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -575,7 +663,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:55.88142177Z",
+      "timestamp": "2025-07-20T20:48:06.818343763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
@@ -597,7 +685,29 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:56.123243836Z",
+      "timestamp": "2025-07-20T20:48:07.078450107Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-20T20:48:07.32913108Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.28",
@@ -619,13 +729,35 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:56.364672368Z",
+      "timestamp": "2025-07-20T20:48:07.585410995Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.30",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.27.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-20T20:48:07.848514232Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/local-path-provisioner@v0.0.31",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
             }
           ]
         }
