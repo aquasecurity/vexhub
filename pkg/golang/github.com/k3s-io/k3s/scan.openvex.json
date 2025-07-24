@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-20T20:56:45.351586881Z",
-  "version": 128,
+  "last_updated": "2025-07-23T10:34:37.27366458Z",
+  "version": 133,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.389274903Z",
+      "timestamp": "2025-07-23T09:53:18.92241479Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -37,7 +37,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.501783239Z",
+      "timestamp": "2025-07-23T09:53:19.041812181Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -60,7 +60,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.610121724Z",
+      "timestamp": "2025-07-23T09:53:19.161198463Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -83,7 +83,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.721532982Z",
+      "timestamp": "2025-07-23T09:53:19.280601844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13+k3s1",
@@ -106,7 +106,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.832025952Z",
+      "timestamp": "2025-07-23T09:53:19.396765737Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13-rc1+k3s1",
@@ -129,7 +129,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:37.94345595Z",
+      "timestamp": "2025-07-23T09:53:19.51520783Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14+k3s1",
@@ -152,7 +152,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.054583126Z",
+      "timestamp": "2025-07-23T09:53:19.63789684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s1",
@@ -175,7 +175,30 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.168577823Z",
+      "timestamp": "2025-07-23T09:53:19.752645951Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-28180",
+        "aliases": [
+          "GHSA-c5q2-7r4c-mv6g",
+          "GO-2024-2631"
+        ]
+      },
+      "timestamp": "2025-07-23T09:53:19.866176711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10+k3s1",
@@ -198,7 +221,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.276770877Z",
+      "timestamp": "2025-07-23T09:53:19.983949018Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10-rc1+k3s1",
@@ -221,7 +244,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.389009821Z",
+      "timestamp": "2025-07-23T09:53:20.104847922Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.11-rc1+k3s1",
@@ -244,7 +267,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.498995838Z",
+      "timestamp": "2025-07-23T09:53:20.223671859Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -267,7 +290,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.610369485Z",
+      "timestamp": "2025-07-23T09:53:20.3419538Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -290,7 +313,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.720304262Z",
+      "timestamp": "2025-07-23T09:53:20.463164248Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9+k3s1",
@@ -313,7 +336,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.830071757Z",
+      "timestamp": "2025-07-23T09:53:20.581599831Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9-rc1+k3s1",
@@ -336,7 +359,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:38.941667336Z",
+      "timestamp": "2025-07-23T09:53:20.699874572Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -359,7 +382,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.055294851Z",
+      "timestamp": "2025-07-23T09:53:20.818144464Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -382,7 +405,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.163961838Z",
+      "timestamp": "2025-07-23T09:53:20.932810643Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5+k3s1",
@@ -405,7 +428,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.274841301Z",
+      "timestamp": "2025-07-23T09:53:21.047578454Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5-rc1+k3s1",
@@ -428,7 +451,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.386716483Z",
+      "timestamp": "2025-07-23T09:53:21.164330922Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6+k3s1",
@@ -451,7 +474,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.49936081Z",
+      "timestamp": "2025-07-23T09:53:21.280691327Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6-rc1+k3s1",
@@ -474,7 +497,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-07-20T20:16:39.610102953Z",
+      "timestamp": "2025-07-23T09:53:21.397572386Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.7-rc1+k3s1",
@@ -497,7 +520,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.328958026Z",
+      "timestamp": "2025-07-23T09:54:46.576566003Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -520,7 +543,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.452305351Z",
+      "timestamp": "2025-07-23T09:54:46.703487895Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -543,7 +566,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.579042543Z",
+      "timestamp": "2025-07-23T09:54:46.834051869Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -566,7 +589,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.701671673Z",
+      "timestamp": "2025-07-23T09:54:46.963952438Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -589,7 +612,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.822707712Z",
+      "timestamp": "2025-07-23T09:54:47.094384651Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -612,7 +635,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:01.948332405Z",
+      "timestamp": "2025-07-23T09:54:47.224661132Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13+k3s1",
@@ -635,7 +658,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.073713906Z",
+      "timestamp": "2025-07-23T09:54:47.354678172Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13-rc1+k3s1",
@@ -658,7 +681,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.197025101Z",
+      "timestamp": "2025-07-23T09:54:47.484988664Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14+k3s1",
@@ -681,7 +704,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.322527523Z",
+      "timestamp": "2025-07-23T09:54:47.613417099Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s1",
@@ -704,7 +727,30 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.445655698Z",
+      "timestamp": "2025-07-23T09:54:47.743504229Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-07-23T09:54:47.871556671Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10+k3s1",
@@ -727,7 +773,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.570140012Z",
+      "timestamp": "2025-07-23T09:54:48.000291159Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10-rc1+k3s1",
@@ -750,7 +796,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.693698209Z",
+      "timestamp": "2025-07-23T09:54:48.127594304Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.11-rc1+k3s1",
@@ -773,7 +819,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.814811178Z",
+      "timestamp": "2025-07-23T09:54:48.254362505Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -796,7 +842,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:02.939565015Z",
+      "timestamp": "2025-07-23T09:54:48.381959403Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -819,7 +865,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.064744175Z",
+      "timestamp": "2025-07-23T09:54:48.510482839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9+k3s1",
@@ -842,7 +888,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.189821433Z",
+      "timestamp": "2025-07-23T09:54:48.638773343Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9-rc1+k3s1",
@@ -865,7 +911,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.31334275Z",
+      "timestamp": "2025-07-23T09:54:48.765867437Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -888,7 +934,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.437478412Z",
+      "timestamp": "2025-07-23T09:54:48.895565573Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -911,7 +957,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.560942839Z",
+      "timestamp": "2025-07-23T09:54:49.022318984Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5+k3s1",
@@ -934,7 +980,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.685725766Z",
+      "timestamp": "2025-07-23T09:54:49.152657426Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5-rc1+k3s1",
@@ -957,7 +1003,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.809852947Z",
+      "timestamp": "2025-07-23T09:54:49.284574952Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6+k3s1",
@@ -980,7 +1026,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:03.936074935Z",
+      "timestamp": "2025-07-23T09:54:49.416456788Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6-rc1+k3s1",
@@ -1003,7 +1049,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:04.059697623Z",
+      "timestamp": "2025-07-23T09:54:49.546941622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.7-rc1+k3s1",
@@ -1026,7 +1072,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:24.485297197Z",
+      "timestamp": "2025-07-23T09:57:16.230289667Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1049,7 +1095,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:24.629726344Z",
+      "timestamp": "2025-07-23T09:57:16.37591567Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1072,7 +1118,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:24.771098407Z",
+      "timestamp": "2025-07-23T09:57:16.523550851Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1095,7 +1141,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:24.907297971Z",
+      "timestamp": "2025-07-23T09:57:16.665405761Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -1118,7 +1164,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.051188373Z",
+      "timestamp": "2025-07-23T09:57:16.813158472Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -1141,7 +1187,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.1970277Z",
+      "timestamp": "2025-07-23T09:57:16.960171388Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13+k3s1",
@@ -1164,7 +1210,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.339973505Z",
+      "timestamp": "2025-07-23T09:57:17.108083321Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13-rc1+k3s1",
@@ -1187,7 +1233,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.483057471Z",
+      "timestamp": "2025-07-23T09:57:17.256316427Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14+k3s1",
@@ -1210,7 +1256,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.624145732Z",
+      "timestamp": "2025-07-23T09:57:17.405014347Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s1",
@@ -1233,7 +1279,30 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.769719908Z",
+      "timestamp": "2025-07-23T09:57:17.550014865Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-07-23T09:57:17.699240639Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10+k3s1",
@@ -1256,7 +1325,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:25.913153556Z",
+      "timestamp": "2025-07-23T09:57:17.849072959Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10-rc1+k3s1",
@@ -1279,7 +1348,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.057265Z",
+      "timestamp": "2025-07-23T09:57:17.99333657Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.11-rc1+k3s1",
@@ -1302,7 +1371,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.198297471Z",
+      "timestamp": "2025-07-23T09:57:18.140243565Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -1325,7 +1394,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.338816048Z",
+      "timestamp": "2025-07-23T09:57:18.286530944Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -1348,7 +1417,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.481691582Z",
+      "timestamp": "2025-07-23T09:57:18.435290574Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9+k3s1",
@@ -1371,7 +1440,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.624170884Z",
+      "timestamp": "2025-07-23T09:57:18.581755595Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9-rc1+k3s1",
@@ -1394,7 +1463,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.765154234Z",
+      "timestamp": "2025-07-23T09:57:18.728893471Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -1417,7 +1486,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:26.909354819Z",
+      "timestamp": "2025-07-23T09:57:18.87973446Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -1440,7 +1509,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:27.052854448Z",
+      "timestamp": "2025-07-23T09:57:19.028322379Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5+k3s1",
@@ -1463,7 +1532,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:27.193923809Z",
+      "timestamp": "2025-07-23T09:57:19.172370118Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5-rc1+k3s1",
@@ -1486,7 +1555,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:27.334820549Z",
+      "timestamp": "2025-07-23T09:57:19.321339271Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6+k3s1",
@@ -1509,7 +1578,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:27.477651143Z",
+      "timestamp": "2025-07-23T09:57:19.469654077Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6-rc1+k3s1",
@@ -1532,7 +1601,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:27.620625028Z",
+      "timestamp": "2025-07-23T09:57:19.615776465Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.7-rc1+k3s1",
@@ -1554,7 +1623,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:15.142563787Z",
+      "timestamp": "2025-07-23T10:04:21.466548116Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1576,7 +1645,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:15.324738071Z",
+      "timestamp": "2025-07-23T10:04:21.648272615Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1598,7 +1667,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:15.511940893Z",
+      "timestamp": "2025-07-23T10:04:21.830827532Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -1620,7 +1689,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:15.693811175Z",
+      "timestamp": "2025-07-23T10:04:22.009808867Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -1642,7 +1711,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:15.875648126Z",
+      "timestamp": "2025-07-23T10:04:22.189972483Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -1664,7 +1733,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:16.062123593Z",
+      "timestamp": "2025-07-23T10:04:22.373582709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -1686,7 +1755,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:16.244551818Z",
+      "timestamp": "2025-07-23T10:04:22.561912747Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -1708,7 +1777,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:27:16.425451153Z",
+      "timestamp": "2025-07-23T10:04:22.745822586Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -1730,7 +1799,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:00.023661398Z",
+      "timestamp": "2025-07-23T10:10:14.453870526Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1752,7 +1821,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:00.230628482Z",
+      "timestamp": "2025-07-23T10:10:14.660691487Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1774,7 +1843,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:00.439004427Z",
+      "timestamp": "2025-07-23T10:10:14.877038103Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -1796,7 +1865,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:00.647935775Z",
+      "timestamp": "2025-07-23T10:10:15.09010413Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -1818,7 +1887,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:00.855511994Z",
+      "timestamp": "2025-07-23T10:10:15.304285137Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -1840,7 +1909,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:01.057928623Z",
+      "timestamp": "2025-07-23T10:10:15.516702508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13+k3s1",
@@ -1862,7 +1931,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:01.263385825Z",
+      "timestamp": "2025-07-23T10:10:15.736771896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13-rc1+k3s1",
@@ -1884,7 +1953,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:01.476841209Z",
+      "timestamp": "2025-07-23T10:10:15.952794449Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14+k3s1",
@@ -1906,7 +1975,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:01.681378644Z",
+      "timestamp": "2025-07-23T10:10:16.167610711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s1",
@@ -1928,7 +1997,29 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:01.889159644Z",
+      "timestamp": "2025-07-23T10:10:16.384126889Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-23T10:10:16.599387185Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10+k3s1",
@@ -1950,7 +2041,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:02.088913963Z",
+      "timestamp": "2025-07-23T10:10:16.812491232Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10-rc1+k3s1",
@@ -1972,7 +2063,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:02.291339912Z",
+      "timestamp": "2025-07-23T10:10:17.028558785Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.11-rc1+k3s1",
@@ -1994,7 +2085,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:02.490286485Z",
+      "timestamp": "2025-07-23T10:10:17.24023061Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -2016,7 +2107,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:02.689651881Z",
+      "timestamp": "2025-07-23T10:10:17.45023245Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -2038,7 +2129,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:02.896977837Z",
+      "timestamp": "2025-07-23T10:10:17.663875232Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9+k3s1",
@@ -2060,7 +2151,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:03.102676801Z",
+      "timestamp": "2025-07-23T10:10:17.877924637Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9-rc1+k3s1",
@@ -2082,7 +2173,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:03.308459826Z",
+      "timestamp": "2025-07-23T10:10:18.092443897Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -2104,7 +2195,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:03.509502405Z",
+      "timestamp": "2025-07-23T10:10:18.300037756Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -2126,7 +2217,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:03.718589035Z",
+      "timestamp": "2025-07-23T10:10:18.508374901Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5+k3s1",
@@ -2148,7 +2239,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:03.927613044Z",
+      "timestamp": "2025-07-23T10:10:18.722071293Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5-rc1+k3s1",
@@ -2170,7 +2261,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:04.132596983Z",
+      "timestamp": "2025-07-23T10:10:18.924710118Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6+k3s1",
@@ -2192,7 +2283,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:04.337734653Z",
+      "timestamp": "2025-07-23T10:10:19.132368437Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6-rc1+k3s1",
@@ -2214,7 +2305,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:04.546033507Z",
+      "timestamp": "2025-07-23T10:10:19.345472535Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.7-rc1+k3s1",
@@ -2237,7 +2328,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:37.180732472Z",
+      "timestamp": "2025-07-23T10:34:28.697100929Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s",
@@ -2260,7 +2351,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:37.46961689Z",
+      "timestamp": "2025-07-23T10:34:28.997388349Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12+k3s1",
@@ -2283,7 +2374,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:37.754411678Z",
+      "timestamp": "2025-07-23T10:34:29.291994429Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.12-rc1+k3s1",
@@ -2306,7 +2397,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:38.04619197Z",
+      "timestamp": "2025-07-23T10:34:29.588378494Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13+k3s1",
@@ -2329,7 +2420,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:38.338089035Z",
+      "timestamp": "2025-07-23T10:34:29.881646142Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.13-rc1+k3s1",
@@ -2352,7 +2443,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:38.632130795Z",
+      "timestamp": "2025-07-23T10:34:30.178451371Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14+k3s1",
@@ -2375,7 +2466,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:38.931162304Z",
+      "timestamp": "2025-07-23T10:34:30.476731764Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s1",
@@ -2398,7 +2489,30 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:39.223049959Z",
+      "timestamp": "2025-07-23T10:34:30.77539789Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.30.14-rc1+k3s2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/pion/interceptor@v0.1.37"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-49140",
+        "aliases": [
+          "GHSA-f26w-gh5m-qq77",
+          "GO-2025-3748"
+        ]
+      },
+      "timestamp": "2025-07-23T10:34:31.071389462Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10+k3s1",
@@ -2421,7 +2535,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:39.516317243Z",
+      "timestamp": "2025-07-23T10:34:31.370204369Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.10-rc1+k3s1",
@@ -2444,7 +2558,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:39.809723579Z",
+      "timestamp": "2025-07-23T10:34:31.658161999Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.11-rc1+k3s1",
@@ -2467,7 +2581,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:40.10236603Z",
+      "timestamp": "2025-07-23T10:34:31.95078375Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8+k3s1",
@@ -2490,7 +2604,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:40.396459741Z",
+      "timestamp": "2025-07-23T10:34:32.243801565Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.8-rc1+k3s1",
@@ -2513,7 +2627,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:40.689968717Z",
+      "timestamp": "2025-07-23T10:34:32.547999921Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9+k3s1",
@@ -2536,7 +2650,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:40.979559674Z",
+      "timestamp": "2025-07-23T10:34:32.844618119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.31.9-rc1+k3s1",
@@ -2559,7 +2673,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:41.267811061Z",
+      "timestamp": "2025-07-23T10:34:33.138733294Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
@@ -2582,7 +2696,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:41.564623963Z",
+      "timestamp": "2025-07-23T10:34:33.432069592Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4-rc1+k3s1",
@@ -2605,7 +2719,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:41.859311078Z",
+      "timestamp": "2025-07-23T10:34:33.716938713Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5+k3s1",
@@ -2628,7 +2742,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:42.153245898Z",
+      "timestamp": "2025-07-23T10:34:34.012117008Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.5-rc1+k3s1",
@@ -2651,7 +2765,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:42.448475598Z",
+      "timestamp": "2025-07-23T10:34:34.310697893Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6+k3s1",
@@ -2674,7 +2788,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:42.74400927Z",
+      "timestamp": "2025-07-23T10:34:34.604279913Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.6-rc1+k3s1",
@@ -2697,7 +2811,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:43.035409241Z",
+      "timestamp": "2025-07-23T10:34:34.899037694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.7-rc1+k3s1",
@@ -2720,7 +2834,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:43.320852316Z",
+      "timestamp": "2025-07-23T10:34:35.196181786Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.0+k3s1",
@@ -2743,7 +2857,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:43.606501003Z",
+      "timestamp": "2025-07-23T10:34:35.492748124Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.0-rc1+k3s1",
@@ -2766,7 +2880,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:43.900431523Z",
+      "timestamp": "2025-07-23T10:34:35.789397771Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.0-rc2+k3s1",
@@ -2789,7 +2903,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:44.189096783Z",
+      "timestamp": "2025-07-23T10:34:36.082605418Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.1+k3s1",
@@ -2812,7 +2926,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:44.47614719Z",
+      "timestamp": "2025-07-23T10:34:36.381209924Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.1-rc1+k3s1",
@@ -2835,7 +2949,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:44.772319157Z",
+      "timestamp": "2025-07-23T10:34:36.679710948Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.2+k3s1",
@@ -2858,7 +2972,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:45.064783246Z",
+      "timestamp": "2025-07-23T10:34:36.972996786Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.2-rc1+k3s1",
@@ -2881,7 +2995,7 @@
           "GO-2025-3748"
         ]
       },
-      "timestamp": "2025-07-20T20:56:45.351587681Z",
+      "timestamp": "2025-07-23T10:34:37.27366518Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.3-rc1+k3s1",
