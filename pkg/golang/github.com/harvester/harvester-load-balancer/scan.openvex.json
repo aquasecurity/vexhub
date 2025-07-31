@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-20T20:45:46.394889667Z",
-  "version": 177,
+  "last_updated": "2025-07-30T09:59:59.636425195Z",
+  "version": 189,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.332946668Z",
+      "timestamp": "2025-07-30T09:25:21.499652344Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -37,7 +37,30 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.387897921Z",
+      "timestamp": "2025-07-30T09:25:21.553848796Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20241119020906-df45e368c82d"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-07-30T09:25:21.608635341Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -60,7 +83,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.444703039Z",
+      "timestamp": "2025-07-30T09:25:21.663457636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -83,7 +106,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.501165233Z",
+      "timestamp": "2025-07-30T09:25:21.719494249Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -106,7 +129,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.559637683Z",
+      "timestamp": "2025-07-30T09:25:21.774968268Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -129,7 +152,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.615734725Z",
+      "timestamp": "2025-07-30T09:25:21.829559892Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -152,7 +175,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.671090552Z",
+      "timestamp": "2025-07-30T09:25:21.885364814Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -175,7 +198,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.725625112Z",
+      "timestamp": "2025-07-30T09:25:21.940829073Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -198,7 +221,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.780648766Z",
+      "timestamp": "2025-07-30T09:25:21.996423373Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -221,7 +244,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.836297695Z",
+      "timestamp": "2025-07-30T09:25:22.051793861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -244,7 +267,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.892484637Z",
+      "timestamp": "2025-07-30T09:25:22.106644927Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -267,7 +290,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:43.947688233Z",
+      "timestamp": "2025-07-30T09:25:22.161905645Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -290,7 +313,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:44.002978949Z",
+      "timestamp": "2025-07-30T09:25:22.217689836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -313,7 +336,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:44.059172681Z",
+      "timestamp": "2025-07-30T09:25:22.274532143Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -336,7 +359,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:44.114903221Z",
+      "timestamp": "2025-07-30T09:25:22.330627366Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -359,10 +382,33 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-07-20T20:11:44.171079973Z",
+      "timestamp": "2025-07-30T09:25:22.386673789Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230124173128-2207cfed1803"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-07-30T09:25:22.44245546Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230124173128-2207cfed1803"
@@ -382,7 +428,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:44.733411049Z",
+      "timestamp": "2025-07-30T09:26:25.223680393Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -405,7 +451,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:44.805874534Z",
+      "timestamp": "2025-07-30T09:26:25.296229855Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -428,7 +474,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:44.876276494Z",
+      "timestamp": "2025-07-30T09:26:25.371378732Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -451,7 +497,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:44.948262046Z",
+      "timestamp": "2025-07-30T09:26:25.444388127Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -474,7 +520,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.018645755Z",
+      "timestamp": "2025-07-30T09:26:25.51556394Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -497,7 +543,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.090863769Z",
+      "timestamp": "2025-07-30T09:26:25.587069646Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -520,7 +566,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.163873509Z",
+      "timestamp": "2025-07-30T09:26:25.659773178Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -543,7 +589,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.235347577Z",
+      "timestamp": "2025-07-30T09:26:25.731760657Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -566,7 +612,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.306985316Z",
+      "timestamp": "2025-07-30T09:26:25.803865766Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -589,7 +635,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.378529454Z",
+      "timestamp": "2025-07-30T09:26:25.876667679Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -612,7 +658,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.450684037Z",
+      "timestamp": "2025-07-30T09:26:25.948486966Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -635,7 +681,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.521897413Z",
+      "timestamp": "2025-07-30T09:26:26.021910433Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -658,7 +704,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.592742216Z",
+      "timestamp": "2025-07-30T09:26:26.09856652Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -681,7 +727,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.664186714Z",
+      "timestamp": "2025-07-30T09:26:26.170606649Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -704,7 +750,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.736030905Z",
+      "timestamp": "2025-07-30T09:26:26.244518039Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -727,10 +773,33 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-07-20T20:12:45.808205758Z",
+      "timestamp": "2025-07-30T09:26:26.316577238Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20230120214941-e88c32739dc7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32192",
+        "aliases": [
+          "GHSA-833m-37f7-jq55",
+          "GO-2024-2534"
+        ]
+      },
+      "timestamp": "2025-07-30T09:26:26.388887048Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20230120214941-e88c32739dc7"
@@ -750,7 +819,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:47.903708644Z",
+      "timestamp": "2025-07-30T09:26:28.501965425Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -773,7 +842,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:47.976063379Z",
+      "timestamp": "2025-07-30T09:26:28.574177565Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -796,7 +865,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.04798847Z",
+      "timestamp": "2025-07-30T09:26:28.646818547Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -819,7 +888,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.121994708Z",
+      "timestamp": "2025-07-30T09:26:28.720308915Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -842,7 +911,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.197217885Z",
+      "timestamp": "2025-07-30T09:26:28.79339582Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -865,7 +934,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.269102886Z",
+      "timestamp": "2025-07-30T09:26:28.866423175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -888,7 +957,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.341704823Z",
+      "timestamp": "2025-07-30T09:26:28.938816305Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -911,7 +980,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.416279495Z",
+      "timestamp": "2025-07-30T09:26:29.01189811Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -934,7 +1003,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.491111249Z",
+      "timestamp": "2025-07-30T09:26:29.08401271Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -957,7 +1026,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.565095337Z",
+      "timestamp": "2025-07-30T09:26:29.156910203Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -980,7 +1049,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.636607285Z",
+      "timestamp": "2025-07-30T09:26:29.23019392Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -1003,7 +1072,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.709729176Z",
+      "timestamp": "2025-07-30T09:26:29.304057179Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -1026,7 +1095,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.783467911Z",
+      "timestamp": "2025-07-30T09:26:29.376732402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -1049,7 +1118,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.856749733Z",
+      "timestamp": "2025-07-30T09:26:29.451468327Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -1072,7 +1141,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:48.928771175Z",
+      "timestamp": "2025-07-30T09:26:29.526071211Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -1095,10 +1164,33 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-07-20T20:12:49.002151768Z",
+      "timestamp": "2025-07-30T09:26:29.600226963Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-07-30T09:26:29.674303754Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
@@ -1118,7 +1210,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.277024823Z",
+      "timestamp": "2025-07-30T09:27:26.696384113Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -1141,7 +1233,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.360717389Z",
+      "timestamp": "2025-07-30T09:27:26.783853924Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -1164,7 +1256,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.44502824Z",
+      "timestamp": "2025-07-30T09:27:26.870102279Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -1187,7 +1279,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.52936382Z",
+      "timestamp": "2025-07-30T09:27:26.954998436Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -1210,7 +1302,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.616655783Z",
+      "timestamp": "2025-07-30T09:27:27.040877678Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -1233,7 +1325,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.699622904Z",
+      "timestamp": "2025-07-30T09:27:27.12657667Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -1256,7 +1348,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.785114283Z",
+      "timestamp": "2025-07-30T09:27:27.211279076Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -1279,7 +1371,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.871216408Z",
+      "timestamp": "2025-07-30T09:27:27.296582175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -1302,7 +1394,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:45.955312087Z",
+      "timestamp": "2025-07-30T09:27:27.384388938Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -1325,7 +1417,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.042068306Z",
+      "timestamp": "2025-07-30T09:27:27.472507273Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -1348,7 +1440,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.126077444Z",
+      "timestamp": "2025-07-30T09:27:27.559440712Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -1371,7 +1463,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.212905664Z",
+      "timestamp": "2025-07-30T09:27:27.647649067Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -1394,7 +1486,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.296945082Z",
+      "timestamp": "2025-07-30T09:27:27.734157643Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -1417,7 +1509,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.38081221Z",
+      "timestamp": "2025-07-30T09:27:27.82263686Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -1440,7 +1532,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.466270809Z",
+      "timestamp": "2025-07-30T09:27:27.910596604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -1463,10 +1555,33 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-07-20T20:13:46.549756684Z",
+      "timestamp": "2025-07-30T09:27:27.999534704Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45142",
+        "aliases": [
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
+        ]
+      },
+      "timestamp": "2025-07-30T09:27:28.086592593Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.35.1"
@@ -1486,7 +1601,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:51.568276214Z",
+      "timestamp": "2025-07-30T09:31:37.122867547Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -1509,7 +1624,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:51.68769789Z",
+      "timestamp": "2025-07-30T09:31:37.250489968Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -1532,7 +1647,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:51.807118746Z",
+      "timestamp": "2025-07-30T09:31:37.375429545Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -1555,7 +1670,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:51.926760394Z",
+      "timestamp": "2025-07-30T09:31:37.499409896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -1578,7 +1693,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.047148957Z",
+      "timestamp": "2025-07-30T09:31:37.621655067Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -1601,7 +1716,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.167167128Z",
+      "timestamp": "2025-07-30T09:31:37.745533258Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -1624,7 +1739,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.290424303Z",
+      "timestamp": "2025-07-30T09:31:37.872669747Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -1647,7 +1762,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.410527304Z",
+      "timestamp": "2025-07-30T09:31:37.996950689Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -1670,7 +1785,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.530901477Z",
+      "timestamp": "2025-07-30T09:31:38.12270876Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -1693,7 +1808,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.650058151Z",
+      "timestamp": "2025-07-30T09:31:38.246012738Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -1716,7 +1831,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.771630764Z",
+      "timestamp": "2025-07-30T09:31:38.369769148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -1739,7 +1854,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:52.8937693Z",
+      "timestamp": "2025-07-30T09:31:38.496352923Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -1762,7 +1877,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:53.016968295Z",
+      "timestamp": "2025-07-30T09:31:38.620712196Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -1785,7 +1900,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:53.137405038Z",
+      "timestamp": "2025-07-30T09:31:38.743591381Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -1808,7 +1923,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:53.257920553Z",
+      "timestamp": "2025-07-30T09:31:38.869094441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -1831,10 +1946,33 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:17:53.380928346Z",
+      "timestamp": "2025-07-30T09:31:38.991835795Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GHSA-v778-237x-gjrc",
+          "GO-2024-3321"
+        ]
+      },
+      "timestamp": "2025-07-30T09:31:39.120626843Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
@@ -1854,7 +1992,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:11.603210352Z",
+      "timestamp": "2025-07-30T09:34:00.106233893Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -1877,7 +2015,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:11.739858529Z",
+      "timestamp": "2025-07-30T09:34:00.251768443Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -1900,7 +2038,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:11.877527924Z",
+      "timestamp": "2025-07-30T09:34:00.391153138Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -1923,7 +2061,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.020093896Z",
+      "timestamp": "2025-07-30T09:34:00.535997503Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -1946,7 +2084,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.160409631Z",
+      "timestamp": "2025-07-30T09:34:00.680589058Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -1969,7 +2107,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.297916484Z",
+      "timestamp": "2025-07-30T09:34:00.824347777Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -1992,7 +2130,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.435171716Z",
+      "timestamp": "2025-07-30T09:34:00.963188769Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -2015,7 +2153,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.57536066Z",
+      "timestamp": "2025-07-30T09:34:01.10187407Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -2038,7 +2176,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.714318255Z",
+      "timestamp": "2025-07-30T09:34:01.247231919Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -2061,7 +2199,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.852919516Z",
+      "timestamp": "2025-07-30T09:34:01.39125581Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -2084,7 +2222,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:12.991504358Z",
+      "timestamp": "2025-07-30T09:34:01.536198636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -2107,7 +2245,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:13.13409662Z",
+      "timestamp": "2025-07-30T09:34:01.678694919Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -2130,7 +2268,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:13.274119263Z",
+      "timestamp": "2025-07-30T09:34:01.823140632Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -2153,7 +2291,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:13.414282297Z",
+      "timestamp": "2025-07-30T09:34:01.9683075Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -2176,7 +2314,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:13.550129588Z",
+      "timestamp": "2025-07-30T09:34:02.11048639Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -2199,10 +2337,33 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:20:13.690987227Z",
+      "timestamp": "2025-07-30T09:34:02.255414967Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-07-30T09:34:02.392636099Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -2222,7 +2383,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:00.956494451Z",
+      "timestamp": "2025-07-30T09:39:54.223514052Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -2245,7 +2406,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.132020717Z",
+      "timestamp": "2025-07-30T09:39:54.397274116Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -2268,7 +2429,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.302161963Z",
+      "timestamp": "2025-07-30T09:39:54.573340634Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -2291,7 +2452,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.471745364Z",
+      "timestamp": "2025-07-30T09:39:54.749310941Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -2314,7 +2475,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.646335103Z",
+      "timestamp": "2025-07-30T09:39:54.925701681Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -2337,7 +2498,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.82188336Z",
+      "timestamp": "2025-07-30T09:39:55.103792861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -2360,7 +2521,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:01.996819972Z",
+      "timestamp": "2025-07-30T09:39:55.280376662Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -2383,7 +2544,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:02.170884927Z",
+      "timestamp": "2025-07-30T09:39:55.452513487Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -2406,7 +2567,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:02.341308664Z",
+      "timestamp": "2025-07-30T09:39:55.62605116Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -2429,7 +2590,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:02.510074529Z",
+      "timestamp": "2025-07-30T09:39:55.799646374Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -2452,7 +2613,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:02.686422142Z",
+      "timestamp": "2025-07-30T09:39:55.973180267Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -2475,7 +2636,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:02.859843482Z",
+      "timestamp": "2025-07-30T09:39:56.15017148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -2498,7 +2659,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:03.033792587Z",
+      "timestamp": "2025-07-30T09:39:56.327041503Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -2521,7 +2682,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:03.207995673Z",
+      "timestamp": "2025-07-30T09:39:56.502721388Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -2544,7 +2705,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:03.377981367Z",
+      "timestamp": "2025-07-30T09:39:56.674023279Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -2567,10 +2728,33 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-20T20:26:03.546061197Z",
+      "timestamp": "2025-07-30T09:39:56.851187553Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-07-30T09:39:57.027483762Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.2.0"
@@ -2589,7 +2773,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:50.587544921Z",
+      "timestamp": "2025-07-30T09:40:44.974094935Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -2611,7 +2795,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:50.772159875Z",
+      "timestamp": "2025-07-30T09:40:45.154136275Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -2633,7 +2817,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:50.959873292Z",
+      "timestamp": "2025-07-30T09:40:45.336218368Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -2655,7 +2839,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:51.138460891Z",
+      "timestamp": "2025-07-30T09:40:45.514931889Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -2677,7 +2861,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:51.324860378Z",
+      "timestamp": "2025-07-30T09:40:45.693439949Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -2699,7 +2883,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:51.50004466Z",
+      "timestamp": "2025-07-30T09:40:45.869594732Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -2721,7 +2905,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:51.681725402Z",
+      "timestamp": "2025-07-30T09:40:46.049116337Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -2743,7 +2927,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:51.856145678Z",
+      "timestamp": "2025-07-30T09:40:46.225696555Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -2765,7 +2949,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.03779257Z",
+      "timestamp": "2025-07-30T09:40:46.404473695Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -2787,7 +2971,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.214602744Z",
+      "timestamp": "2025-07-30T09:40:46.585184027Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -2809,7 +2993,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.389867007Z",
+      "timestamp": "2025-07-30T09:40:46.767053735Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -2831,7 +3015,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.573274502Z",
+      "timestamp": "2025-07-30T09:40:46.949367395Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -2853,7 +3037,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.749566262Z",
+      "timestamp": "2025-07-30T09:40:47.126114424Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -2875,7 +3059,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:52.928521633Z",
+      "timestamp": "2025-07-30T09:40:47.307092247Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -2897,7 +3081,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:53.109866072Z",
+      "timestamp": "2025-07-30T09:40:47.48625453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -2919,10 +3103,32 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:26:53.287936736Z",
+      "timestamp": "2025-07-30T09:40:47.663906444Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.17.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-07-30T09:40:47.841367817Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.17.0"
@@ -2941,7 +3147,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:43.423488165Z",
+      "timestamp": "2025-07-30T09:46:41.751276181Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -2963,7 +3169,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:43.628935936Z",
+      "timestamp": "2025-07-30T09:46:41.958899885Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -2985,7 +3191,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:43.834423347Z",
+      "timestamp": "2025-07-30T09:46:42.164300176Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -3007,7 +3213,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:44.03755825Z",
+      "timestamp": "2025-07-30T09:46:42.37344655Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -3029,7 +3235,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:44.246360506Z",
+      "timestamp": "2025-07-30T09:46:42.58553676Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -3051,7 +3257,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:44.454188194Z",
+      "timestamp": "2025-07-30T09:46:42.793175025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -3073,7 +3279,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:44.661944472Z",
+      "timestamp": "2025-07-30T09:46:43.001257642Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -3095,7 +3301,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:44.863381413Z",
+      "timestamp": "2025-07-30T09:46:43.20621609Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -3117,7 +3323,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:45.071148031Z",
+      "timestamp": "2025-07-30T09:46:43.415547964Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -3139,7 +3345,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:45.276154658Z",
+      "timestamp": "2025-07-30T09:46:43.626492498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -3161,7 +3367,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:45.482468755Z",
+      "timestamp": "2025-07-30T09:46:43.832313062Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -3183,7 +3389,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:45.688688981Z",
+      "timestamp": "2025-07-30T09:46:44.047447661Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -3205,7 +3411,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:45.895306341Z",
+      "timestamp": "2025-07-30T09:46:44.256048131Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -3227,7 +3433,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:46.100948673Z",
+      "timestamp": "2025-07-30T09:46:44.465896478Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -3249,7 +3455,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:46.303845134Z",
+      "timestamp": "2025-07-30T09:46:44.672058424Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -3271,10 +3477,32 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:32:46.507812543Z",
+      "timestamp": "2025-07-30T09:46:44.879254135Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "timestamp": "2025-07-30T09:46:45.087973346Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
@@ -3293,7 +3521,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:14.565022153Z",
+      "timestamp": "2025-07-30T09:50:19.556419064Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -3315,7 +3543,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:14.777893836Z",
+      "timestamp": "2025-07-30T09:50:19.786436895Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -3337,7 +3565,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:15.001387691Z",
+      "timestamp": "2025-07-30T09:50:20.009605267Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -3359,7 +3587,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:15.216143438Z",
+      "timestamp": "2025-07-30T09:50:20.238822904Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -3381,7 +3609,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:15.432033565Z",
+      "timestamp": "2025-07-30T09:50:20.468582774Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -3403,7 +3631,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:15.650861293Z",
+      "timestamp": "2025-07-30T09:50:20.69249527Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -3425,7 +3653,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:15.871119563Z",
+      "timestamp": "2025-07-30T09:50:20.909153714Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -3447,7 +3675,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:16.096375771Z",
+      "timestamp": "2025-07-30T09:50:21.128770955Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -3469,7 +3697,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:16.315105349Z",
+      "timestamp": "2025-07-30T09:50:21.34909025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -3491,7 +3719,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:16.536625778Z",
+      "timestamp": "2025-07-30T09:50:21.568884302Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -3513,7 +3741,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:16.760212334Z",
+      "timestamp": "2025-07-30T09:50:21.788521093Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -3535,7 +3763,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:16.983605027Z",
+      "timestamp": "2025-07-30T09:50:22.018569045Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -3557,7 +3785,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:17.206721979Z",
+      "timestamp": "2025-07-30T09:50:22.237702483Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -3579,7 +3807,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:17.42981339Z",
+      "timestamp": "2025-07-30T09:50:22.456920962Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -3601,7 +3829,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:17.642842055Z",
+      "timestamp": "2025-07-30T09:50:22.685321514Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -3623,10 +3851,32 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:36:17.860777857Z",
+      "timestamp": "2025-07-30T09:50:22.908315694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-07-30T09:50:23.133089475Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -3645,7 +3895,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:42.679800231Z",
+      "timestamp": "2025-07-30T09:59:55.605227848Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer",
@@ -3667,7 +3917,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:42.931417646Z",
+      "timestamp": "2025-07-30T09:59:55.852784617Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v0.4.4",
@@ -3689,7 +3939,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:43.183708396Z",
+      "timestamp": "2025-07-30T09:59:56.104865092Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0",
@@ -3711,7 +3961,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:43.426891087Z",
+      "timestamp": "2025-07-30T09:59:56.357146578Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-dev.0",
@@ -3733,7 +3983,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:43.673427093Z",
+      "timestamp": "2025-07-30T09:59:56.611980729Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc2",
@@ -3755,7 +4005,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:43.913713062Z",
+      "timestamp": "2025-07-30T09:59:56.867980646Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc3",
@@ -3777,7 +4027,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:44.162038322Z",
+      "timestamp": "2025-07-30T09:59:57.116495341Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc4",
@@ -3799,7 +4049,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:44.408350637Z",
+      "timestamp": "2025-07-30T09:59:57.374850622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.0-rc5",
@@ -3821,7 +4071,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:44.65579313Z",
+      "timestamp": "2025-07-30T09:59:57.635573976Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1",
@@ -3843,7 +4093,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:44.905800393Z",
+      "timestamp": "2025-07-30T09:59:57.882464691Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-dev.1",
@@ -3865,7 +4115,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:45.1524317Z",
+      "timestamp": "2025-07-30T09:59:58.126242119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc1",
@@ -3887,7 +4137,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:45.405553227Z",
+      "timestamp": "2025-07-30T09:59:58.373015273Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc2",
@@ -3909,7 +4159,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:45.656384506Z",
+      "timestamp": "2025-07-30T09:59:58.623536499Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc3",
@@ -3931,7 +4181,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:45.901526862Z",
+      "timestamp": "2025-07-30T09:59:58.873546632Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.5.1-rc4",
@@ -3953,7 +4203,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:46.150012643Z",
+      "timestamp": "2025-07-30T09:59:59.126661013Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc1",
@@ -3975,10 +4225,32 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:45:46.394890297Z",
+      "timestamp": "2025-07-30T09:59:59.385495127Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-07-30T09:59:59.636425785Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-load-balancer@v1.6.0-rc3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
