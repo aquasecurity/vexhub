@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-30T10:00:18.625674392Z",
-  "version": 55,
+  "last_updated": "2025-08-06T10:24:28.700390571Z",
+  "version": 65,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:08.678868081Z",
+      "timestamp": "2025-08-06T09:56:58.424462603Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -37,7 +37,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:08.816711048Z",
+      "timestamp": "2025-08-06T09:56:58.568887054Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -60,7 +60,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:08.958600737Z",
+      "timestamp": "2025-08-06T09:56:58.713048544Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v0.3.2",
@@ -83,7 +83,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.098761316Z",
+      "timestamp": "2025-08-06T09:56:58.857859144Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1",
@@ -106,7 +106,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.23616836Z",
+      "timestamp": "2025-08-06T09:56:59.000600939Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc1",
@@ -129,7 +129,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.3799837Z",
+      "timestamp": "2025-08-06T09:56:59.144729173Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc2",
@@ -152,7 +152,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.523096926Z",
+      "timestamp": "2025-08-06T09:56:59.288415448Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc3",
@@ -175,7 +175,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.66447927Z",
+      "timestamp": "2025-08-06T09:56:59.433882433Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc4",
@@ -198,7 +198,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.807440171Z",
+      "timestamp": "2025-08-06T09:56:59.577461286Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc1",
@@ -221,7 +221,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:09.950413302Z",
+      "timestamp": "2025-08-06T09:56:59.721176126Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc2",
@@ -244,10 +244,56 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-30T09:34:10.093927656Z",
+      "timestamp": "2025-08-06T09:56:59.866644104Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-08-06T09:57:00.010490025Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GHSA-w32m-9786-jp63",
+          "GO-2024-3333"
+        ]
+      },
+      "timestamp": "2025-08-06T09:57:00.154897382Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc5",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -267,7 +313,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:02.253366016Z",
+      "timestamp": "2025-08-06T10:03:08.155497602Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -290,7 +336,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:02.425096747Z",
+      "timestamp": "2025-08-06T10:03:08.333949883Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -313,7 +359,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:02.597710143Z",
+      "timestamp": "2025-08-06T10:03:08.5123879Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1",
@@ -336,7 +382,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:02.7723759Z",
+      "timestamp": "2025-08-06T10:03:08.69015651Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc1",
@@ -359,7 +405,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:02.94375143Z",
+      "timestamp": "2025-08-06T10:03:08.868869468Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc2",
@@ -382,7 +428,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:03.112238072Z",
+      "timestamp": "2025-08-06T10:03:09.045406022Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc3",
@@ -405,7 +451,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:03.285889064Z",
+      "timestamp": "2025-08-06T10:03:09.222328838Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc4",
@@ -428,7 +474,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:03.458182019Z",
+      "timestamp": "2025-08-06T10:03:09.397940033Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc1",
@@ -451,7 +497,7 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:03.629566798Z",
+      "timestamp": "2025-08-06T10:03:09.576450701Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc2",
@@ -474,10 +520,56 @@
           "GO-2025-3372"
         ]
       },
-      "timestamp": "2025-07-30T09:40:03.801331519Z",
+      "timestamp": "2025-08-06T10:03:09.753204745Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-08-06T10:03:09.931836777Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang/glog@v1.2.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45339",
+        "aliases": [
+          "GHSA-6wxm-mpqj-6jpf",
+          "GO-2025-3372"
+        ]
+      },
+      "timestamp": "2025-08-06T10:03:10.107017929Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc5",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/golang/glog@v1.2.2"
@@ -496,7 +588,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:04.563591989Z",
+      "timestamp": "2025-08-06T10:04:13.210105163Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -518,7 +610,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:04.740295837Z",
+      "timestamp": "2025-08-06T10:04:13.394699253Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -540,7 +632,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:04.924362747Z",
+      "timestamp": "2025-08-06T10:04:13.573659096Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v0.3.2",
@@ -562,7 +654,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.098581942Z",
+      "timestamp": "2025-08-06T10:04:13.757179294Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1",
@@ -584,7 +676,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.276710228Z",
+      "timestamp": "2025-08-06T10:04:13.935631977Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc1",
@@ -606,7 +698,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.453045224Z",
+      "timestamp": "2025-08-06T10:04:14.119529559Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc2",
@@ -628,7 +720,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.638474372Z",
+      "timestamp": "2025-08-06T10:04:14.300200698Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc3",
@@ -650,7 +742,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.818979762Z",
+      "timestamp": "2025-08-06T10:04:14.47834661Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc4",
@@ -672,7 +764,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:05.99736239Z",
+      "timestamp": "2025-08-06T10:04:14.657603624Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc1",
@@ -694,7 +786,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:06.171927326Z",
+      "timestamp": "2025-08-06T10:04:14.835902952Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc2",
@@ -716,10 +808,54 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-30T09:41:06.351736702Z",
+      "timestamp": "2025-08-06T10:04:15.016285928Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-08-06T10:04:15.196730499Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-08-06T10:04:15.379567351Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc5",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
@@ -738,7 +874,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:37.60724164Z",
+      "timestamp": "2025-08-06T10:14:14.823215122Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -760,7 +896,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:37.827578304Z",
+      "timestamp": "2025-08-06T10:14:15.047377846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -782,7 +918,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:38.047488245Z",
+      "timestamp": "2025-08-06T10:14:15.274151807Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v0.3.2",
@@ -804,7 +940,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:38.270335064Z",
+      "timestamp": "2025-08-06T10:14:15.503490328Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1",
@@ -826,7 +962,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:38.485391327Z",
+      "timestamp": "2025-08-06T10:14:15.726178428Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc1",
@@ -848,7 +984,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:38.710278727Z",
+      "timestamp": "2025-08-06T10:14:15.949149757Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc2",
@@ -870,7 +1006,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:38.926735519Z",
+      "timestamp": "2025-08-06T10:14:16.17337908Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc3",
@@ -892,7 +1028,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:39.150528492Z",
+      "timestamp": "2025-08-06T10:14:16.396907951Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc4",
@@ -914,7 +1050,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:39.370195372Z",
+      "timestamp": "2025-08-06T10:14:16.624058204Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc1",
@@ -936,7 +1072,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:39.586916885Z",
+      "timestamp": "2025-08-06T10:14:16.848809357Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc2",
@@ -958,10 +1094,54 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-30T09:50:39.806518125Z",
+      "timestamp": "2025-08-06T10:14:17.072094029Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-08-06T10:14:17.302171769Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "timestamp": "2025-08-06T10:14:17.527222116Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc5",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
@@ -980,7 +1160,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:16.126795749Z",
+      "timestamp": "2025-08-06T10:24:25.512039173Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -1002,7 +1182,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:16.375521344Z",
+      "timestamp": "2025-08-06T10:24:25.77610027Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller",
@@ -1024,7 +1204,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:16.622327229Z",
+      "timestamp": "2025-08-06T10:24:26.03969956Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v0.3.2",
@@ -1046,7 +1226,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:16.882555611Z",
+      "timestamp": "2025-08-06T10:24:26.307240486Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1",
@@ -1068,7 +1248,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:17.130789894Z",
+      "timestamp": "2025-08-06T10:24:26.570994106Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc1",
@@ -1090,7 +1270,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:17.38480072Z",
+      "timestamp": "2025-08-06T10:24:26.835831263Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc2",
@@ -1112,7 +1292,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:17.632909242Z",
+      "timestamp": "2025-08-06T10:24:27.099127336Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc3",
@@ -1134,7 +1314,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:17.880990584Z",
+      "timestamp": "2025-08-06T10:24:27.364973862Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.1-rc4",
@@ -1156,7 +1336,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:18.127200745Z",
+      "timestamp": "2025-08-06T10:24:27.632471219Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc1",
@@ -1178,7 +1358,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:18.370735761Z",
+      "timestamp": "2025-08-06T10:24:27.897541689Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc2",
@@ -1200,10 +1380,54 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-30T10:00:18.625674932Z",
+      "timestamp": "2025-08-06T10:24:28.164435525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-08-06T10:24:28.43216643Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "timestamp": "2025-08-06T10:24:28.700391147Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.0-rc5",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"

@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:19:55.382550726Z",
-  "version": 78,
+  "last_updated": "2025-08-06T10:26:41.487198853Z",
+  "version": 80,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2023-1991"
         ]
       },
-      "timestamp": "2025-06-26T03:46:05.348835799Z",
+      "timestamp": "2025-08-06T09:48:09.323019479Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -37,7 +37,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:07.898646358Z",
+      "timestamp": "2025-08-06T09:48:12.485499334Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -60,7 +60,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:07.95538006Z",
+      "timestamp": "2025-08-06T09:48:12.540591853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -83,7 +83,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:08.01185384Z",
+      "timestamp": "2025-08-06T09:48:12.594376991Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -106,7 +106,30 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:08.06965073Z",
+      "timestamp": "2025-08-06T09:48:12.647858246Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20250730134723-f3dd2a5c5035"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-08-06T09:48:12.701569171Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -129,7 +152,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:08.126867045Z",
+      "timestamp": "2025-08-06T09:48:12.754496137Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -152,7 +175,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-06-26T03:46:08.185527852Z",
+      "timestamp": "2025-08-06T09:48:12.807872898Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -169,13 +192,36 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-08-06T09:48:12.863903566Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.5-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20250730134723-f3dd2a5c5035"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2020-8911",
         "aliases": [
           "GHSA-f5pg-7wfw-84q9",
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.292002463Z",
+      "timestamp": "2025-08-06T09:48:25.319877125Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -198,7 +244,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.353705868Z",
+      "timestamp": "2025-08-06T09:48:25.378495278Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -221,7 +267,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.415832527Z",
+      "timestamp": "2025-08-06T09:48:25.435922537Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -244,7 +290,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.476983307Z",
+      "timestamp": "2025-08-06T09:48:25.493905286Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -267,7 +313,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.540456459Z",
+      "timestamp": "2025-08-06T09:48:25.551664368Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -290,7 +336,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-06-26T03:46:19.604213893Z",
+      "timestamp": "2025-08-06T09:48:25.610634812Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -313,7 +359,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:36.746840033Z",
+      "timestamp": "2025-08-06T09:48:45.823978991Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -336,7 +382,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:36.818493366Z",
+      "timestamp": "2025-08-06T09:48:45.889411277Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -359,7 +405,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:36.884600148Z",
+      "timestamp": "2025-08-06T09:48:45.954245074Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -382,7 +428,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:36.950439768Z",
+      "timestamp": "2025-08-06T09:48:46.020035714Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -405,7 +451,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:37.017413988Z",
+      "timestamp": "2025-08-06T09:48:46.084879798Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -428,7 +474,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-06-26T03:46:37.087396935Z",
+      "timestamp": "2025-08-06T09:48:46.150530978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -451,7 +497,7 @@
           "GO-2024-2760"
         ]
       },
-      "timestamp": "2025-06-26T03:46:44.50478048Z",
+      "timestamp": "2025-08-06T09:48:55.347916736Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -474,7 +520,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-06-26T03:47:03.162774018Z",
+      "timestamp": "2025-08-06T09:49:15.536526406Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -497,7 +543,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-06-26T03:47:03.235148788Z",
+      "timestamp": "2025-08-06T09:49:15.606288808Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -520,7 +566,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-06-26T03:47:06.828350005Z",
+      "timestamp": "2025-08-06T09:49:19.738668622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -543,7 +589,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-06-26T03:47:06.899515563Z",
+      "timestamp": "2025-08-06T09:49:19.810008938Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -566,7 +612,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-06-26T03:49:23.151108636Z",
+      "timestamp": "2025-08-06T09:51:37.21005946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -589,7 +635,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-06-26T03:49:23.251296366Z",
+      "timestamp": "2025-08-06T09:51:37.308398148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -612,7 +658,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-06-26T03:49:44.998371444Z",
+      "timestamp": "2025-08-06T09:52:00.486466025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -635,7 +681,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-06-26T03:49:45.100195697Z",
+      "timestamp": "2025-08-06T09:52:00.58902776Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -658,7 +704,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-06-26T03:49:45.205417361Z",
+      "timestamp": "2025-08-06T09:52:00.692106592Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -681,7 +727,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-06-26T03:49:45.30894941Z",
+      "timestamp": "2025-08-06T09:52:00.795115891Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -704,7 +750,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-06-26T03:50:12.026624692Z",
+      "timestamp": "2025-08-06T09:52:28.291327206Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -727,7 +773,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-06-26T03:50:12.136166196Z",
+      "timestamp": "2025-08-06T09:52:28.395791848Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -750,7 +796,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-06-26T03:51:13.236646805Z",
+      "timestamp": "2025-08-06T09:53:38.171039861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -773,7 +819,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-06-26T03:51:13.35080193Z",
+      "timestamp": "2025-08-06T09:53:38.288916495Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -795,7 +841,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-06-26T03:51:37.337686362Z",
+      "timestamp": "2025-08-06T09:54:03.979954983Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -817,7 +863,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-06-26T03:51:37.457637675Z",
+      "timestamp": "2025-08-06T09:54:04.101346635Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -839,7 +885,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-06-26T03:51:37.576357727Z",
+      "timestamp": "2025-08-06T09:54:04.222569839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -861,7 +907,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-06-26T03:51:37.694022028Z",
+      "timestamp": "2025-08-06T09:54:04.344713015Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -884,7 +930,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:28.499890172Z",
+      "timestamp": "2025-08-06T09:55:02.448359652Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -907,7 +953,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:28.624940621Z",
+      "timestamp": "2025-08-06T09:55:02.5758754Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -930,7 +976,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:28.746267566Z",
+      "timestamp": "2025-08-06T09:55:02.703802442Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -953,7 +999,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:28.869131435Z",
+      "timestamp": "2025-08-06T09:55:02.830750866Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -976,7 +1022,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:28.993044694Z",
+      "timestamp": "2025-08-06T09:55:02.957409409Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -999,7 +1045,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-06-26T03:52:29.115730731Z",
+      "timestamp": "2025-08-06T09:55:03.086367061Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -1022,7 +1068,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:04.339543231Z",
+      "timestamp": "2025-08-06T09:57:57.687427604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1045,7 +1091,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:04.485832329Z",
+      "timestamp": "2025-08-06T09:57:57.837238807Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1068,7 +1114,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:04.628438912Z",
+      "timestamp": "2025-08-06T09:57:57.98604414Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1091,7 +1137,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:04.775255105Z",
+      "timestamp": "2025-08-06T09:57:58.136052205Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -1114,7 +1160,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:04.917841788Z",
+      "timestamp": "2025-08-06T09:57:58.286337763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -1137,7 +1183,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-06-26T03:55:05.06147217Z",
+      "timestamp": "2025-08-06T09:57:58.437449045Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -1156,7 +1202,7 @@
       "vulnerability": {
         "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-06-26T03:59:58.541013318Z",
+      "timestamp": "2025-08-06T10:03:32.758058126Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1175,7 +1221,7 @@
       "vulnerability": {
         "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-06-26T03:59:58.706558525Z",
+      "timestamp": "2025-08-06T10:03:32.940739281Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1194,7 +1240,7 @@
       "vulnerability": {
         "name": "CVE-2024-52280"
       },
-      "timestamp": "2025-06-26T03:59:58.875702766Z",
+      "timestamp": "2025-08-06T10:03:33.122947528Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1216,7 +1262,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:35.558941447Z",
+      "timestamp": "2025-08-06T10:05:30.584832431Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1238,7 +1284,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:35.742508229Z",
+      "timestamp": "2025-08-06T10:05:30.778908754Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1260,7 +1306,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:35.922536428Z",
+      "timestamp": "2025-08-06T10:05:30.972244496Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1282,7 +1328,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.100203585Z",
+      "timestamp": "2025-08-06T10:05:31.161807867Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -1304,7 +1350,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.280404746Z",
+      "timestamp": "2025-08-06T10:05:31.352812219Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -1326,7 +1372,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:36.459295854Z",
+      "timestamp": "2025-08-06T10:05:31.545200876Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -1348,7 +1394,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:27.980115722Z",
+      "timestamp": "2025-08-06T10:11:08.418403423Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1370,7 +1416,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:28.180887344Z",
+      "timestamp": "2025-08-06T10:11:08.631552831Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1392,7 +1438,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:28.386108597Z",
+      "timestamp": "2025-08-06T10:11:08.84581667Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1414,7 +1460,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:28.591711364Z",
+      "timestamp": "2025-08-06T10:11:09.058034243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -1436,7 +1482,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:28.797067139Z",
+      "timestamp": "2025-08-06T10:11:09.272133153Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -1458,7 +1504,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:29.003448623Z",
+      "timestamp": "2025-08-06T10:11:09.486664781Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -1480,7 +1526,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:38.034552911Z",
+      "timestamp": "2025-08-06T10:15:57.566410095Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1502,7 +1548,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:38.255932081Z",
+      "timestamp": "2025-08-06T10:15:57.796429388Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1524,7 +1570,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:38.473954119Z",
+      "timestamp": "2025-08-06T10:15:58.032270849Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1546,7 +1592,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:38.693778774Z",
+      "timestamp": "2025-08-06T10:15:58.263385387Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -1568,7 +1614,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:38.910119966Z",
+      "timestamp": "2025-08-06T10:15:58.499120075Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -1590,7 +1636,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:39.131617817Z",
+      "timestamp": "2025-08-06T10:15:58.735293431Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
@@ -1612,7 +1658,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:54.161417604Z",
+      "timestamp": "2025-08-06T10:26:40.119547453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1634,7 +1680,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:54.406870274Z",
+      "timestamp": "2025-08-06T10:26:40.394445025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1656,7 +1702,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:54.652710017Z",
+      "timestamp": "2025-08-06T10:26:40.664803279Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth",
@@ -1678,7 +1724,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:54.899306378Z",
+      "timestamp": "2025-08-06T10:26:40.941328655Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.1",
@@ -1700,7 +1746,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:55.145237512Z",
+      "timestamp": "2025-08-06T10:26:41.214346359Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.2",
@@ -1722,7 +1768,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:55.382551296Z",
+      "timestamp": "2025-08-06T10:26:41.48719941Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/kube-api-auth@v0.2.4",
