@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-08-13T10:16:36.915205366Z",
-  "version": 175,
+  "last_updated": "2025-08-20T10:53:28.727950429Z",
+  "version": 189,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.241089443Z",
+      "timestamp": "2025-08-20T10:13:49.854552768Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -37,7 +37,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.30403093Z",
+      "timestamp": "2025-08-20T10:13:49.915200387Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11",
@@ -60,7 +60,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.366681384Z",
+      "timestamp": "2025-08-20T10:13:49.976223009Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11-rc.1",
@@ -83,7 +83,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.429187757Z",
+      "timestamp": "2025-08-20T10:13:50.036597886Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.12",
@@ -106,7 +106,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.493079412Z",
+      "timestamp": "2025-08-20T10:13:50.099110611Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13",
@@ -129,7 +129,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.555433074Z",
+      "timestamp": "2025-08-20T10:13:50.161101462Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13-rc.1",
@@ -152,7 +152,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.61829775Z",
+      "timestamp": "2025-08-20T10:13:50.221242477Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14",
@@ -175,7 +175,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.681089876Z",
+      "timestamp": "2025-08-20T10:13:50.282716873Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.1",
@@ -198,7 +198,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.744807159Z",
+      "timestamp": "2025-08-20T10:13:50.344661074Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.2",
@@ -221,7 +221,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.808345941Z",
+      "timestamp": "2025-08-20T10:13:50.404797608Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.15-rc.1",
@@ -244,7 +244,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.873097653Z",
+      "timestamp": "2025-08-20T10:13:50.464972784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.1",
@@ -267,7 +267,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:25.938145008Z",
+      "timestamp": "2025-08-20T10:13:50.526636121Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.2",
@@ -290,7 +290,53 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.002660368Z",
+      "timestamp": "2025-08-20T10:13:50.587342971Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:50.648600086Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:50.709764019Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -313,7 +359,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.065601285Z",
+      "timestamp": "2025-08-20T10:13:50.770372728Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -336,7 +382,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.12953752Z",
+      "timestamp": "2025-08-20T10:13:50.831100298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6",
@@ -359,7 +405,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.193027062Z",
+      "timestamp": "2025-08-20T10:13:50.89320831Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.1",
@@ -382,7 +428,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.256279711Z",
+      "timestamp": "2025-08-20T10:13:50.953330834Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.2",
@@ -405,7 +451,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.318983066Z",
+      "timestamp": "2025-08-20T10:13:51.014650729Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.7",
@@ -428,7 +474,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.381914683Z",
+      "timestamp": "2025-08-20T10:13:51.075105187Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8",
@@ -451,7 +497,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.444738169Z",
+      "timestamp": "2025-08-20T10:13:51.136034059Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8-rc.1",
@@ -474,7 +520,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.509531511Z",
+      "timestamp": "2025-08-20T10:13:51.198617054Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9",
@@ -497,7 +543,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.573766739Z",
+      "timestamp": "2025-08-20T10:13:51.260596445Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.1",
@@ -520,7 +566,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.63602521Z",
+      "timestamp": "2025-08-20T10:13:51.321575467Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.2",
@@ -543,7 +589,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.699494052Z",
+      "timestamp": "2025-08-20T10:13:51.38149367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0",
@@ -566,7 +612,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.762198167Z",
+      "timestamp": "2025-08-20T10:13:51.443947525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0-rc.5",
@@ -589,7 +635,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.826429274Z",
+      "timestamp": "2025-08-20T10:13:51.506337799Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1",
@@ -612,7 +658,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.889632063Z",
+      "timestamp": "2025-08-20T10:13:51.566795066Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1-rc.1",
@@ -635,7 +681,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:26.953500278Z",
+      "timestamp": "2025-08-20T10:13:51.628081071Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.2",
@@ -658,7 +704,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.018605043Z",
+      "timestamp": "2025-08-20T10:13:51.689398536Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3",
@@ -681,7 +727,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.082262796Z",
+      "timestamp": "2025-08-20T10:13:51.750405108Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3-rc.1",
@@ -704,7 +750,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.147277381Z",
+      "timestamp": "2025-08-20T10:13:51.811275739Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4",
@@ -727,7 +773,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.211197546Z",
+      "timestamp": "2025-08-20T10:13:51.872307552Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.1",
@@ -750,7 +796,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.274649477Z",
+      "timestamp": "2025-08-20T10:13:51.933174423Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.2",
@@ -773,7 +819,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.337436203Z",
+      "timestamp": "2025-08-20T10:13:51.997029089Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.3",
@@ -796,7 +842,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.403500656Z",
+      "timestamp": "2025-08-20T10:13:52.058636757Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.5",
@@ -819,7 +865,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.469532519Z",
+      "timestamp": "2025-08-20T10:13:52.119431277Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.5-rc.1",
@@ -842,7 +888,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.536778853Z",
+      "timestamp": "2025-08-20T10:13:52.179929365Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.1",
@@ -865,7 +911,53 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.601385114Z",
+      "timestamp": "2025-08-20T10:13:52.242933345Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:52.304850405Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:52.366393322Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0",
@@ -888,7 +980,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.665055477Z",
+      "timestamp": "2025-08-20T10:13:52.427448074Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-beta.2",
@@ -911,7 +1003,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.729262335Z",
+      "timestamp": "2025-08-20T10:13:52.488613038Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.1",
@@ -934,7 +1026,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.794762373Z",
+      "timestamp": "2025-08-20T10:13:52.549377088Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.2",
@@ -957,7 +1049,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.861940236Z",
+      "timestamp": "2025-08-20T10:13:52.610486021Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.3",
@@ -980,7 +1072,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.927038931Z",
+      "timestamp": "2025-08-20T10:13:52.670889978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.4",
@@ -1003,7 +1095,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:27.991021267Z",
+      "timestamp": "2025-08-20T10:13:52.731548018Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.1",
@@ -1026,7 +1118,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:28.055064793Z",
+      "timestamp": "2025-08-20T10:13:52.793049744Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.2",
@@ -1049,7 +1141,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:28.120384451Z",
+      "timestamp": "2025-08-20T10:13:52.855449688Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.3",
@@ -1072,7 +1164,76 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:28.185079132Z",
+      "timestamp": "2025-08-20T10:13:52.918362637Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:52.978826295Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:53.04017737Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-08-20T10:13:53.100871439Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -1095,7 +1256,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:28.248980197Z",
+      "timestamp": "2025-08-20T10:13:53.162970911Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.18",
@@ -1118,7 +1279,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-13T09:38:28.312674811Z",
+      "timestamp": "2025-08-20T10:13:53.224925312Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -1141,7 +1302,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.01139421Z",
+      "timestamp": "2025-08-20T10:14:13.770253666Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -1164,7 +1325,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.083020707Z",
+      "timestamp": "2025-08-20T10:14:13.83741139Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11",
@@ -1187,7 +1348,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.154391191Z",
+      "timestamp": "2025-08-20T10:14:13.905080188Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11-rc.1",
@@ -1210,7 +1371,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.22386139Z",
+      "timestamp": "2025-08-20T10:14:13.972744487Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.12",
@@ -1233,7 +1394,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.292638663Z",
+      "timestamp": "2025-08-20T10:14:14.04093836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13",
@@ -1256,7 +1417,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.363580994Z",
+      "timestamp": "2025-08-20T10:14:14.10760405Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13-rc.1",
@@ -1279,7 +1440,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.432522559Z",
+      "timestamp": "2025-08-20T10:14:14.176170246Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14",
@@ -1302,7 +1463,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.50466699Z",
+      "timestamp": "2025-08-20T10:14:14.24450753Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.1",
@@ -1325,7 +1486,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.573956608Z",
+      "timestamp": "2025-08-20T10:14:14.311666055Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.2",
@@ -1348,7 +1509,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.644526896Z",
+      "timestamp": "2025-08-20T10:14:14.379663246Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.15-rc.1",
@@ -1371,7 +1532,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.713689722Z",
+      "timestamp": "2025-08-20T10:14:14.446890021Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.1",
@@ -1394,7 +1555,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.785259108Z",
+      "timestamp": "2025-08-20T10:14:14.51465924Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.2",
@@ -1417,7 +1578,53 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.854481205Z",
+      "timestamp": "2025-08-20T10:14:14.580089979Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:14.647595866Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:14.715047102Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -1440,7 +1647,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.924316067Z",
+      "timestamp": "2025-08-20T10:14:14.784239944Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -1463,7 +1670,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:48.993657925Z",
+      "timestamp": "2025-08-20T10:14:14.85153642Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6",
@@ -1486,7 +1693,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.063733659Z",
+      "timestamp": "2025-08-20T10:14:14.918587543Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.1",
@@ -1509,7 +1716,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.133095977Z",
+      "timestamp": "2025-08-20T10:14:14.985998389Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.2",
@@ -1532,7 +1739,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.202522305Z",
+      "timestamp": "2025-08-20T10:14:15.05285368Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.7",
@@ -1555,7 +1762,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.272887141Z",
+      "timestamp": "2025-08-20T10:14:15.122103272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8",
@@ -1578,7 +1785,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.342217859Z",
+      "timestamp": "2025-08-20T10:14:15.191134153Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8-rc.1",
@@ -1601,7 +1808,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.413356142Z",
+      "timestamp": "2025-08-20T10:14:15.2585907Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9",
@@ -1624,7 +1831,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.483783529Z",
+      "timestamp": "2025-08-20T10:14:15.326709412Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.1",
@@ -1647,7 +1854,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.554876671Z",
+      "timestamp": "2025-08-20T10:14:15.395044966Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.2",
@@ -1670,7 +1877,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.624773924Z",
+      "timestamp": "2025-08-20T10:14:15.462750745Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0",
@@ -1693,7 +1900,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.695968137Z",
+      "timestamp": "2025-08-20T10:14:15.530386793Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0-rc.5",
@@ -1716,7 +1923,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.767318622Z",
+      "timestamp": "2025-08-20T10:14:15.598050302Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1",
@@ -1739,7 +1946,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.837791969Z",
+      "timestamp": "2025-08-20T10:14:15.666188994Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1-rc.1",
@@ -1762,7 +1969,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.909186774Z",
+      "timestamp": "2025-08-20T10:14:15.734065445Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.2",
@@ -1785,7 +1992,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:49.98065862Z",
+      "timestamp": "2025-08-20T10:14:15.801868834Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3",
@@ -1808,7 +2015,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.051098197Z",
+      "timestamp": "2025-08-20T10:14:15.868999878Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3-rc.1",
@@ -1831,7 +2038,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.121539814Z",
+      "timestamp": "2025-08-20T10:14:15.937525394Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4",
@@ -1854,7 +2061,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.191550008Z",
+      "timestamp": "2025-08-20T10:14:16.005618256Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.1",
@@ -1877,7 +2084,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.265980308Z",
+      "timestamp": "2025-08-20T10:14:16.073729129Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.2",
@@ -1900,7 +2107,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.3381132Z",
+      "timestamp": "2025-08-20T10:14:16.142071193Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.4-rc.3",
@@ -1923,7 +2130,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.409500865Z",
+      "timestamp": "2025-08-20T10:14:16.211374636Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.5",
@@ -1946,7 +2153,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.479819631Z",
+      "timestamp": "2025-08-20T10:14:16.279776251Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.5-rc.1",
@@ -1969,7 +2176,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.551847051Z",
+      "timestamp": "2025-08-20T10:14:16.347421749Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.1",
@@ -1992,7 +2199,53 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.623793571Z",
+      "timestamp": "2025-08-20T10:14:16.417449509Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:16.487889402Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.12.6-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:16.556835921Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0",
@@ -2015,7 +2268,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.693972856Z",
+      "timestamp": "2025-08-20T10:14:16.625430728Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-beta.2",
@@ -2038,7 +2291,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.764524284Z",
+      "timestamp": "2025-08-20T10:14:16.694147116Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.1",
@@ -2061,7 +2314,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.835579316Z",
+      "timestamp": "2025-08-20T10:14:16.762214198Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.2",
@@ -2084,7 +2337,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.90566735Z",
+      "timestamp": "2025-08-20T10:14:16.830726454Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.3",
@@ -2107,7 +2360,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:50.976211998Z",
+      "timestamp": "2025-08-20T10:14:16.901002625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.0-rc.4",
@@ -2130,7 +2383,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.048766673Z",
+      "timestamp": "2025-08-20T10:14:16.969802524Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.1",
@@ -2153,7 +2406,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.118654495Z",
+      "timestamp": "2025-08-20T10:14:17.041478998Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.2",
@@ -2176,7 +2429,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.18999072Z",
+      "timestamp": "2025-08-20T10:14:17.110434017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.3",
@@ -2199,7 +2452,76 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.261553086Z",
+      "timestamp": "2025-08-20T10:14:17.178982224Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:17.248916352Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:17.318092484Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet@v0.13.1-rc.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.44.122"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-08-20T10:14:17.386973023Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -2222,7 +2544,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.332861481Z",
+      "timestamp": "2025-08-20T10:14:17.456523468Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.18",
@@ -2245,7 +2567,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-13T09:38:51.404937812Z",
+      "timestamp": "2025-08-20T10:14:17.527537896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2268,7 +2590,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-13T09:41:54.646878333Z",
+      "timestamp": "2025-08-20T10:17:18.276924371Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2291,7 +2613,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-13T09:41:54.751778325Z",
+      "timestamp": "2025-08-20T10:17:18.381029746Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2314,7 +2636,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-08-13T09:42:18.252759498Z",
+      "timestamp": "2025-08-20T10:17:41.272931379Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2337,7 +2659,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-08-13T09:42:18.361311962Z",
+      "timestamp": "2025-08-20T10:17:41.376453319Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2360,7 +2682,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-08-13T09:42:19.003384735Z",
+      "timestamp": "2025-08-20T10:17:42.003126978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -2383,7 +2705,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-08-13T09:42:19.11198798Z",
+      "timestamp": "2025-08-20T10:17:42.107001421Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.18",
@@ -2406,7 +2728,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-08-13T09:42:19.219641796Z",
+      "timestamp": "2025-08-20T10:17:42.211224347Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2429,7 +2751,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-13T09:44:00.637617396Z",
+      "timestamp": "2025-08-20T10:19:24.808401183Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2452,7 +2774,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-13T09:44:00.761097843Z",
+      "timestamp": "2025-08-20T10:19:24.928706996Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2474,7 +2796,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-08-13T09:44:25.634959221Z",
+      "timestamp": "2025-08-20T10:19:49.4085099Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2496,7 +2818,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-08-13T09:44:25.761405335Z",
+      "timestamp": "2025-08-20T10:19:49.531118426Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2518,7 +2840,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-08-13T09:44:26.49466959Z",
+      "timestamp": "2025-08-20T10:19:50.260858463Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -2540,7 +2862,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-08-13T09:44:26.617291042Z",
+      "timestamp": "2025-08-20T10:19:50.387504626Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.18",
@@ -2562,7 +2884,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-08-13T09:44:26.739317568Z",
+      "timestamp": "2025-08-20T10:19:50.511703677Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2585,7 +2907,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-13T09:45:23.831105609Z",
+      "timestamp": "2025-08-20T10:20:47.143163855Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2608,7 +2930,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-13T09:45:23.964713704Z",
+      "timestamp": "2025-08-20T10:20:47.271824782Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2631,7 +2953,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-13T09:45:24.097741825Z",
+      "timestamp": "2025-08-20T10:20:47.400105066Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -2654,7 +2976,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-13T09:45:24.229858707Z",
+      "timestamp": "2025-08-20T10:20:47.529255608Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -2677,7 +2999,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-13T09:45:24.364638533Z",
+      "timestamp": "2025-08-20T10:20:47.659491569Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2700,7 +3022,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-13T09:48:20.459090769Z",
+      "timestamp": "2025-08-20T10:23:47.636303836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2723,7 +3045,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-13T09:48:20.60673347Z",
+      "timestamp": "2025-08-20T10:23:47.784711685Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2746,7 +3068,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-13T09:48:22.081862796Z",
+      "timestamp": "2025-08-20T10:23:49.281408968Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -2769,7 +3091,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-13T09:48:22.234236159Z",
+      "timestamp": "2025-08-20T10:23:49.430268381Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -2792,7 +3114,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-13T09:48:22.383907258Z",
+      "timestamp": "2025-08-20T10:23:49.576828473Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -2814,7 +3136,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:45.50365426Z",
+      "timestamp": "2025-08-20T10:31:35.618033689Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2836,7 +3158,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:45.700951248Z",
+      "timestamp": "2025-08-20T10:31:35.813706898Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2858,7 +3180,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:45.891984782Z",
+      "timestamp": "2025-08-20T10:31:36.010362857Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2880,7 +3202,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:46.083126896Z",
+      "timestamp": "2025-08-20T10:31:36.204781575Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2902,7 +3224,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:46.278175065Z",
+      "timestamp": "2025-08-20T10:31:36.396799622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -2924,7 +3246,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:46.468572063Z",
+      "timestamp": "2025-08-20T10:31:36.586981412Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11",
@@ -2946,7 +3268,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:46.661865497Z",
+      "timestamp": "2025-08-20T10:31:36.78021532Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.11-rc.1",
@@ -2968,7 +3290,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:46.853051512Z",
+      "timestamp": "2025-08-20T10:31:36.974226825Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.12",
@@ -2990,7 +3312,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.040608995Z",
+      "timestamp": "2025-08-20T10:31:37.163496247Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13",
@@ -3012,7 +3334,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.232801639Z",
+      "timestamp": "2025-08-20T10:31:37.360582629Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.13-rc.1",
@@ -3034,7 +3356,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.423223987Z",
+      "timestamp": "2025-08-20T10:31:37.554851656Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14",
@@ -3056,7 +3378,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.610843901Z",
+      "timestamp": "2025-08-20T10:31:37.750537786Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.1",
@@ -3078,7 +3400,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.796165404Z",
+      "timestamp": "2025-08-20T10:31:37.943724123Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.10.14-rc.2",
@@ -3100,7 +3422,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:47.993457603Z",
+      "timestamp": "2025-08-20T10:31:38.139002199Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.10-rc.1",
@@ -3122,7 +3444,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:48.178934658Z",
+      "timestamp": "2025-08-20T10:31:38.334235405Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -3144,7 +3466,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:48.371111111Z",
+      "timestamp": "2025-08-20T10:31:38.527882607Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -3166,7 +3488,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:48.56503859Z",
+      "timestamp": "2025-08-20T10:31:38.717909896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6",
@@ -3188,7 +3510,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:48.753013297Z",
+      "timestamp": "2025-08-20T10:31:38.915175799Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.1",
@@ -3210,7 +3532,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:48.939886794Z",
+      "timestamp": "2025-08-20T10:31:39.111180322Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.2",
@@ -3232,7 +3554,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:49.126367168Z",
+      "timestamp": "2025-08-20T10:31:39.303111688Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.7",
@@ -3254,7 +3576,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:49.314995901Z",
+      "timestamp": "2025-08-20T10:31:39.493304069Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8",
@@ -3276,7 +3598,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:49.503821645Z",
+      "timestamp": "2025-08-20T10:31:39.691514861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.8-rc.1",
@@ -3298,7 +3620,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:49.696083369Z",
+      "timestamp": "2025-08-20T10:31:39.889921625Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9",
@@ -3320,7 +3642,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:49.892411729Z",
+      "timestamp": "2025-08-20T10:31:40.080185836Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.1",
@@ -3342,7 +3664,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:50.080955101Z",
+      "timestamp": "2025-08-20T10:31:40.273165302Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.9-rc.2",
@@ -3364,7 +3686,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:50.271037487Z",
+      "timestamp": "2025-08-20T10:31:40.462500584Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0",
@@ -3386,7 +3708,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:50.467461544Z",
+      "timestamp": "2025-08-20T10:31:40.653628003Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0-rc.5",
@@ -3408,7 +3730,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:50.658400222Z",
+      "timestamp": "2025-08-20T10:31:40.849765137Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1",
@@ -3430,7 +3752,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:50.849445332Z",
+      "timestamp": "2025-08-20T10:31:41.045747569Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1-rc.1",
@@ -3452,7 +3774,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:51.040881584Z",
+      "timestamp": "2025-08-20T10:31:41.238247201Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.2",
@@ -3474,7 +3796,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:51.234629088Z",
+      "timestamp": "2025-08-20T10:31:41.433104473Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3",
@@ -3496,7 +3818,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:51.428963866Z",
+      "timestamp": "2025-08-20T10:31:41.631340806Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.3-rc.1",
@@ -3518,7 +3840,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:51.623625277Z",
+      "timestamp": "2025-08-20T10:31:41.821410735Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -3540,7 +3862,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:51.817602642Z",
+      "timestamp": "2025-08-20T10:31:42.012546704Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.18",
@@ -3562,7 +3884,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-13T09:55:52.007611692Z",
+      "timestamp": "2025-08-20T10:31:42.203600652Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
@@ -3584,7 +3906,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:22.318014732Z",
+      "timestamp": "2025-08-20T10:53:13.442208683Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -3606,7 +3928,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:22.591071393Z",
+      "timestamp": "2025-08-20T10:53:13.711079979Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -3628,7 +3950,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:22.862108795Z",
+      "timestamp": "2025-08-20T10:53:13.980301998Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -3650,7 +3972,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:23.127614735Z",
+      "timestamp": "2025-08-20T10:53:14.250235014Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet",
@@ -3672,7 +3994,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:33.72640033Z",
+      "timestamp": "2025-08-20T10:53:25.482466663Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2",
@@ -3694,7 +4016,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:33.999833198Z",
+      "timestamp": "2025-08-20T10:53:25.748499272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.2-rc.2",
@@ -3716,7 +4038,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:34.266315473Z",
+      "timestamp": "2025-08-20T10:53:26.017297966Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6",
@@ -3738,7 +4060,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:34.531920286Z",
+      "timestamp": "2025-08-20T10:53:26.287084709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.1",
@@ -3760,7 +4082,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:34.79860573Z",
+      "timestamp": "2025-08-20T10:53:26.551328392Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.6-rc.2",
@@ -3782,7 +4104,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:35.069344702Z",
+      "timestamp": "2025-08-20T10:53:26.822121573Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.11.7",
@@ -3804,7 +4126,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:35.335581662Z",
+      "timestamp": "2025-08-20T10:53:27.096371696Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0",
@@ -3826,7 +4148,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:35.599750344Z",
+      "timestamp": "2025-08-20T10:53:27.37067309Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.0-rc.5",
@@ -3848,7 +4170,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:35.859711148Z",
+      "timestamp": "2025-08-20T10:53:27.639838387Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1",
@@ -3870,7 +4192,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:36.119724553Z",
+      "timestamp": "2025-08-20T10:53:27.908672431Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.1-rc.1",
@@ -3892,7 +4214,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:36.386810582Z",
+      "timestamp": "2025-08-20T10:53:28.17798012Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.12.2",
@@ -3914,7 +4236,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:36.652382716Z",
+      "timestamp": "2025-08-20T10:53:28.453753286Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.17",
@@ -3936,7 +4258,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-13T10:16:36.915206106Z",
+      "timestamp": "2025-08-20T10:53:28.727950999Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet@v0.9.5",
