@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-08-27T09:12:29.297289222Z",
-  "version": 162,
+  "last_updated": "2025-09-03T09:44:24.331631139Z",
+  "version": 169,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.170730421Z",
+      "timestamp": "2025-09-03T09:05:50.218172306Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -37,7 +37,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.230612599Z",
+      "timestamp": "2025-09-03T09:05:50.273923374Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -60,7 +60,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.287608954Z",
+      "timestamp": "2025-09-03T09:05:50.327983285Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -83,7 +83,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.344899222Z",
+      "timestamp": "2025-09-03T09:05:50.385612861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -106,7 +106,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.4035594Z",
+      "timestamp": "2025-09-03T09:05:50.442477194Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -129,7 +129,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.462931234Z",
+      "timestamp": "2025-09-03T09:05:50.498915176Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -152,7 +152,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.520772516Z",
+      "timestamp": "2025-09-03T09:05:50.554658604Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -175,7 +175,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.577948303Z",
+      "timestamp": "2025-09-03T09:05:50.610854734Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -198,7 +198,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.634957728Z",
+      "timestamp": "2025-09-03T09:05:50.667533366Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -221,7 +221,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.691762892Z",
+      "timestamp": "2025-09-03T09:05:50.725843325Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -244,7 +244,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.749376992Z",
+      "timestamp": "2025-09-03T09:05:50.782395007Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -267,7 +267,7 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.808145621Z",
+      "timestamp": "2025-09-03T09:05:50.846208241Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -290,10 +290,33 @@
           "GO-2022-0755"
         ]
       },
-      "timestamp": "2025-08-27T08:34:20.866129864Z",
+      "timestamp": "2025-09-03T09:05:50.904556491Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230124173128-2207cfed1803"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-13209",
+        "aliases": [
+          "GHSA-xhg2-rvm8-w2jh",
+          "GO-2022-0755"
+        ]
+      },
+      "timestamp": "2025-09-03T09:05:50.960977952Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/rancher@v0.0.0-20230124173128-2207cfed1803"
@@ -313,7 +336,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.335563101Z",
+      "timestamp": "2025-09-03T09:07:07.032611469Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -336,7 +359,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.411234799Z",
+      "timestamp": "2025-09-03T09:07:07.108154954Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -359,7 +382,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.48869484Z",
+      "timestamp": "2025-09-03T09:07:07.183703068Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -382,7 +405,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.564010936Z",
+      "timestamp": "2025-09-03T09:07:07.25867286Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -405,7 +428,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.638430264Z",
+      "timestamp": "2025-09-03T09:07:07.334933208Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -428,7 +451,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.713179126Z",
+      "timestamp": "2025-09-03T09:07:07.411677119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -451,7 +474,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.78833572Z",
+      "timestamp": "2025-09-03T09:07:07.487752536Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -474,7 +497,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.864925435Z",
+      "timestamp": "2025-09-03T09:07:07.564937298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -497,7 +520,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:36.942399456Z",
+      "timestamp": "2025-09-03T09:07:07.639984681Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -520,7 +543,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.018580678Z",
+      "timestamp": "2025-09-03T09:07:07.715841027Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -543,7 +566,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.094096585Z",
+      "timestamp": "2025-09-03T09:07:07.789808254Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -566,7 +589,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.169592892Z",
+      "timestamp": "2025-09-03T09:07:07.868027401Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -589,7 +612,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.246000386Z",
+      "timestamp": "2025-09-03T09:07:07.947840866Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -612,7 +635,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.323252306Z",
+      "timestamp": "2025-09-03T09:07:08.026499635Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -635,7 +658,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.401290791Z",
+      "timestamp": "2025-09-03T09:07:08.100671724Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -658,7 +681,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.477883697Z",
+      "timestamp": "2025-09-03T09:07:08.177792686Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -681,7 +704,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.554022978Z",
+      "timestamp": "2025-09-03T09:07:08.254762927Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -704,7 +727,7 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.63021892Z",
+      "timestamp": "2025-09-03T09:07:08.331548298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
@@ -727,10 +750,33 @@
           "GO-2024-2534"
         ]
       },
-      "timestamp": "2025-08-27T08:35:37.707066397Z",
+      "timestamp": "2025-09-03T09:07:08.408007957Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20230120214941-e88c32739dc7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32192",
+        "aliases": [
+          "GHSA-833m-37f7-jq55",
+          "GO-2024-2534"
+        ]
+      },
+      "timestamp": "2025-09-03T09:07:08.487116408Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/apiserver@v0.0.0-20230120214941-e88c32739dc7"
@@ -750,7 +796,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:39.803986649Z",
+      "timestamp": "2025-09-03T09:07:10.579107128Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -773,7 +819,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:39.880748556Z",
+      "timestamp": "2025-09-03T09:07:10.655595909Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -796,7 +842,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:39.958404159Z",
+      "timestamp": "2025-09-03T09:07:10.732229481Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -819,7 +865,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.034871753Z",
+      "timestamp": "2025-09-03T09:07:10.807941498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -842,7 +888,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.113785075Z",
+      "timestamp": "2025-09-03T09:07:10.885628404Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -865,7 +911,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.192530976Z",
+      "timestamp": "2025-09-03T09:07:10.964552626Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -888,7 +934,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.270458951Z",
+      "timestamp": "2025-09-03T09:07:11.043544868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -911,7 +957,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.347163747Z",
+      "timestamp": "2025-09-03T09:07:11.12036814Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -934,7 +980,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.426645644Z",
+      "timestamp": "2025-09-03T09:07:11.19664249Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -957,7 +1003,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.505492176Z",
+      "timestamp": "2025-09-03T09:07:11.273884194Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -980,7 +1026,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.585464596Z",
+      "timestamp": "2025-09-03T09:07:11.350981798Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -1003,7 +1049,7 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.665294745Z",
+      "timestamp": "2025-09-03T09:07:11.427241818Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -1026,10 +1072,33 @@
           "GO-2024-2536"
         ]
       },
-      "timestamp": "2025-08-27T08:35:40.74322287Z",
+      "timestamp": "2025-09-03T09:07:11.50413285Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-32193",
+        "aliases": [
+          "GHSA-r8f4-hv23-6qp6",
+          "GO-2024-2536"
+        ]
+      },
+      "timestamp": "2025-09-03T09:07:11.582290888Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/rancher/norman@v0.0.0-20221205184727-32ef2e185b99"
@@ -1049,7 +1118,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.182942714Z",
+      "timestamp": "2025-09-03T09:07:15.010474498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -1072,7 +1141,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.261410283Z",
+      "timestamp": "2025-09-03T09:07:15.087354161Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0",
@@ -1095,7 +1164,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.338762093Z",
+      "timestamp": "2025-09-03T09:07:15.166243422Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc1",
@@ -1118,7 +1187,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.416541817Z",
+      "timestamp": "2025-09-03T09:07:15.242443062Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc2",
@@ -1141,7 +1210,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.494732094Z",
+      "timestamp": "2025-09-03T09:07:15.318133119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc3",
@@ -1164,7 +1233,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.573321094Z",
+      "timestamp": "2025-09-03T09:07:15.395549184Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc4",
@@ -1187,7 +1256,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.651103708Z",
+      "timestamp": "2025-09-03T09:07:15.473603052Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc5",
@@ -1210,7 +1279,7 @@
           "GO-2023-2330"
         ]
       },
-      "timestamp": "2025-08-27T08:35:44.730105251Z",
+      "timestamp": "2025-09-03T09:07:15.549708471Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc6",
@@ -1233,7 +1302,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:09.705303511Z",
+      "timestamp": "2025-09-03T09:07:40.475627887Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -1256,7 +1325,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:09.789299944Z",
+      "timestamp": "2025-09-03T09:07:40.559242603Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0",
@@ -1279,7 +1348,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:09.873432279Z",
+      "timestamp": "2025-09-03T09:07:40.641786453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc1",
@@ -1302,7 +1371,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:09.957357713Z",
+      "timestamp": "2025-09-03T09:07:40.726502594Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc2",
@@ -1325,7 +1394,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:10.040812543Z",
+      "timestamp": "2025-09-03T09:07:40.814283259Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc3",
@@ -1348,7 +1417,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:10.127299035Z",
+      "timestamp": "2025-09-03T09:07:40.897378592Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc4",
@@ -1371,7 +1440,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:10.210908136Z",
+      "timestamp": "2025-09-03T09:07:40.983197718Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc5",
@@ -1394,7 +1463,7 @@
           "GO-2023-2170"
         ]
       },
-      "timestamp": "2025-08-27T08:36:10.29489958Z",
+      "timestamp": "2025-09-03T09:07:41.066529252Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc6",
@@ -1417,7 +1486,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.314148599Z",
+      "timestamp": "2025-09-03T09:08:12.704847327Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -1440,7 +1509,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.403960404Z",
+      "timestamp": "2025-09-03T09:08:12.79351177Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -1463,7 +1532,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.494957848Z",
+      "timestamp": "2025-09-03T09:08:12.882921236Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -1486,7 +1555,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.58428406Z",
+      "timestamp": "2025-09-03T09:08:12.973135106Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -1509,7 +1578,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.673715042Z",
+      "timestamp": "2025-09-03T09:08:13.061813619Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -1532,7 +1601,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.762199297Z",
+      "timestamp": "2025-09-03T09:08:13.150892403Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -1555,7 +1624,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.853724136Z",
+      "timestamp": "2025-09-03T09:08:13.240755632Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -1578,7 +1647,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:42.943985074Z",
+      "timestamp": "2025-09-03T09:08:13.330930861Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -1601,7 +1670,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.035496072Z",
+      "timestamp": "2025-09-03T09:08:13.424419446Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -1624,7 +1693,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.126761738Z",
+      "timestamp": "2025-09-03T09:08:13.516491555Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -1647,7 +1716,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.22141537Z",
+      "timestamp": "2025-09-03T09:08:13.604706546Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -1670,7 +1739,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.314146777Z",
+      "timestamp": "2025-09-03T09:08:13.697247477Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -1693,7 +1762,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.405676865Z",
+      "timestamp": "2025-09-03T09:08:13.796486809Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -1716,7 +1785,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.500281106Z",
+      "timestamp": "2025-09-03T09:08:13.887786894Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -1739,7 +1808,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.592410159Z",
+      "timestamp": "2025-09-03T09:08:13.980887006Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -1762,7 +1831,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.686551096Z",
+      "timestamp": "2025-09-03T09:08:14.07266438Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -1785,7 +1854,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.779910928Z",
+      "timestamp": "2025-09-03T09:08:14.165343318Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -1808,7 +1877,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.872186502Z",
+      "timestamp": "2025-09-03T09:08:14.256265618Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -1831,7 +1900,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:43.963008805Z",
+      "timestamp": "2025-09-03T09:08:14.349818511Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -1854,7 +1923,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:44.056169485Z",
+      "timestamp": "2025-09-03T09:08:14.441653345Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
@@ -1877,10 +1946,33 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-08-27T08:36:44.147507972Z",
+      "timestamp": "2025-09-03T09:08:14.530547106Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/contrib@v0.20.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-45142",
+        "aliases": [
+          "GHSA-rcjv-mgp8-qvmr",
+          "GO-2023-2113"
+        ]
+      },
+      "timestamp": "2025-09-03T09:08:14.618826073Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/go.opentelemetry.io/contrib@v0.20.0"
@@ -1900,7 +1992,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:05.812022428Z",
+      "timestamp": "2025-09-03T09:09:37.594146423Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -1923,7 +2015,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:05.915542607Z",
+      "timestamp": "2025-09-03T09:09:37.696655288Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0",
@@ -1946,7 +2038,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.018704323Z",
+      "timestamp": "2025-09-03T09:09:37.801808734Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc1",
@@ -1969,7 +2061,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.121488846Z",
+      "timestamp": "2025-09-03T09:09:37.904258768Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc2",
@@ -1992,7 +2084,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.224806143Z",
+      "timestamp": "2025-09-03T09:09:38.007174004Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc3",
@@ -2015,7 +2107,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.328392702Z",
+      "timestamp": "2025-09-03T09:09:38.110543762Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc4",
@@ -2038,7 +2130,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.431509248Z",
+      "timestamp": "2025-09-03T09:09:38.213993881Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc5",
@@ -2061,7 +2153,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-08-27T08:38:06.534969896Z",
+      "timestamp": "2025-09-03T09:09:38.321068596Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc6",
@@ -2084,7 +2176,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-08-27T08:38:50.629221249Z",
+      "timestamp": "2025-09-03T09:10:23.841646973Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2107,7 +2199,7 @@
           "GO-2024-2611"
         ]
       },
-      "timestamp": "2025-08-27T08:38:50.736513566Z",
+      "timestamp": "2025-09-03T09:10:23.949339622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -2130,7 +2222,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:12.557030307Z",
+      "timestamp": "2025-09-03T09:11:46.902355844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2153,7 +2245,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:12.67553817Z",
+      "timestamp": "2025-09-03T09:11:47.022059287Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -2176,7 +2268,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:12.794099293Z",
+      "timestamp": "2025-09-03T09:11:47.146770144Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -2199,7 +2291,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:12.912395884Z",
+      "timestamp": "2025-09-03T09:11:47.267064061Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -2222,7 +2314,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.034442254Z",
+      "timestamp": "2025-09-03T09:11:47.390568862Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -2245,7 +2337,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.15343587Z",
+      "timestamp": "2025-09-03T09:11:47.511671032Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -2268,7 +2360,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.273523705Z",
+      "timestamp": "2025-09-03T09:11:47.631677847Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -2291,7 +2383,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.392583552Z",
+      "timestamp": "2025-09-03T09:11:47.754233344Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -2314,7 +2406,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.514982644Z",
+      "timestamp": "2025-09-03T09:11:47.876941112Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -2337,7 +2429,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.634415894Z",
+      "timestamp": "2025-09-03T09:11:47.99761487Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -2360,7 +2452,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.752809346Z",
+      "timestamp": "2025-09-03T09:11:48.118971791Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -2383,7 +2475,7 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.872226365Z",
+      "timestamp": "2025-09-03T09:11:48.237856551Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -2406,10 +2498,33 @@
           "GO-2024-2688"
         ]
       },
-      "timestamp": "2025-08-27T08:40:13.991157651Z",
+      "timestamp": "2025-09-03T09:11:48.357540964Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-31420",
+        "aliases": [
+          "GHSA-vjhf-6xfr-5p9g",
+          "GO-2024-2688"
+        ]
+      },
+      "timestamp": "2025-09-03T09:11:48.480923185Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/kubevirt.io/kubevirt@v0.54.0"
@@ -2429,7 +2544,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:14.816331128Z",
+      "timestamp": "2025-09-03T09:11:49.318573118Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2452,7 +2567,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:14.933994364Z",
+      "timestamp": "2025-09-03T09:11:49.441320586Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0",
@@ -2475,7 +2590,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.053061001Z",
+      "timestamp": "2025-09-03T09:11:49.562906869Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc1",
@@ -2498,7 +2613,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.172598682Z",
+      "timestamp": "2025-09-03T09:11:49.683480396Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc2",
@@ -2521,7 +2636,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.293234421Z",
+      "timestamp": "2025-09-03T09:11:49.806168624Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc3",
@@ -2544,7 +2659,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.411366881Z",
+      "timestamp": "2025-09-03T09:11:49.926877222Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc4",
@@ -2567,7 +2682,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.531054612Z",
+      "timestamp": "2025-09-03T09:11:50.048390674Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc5",
@@ -2590,7 +2705,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-08-27T08:40:15.652955811Z",
+      "timestamp": "2025-09-03T09:11:50.170380228Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.6.0-rc6",
@@ -2613,7 +2728,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:22.589138491Z",
+      "timestamp": "2025-09-03T09:11:57.16773567Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2636,7 +2751,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:22.71222104Z",
+      "timestamp": "2025-09-03T09:11:57.289607484Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -2659,7 +2774,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:22.834343032Z",
+      "timestamp": "2025-09-03T09:11:57.409691689Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -2682,7 +2797,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:22.957531612Z",
+      "timestamp": "2025-09-03T09:11:57.536617076Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -2705,7 +2820,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.077298827Z",
+      "timestamp": "2025-09-03T09:11:57.658642581Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -2728,7 +2843,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.199217307Z",
+      "timestamp": "2025-09-03T09:11:57.778210104Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -2751,7 +2866,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.319620826Z",
+      "timestamp": "2025-09-03T09:11:57.902964411Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -2774,7 +2889,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.441343865Z",
+      "timestamp": "2025-09-03T09:11:58.026468292Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -2797,7 +2912,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.561495463Z",
+      "timestamp": "2025-09-03T09:11:58.148300506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -2820,7 +2935,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.683699645Z",
+      "timestamp": "2025-09-03T09:11:58.271330175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -2843,7 +2958,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.80480214Z",
+      "timestamp": "2025-09-03T09:11:58.394245684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -2866,7 +2981,7 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:23.926811311Z",
+      "timestamp": "2025-09-03T09:11:58.517599495Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -2889,10 +3004,33 @@
           "GO-2024-2816"
         ]
       },
-      "timestamp": "2025-08-27T08:40:24.047461632Z",
+      "timestamp": "2025-09-03T09:11:58.639996561Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-33394",
+        "aliases": [
+          "GHSA-4q63-mr2m-57hf",
+          "GO-2024-2816"
+        ]
+      },
+      "timestamp": "2025-09-03T09:11:58.762539198Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/kubevirt.io/kubevirt@v0.54.0"
@@ -2912,7 +3050,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-27T08:41:08.089457109Z",
+      "timestamp": "2025-09-03T09:12:44.046163402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2935,7 +3073,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-08-27T08:41:08.219442822Z",
+      "timestamp": "2025-09-03T09:12:44.182372504Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -2958,7 +3096,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-27T08:43:45.742062172Z",
+      "timestamp": "2025-09-03T09:15:23.396643699Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -2981,7 +3119,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-08-27T08:43:45.888096302Z",
+      "timestamp": "2025-09-03T09:15:23.543489101Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -3003,7 +3141,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:13.427240547Z",
+      "timestamp": "2025-09-03T09:22:57.487722923Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -3025,7 +3163,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:13.618686388Z",
+      "timestamp": "2025-09-03T09:22:57.677425373Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -3047,7 +3185,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:13.805099891Z",
+      "timestamp": "2025-09-03T09:22:57.867308764Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -3069,7 +3207,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:13.987634044Z",
+      "timestamp": "2025-09-03T09:22:58.052614773Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -3091,7 +3229,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:14.173811936Z",
+      "timestamp": "2025-09-03T09:22:58.244117482Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -3113,7 +3251,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:14.36301653Z",
+      "timestamp": "2025-09-03T09:22:58.438340882Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -3135,7 +3273,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:14.555021236Z",
+      "timestamp": "2025-09-03T09:22:58.628498504Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -3157,7 +3295,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:14.743717886Z",
+      "timestamp": "2025-09-03T09:22:58.822964356Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -3179,7 +3317,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:14.935051157Z",
+      "timestamp": "2025-09-03T09:22:59.015242708Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1",
@@ -3201,7 +3339,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:15.122162135Z",
+      "timestamp": "2025-09-03T09:22:59.206394574Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc1",
@@ -3223,7 +3361,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:15.31400287Z",
+      "timestamp": "2025-09-03T09:22:59.398206844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc2",
@@ -3245,7 +3383,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:15.50137632Z",
+      "timestamp": "2025-09-03T09:22:59.590322395Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc3",
@@ -3267,10 +3405,32 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-27T08:51:15.691101939Z",
+      "timestamp": "2025-09-03T09:22:59.780928739Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
+      "timestamp": "2025-09-03T09:22:59.971194661Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.2-rc1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/oauth2@v0.7.0"
@@ -3289,7 +3449,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:47.654600372Z",
+      "timestamp": "2025-09-03T09:33:39.196170136Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -3311,7 +3471,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:47.877517708Z",
+      "timestamp": "2025-09-03T09:33:39.423880952Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -3333,7 +3493,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:48.102324129Z",
+      "timestamp": "2025-09-03T09:33:39.653919459Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -3355,7 +3515,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:48.330979229Z",
+      "timestamp": "2025-09-03T09:33:39.885951944Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -3377,7 +3537,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:48.563065785Z",
+      "timestamp": "2025-09-03T09:33:40.124904272Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -3399,7 +3559,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:48.792686203Z",
+      "timestamp": "2025-09-03T09:33:40.357507291Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -3421,7 +3581,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:49.022066008Z",
+      "timestamp": "2025-09-03T09:33:40.582946906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -3443,7 +3603,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:49.24444809Z",
+      "timestamp": "2025-09-03T09:33:40.818662269Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -3465,7 +3625,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-27T09:01:49.479335738Z",
+      "timestamp": "2025-09-03T09:33:41.04959986Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
@@ -3487,7 +3647,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:27.15962407Z",
+      "timestamp": "2025-09-03T09:44:22.203036586Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -3509,7 +3669,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:27.426393849Z",
+      "timestamp": "2025-09-03T09:44:22.468285407Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller",
@@ -3531,7 +3691,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:27.691505346Z",
+      "timestamp": "2025-09-03T09:44:22.737781727Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.4.2",
@@ -3553,7 +3713,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:27.960698614Z",
+      "timestamp": "2025-09-03T09:44:23.002775406Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v0.5.6",
@@ -3575,7 +3735,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:28.225953322Z",
+      "timestamp": "2025-09-03T09:44:23.269113351Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0",
@@ -3597,7 +3757,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:28.491131609Z",
+      "timestamp": "2025-09-03T09:44:23.534751583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc2",
@@ -3619,7 +3779,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:28.759737902Z",
+      "timestamp": "2025-09-03T09:44:23.798187475Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc3",
@@ -3641,7 +3801,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:29.027425269Z",
+      "timestamp": "2025-09-03T09:44:24.065356154Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc4",
@@ -3663,7 +3823,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-27T09:12:29.297289982Z",
+      "timestamp": "2025-09-03T09:44:24.331632109Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/harvester-network-controller@v1.5.0-rc5",
