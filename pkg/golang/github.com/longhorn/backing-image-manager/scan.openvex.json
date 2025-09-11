@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-23T10:24:11.753403313Z",
-  "version": 48,
+  "last_updated": "2025-09-10T10:36:10.200024469Z",
+  "version": 50,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.48847915Z",
+      "timestamp": "2025-09-10T09:56:03.235572085Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -37,7 +37,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.552013739Z",
+      "timestamp": "2025-09-10T09:56:03.29599358Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -60,7 +60,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.612609132Z",
+      "timestamp": "2025-09-10T09:56:03.355926971Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -83,7 +83,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.677025708Z",
+      "timestamp": "2025-09-10T09:56:03.416404117Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -106,7 +106,30 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.739849801Z",
+      "timestamp": "2025-09-10T09:56:03.476757642Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.10.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:03.537193437Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
@@ -129,7 +152,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.801445482Z",
+      "timestamp": "2025-09-10T09:56:03.596379782Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
@@ -152,7 +175,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.863260396Z",
+      "timestamp": "2025-09-10T09:56:03.657999708Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
@@ -175,7 +198,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.926397211Z",
+      "timestamp": "2025-09-10T09:56:03.71807005Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",
@@ -198,7 +221,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:14.98998839Z",
+      "timestamp": "2025-09-10T09:56:03.776318447Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2",
@@ -221,7 +244,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.05480258Z",
+      "timestamp": "2025-09-10T09:56:03.836212218Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc1",
@@ -244,7 +267,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.119183836Z",
+      "timestamp": "2025-09-10T09:56:03.895606365Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc2",
@@ -267,7 +290,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.182020999Z",
+      "timestamp": "2025-09-10T09:56:03.955611837Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc3",
@@ -290,7 +313,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.246426405Z",
+      "timestamp": "2025-09-10T09:56:04.014441025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0",
@@ -313,7 +336,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.309310538Z",
+      "timestamp": "2025-09-10T09:56:04.076134016Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc1",
@@ -336,7 +359,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.376384848Z",
+      "timestamp": "2025-09-10T09:56:04.136721688Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc2",
@@ -359,7 +382,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.442787172Z",
+      "timestamp": "2025-09-10T09:56:04.197633482Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc3",
@@ -382,7 +405,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.508326368Z",
+      "timestamp": "2025-09-10T09:56:04.260408372Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc4",
@@ -405,7 +428,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.572092179Z",
+      "timestamp": "2025-09-10T09:56:04.320077706Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.1",
@@ -428,7 +451,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-07-23T09:48:15.636114012Z",
+      "timestamp": "2025-09-10T09:56:04.38213986Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.1-rc1",
@@ -451,7 +474,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.088441038Z",
+      "timestamp": "2025-09-10T09:56:29.033239664Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -474,7 +497,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.157445739Z",
+      "timestamp": "2025-09-10T09:56:29.101553498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -497,7 +520,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.226487171Z",
+      "timestamp": "2025-09-10T09:56:29.168929684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -520,7 +543,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.297751191Z",
+      "timestamp": "2025-09-10T09:56:29.23627083Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -543,7 +566,30 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.368979781Z",
+      "timestamp": "2025-09-10T09:56:29.30278184Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.10.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:29.37063127Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
@@ -566,7 +612,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.43884092Z",
+      "timestamp": "2025-09-10T09:56:29.440123163Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
@@ -589,7 +635,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.508088683Z",
+      "timestamp": "2025-09-10T09:56:29.508160995Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
@@ -612,7 +658,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.57663761Z",
+      "timestamp": "2025-09-10T09:56:29.576357357Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",
@@ -635,7 +681,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.645997534Z",
+      "timestamp": "2025-09-10T09:56:29.645006204Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2",
@@ -658,7 +704,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.714183239Z",
+      "timestamp": "2025-09-10T09:56:29.711672795Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc1",
@@ -681,7 +727,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.78434728Z",
+      "timestamp": "2025-09-10T09:56:29.779906298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc2",
@@ -704,7 +750,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.852598684Z",
+      "timestamp": "2025-09-10T09:56:29.848861987Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.2-rc3",
@@ -727,7 +773,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.921565165Z",
+      "timestamp": "2025-09-10T09:56:29.916590696Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0",
@@ -750,7 +796,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:35.990422935Z",
+      "timestamp": "2025-09-10T09:56:29.984483546Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc1",
@@ -773,7 +819,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:36.058952512Z",
+      "timestamp": "2025-09-10T09:56:30.051994884Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc2",
@@ -796,7 +842,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:36.128987992Z",
+      "timestamp": "2025-09-10T09:56:30.119989345Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc3",
@@ -819,7 +865,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:36.19880863Z",
+      "timestamp": "2025-09-10T09:56:30.187558243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.0-rc4",
@@ -842,7 +888,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:36.267759221Z",
+      "timestamp": "2025-09-10T09:56:30.254291865Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.1",
@@ -865,7 +911,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-07-23T09:48:36.338248024Z",
+      "timestamp": "2025-09-10T09:56:30.322631389Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.9.1-rc1",
@@ -888,7 +934,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-23T09:57:29.455114713Z",
+      "timestamp": "2025-09-10T10:06:07.081812875Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -911,7 +957,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-23T09:57:29.5973219Z",
+      "timestamp": "2025-09-10T10:06:07.232678801Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
@@ -933,7 +979,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:10.246281807Z",
+      "timestamp": "2025-09-10T10:36:08.572486883Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -955,7 +1001,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:10.495392349Z",
+      "timestamp": "2025-09-10T10:36:08.835767447Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -977,7 +1023,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:10.745898234Z",
+      "timestamp": "2025-09-10T10:36:09.108042713Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager",
@@ -999,7 +1045,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:11.002199031Z",
+      "timestamp": "2025-09-10T10:36:09.382160492Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.2",
@@ -1021,7 +1067,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:11.252650875Z",
+      "timestamp": "2025-09-10T10:36:09.653330931Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.6.4",
@@ -1043,7 +1089,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:11.499201205Z",
+      "timestamp": "2025-09-10T10:36:09.926839906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.7.3",
@@ -1065,7 +1111,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-23T10:24:11.753404013Z",
+      "timestamp": "2025-09-10T10:36:10.200025109Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/backing-image-manager@v1.8.1",

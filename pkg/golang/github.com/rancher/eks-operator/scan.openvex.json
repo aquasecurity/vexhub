@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-08-20T10:53:13.173220516Z",
-  "version": 121,
+  "last_updated": "2025-09-10T10:37:23.574205712Z",
+  "version": 129,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:47.738934426Z",
+      "timestamp": "2025-09-10T09:56:07.452447876Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -37,7 +37,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:47.799819547Z",
+      "timestamp": "2025-09-10T09:56:07.514117827Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -60,7 +60,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:47.860205474Z",
+      "timestamp": "2025-09-10T09:56:07.57614833Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4",
@@ -83,7 +83,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:47.920034606Z",
+      "timestamp": "2025-09-10T09:56:07.636337839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4-rc.1",
@@ -106,7 +106,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:47.980598045Z",
+      "timestamp": "2025-09-10T09:56:07.698999438Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5",
@@ -129,7 +129,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.039973093Z",
+      "timestamp": "2025-09-10T09:56:07.761815338Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5-rc.1",
@@ -152,7 +152,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.098170931Z",
+      "timestamp": "2025-09-10T09:56:07.824142914Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6",
@@ -175,7 +175,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.156867854Z",
+      "timestamp": "2025-09-10T09:56:07.88640843Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6-rc.1",
@@ -198,7 +198,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.216902258Z",
+      "timestamp": "2025-09-10T09:56:07.94791502Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7",
@@ -221,7 +221,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.276404537Z",
+      "timestamp": "2025-09-10T09:56:08.009443379Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7-rc.1",
@@ -244,7 +244,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.335668825Z",
+      "timestamp": "2025-09-10T09:56:08.072846945Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8",
@@ -267,7 +267,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.395513467Z",
+      "timestamp": "2025-09-10T09:56:08.135338492Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8-rc.1",
@@ -290,7 +290,30 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.456444028Z",
+      "timestamp": "2025-09-10T09:56:08.196987143Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.9-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:08.258351741Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1",
@@ -313,7 +336,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.515530954Z",
+      "timestamp": "2025-09-10T09:56:08.319606118Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.1",
@@ -336,7 +359,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.57455933Z",
+      "timestamp": "2025-09-10T09:56:08.383203825Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.2",
@@ -359,7 +382,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.634016579Z",
+      "timestamp": "2025-09-10T09:56:08.445845684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2",
@@ -382,7 +405,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.693143035Z",
+      "timestamp": "2025-09-10T09:56:08.507913198Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2-rc.1",
@@ -405,7 +428,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.753138479Z",
+      "timestamp": "2025-09-10T09:56:08.572343512Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3",
@@ -428,7 +451,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.814464164Z",
+      "timestamp": "2025-09-10T09:56:08.634033463Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3-rc.1",
@@ -451,7 +474,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.876092881Z",
+      "timestamp": "2025-09-10T09:56:08.697414718Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4",
@@ -474,7 +497,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.937751789Z",
+      "timestamp": "2025-09-10T09:56:08.76036993Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4-rc.1",
@@ -497,7 +520,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:48.998510249Z",
+      "timestamp": "2025-09-10T09:56:08.822891078Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5",
@@ -520,7 +543,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.059478931Z",
+      "timestamp": "2025-09-10T09:56:08.886467825Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5-rc.1",
@@ -543,7 +566,30 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.120894437Z",
+      "timestamp": "2025-09-10T09:56:08.948388698Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.6-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:09.015352753Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0",
@@ -566,7 +612,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.181457955Z",
+      "timestamp": "2025-09-10T09:56:09.077843901Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.1",
@@ -589,7 +635,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.241980104Z",
+      "timestamp": "2025-09-10T09:56:09.143096592Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.2",
@@ -612,7 +658,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.30576462Z",
+      "timestamp": "2025-09-10T09:56:09.206146844Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.3",
@@ -635,7 +681,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.366340328Z",
+      "timestamp": "2025-09-10T09:56:09.268198578Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.1",
@@ -658,7 +704,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.42617672Z",
+      "timestamp": "2025-09-10T09:56:09.330660736Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.1-rc.1",
@@ -681,7 +727,53 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.486200634Z",
+      "timestamp": "2025-09-10T09:56:09.394453674Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:09.457286175Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.2-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:09.522238033Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10",
@@ -704,7 +796,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.545732074Z",
+      "timestamp": "2025-09-10T09:56:09.584993973Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10-rc.1",
@@ -727,7 +819,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.607001528Z",
+      "timestamp": "2025-09-10T09:56:09.647754523Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8",
@@ -750,7 +842,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.667401386Z",
+      "timestamp": "2025-09-10T09:56:09.709708616Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8-rc.1",
@@ -773,7 +865,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.730840539Z",
+      "timestamp": "2025-09-10T09:56:09.7717441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9",
@@ -796,7 +888,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-08-20T10:13:49.79294472Z",
+      "timestamp": "2025-09-10T09:56:09.833098978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9-rc.1",
@@ -819,7 +911,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.425207034Z",
+      "timestamp": "2025-09-10T09:56:33.732655053Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -842,7 +934,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.493354196Z",
+      "timestamp": "2025-09-10T09:56:33.802799021Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -865,7 +957,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.560794643Z",
+      "timestamp": "2025-09-10T09:56:33.872794088Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4",
@@ -888,7 +980,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.627635124Z",
+      "timestamp": "2025-09-10T09:56:33.941364014Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4-rc.1",
@@ -911,7 +1003,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.692988032Z",
+      "timestamp": "2025-09-10T09:56:34.009819539Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5",
@@ -934,7 +1026,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.760873973Z",
+      "timestamp": "2025-09-10T09:56:34.079194091Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5-rc.1",
@@ -957,7 +1049,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.826273451Z",
+      "timestamp": "2025-09-10T09:56:34.149294468Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6",
@@ -980,7 +1072,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.892003483Z",
+      "timestamp": "2025-09-10T09:56:34.218461789Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6-rc.1",
@@ -1003,7 +1095,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:11.956895297Z",
+      "timestamp": "2025-09-10T09:56:34.286703392Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7",
@@ -1026,7 +1118,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.025012449Z",
+      "timestamp": "2025-09-10T09:56:34.355364709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7-rc.1",
@@ -1049,7 +1141,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.092098142Z",
+      "timestamp": "2025-09-10T09:56:34.423997895Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8",
@@ -1072,7 +1164,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.158110996Z",
+      "timestamp": "2025-09-10T09:56:34.492975814Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8-rc.1",
@@ -1095,7 +1187,30 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.224257131Z",
+      "timestamp": "2025-09-10T09:56:34.561690551Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.9-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:34.631506506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1",
@@ -1118,7 +1233,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.290400006Z",
+      "timestamp": "2025-09-10T09:56:34.701170651Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.1",
@@ -1141,7 +1256,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.358197986Z",
+      "timestamp": "2025-09-10T09:56:34.771964034Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.2",
@@ -1164,7 +1279,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.424021288Z",
+      "timestamp": "2025-09-10T09:56:34.842771927Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2",
@@ -1187,7 +1302,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.491086441Z",
+      "timestamp": "2025-09-10T09:56:34.912689053Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2-rc.1",
@@ -1210,7 +1325,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.55878068Z",
+      "timestamp": "2025-09-10T09:56:34.982799801Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3",
@@ -1233,7 +1348,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.625602531Z",
+      "timestamp": "2025-09-10T09:56:35.051970242Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3-rc.1",
@@ -1256,7 +1371,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.691512984Z",
+      "timestamp": "2025-09-10T09:56:35.120401846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4",
@@ -1279,7 +1394,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.757533658Z",
+      "timestamp": "2025-09-10T09:56:35.18996228Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4-rc.1",
@@ -1302,7 +1417,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.823493642Z",
+      "timestamp": "2025-09-10T09:56:35.260979455Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5",
@@ -1325,7 +1440,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.890177311Z",
+      "timestamp": "2025-09-10T09:56:35.329818793Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5-rc.1",
@@ -1348,7 +1463,30 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:12.958413455Z",
+      "timestamp": "2025-09-10T09:56:35.401088319Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.6-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:35.469869047Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0",
@@ -1371,7 +1509,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.025491188Z",
+      "timestamp": "2025-09-10T09:56:35.539072978Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.1",
@@ -1394,7 +1532,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.09239659Z",
+      "timestamp": "2025-09-10T09:56:35.608975734Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.2",
@@ -1417,7 +1555,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.158196282Z",
+      "timestamp": "2025-09-10T09:56:35.681921894Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.0-rc.3",
@@ -1440,7 +1578,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.226481016Z",
+      "timestamp": "2025-09-10T09:56:35.753766065Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.1",
@@ -1463,7 +1601,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.295407606Z",
+      "timestamp": "2025-09-10T09:56:35.823603601Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.1-rc.1",
@@ -1486,7 +1624,53 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.362250667Z",
+      "timestamp": "2025-09-10T09:56:35.89259567Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:35.96304831Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.2-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-09-10T09:56:36.033287029Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10",
@@ -1509,7 +1693,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.431297618Z",
+      "timestamp": "2025-09-10T09:56:36.106954682Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10-rc.1",
@@ -1532,7 +1716,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.498850235Z",
+      "timestamp": "2025-09-10T09:56:36.17623612Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8",
@@ -1555,7 +1739,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.568043517Z",
+      "timestamp": "2025-09-10T09:56:36.247511418Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8-rc.1",
@@ -1578,7 +1762,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.635720296Z",
+      "timestamp": "2025-09-10T09:56:36.318038323Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9",
@@ -1601,7 +1785,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-08-20T10:14:13.702446726Z",
+      "timestamp": "2025-09-10T09:56:36.387398671Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9-rc.1",
@@ -1623,7 +1807,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:29.64553565Z",
+      "timestamp": "2025-09-10T10:14:44.223005561Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -1645,7 +1829,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:29.834027213Z",
+      "timestamp": "2025-09-10T10:14:44.416430929Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -1667,7 +1851,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.022933599Z",
+      "timestamp": "2025-09-10T10:14:44.607097518Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -1689,7 +1873,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.214358948Z",
+      "timestamp": "2025-09-10T10:14:44.806890839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -1711,7 +1895,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.409429359Z",
+      "timestamp": "2025-09-10T10:14:45.007832898Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4",
@@ -1733,7 +1917,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.605214659Z",
+      "timestamp": "2025-09-10T10:14:45.211842677Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4-rc.1",
@@ -1755,7 +1939,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.794666103Z",
+      "timestamp": "2025-09-10T10:14:45.409157371Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5",
@@ -1777,7 +1961,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:30.983252899Z",
+      "timestamp": "2025-09-10T10:14:45.601706263Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.5-rc.1",
@@ -1799,7 +1983,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:31.176727589Z",
+      "timestamp": "2025-09-10T10:14:45.794405566Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6",
@@ -1821,7 +2005,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:31.372162176Z",
+      "timestamp": "2025-09-10T10:14:45.994043896Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.6-rc.1",
@@ -1843,7 +2027,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:31.559069247Z",
+      "timestamp": "2025-09-10T10:14:46.192631629Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7",
@@ -1865,7 +2049,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:31.756087549Z",
+      "timestamp": "2025-09-10T10:14:46.38957012Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.7-rc.1",
@@ -1887,7 +2071,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:31.950435426Z",
+      "timestamp": "2025-09-10T10:14:46.586719623Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8",
@@ -1909,7 +2093,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:32.149092793Z",
+      "timestamp": "2025-09-10T10:14:46.789688535Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.8-rc.1",
@@ -1931,7 +2115,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:32.337254345Z",
+      "timestamp": "2025-09-10T10:14:46.99299391Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1",
@@ -1953,7 +2137,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:32.531150849Z",
+      "timestamp": "2025-09-10T10:14:47.192454769Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.1",
@@ -1975,7 +2159,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:32.723970593Z",
+      "timestamp": "2025-09-10T10:14:47.398932755Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.2",
@@ -1997,7 +2181,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:32.913167334Z",
+      "timestamp": "2025-09-10T10:14:47.600021724Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2",
@@ -2019,7 +2203,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:33.102479367Z",
+      "timestamp": "2025-09-10T10:14:47.800721301Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2-rc.1",
@@ -2041,7 +2225,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:33.300160324Z",
+      "timestamp": "2025-09-10T10:14:48.003036269Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3",
@@ -2063,7 +2247,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:33.494052028Z",
+      "timestamp": "2025-09-10T10:14:48.200200402Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.3-rc.1",
@@ -2085,7 +2269,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:33.688270115Z",
+      "timestamp": "2025-09-10T10:14:48.397631147Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4",
@@ -2107,7 +2291,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:33.884096806Z",
+      "timestamp": "2025-09-10T10:14:48.597224047Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.4-rc.1",
@@ -2129,7 +2313,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:34.080800145Z",
+      "timestamp": "2025-09-10T10:14:48.805465245Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5",
@@ -2151,7 +2335,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:34.270828103Z",
+      "timestamp": "2025-09-10T10:14:49.005545688Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.5-rc.1",
@@ -2173,7 +2357,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:34.465346633Z",
+      "timestamp": "2025-09-10T10:14:49.206552467Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10",
@@ -2195,7 +2379,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:34.662427255Z",
+      "timestamp": "2025-09-10T10:14:49.411609733Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.10-rc.1",
@@ -2217,7 +2401,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:34.854714854Z",
+      "timestamp": "2025-09-10T10:14:49.612752833Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8",
@@ -2239,7 +2423,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:35.044952425Z",
+      "timestamp": "2025-09-10T10:14:49.816591181Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8-rc.1",
@@ -2261,7 +2445,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:35.233622932Z",
+      "timestamp": "2025-09-10T10:14:50.020727711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9",
@@ -2283,7 +2467,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-08-20T10:31:35.423174696Z",
+      "timestamp": "2025-09-10T10:14:50.226408532Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.9-rc.1",
@@ -2305,7 +2489,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:23.07251733Z",
+      "timestamp": "2025-09-10T10:26:06.248279964Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2327,7 +2511,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:23.308402445Z",
+      "timestamp": "2025-09-10T10:26:06.494414025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2349,7 +2533,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:23.541476166Z",
+      "timestamp": "2025-09-10T10:26:06.736447498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2371,7 +2555,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:23.772249595Z",
+      "timestamp": "2025-09-10T10:26:06.968712946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4",
@@ -2393,7 +2577,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:24.002590741Z",
+      "timestamp": "2025-09-10T10:26:07.205772146Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4-rc.1",
@@ -2415,7 +2599,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:24.232147649Z",
+      "timestamp": "2025-09-10T10:26:07.439766115Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1",
@@ -2437,7 +2621,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:24.467285368Z",
+      "timestamp": "2025-09-10T10:26:07.673849095Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.1",
@@ -2459,7 +2643,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-08-20T10:42:24.697956357Z",
+      "timestamp": "2025-09-10T10:26:07.908085846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.2",
@@ -2481,7 +2665,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:10.48149183Z",
+      "timestamp": "2025-09-10T10:37:20.789014511Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2503,7 +2687,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:10.75191941Z",
+      "timestamp": "2025-09-10T10:37:21.060008197Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2525,7 +2709,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:11.017068752Z",
+      "timestamp": "2025-09-10T10:37:21.340821791Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2547,7 +2731,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:11.287091208Z",
+      "timestamp": "2025-09-10T10:37:21.62374374Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator",
@@ -2569,7 +2753,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:11.556343768Z",
+      "timestamp": "2025-09-10T10:37:21.905036207Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4",
@@ -2591,7 +2775,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:11.827132311Z",
+      "timestamp": "2025-09-10T10:37:22.180273622Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.10.4-rc.1",
@@ -2613,7 +2797,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:12.094272031Z",
+      "timestamp": "2025-09-10T10:37:22.461400969Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1",
@@ -2635,7 +2819,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:12.361958577Z",
+      "timestamp": "2025-09-10T10:37:22.736868876Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.1",
@@ -2657,7 +2841,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:12.62718427Z",
+      "timestamp": "2025-09-10T10:37:23.019927055Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.1-rc.2",
@@ -2679,7 +2863,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:12.896192667Z",
+      "timestamp": "2025-09-10T10:37:23.290314917Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8",
@@ -2701,7 +2885,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-08-20T10:53:13.173221096Z",
+      "timestamp": "2025-09-10T10:37:23.574206452Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.9.8-rc.1",
