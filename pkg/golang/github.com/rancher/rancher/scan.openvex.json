@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-10-29T10:15:19.762311325Z",
-  "version": 318,
+  "last_updated": "2025-11-19T12:03:04.082083602Z",
+  "version": 365,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.048998938Z",
+      "timestamp": "2025-11-19T10:57:49.088304143Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -37,7 +37,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.103767166Z",
+      "timestamp": "2025-11-19T10:57:49.156345166Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -60,7 +60,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.160397413Z",
+      "timestamp": "2025-11-19T10:57:49.224674751Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -83,7 +83,30 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.21695059Z",
+      "timestamp": "2025-11-19T10:57:49.29228018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-11-19T10:57:49.362018408Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
@@ -106,7 +129,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.271493318Z",
+      "timestamp": "2025-11-19T10:57:49.430957529Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
@@ -129,7 +152,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.326448354Z",
+      "timestamp": "2025-11-19T10:57:49.497816382Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -152,7 +175,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.381331801Z",
+      "timestamp": "2025-11-19T10:57:49.565436311Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -175,7 +198,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.437009075Z",
+      "timestamp": "2025-11-19T10:57:49.633293223Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5",
@@ -198,7 +221,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.494892457Z",
+      "timestamp": "2025-11-19T10:57:49.703432664Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5-rc1",
@@ -221,7 +244,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.551867972Z",
+      "timestamp": "2025-11-19T10:57:49.770834171Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6",
@@ -244,7 +267,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.608879837Z",
+      "timestamp": "2025-11-19T10:57:49.839682501Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6-rc1",
@@ -267,7 +290,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.665894074Z",
+      "timestamp": "2025-11-19T10:57:49.907047458Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7",
@@ -290,7 +313,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.721814499Z",
+      "timestamp": "2025-11-19T10:57:49.975974759Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7-rc1",
@@ -313,7 +336,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.777201329Z",
+      "timestamp": "2025-11-19T10:57:50.043837301Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8",
@@ -336,7 +359,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.833194433Z",
+      "timestamp": "2025-11-19T10:57:50.112780412Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8-rc1",
@@ -359,7 +382,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.888360641Z",
+      "timestamp": "2025-11-19T10:57:50.182420038Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
@@ -382,7 +405,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:44.944692164Z",
+      "timestamp": "2025-11-19T10:57:50.25143202Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
@@ -405,7 +428,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.000246832Z",
+      "timestamp": "2025-11-19T10:57:50.32025359Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -428,7 +451,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.056144944Z",
+      "timestamp": "2025-11-19T10:57:50.388781917Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -451,7 +474,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.112856693Z",
+      "timestamp": "2025-11-19T10:57:50.456608378Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1",
@@ -474,7 +497,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.168828884Z",
+      "timestamp": "2025-11-19T10:57:50.526318856Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc1",
@@ -497,7 +520,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.224005744Z",
+      "timestamp": "2025-11-19T10:57:50.59447328Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc2",
@@ -520,7 +543,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.279315643Z",
+      "timestamp": "2025-11-19T10:57:50.661563255Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2",
@@ -543,7 +566,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.334476154Z",
+      "timestamp": "2025-11-19T10:57:50.729591647Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc1",
@@ -566,7 +589,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.389600679Z",
+      "timestamp": "2025-11-19T10:57:50.799094103Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc2",
@@ -589,7 +612,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.445177359Z",
+      "timestamp": "2025-11-19T10:57:50.868130695Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3",
@@ -612,7 +635,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.501508948Z",
+      "timestamp": "2025-11-19T10:57:50.937263407Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3-rc1",
@@ -635,7 +658,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.557193967Z",
+      "timestamp": "2025-11-19T10:57:51.006740243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4",
@@ -658,7 +681,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.612410693Z",
+      "timestamp": "2025-11-19T10:57:51.077107396Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4-rc1",
@@ -681,7 +704,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.668675407Z",
+      "timestamp": "2025-11-19T10:57:51.146752923Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
@@ -704,7 +727,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.723957007Z",
+      "timestamp": "2025-11-19T10:57:51.214987628Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
@@ -727,7 +750,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.780379539Z",
+      "timestamp": "2025-11-19T10:57:51.284677435Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
@@ -750,7 +773,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.836543714Z",
+      "timestamp": "2025-11-19T10:57:51.353789968Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
@@ -773,7 +796,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.891999332Z",
+      "timestamp": "2025-11-19T10:57:51.42287037Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
@@ -796,7 +819,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:45.948524527Z",
+      "timestamp": "2025-11-19T10:57:51.492588327Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
@@ -819,7 +842,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.004374321Z",
+      "timestamp": "2025-11-19T10:57:51.561433017Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
@@ -842,7 +865,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.060969575Z",
+      "timestamp": "2025-11-19T10:57:51.629649892Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.0-rc1",
@@ -865,7 +888,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.116786352Z",
+      "timestamp": "2025-11-19T10:57:51.698397011Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1",
@@ -888,7 +911,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.172723583Z",
+      "timestamp": "2025-11-19T10:57:51.766698136Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1-rc1",
@@ -911,7 +934,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.228158125Z",
+      "timestamp": "2025-11-19T10:57:51.835852549Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2",
@@ -934,7 +957,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.283442498Z",
+      "timestamp": "2025-11-19T10:57:51.905776239Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc1",
@@ -957,7 +980,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.340022867Z",
+      "timestamp": "2025-11-19T10:57:51.976715787Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc2",
@@ -980,7 +1003,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.396225711Z",
+      "timestamp": "2025-11-19T10:57:52.048950737Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3",
@@ -1003,7 +1026,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.455436791Z",
+      "timestamp": "2025-11-19T10:57:52.122266536Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3-rc1",
@@ -1026,7 +1049,30 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.514918403Z",
+      "timestamp": "2025-11-19T10:57:52.192827061Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.13.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GHSA-f5pg-7wfw-84q9",
+          "GO-2022-0646"
+        ]
+      },
+      "timestamp": "2025-11-19T10:57:52.265129631Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -1049,7 +1095,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.574126032Z",
+      "timestamp": "2025-11-19T10:57:52.334788868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -1072,7 +1118,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.633370365Z",
+      "timestamp": "2025-11-19T10:57:52.405482654Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -1095,7 +1141,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.690535091Z",
+      "timestamp": "2025-11-19T10:57:52.475459414Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15-rc1",
@@ -1118,7 +1164,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.746543161Z",
+      "timestamp": "2025-11-19T10:57:52.545542935Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -1141,7 +1187,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.803801232Z",
+      "timestamp": "2025-11-19T10:57:52.616295091Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -1164,7 +1210,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.861960699Z",
+      "timestamp": "2025-11-19T10:57:52.684227713Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -1187,7 +1233,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.919839891Z",
+      "timestamp": "2025-11-19T10:57:52.752287707Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10",
@@ -1210,7 +1256,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:46.977931942Z",
+      "timestamp": "2025-11-19T10:57:52.821218637Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10-rc1",
@@ -1233,7 +1279,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.036060821Z",
+      "timestamp": "2025-11-19T10:57:52.890548282Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
@@ -1256,7 +1302,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.093178462Z",
+      "timestamp": "2025-11-19T10:57:52.959327451Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
@@ -1279,7 +1325,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.151736752Z",
+      "timestamp": "2025-11-19T10:57:53.037896926Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
@@ -1302,7 +1348,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.222701345Z",
+      "timestamp": "2025-11-19T10:57:53.107844615Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
@@ -1325,7 +1371,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.280172993Z",
+      "timestamp": "2025-11-19T10:57:53.178182758Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -1348,7 +1394,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.337754101Z",
+      "timestamp": "2025-11-19T10:57:53.247918136Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -1371,7 +1417,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.394125095Z",
+      "timestamp": "2025-11-19T10:57:53.318034037Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9",
@@ -1394,7 +1440,7 @@
           "GO-2022-0646"
         ]
       },
-      "timestamp": "2025-10-29T09:44:47.452718226Z",
+      "timestamp": "2025-11-19T10:57:53.387697385Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9-rc1",
@@ -1417,7 +1463,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:13.926680941Z",
+      "timestamp": "2025-11-19T10:58:27.706779394Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -1440,7 +1486,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:13.994246714Z",
+      "timestamp": "2025-11-19T10:58:27.782774853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -1463,7 +1509,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.062713797Z",
+      "timestamp": "2025-11-19T10:58:27.859021005Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -1486,7 +1532,30 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.130938751Z",
+      "timestamp": "2025-11-19T10:58:27.935534589Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-11-19T10:58:28.014462666Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
@@ -1509,7 +1578,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.199336153Z",
+      "timestamp": "2025-11-19T10:58:28.090417595Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
@@ -1532,7 +1601,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.265473477Z",
+      "timestamp": "2025-11-19T10:58:28.167178962Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -1555,7 +1624,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.331393778Z",
+      "timestamp": "2025-11-19T10:58:28.24404131Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -1578,7 +1647,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.399000682Z",
+      "timestamp": "2025-11-19T10:58:28.319946148Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5",
@@ -1601,7 +1670,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.465921396Z",
+      "timestamp": "2025-11-19T10:58:28.396489143Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5-rc1",
@@ -1624,7 +1693,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.532831779Z",
+      "timestamp": "2025-11-19T10:58:28.474083157Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6",
@@ -1647,7 +1716,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.599860221Z",
+      "timestamp": "2025-11-19T10:58:28.552770892Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6-rc1",
@@ -1670,7 +1739,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.666613687Z",
+      "timestamp": "2025-11-19T10:58:28.629357947Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7",
@@ -1693,7 +1762,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.734040897Z",
+      "timestamp": "2025-11-19T10:58:28.707402286Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7-rc1",
@@ -1716,7 +1785,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.799659253Z",
+      "timestamp": "2025-11-19T10:58:28.785959269Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8",
@@ -1739,7 +1808,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.866524327Z",
+      "timestamp": "2025-11-19T10:58:28.860321993Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8-rc1",
@@ -1762,7 +1831,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:14.933975562Z",
+      "timestamp": "2025-11-19T10:58:28.936686766Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
@@ -1785,7 +1854,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.000595945Z",
+      "timestamp": "2025-11-19T10:58:29.012273342Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
@@ -1808,7 +1877,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.066856563Z",
+      "timestamp": "2025-11-19T10:58:29.088587314Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -1831,7 +1900,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.133862571Z",
+      "timestamp": "2025-11-19T10:58:29.16527982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -1854,7 +1923,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.201122065Z",
+      "timestamp": "2025-11-19T10:58:29.241074718Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1",
@@ -1877,7 +1946,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.267600746Z",
+      "timestamp": "2025-11-19T10:58:29.319996105Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc1",
@@ -1900,7 +1969,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.335620817Z",
+      "timestamp": "2025-11-19T10:58:29.396310527Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc2",
@@ -1923,7 +1992,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.401664486Z",
+      "timestamp": "2025-11-19T10:58:29.474366946Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2",
@@ -1946,7 +2015,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.467425421Z",
+      "timestamp": "2025-11-19T10:58:29.553513745Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc1",
@@ -1969,7 +2038,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.534779757Z",
+      "timestamp": "2025-11-19T10:58:29.631797486Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc2",
@@ -1992,7 +2061,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.602003379Z",
+      "timestamp": "2025-11-19T10:58:29.70933178Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3",
@@ -2015,7 +2084,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.668577207Z",
+      "timestamp": "2025-11-19T10:58:29.786222058Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3-rc1",
@@ -2038,7 +2107,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.73664256Z",
+      "timestamp": "2025-11-19T10:58:29.862656521Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4",
@@ -2061,7 +2130,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.802467084Z",
+      "timestamp": "2025-11-19T10:58:29.942045863Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4-rc1",
@@ -2084,7 +2153,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.870613357Z",
+      "timestamp": "2025-11-19T10:58:30.019196023Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
@@ -2107,7 +2176,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:15.937829536Z",
+      "timestamp": "2025-11-19T10:58:30.097136431Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
@@ -2130,7 +2199,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.005818581Z",
+      "timestamp": "2025-11-19T10:58:30.174760605Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
@@ -2153,7 +2222,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.072496403Z",
+      "timestamp": "2025-11-19T10:58:30.253356149Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
@@ -2176,7 +2245,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.140660111Z",
+      "timestamp": "2025-11-19T10:58:30.330258517Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
@@ -2199,7 +2268,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.210194199Z",
+      "timestamp": "2025-11-19T10:58:30.407037934Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
@@ -2222,7 +2291,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.278299509Z",
+      "timestamp": "2025-11-19T10:58:30.48272684Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
@@ -2245,7 +2314,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.345724328Z",
+      "timestamp": "2025-11-19T10:58:30.561748098Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.0-rc1",
@@ -2268,7 +2337,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.414367387Z",
+      "timestamp": "2025-11-19T10:58:30.638368324Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1",
@@ -2291,7 +2360,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.481672669Z",
+      "timestamp": "2025-11-19T10:58:30.716962687Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1-rc1",
@@ -2314,7 +2383,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.549517259Z",
+      "timestamp": "2025-11-19T10:58:30.793792865Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2",
@@ -2337,7 +2406,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.616905714Z",
+      "timestamp": "2025-11-19T10:58:30.870703563Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc1",
@@ -2360,7 +2429,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.684461486Z",
+      "timestamp": "2025-11-19T10:58:30.948511079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc2",
@@ -2383,7 +2452,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.751723337Z",
+      "timestamp": "2025-11-19T10:58:31.025966352Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3",
@@ -2406,7 +2475,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.818489835Z",
+      "timestamp": "2025-11-19T10:58:31.105320653Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3-rc1",
@@ -2429,7 +2498,30 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.887460174Z",
+      "timestamp": "2025-11-19T10:58:31.18424325Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.13.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GHSA-7f33-f4f5-xwgw",
+          "GO-2022-0635"
+        ]
+      },
+      "timestamp": "2025-11-19T10:58:31.261569862Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -2452,7 +2544,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:16.955385647Z",
+      "timestamp": "2025-11-19T10:58:31.340422828Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -2475,7 +2567,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.023753597Z",
+      "timestamp": "2025-11-19T10:58:31.418590514Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -2498,7 +2590,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.091189608Z",
+      "timestamp": "2025-11-19T10:58:31.496397738Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15-rc1",
@@ -2521,7 +2613,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.158851058Z",
+      "timestamp": "2025-11-19T10:58:31.575711966Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -2544,7 +2636,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.227195083Z",
+      "timestamp": "2025-11-19T10:58:31.65361813Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -2567,7 +2659,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.295250007Z",
+      "timestamp": "2025-11-19T10:58:31.730851119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -2590,7 +2682,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.363452784Z",
+      "timestamp": "2025-11-19T10:58:31.810645711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10",
@@ -2613,7 +2705,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.432559657Z",
+      "timestamp": "2025-11-19T10:58:31.889364793Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10-rc1",
@@ -2636,7 +2728,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.502869405Z",
+      "timestamp": "2025-11-19T10:58:31.968177386Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
@@ -2659,7 +2751,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.570735573Z",
+      "timestamp": "2025-11-19T10:58:32.046974749Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
@@ -2682,7 +2774,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.638841839Z",
+      "timestamp": "2025-11-19T10:58:32.125963114Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
@@ -2705,7 +2797,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.709347659Z",
+      "timestamp": "2025-11-19T10:58:32.205017079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
@@ -2728,7 +2820,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.778941877Z",
+      "timestamp": "2025-11-19T10:58:32.283432119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -2751,7 +2843,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.848093814Z",
+      "timestamp": "2025-11-19T10:58:32.362132481Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -2774,7 +2866,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.917855347Z",
+      "timestamp": "2025-11-19T10:58:32.443269975Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9",
@@ -2797,7 +2889,7 @@
           "GO-2022-0635"
         ]
       },
-      "timestamp": "2025-10-29T09:45:17.988113033Z",
+      "timestamp": "2025-11-19T10:58:32.523139089Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9-rc1",
@@ -2820,7 +2912,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:54.80268271Z",
+      "timestamp": "2025-11-19T11:00:25.711364175Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -2843,7 +2935,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:54.88953246Z",
+      "timestamp": "2025-11-19T11:00:25.811206338Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -2866,7 +2958,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:54.975415612Z",
+      "timestamp": "2025-11-19T11:00:25.910140723Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -2889,7 +2981,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:55.062625413Z",
+      "timestamp": "2025-11-19T11:00:26.009637943Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -2912,7 +3004,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:55.151006312Z",
+      "timestamp": "2025-11-19T11:00:26.107799279Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15-rc1",
@@ -2935,7 +3027,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:55.23879725Z",
+      "timestamp": "2025-11-19T11:00:26.206449571Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -2958,7 +3050,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:55.324210165Z",
+      "timestamp": "2025-11-19T11:00:26.305146423Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -2981,7 +3073,7 @@
           "GO-2023-2113"
         ]
       },
-      "timestamp": "2025-10-29T09:46:55.410193939Z",
+      "timestamp": "2025-11-19T11:00:26.403853325Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -3004,7 +3096,7 @@
           "GO-2023-2331"
         ]
       },
-      "timestamp": "2025-10-29T09:47:25.034134409Z",
+      "timestamp": "2025-11-19T11:01:01.141133351Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -3027,7 +3119,7 @@
           "GO-2023-2331"
         ]
       },
-      "timestamp": "2025-10-29T09:47:25.125627781Z",
+      "timestamp": "2025-11-19T11:01:01.247731521Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -3050,7 +3142,7 @@
           "GO-2023-2331"
         ]
       },
-      "timestamp": "2025-10-29T09:47:25.216788587Z",
+      "timestamp": "2025-11-19T11:01:01.35526493Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -3073,7 +3165,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:15.051503647Z",
+      "timestamp": "2025-11-19T11:01:58.072713694Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -3096,7 +3188,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:15.152833193Z",
+      "timestamp": "2025-11-19T11:01:58.181654465Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -3119,7 +3211,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.136152581Z",
+      "timestamp": "2025-11-19T11:01:59.258046508Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -3142,7 +3234,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.236401375Z",
+      "timestamp": "2025-11-19T11:01:59.370087349Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -3165,7 +3257,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.338001607Z",
+      "timestamp": "2025-11-19T11:01:59.481505865Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -3188,7 +3280,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.440259339Z",
+      "timestamp": "2025-11-19T11:01:59.591366856Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -3211,7 +3303,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.541260755Z",
+      "timestamp": "2025-11-19T11:01:59.700718472Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -3234,7 +3326,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.642730997Z",
+      "timestamp": "2025-11-19T11:01:59.811696033Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -3257,7 +3349,7 @@
           "GO-2024-3286"
         ]
       },
-      "timestamp": "2025-10-29T09:48:16.743498037Z",
+      "timestamp": "2025-11-19T11:01:59.920863287Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -3280,7 +3372,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:40.650938353Z",
+      "timestamp": "2025-11-19T11:02:26.174770763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -3303,7 +3395,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:40.755984556Z",
+      "timestamp": "2025-11-19T11:02:26.287214463Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -3326,7 +3418,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:40.863328387Z",
+      "timestamp": "2025-11-19T11:02:26.39940761Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
@@ -3349,7 +3441,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:40.968112526Z",
+      "timestamp": "2025-11-19T11:02:26.512799819Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
@@ -3372,7 +3464,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.073229096Z",
+      "timestamp": "2025-11-19T11:02:26.625628293Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -3395,7 +3487,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.180726383Z",
+      "timestamp": "2025-11-19T11:02:26.739371926Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -3418,7 +3510,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.283874442Z",
+      "timestamp": "2025-11-19T11:02:26.85029565Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5",
@@ -3441,7 +3533,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.388263163Z",
+      "timestamp": "2025-11-19T11:02:26.964557769Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5-rc1",
@@ -3464,7 +3556,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.493644748Z",
+      "timestamp": "2025-11-19T11:02:27.075336051Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6",
@@ -3487,7 +3579,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.608874962Z",
+      "timestamp": "2025-11-19T11:02:27.191285177Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6-rc1",
@@ -3510,7 +3602,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.713594172Z",
+      "timestamp": "2025-11-19T11:02:27.307632566Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7",
@@ -3533,7 +3625,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.817922815Z",
+      "timestamp": "2025-11-19T11:02:27.422905385Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7-rc1",
@@ -3556,7 +3648,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:41.924464741Z",
+      "timestamp": "2025-11-19T11:02:27.536437216Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8",
@@ -3579,7 +3671,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.031937054Z",
+      "timestamp": "2025-11-19T11:02:27.652672544Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8-rc1",
@@ -3602,7 +3694,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.136481337Z",
+      "timestamp": "2025-11-19T11:02:27.764831741Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
@@ -3625,7 +3717,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.24472516Z",
+      "timestamp": "2025-11-19T11:02:27.880644645Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
@@ -3648,7 +3740,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.351005412Z",
+      "timestamp": "2025-11-19T11:02:27.995456229Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -3671,7 +3763,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.458606151Z",
+      "timestamp": "2025-11-19T11:02:28.110830999Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -3694,7 +3786,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.563498327Z",
+      "timestamp": "2025-11-19T11:02:28.224492491Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1",
@@ -3717,7 +3809,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.676526286Z",
+      "timestamp": "2025-11-19T11:02:28.336734568Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc1",
@@ -3740,7 +3832,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.783407169Z",
+      "timestamp": "2025-11-19T11:02:28.449730284Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc2",
@@ -3763,7 +3855,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.889226113Z",
+      "timestamp": "2025-11-19T11:02:28.563725399Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2",
@@ -3786,7 +3878,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:42.99233932Z",
+      "timestamp": "2025-11-19T11:02:28.677867867Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc1",
@@ -3809,7 +3901,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.100812333Z",
+      "timestamp": "2025-11-19T11:02:28.788540818Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc2",
@@ -3832,7 +3924,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.211152571Z",
+      "timestamp": "2025-11-19T11:02:28.900898117Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3",
@@ -3855,7 +3947,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.319680131Z",
+      "timestamp": "2025-11-19T11:02:29.016818982Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3-rc1",
@@ -3878,7 +3970,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.426306156Z",
+      "timestamp": "2025-11-19T11:02:29.129853698Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4",
@@ -3901,7 +3993,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.530991035Z",
+      "timestamp": "2025-11-19T11:02:29.252578113Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4-rc1",
@@ -3924,7 +4016,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.63494981Z",
+      "timestamp": "2025-11-19T11:02:29.36774875Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
@@ -3947,7 +4039,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.738513683Z",
+      "timestamp": "2025-11-19T11:02:29.482464583Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
@@ -3970,7 +4062,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.847477489Z",
+      "timestamp": "2025-11-19T11:02:29.59656453Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
@@ -3993,7 +4085,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:43.952339119Z",
+      "timestamp": "2025-11-19T11:02:29.710284303Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
@@ -4016,7 +4108,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.056816133Z",
+      "timestamp": "2025-11-19T11:02:29.825857664Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
@@ -4039,7 +4131,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.163472814Z",
+      "timestamp": "2025-11-19T11:02:29.936107662Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
@@ -4062,7 +4154,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.268890008Z",
+      "timestamp": "2025-11-19T11:02:30.049585692Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
@@ -4085,7 +4177,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.372903822Z",
+      "timestamp": "2025-11-19T11:02:30.165655449Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.0-rc1",
@@ -4108,7 +4200,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.474871665Z",
+      "timestamp": "2025-11-19T11:02:30.279815316Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -4131,7 +4223,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.580352672Z",
+      "timestamp": "2025-11-19T11:02:30.398614471Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -4154,7 +4246,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.683269568Z",
+      "timestamp": "2025-11-19T11:02:30.511663546Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -4177,7 +4269,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.78999751Z",
+      "timestamp": "2025-11-19T11:02:30.626006166Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15-rc1",
@@ -4200,7 +4292,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.892617762Z",
+      "timestamp": "2025-11-19T11:02:30.736684227Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -4223,7 +4315,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:44.995627164Z",
+      "timestamp": "2025-11-19T11:02:30.850127377Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -4246,7 +4338,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.100152014Z",
+      "timestamp": "2025-11-19T11:02:30.962004911Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -4269,7 +4361,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.206851653Z",
+      "timestamp": "2025-11-19T11:02:31.075944816Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10",
@@ -4292,7 +4384,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.308254455Z",
+      "timestamp": "2025-11-19T11:02:31.188041642Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10-rc1",
@@ -4315,7 +4407,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.412824499Z",
+      "timestamp": "2025-11-19T11:02:31.301935467Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
@@ -4338,7 +4430,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.518313222Z",
+      "timestamp": "2025-11-19T11:02:31.418801772Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
@@ -4361,7 +4453,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.622657029Z",
+      "timestamp": "2025-11-19T11:02:31.53703072Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
@@ -4384,7 +4476,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.7284921Z",
+      "timestamp": "2025-11-19T11:02:31.651248498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
@@ -4407,7 +4499,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.834889961Z",
+      "timestamp": "2025-11-19T11:02:31.764706768Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -4430,7 +4522,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:45.937896361Z",
+      "timestamp": "2025-11-19T11:02:31.878887486Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -4453,7 +4545,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:46.042629809Z",
+      "timestamp": "2025-11-19T11:02:31.992677709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9",
@@ -4476,7 +4568,7 @@
           "GO-2024-2512"
         ]
       },
-      "timestamp": "2025-10-29T09:48:46.146728798Z",
+      "timestamp": "2025-11-19T11:02:32.106953068Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9-rc1",
@@ -4499,7 +4591,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.068570431Z",
+      "timestamp": "2025-11-19T11:03:45.50973025Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -4522,7 +4614,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.186133577Z",
+      "timestamp": "2025-11-19T11:03:45.630992001Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -4545,7 +4637,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.301218155Z",
+      "timestamp": "2025-11-19T11:03:45.752973759Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -4568,7 +4660,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.414322768Z",
+      "timestamp": "2025-11-19T11:03:45.876635553Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -4591,7 +4683,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.532112784Z",
+      "timestamp": "2025-11-19T11:03:46.000551281Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -4614,7 +4706,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.645804201Z",
+      "timestamp": "2025-11-19T11:03:46.126653609Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -4637,7 +4729,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.762852563Z",
+      "timestamp": "2025-11-19T11:03:46.24685886Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.0-rc1",
@@ -4660,7 +4752,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.877821519Z",
+      "timestamp": "2025-11-19T11:03:46.371880948Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -4683,7 +4775,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:52.994602063Z",
+      "timestamp": "2025-11-19T11:03:46.493048598Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -4706,7 +4798,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:53.111543766Z",
+      "timestamp": "2025-11-19T11:03:46.617761433Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -4729,7 +4821,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:53.228002735Z",
+      "timestamp": "2025-11-19T11:03:46.741106605Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -4752,7 +4844,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:53.343804001Z",
+      "timestamp": "2025-11-19T11:03:46.866164243Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -4775,7 +4867,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:53.458784263Z",
+      "timestamp": "2025-11-19T11:03:46.990843228Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -4798,7 +4890,7 @@
           "GO-2024-2631"
         ]
       },
-      "timestamp": "2025-10-29T09:49:53.574374236Z",
+      "timestamp": "2025-11-19T11:03:47.115180459Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -4821,7 +4913,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:27.502914391Z",
+      "timestamp": "2025-11-19T11:04:24.912774847Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -4844,7 +4936,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:27.991114138Z",
+      "timestamp": "2025-11-19T11:04:25.424862835Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -4867,7 +4959,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:28.114963716Z",
+      "timestamp": "2025-11-19T11:04:25.556371197Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -4890,7 +4982,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:28.238260232Z",
+      "timestamp": "2025-11-19T11:04:25.688962739Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -4913,7 +5005,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:28.361679826Z",
+      "timestamp": "2025-11-19T11:04:25.819052457Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -4936,7 +5028,7 @@
           "GO-2024-2746"
         ]
       },
-      "timestamp": "2025-10-29T09:50:28.483018936Z",
+      "timestamp": "2025-11-19T11:04:25.951143775Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -4958,7 +5050,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:54.968907095Z",
+      "timestamp": "2025-11-19T11:04:54.902518805Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -4980,7 +5072,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.095078322Z",
+      "timestamp": "2025-11-19T11:04:55.037489839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -5002,7 +5094,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.220217226Z",
+      "timestamp": "2025-11-19T11:04:55.169997709Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
@@ -5024,7 +5116,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.345058295Z",
+      "timestamp": "2025-11-19T11:04:55.304463938Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
@@ -5046,7 +5138,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.46917128Z",
+      "timestamp": "2025-11-19T11:04:55.438657635Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -5068,7 +5160,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.594558901Z",
+      "timestamp": "2025-11-19T11:04:55.568355747Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -5090,7 +5182,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.721518729Z",
+      "timestamp": "2025-11-19T11:04:55.70120012Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5",
@@ -5112,7 +5204,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.847748403Z",
+      "timestamp": "2025-11-19T11:04:55.835032853Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.5-rc1",
@@ -5134,7 +5226,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:55.973206156Z",
+      "timestamp": "2025-11-19T11:04:55.968715125Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6",
@@ -5156,7 +5248,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.099470674Z",
+      "timestamp": "2025-11-19T11:04:56.099490448Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.6-rc1",
@@ -5178,7 +5270,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.224531778Z",
+      "timestamp": "2025-11-19T11:04:56.232651284Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7",
@@ -5200,7 +5292,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.346890198Z",
+      "timestamp": "2025-11-19T11:04:56.364955412Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.7-rc1",
@@ -5222,7 +5314,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.470683287Z",
+      "timestamp": "2025-11-19T11:04:56.499148829Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8",
@@ -5244,7 +5336,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.592930187Z",
+      "timestamp": "2025-11-19T11:04:56.632360566Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.8-rc1",
@@ -5266,7 +5358,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.717727421Z",
+      "timestamp": "2025-11-19T11:04:56.765252909Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
@@ -5288,7 +5380,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.841960147Z",
+      "timestamp": "2025-11-19T11:04:56.896749079Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
@@ -5310,7 +5402,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:56.966642688Z",
+      "timestamp": "2025-11-19T11:04:57.029657193Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -5332,7 +5424,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.09275478Z",
+      "timestamp": "2025-11-19T11:04:57.165683328Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -5354,7 +5446,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.221617446Z",
+      "timestamp": "2025-11-19T11:04:57.298816194Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1",
@@ -5376,7 +5468,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.34772411Z",
+      "timestamp": "2025-11-19T11:04:57.432640397Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc1",
@@ -5398,7 +5490,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.47393426Z",
+      "timestamp": "2025-11-19T11:04:57.566162967Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.1-rc2",
@@ -5420,7 +5512,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.598020886Z",
+      "timestamp": "2025-11-19T11:04:57.698784608Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2",
@@ -5442,7 +5534,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.722969986Z",
+      "timestamp": "2025-11-19T11:04:57.832841154Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc1",
@@ -5464,7 +5556,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.848701555Z",
+      "timestamp": "2025-11-19T11:04:57.963508725Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.2-rc2",
@@ -5486,7 +5578,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:57.970625804Z",
+      "timestamp": "2025-11-19T11:04:58.100077066Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3",
@@ -5508,7 +5600,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.095442742Z",
+      "timestamp": "2025-11-19T11:04:58.231767158Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.3-rc1",
@@ -5530,7 +5622,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.219735451Z",
+      "timestamp": "2025-11-19T11:04:58.364682782Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4",
@@ -5552,7 +5644,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.342590031Z",
+      "timestamp": "2025-11-19T11:04:58.498711037Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.4-rc1",
@@ -5574,7 +5666,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.465115228Z",
+      "timestamp": "2025-11-19T11:04:58.631398298Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
@@ -5596,7 +5688,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.590305711Z",
+      "timestamp": "2025-11-19T11:04:58.767587095Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
@@ -5618,7 +5710,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.714919982Z",
+      "timestamp": "2025-11-19T11:04:58.902556929Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
@@ -5640,7 +5732,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.83905983Z",
+      "timestamp": "2025-11-19T11:04:59.039555774Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
@@ -5662,7 +5754,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:58.964019558Z",
+      "timestamp": "2025-11-19T11:04:59.172201805Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
@@ -5684,7 +5776,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.088579663Z",
+      "timestamp": "2025-11-19T11:04:59.309325767Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
@@ -5706,7 +5798,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.217772589Z",
+      "timestamp": "2025-11-19T11:04:59.446841095Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
@@ -5728,7 +5820,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.344474721Z",
+      "timestamp": "2025-11-19T11:04:59.582975789Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.0-rc1",
@@ -5750,7 +5842,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.469571698Z",
+      "timestamp": "2025-11-19T11:04:59.717625088Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -5772,7 +5864,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.595537846Z",
+      "timestamp": "2025-11-19T11:04:59.85255015Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -5794,7 +5886,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.722847478Z",
+      "timestamp": "2025-11-19T11:04:59.986698784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15",
@@ -5816,7 +5908,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.849056898Z",
+      "timestamp": "2025-11-19T11:05:00.11999702Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.15-rc1",
@@ -5838,7 +5930,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:50:59.973608513Z",
+      "timestamp": "2025-11-19T11:05:00.256630209Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -5860,7 +5952,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.101928303Z",
+      "timestamp": "2025-11-19T11:05:00.395014845Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -5882,7 +5974,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.228593731Z",
+      "timestamp": "2025-11-19T11:05:00.530706655Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -5904,7 +5996,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.351224916Z",
+      "timestamp": "2025-11-19T11:05:00.667478605Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10",
@@ -5926,7 +6018,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.478448872Z",
+      "timestamp": "2025-11-19T11:05:00.805863842Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.10-rc1",
@@ -5948,7 +6040,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.605333876Z",
+      "timestamp": "2025-11-19T11:05:00.938083586Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
@@ -5970,7 +6062,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.732828449Z",
+      "timestamp": "2025-11-19T11:05:01.072917057Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
@@ -5992,7 +6084,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.857024818Z",
+      "timestamp": "2025-11-19T11:05:01.2069596Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
@@ -6014,7 +6106,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:00.980920375Z",
+      "timestamp": "2025-11-19T11:05:01.339984363Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
@@ -6036,7 +6128,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:01.107304752Z",
+      "timestamp": "2025-11-19T11:05:01.475902285Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -6058,7 +6150,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:01.233285435Z",
+      "timestamp": "2025-11-19T11:05:01.61117692Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -6080,7 +6172,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:01.358188646Z",
+      "timestamp": "2025-11-19T11:05:01.743115612Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9",
@@ -6102,7 +6194,7 @@
           "GO-2024-3005"
         ]
       },
-      "timestamp": "2025-10-29T09:51:01.480271635Z",
+      "timestamp": "2025-11-19T11:05:01.882188346Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.9-rc1",
@@ -6125,7 +6217,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:01.814561347Z",
+      "timestamp": "2025-11-19T11:06:07.360814139Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6148,7 +6240,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:01.949965749Z",
+      "timestamp": "2025-11-19T11:06:07.503558775Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6171,7 +6263,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:02.086938262Z",
+      "timestamp": "2025-11-19T11:06:07.647894307Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6194,7 +6286,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:02.221288737Z",
+      "timestamp": "2025-11-19T11:06:07.787879116Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6217,7 +6309,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:02.355685814Z",
+      "timestamp": "2025-11-19T11:06:07.92847384Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -6240,7 +6332,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:02.489012425Z",
+      "timestamp": "2025-11-19T11:06:08.072195906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -6263,7 +6355,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-10-29T09:52:02.623786463Z",
+      "timestamp": "2025-11-19T11:06:08.215408906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -6286,7 +6378,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:15.258384897Z",
+      "timestamp": "2025-11-19T11:09:38.459593536Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6309,7 +6401,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:15.406204923Z",
+      "timestamp": "2025-11-19T11:09:38.62553488Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6332,7 +6424,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:15.554624866Z",
+      "timestamp": "2025-11-19T11:09:38.792173441Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6355,7 +6447,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:15.705006587Z",
+      "timestamp": "2025-11-19T11:09:38.955899863Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6378,7 +6470,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:16.746158741Z",
+      "timestamp": "2025-11-19T11:09:40.071299656Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -6401,7 +6493,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:16.897711106Z",
+      "timestamp": "2025-11-19T11:09:40.233424883Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -6424,7 +6516,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-10-29T09:55:17.052039272Z",
+      "timestamp": "2025-11-19T11:09:40.399476238Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -6447,7 +6539,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:17.368528618Z",
+      "timestamp": "2025-11-19T11:16:14.174800784Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6470,7 +6562,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:17.555890249Z",
+      "timestamp": "2025-11-19T11:16:14.376984119Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6493,7 +6585,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:17.740771915Z",
+      "timestamp": "2025-11-19T11:16:14.576671129Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -6516,7 +6608,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:17.926474554Z",
+      "timestamp": "2025-11-19T11:16:14.770862525Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -6539,7 +6631,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:18.116385964Z",
+      "timestamp": "2025-11-19T11:16:14.968510325Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -6562,7 +6654,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:18.306269673Z",
+      "timestamp": "2025-11-19T11:16:15.167070214Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -6585,7 +6677,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:18.498013164Z",
+      "timestamp": "2025-11-19T11:16:15.369947596Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -6608,7 +6700,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:18.684608681Z",
+      "timestamp": "2025-11-19T11:16:15.572619255Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -6631,7 +6723,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:18.87560909Z",
+      "timestamp": "2025-11-19T11:16:15.771039333Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -6654,7 +6746,7 @@
           "GO-2024-3250"
         ]
       },
-      "timestamp": "2025-10-29T10:01:19.071925423Z",
+      "timestamp": "2025-11-19T11:16:15.970944935Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -6676,7 +6768,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:48.310403315Z",
+      "timestamp": "2025-11-19T11:18:56.367867418Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6698,7 +6790,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:48.504860039Z",
+      "timestamp": "2025-11-19T11:18:56.580624086Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6720,7 +6812,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:48.702086814Z",
+      "timestamp": "2025-11-19T11:18:56.793012201Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6742,7 +6834,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:48.898523364Z",
+      "timestamp": "2025-11-19T11:18:57.000801952Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6764,7 +6856,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:49.094595179Z",
+      "timestamp": "2025-11-19T11:18:57.212956415Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6786,7 +6878,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:49.291638548Z",
+      "timestamp": "2025-11-19T11:18:57.415698707Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -6808,7 +6900,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:52.643277702Z",
+      "timestamp": "2025-11-19T11:19:00.898042987Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -6830,7 +6922,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:52.851392766Z",
+      "timestamp": "2025-11-19T11:19:01.111984419Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -6852,7 +6944,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:53.061783328Z",
+      "timestamp": "2025-11-19T11:19:01.322000183Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0",
@@ -6874,7 +6966,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:53.264892431Z",
+      "timestamp": "2025-11-19T11:19:01.533512941Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.0-rc9",
@@ -6896,7 +6988,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:53.464877955Z",
+      "timestamp": "2025-11-19T11:19:01.745979868Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14",
@@ -6918,7 +7010,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:53.676562921Z",
+      "timestamp": "2025-11-19T11:19:01.957121463Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.14-rc1",
@@ -6940,7 +7032,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:53.885176533Z",
+      "timestamp": "2025-11-19T11:19:02.171180236Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5",
@@ -6962,7 +7054,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:54.089427029Z",
+      "timestamp": "2025-11-19T11:19:02.380637064Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.5-rc3",
@@ -6984,7 +7076,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:54.298703583Z",
+      "timestamp": "2025-11-19T11:19:02.594793498Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.8.6-rc3",
@@ -7006,7 +7098,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:54.507562076Z",
+      "timestamp": "2025-11-19T11:19:02.811480796Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -7028,7 +7120,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-10-29T10:03:54.712435869Z",
+      "timestamp": "2025-11-19T11:19:03.022931234Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -7050,7 +7142,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:14.920230666Z",
+      "timestamp": "2025-11-19T11:31:18.303228839Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -7072,7 +7164,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:15.149780814Z",
+      "timestamp": "2025-11-19T11:31:18.557062238Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -7094,7 +7186,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:15.390733973Z",
+      "timestamp": "2025-11-19T11:31:18.81319465Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -7116,7 +7208,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:15.620522495Z",
+      "timestamp": "2025-11-19T11:31:19.0628737Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher",
@@ -7138,7 +7230,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:19.054898044Z",
+      "timestamp": "2025-11-19T11:31:22.74441166Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4",
@@ -7160,7 +7252,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:19.28634551Z",
+      "timestamp": "2025-11-19T11:31:23.001152168Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.10.4-rc1",
@@ -7182,7 +7274,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:19.526122718Z",
+      "timestamp": "2025-11-19T11:31:23.251966279Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8",
@@ -7204,7 +7296,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-10-29T10:15:19.762312478Z",
+      "timestamp": "2025-11-19T11:31:23.504959731Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.9.8-rc1",
@@ -7217,6 +7309,986 @@
       ],
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:33.00099004Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:33.322314218Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:33.649942516Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:33.977996139Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:34.311285002Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:34.637270685Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:34.969328586Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:35.297740062Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:35.619175851Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:35.945188234Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:36.274820682Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:36.604928254Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:36.918875961Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:37.248096055Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:37.575814554Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:37.905536802Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GHSA-9493-h29p-rfm2",
+          "GO-2025-4096"
+        ]
+      },
+      "timestamp": "2025-11-19T11:55:38.228464965Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:10.605893589Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:10.932716838Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:11.260642678Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:11.599643855Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:11.93325502Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:12.267914254Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:12.60579806Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:12.936526517Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:58:13.270705267Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.3-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:02:58.592258061Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:02:58.931254206Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:02:59.278237687Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:02:59.621672535Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.10-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:02:59.961179294Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:00.311115345Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.10.9-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:00.657573281Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:00.998091601Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.5-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:01.340249516Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:01.680414552Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:02.023455626Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:02.373372306Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:02.707470293Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.7-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:03.052940151Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:03.391713433Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.11-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:03.734202732Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GHSA-qw9x-cqr3-wc7r",
+          "GO-2025-4097"
+        ]
+      },
+      "timestamp": "2025-11-19T12:03:04.082084542Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.9.12-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ]

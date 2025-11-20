@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-06-26T04:19:47.969178612Z",
-  "version": 9,
+  "last_updated": "2025-11-19T11:57:54.553555026Z",
+  "version": 19,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +13,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-06-26T04:01:31.013560162Z",
+      "timestamp": "2025-11-19T11:18:41.317280334Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -35,7 +35,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-06-26T04:06:23.264462277Z",
+      "timestamp": "2025-11-19T11:25:22.210335217Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -57,7 +57,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-06-26T04:10:32.58753466Z",
+      "timestamp": "2025-11-19T11:31:00.531285222Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -79,7 +79,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:46.990464712Z",
+      "timestamp": "2025-11-19T11:43:58.950532641Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -101,7 +101,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:47.240392554Z",
+      "timestamp": "2025-11-19T11:43:59.243911751Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator",
@@ -123,7 +123,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:47.484339999Z",
+      "timestamp": "2025-11-19T11:43:59.536302901Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator@v1.10.4",
@@ -145,7 +145,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:47.727221025Z",
+      "timestamp": "2025-11-19T11:43:59.827722322Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.1",
@@ -167,13 +167,233 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-06-26T04:19:47.969179192Z",
+      "timestamp": "2025-11-19T11:44:00.118351506Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/gke-operator@v1.9.8",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.37.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:51.59440758Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:51.919677381Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.10.9",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:52.246500178Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.10.9-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:52.574191112Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:52.902361251Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.6-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:53.231967684Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:53.562250183Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.7-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:53.892792325Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.11.7-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:54.220265618Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.12.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-19T11:57:54.553555536Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/gke-operator@v1.12.2-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
             }
           ]
         }
