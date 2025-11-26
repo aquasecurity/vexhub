@@ -3,8 +3,8 @@
   "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
   "author": "Rancher Security team",
   "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-07-20T20:48:42.607049736Z",
-  "version": 15,
+  "last_updated": "2025-11-25T03:56:05.513492442Z",
+  "version": 21,
   "statements": [
     {
       "vulnerability": {
@@ -14,7 +14,7 @@
           "GO-2023-2331"
         ]
       },
-      "timestamp": "2025-07-20T20:14:21.301448329Z",
+      "timestamp": "2025-11-25T02:37:24.524240469Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -37,7 +37,7 @@
           "GO-2023-2331"
         ]
       },
-      "timestamp": "2025-07-20T20:14:21.391708746Z",
+      "timestamp": "2025-11-25T02:37:24.618205153Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -60,7 +60,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:41.183315109Z",
+      "timestamp": "2025-11-25T02:42:39.571163281Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -83,7 +83,7 @@
           "GO-2024-3321"
         ]
       },
-      "timestamp": "2025-07-20T20:18:41.309758662Z",
+      "timestamp": "2025-11-25T02:42:39.709768763Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -106,7 +106,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:21:32.405898876Z",
+      "timestamp": "2025-11-25T02:46:13.672888505Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -129,7 +129,7 @@
           "GO-2024-3333"
         ]
       },
-      "timestamp": "2025-07-20T20:21:32.553751108Z",
+      "timestamp": "2025-11-25T02:46:13.828082059Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -151,7 +151,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:28:45.103539415Z",
+      "timestamp": "2025-11-25T02:55:31.688084086Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -173,7 +173,7 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-07-20T20:28:45.29263655Z",
+      "timestamp": "2025-11-25T02:55:31.888919217Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -195,7 +195,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:56.413917231Z",
+      "timestamp": "2025-11-25T03:02:18.132906754Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -217,7 +217,7 @@
           "GO-2025-3487"
         ]
       },
-      "timestamp": "2025-07-20T20:33:56.624530453Z",
+      "timestamp": "2025-11-25T03:02:18.363588316Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -239,7 +239,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:38:30.370140569Z",
+      "timestamp": "2025-11-25T03:08:04.12253457Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -261,7 +261,7 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-07-20T20:38:30.58822566Z",
+      "timestamp": "2025-11-25T03:08:04.376343251Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
@@ -283,7 +283,7 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:48:42.349530164Z",
+      "timestamp": "2025-11-25T03:21:54.589873888Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie",
@@ -305,13 +305,149 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-07-20T20:48:42.607050246Z",
+      "timestamp": "2025-11-25T03:21:54.891019141Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-25T03:36:51.950076616Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "timestamp": "2025-11-25T03:36:52.283602958Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GHSA-f6x5-jh6r-wrfv",
+          "GO-2025-4135"
+        ]
+      },
+      "timestamp": "2025-11-25T03:44:40.88083732Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GHSA-f6x5-jh6r-wrfv",
+          "GO-2025-4135"
+        ]
+      },
+      "timestamp": "2025-11-25T03:44:41.2345538Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GHSA-j5w8-q4qc-rx2x",
+          "GO-2025-4134"
+        ]
+      },
+      "timestamp": "2025-11-25T03:56:05.135735014Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GHSA-j5w8-q4qc-rx2x",
+          "GO-2025-4134"
+        ]
+      },
+      "timestamp": "2025-11-25T03:56:05.513492966Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/wharfie@v0.6.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.21.0"
             }
           ]
         }
