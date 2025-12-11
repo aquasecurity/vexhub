@@ -1,10 +1,8 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-448cca1c5fcf94ecb7030d60b08ef39b387f34f5faaa2be0e8e1f61f31124f1b",
+  "@id": "https://openvex.dev/docs/public/vex-f43ef5fbc80e8d9ebf725c6ce70652c26788cec6c14e52ce92669ad5c8688eb9",
   "author": "Rancher Security team",
-  "timestamp": "2024-07-12T17:54:37.399069972-03:00",
-  "last_updated": "2025-11-19T12:02:56.206831687Z",
-  "version": 36,
+  "version": 1,
   "statements": [
     {
       "vulnerability": {
@@ -13,7 +11,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:37.751245326Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -35,7 +32,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:37.955654719Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -57,7 +53,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:38.157469027Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -79,7 +74,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:38.358333965Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
@@ -101,7 +95,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:38.561960631Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
@@ -123,7 +116,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:38.768669877Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
@@ -145,7 +137,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:38.966052711Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
@@ -167,7 +158,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:39.169564145Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc1",
@@ -189,7 +179,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:39.365686417Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc2",
@@ -211,7 +200,6 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:39.566085578Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc3",
@@ -233,7 +221,27 @@
           "GO-2025-3488"
         ]
       },
-      "timestamp": "2025-11-19T11:17:39.765703721Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/oauth2@v0.24.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22868",
+        "aliases": [
+          "GO-2025-3488"
+        ]
+      },
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.9.0-rc1",
@@ -255,7 +263,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:44.425565905Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -277,7 +284,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:44.664856454Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
@@ -299,7 +305,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:44.90588464Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
@@ -321,7 +326,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:45.144719145Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
@@ -343,7 +347,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:45.382801342Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
@@ -365,7 +368,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:45.621470906Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc1",
@@ -387,7 +389,6 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:45.858778236Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc2",
@@ -409,10 +410,30 @@
           "GO-2025-3503"
         ]
       },
-      "timestamp": "2025-11-19T11:29:46.098705761Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.34.0"
@@ -431,7 +452,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:13.152656616Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -453,7 +473,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:13.441709149Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
@@ -475,7 +494,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:13.72854258Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
@@ -497,7 +515,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:14.01214Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
@@ -519,7 +536,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:14.30087306Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
@@ -541,7 +557,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:14.592146824Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc1",
@@ -563,7 +578,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:14.880431369Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc2",
@@ -585,7 +599,6 @@
           "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:42:15.165880007Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2-rc3",
@@ -602,13 +615,33 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2025-31133",
+        "name": "CVE-2025-22872",
         "aliases": [
-          "GHSA-9493-h29p-rfm2",
-          "GO-2025-4096"
+          "GO-2025-3595"
         ]
       },
-      "timestamp": "2025-11-19T11:55:29.770890469Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GO-2025-4096",
+          "GHSA-9493-h29p-rfm2"
+        ]
+      },
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -627,11 +660,10 @@
       "vulnerability": {
         "name": "CVE-2025-31133",
         "aliases": [
-          "GHSA-9493-h29p-rfm2",
-          "GO-2025-4096"
+          "GO-2025-4096",
+          "GHSA-9493-h29p-rfm2"
         ]
       },
-      "timestamp": "2025-11-19T11:55:30.094896012Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
@@ -650,11 +682,10 @@
       "vulnerability": {
         "name": "CVE-2025-31133",
         "aliases": [
-          "GHSA-9493-h29p-rfm2",
-          "GO-2025-4096"
+          "GO-2025-4096",
+          "GHSA-9493-h29p-rfm2"
         ]
       },
-      "timestamp": "2025-11-19T11:55:30.416122959Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
@@ -673,11 +704,10 @@
       "vulnerability": {
         "name": "CVE-2025-31133",
         "aliases": [
-          "GHSA-9493-h29p-rfm2",
-          "GO-2025-4096"
+          "GO-2025-4096",
+          "GHSA-9493-h29p-rfm2"
         ]
       },
-      "timestamp": "2025-11-19T11:55:30.73154846Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
@@ -694,13 +724,159 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2025-52565",
+        "name": "CVE-2025-47907",
         "aliases": [
-          "GHSA-qw9x-cqr3-wc7r",
-          "GO-2025-4097"
+          "GO-2025-3849"
         ]
       },
-      "timestamp": "2025-11-19T12:02:55.189813018Z",
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47907",
+        "aliases": [
+          "GO-2025-3849"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GO-2025-4097",
+          "GHSA-qw9x-cqr3-wc7r"
+        ]
+      },
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli",
@@ -719,11 +895,10 @@
       "vulnerability": {
         "name": "CVE-2025-52565",
         "aliases": [
-          "GHSA-qw9x-cqr3-wc7r",
-          "GO-2025-4097"
+          "GO-2025-4097",
+          "GHSA-qw9x-cqr3-wc7r"
         ]
       },
-      "timestamp": "2025-11-19T12:02:55.529055987Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
@@ -742,11 +917,10 @@
       "vulnerability": {
         "name": "CVE-2025-52565",
         "aliases": [
-          "GHSA-qw9x-cqr3-wc7r",
-          "GO-2025-4097"
+          "GO-2025-4097",
+          "GHSA-qw9x-cqr3-wc7r"
         ]
       },
-      "timestamp": "2025-11-19T12:02:55.869559338Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
@@ -765,17 +939,1204 @@
       "vulnerability": {
         "name": "CVE-2025-52565",
         "aliases": [
-          "GHSA-qw9x-cqr3-wc7r",
-          "GO-2025-4097"
+          "GO-2025-4097",
+          "GHSA-qw9x-cqr3-wc7r"
         ]
       },
-      "timestamp": "2025-11-19T12:02:56.206832367Z",
       "products": [
         {
           "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/opencontainers/runc@v1.1.14"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20251102",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20251102",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.10.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250223",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.7.4-dev-20250309",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.22.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20250615",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.9"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.8.3-dev-20251102",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/cli@v1.9.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.6"
             }
           ]
         }
@@ -784,5 +2145,6 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
-  ]
+  ],
+  "timestamp": "2025-12-10T11:01:53Z"
 }
