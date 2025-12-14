@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-f43ef5fbc80e8d9ebf725c6ce70652c26788cec6c14e52ce92669ad5c8688eb9",
+  "@id": "https://openvex.dev/docs/public/vex-5797a99f24dd31aa395f2989d58ce40b1ede8c2332e4af49228fd946e3faec01",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -1506,6 +1506,27 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8-rc.1",
           "subcomponents": [
             {
@@ -1812,6 +1833,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8-rc.1",
           "subcomponents": [
             {
@@ -1944,6 +1987,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.12.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.12.4-rc.1",
           "subcomponents": [
             {
@@ -2055,6 +2120,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.13.0-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.13.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
@@ -2340,6 +2427,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.41.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.11.8-rc.1",
           "subcomponents": [
             {
@@ -2472,6 +2581,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.12.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.12.4-rc.1",
           "subcomponents": [
             {
@@ -2583,6 +2714,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/aks-operator@v1.13.0-rc.4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/aks-operator@v1.13.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
@@ -3409,5 +3562,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2025-12-10T11:01:53Z"
+  "timestamp": "2025-12-14T00:22:40Z"
 }
