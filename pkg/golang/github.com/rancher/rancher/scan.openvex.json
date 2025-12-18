@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-5797a99f24dd31aa395f2989d58ce40b1ede8c2332e4af49228fd946e3faec01",
+  "@id": "https://openvex.dev/docs/public/vex-57551bfe5e6a98317cc835b113b015ed95f74e43ef2c9d521011b06bc6775485",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -6903,6 +6903,50 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-0426",
+        "aliases": [
+          "GO-2025-3465",
+          "GHSA-jgfp-53c3-624w"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.30.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-0426",
+        "aliases": [
+          "GO-2025-3465",
+          "GHSA-jgfp-53c3-624w"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.31.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22868",
         "aliases": [
           "GO-2025-3488"
@@ -9750,5 +9794,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2025-12-14T00:22:40Z"
+  "timestamp": "2025-12-17T08:37:49Z"
 }

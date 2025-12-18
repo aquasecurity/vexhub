@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-a8721630fae19d8a0fa18b851f0c4ba2ae987e685ec276ac731746f72adda3a1",
+  "@id": "https://openvex.dev/docs/public/vex-57551bfe5e6a98317cc835b113b015ed95f74e43ef2c9d521011b06bc6775485",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2192,6 +2192,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -2391,6 +2413,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
@@ -4590,6 +4634,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -4789,6 +4855,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.6"
@@ -12981,6 +13069,27 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -13171,6 +13280,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -13940,6 +14070,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -14139,6 +14291,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -15942,6 +16116,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -16141,6 +16337,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -17416,6 +17634,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.33.7-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.0-rc1+rke2r1",
           "subcomponents": [
             {
@@ -17615,6 +17855,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc2+rke2r1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rke2@v1.34.3-rc3+rke2r1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
@@ -18529,5 +18791,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2025-12-14T00:22:39Z"
+  "timestamp": "2025-12-17T08:37:49Z"
 }
