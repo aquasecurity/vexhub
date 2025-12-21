@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-57551bfe5e6a98317cc835b113b015ed95f74e43ef2c9d521011b06bc6775485",
+  "@id": "https://openvex.dev/docs/public/vex-279c7296dc03aebef41e790766d3a4483035a83012a5e89263b4db7c4299c560",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -674,6 +674,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-28180",
+        "aliases": [
+          "GO-2024-2631",
+          "GHSA-c5q2-7r4c-mv6g"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/gopkg.in/square/go-jose.v2@v2.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-28180",
+        "aliases": [
+          "GO-2024-2631",
+          "GHSA-c5q2-7r4c-mv6g"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
           "subcomponents": [
             {
@@ -1642,6 +1686,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GO-2024-3321",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45337",
+        "aliases": [
+          "GO-2024-3321",
+          "GHSA-v778-237x-gjrc"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
           "subcomponents": [
             {
@@ -2610,6 +2698,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GO-2024-3333",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.30.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GO-2024-3333",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.4+k3s1",
           "subcomponents": [
             {
@@ -3693,6 +3825,48 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.10-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22869",
+        "aliases": [
+          "GO-2025-3487"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
@@ -4436,6 +4610,48 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.10-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
@@ -4583,6 +4799,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.6-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.7+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -4793,6 +5030,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.2-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -5291,6 +5549,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.9+k3s1",
           "subcomponents": [
             {
@@ -5424,6 +5726,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.6-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.7+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -5644,6 +5968,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.2-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -7505,6 +7851,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.9+k3s1",
           "subcomponents": [
             {
@@ -7638,6 +8028,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.6-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.7+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -7858,6 +8270,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.2-rc2+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.36.0"
@@ -8380,6 +8814,50 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.11-rc1+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.32.8+k3s1",
           "subcomponents": [
             {
@@ -8622,6 +9100,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.7+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.33.7-rc1+k3s1",
           "subcomponents": [
             {
@@ -8842,6 +9342,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3-rc1+k3s1",
           "subcomponents": [
             {
@@ -8975,6 +9497,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/k3s-io/k3s@v1.34.3-rc7+k3s1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-59530",
+        "aliases": [
+          "GO-2025-4017",
+          "GHSA-47m2-4cr7-mhcw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/k3s-io/k3s@v1.35.0-rc1+k3s1",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/quic-go/quic-go@v0.54.0"
@@ -9581,5 +10125,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2025-12-17T08:37:49Z"
+  "timestamp": "2025-12-20T19:59:37Z"
 }
