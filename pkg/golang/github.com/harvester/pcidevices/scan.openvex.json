@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-279c7296dc03aebef41e790766d3a4483035a83012a5e89263b4db7c4299c560",
+  "@id": "https://openvex.dev/docs/public/vex-559b72187b12856729becb7424160f83495d29d8edf9966248e2cd3e392dc517",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2236,6 +2236,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GO-2024-3333",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0-rc1",
           "subcomponents": [
             {
@@ -2919,6 +2941,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.31.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-0426",
+        "aliases": [
+          "GO-2025-3465",
+          "GHSA-jgfp-53c3-624w"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/k8s.io/kubernetes@v1.31.1"
@@ -4416,6 +4460,27 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0-rc1",
           "subcomponents": [
             {
@@ -5109,6 +5174,27 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0-rc1",
           "subcomponents": [
             {
@@ -5487,6 +5573,27 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0-rc1",
           "subcomponents": [
             {
@@ -5789,6 +5896,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0-rc1",
           "subcomponents": [
             {
@@ -6076,6 +6205,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/pcidevices@v1.6.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.7.0",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.38.0"
@@ -6682,5 +6833,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2025-12-20T19:59:37Z"
+  "timestamp": "2025-12-24T18:50:19Z"
 }
