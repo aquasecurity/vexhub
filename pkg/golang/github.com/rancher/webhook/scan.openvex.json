@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-d32e4e84fbc8a557a5a162bf44727934af7d85deab86e58451060c76399b7826",
+  "@id": "https://openvex.dev/docs/public/vex-e4d537d97a50f92e3d88432b7fd7f6ea8dc0a10b0f4b7755f02f8095a896d82f",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -4842,6 +4842,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/webhook@v0.10.0-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/webhook@v0.5.12",
           "subcomponents": [
             {
@@ -5899,6 +5921,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/webhook@v0.10.0-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/webhook@v0.10.0-rc.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.43.0"
@@ -9849,5 +9893,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-01-07T14:40:27Z"
+  "timestamp": "2026-01-08T14:26:18Z"
 }
