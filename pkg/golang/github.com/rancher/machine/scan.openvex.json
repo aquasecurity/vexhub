@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-924ab0f65901e654aedc8c377e8f872441ef7417eae6e33bcb1efe6c7986a190",
+  "@id": "https://openvex.dev/docs/public/vex-099abb8db3f2fca55e591ab22080762b40ba04b92b34fdc3ee1bdaf015b0f3fb",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -600,6 +600,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2020-8912",
         "aliases": [
           "GO-2022-0635",
@@ -983,6 +1005,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher137",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
@@ -2752,6 +2796,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2024-51744",
+        "aliases": [
+          "GO-2024-3250",
+          "GHSA-29wx-vh33-7x7r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22868",
         "aliases": [
           "GO-2025-3488"
@@ -3672,6 +3738,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-30204",
+        "aliases": [
+          "GO-2025-3553",
+          "GHSA-mh63-6h87-95cp"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/golang-jwt/jwt/v4@v4.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47907",
         "aliases": [
           "GO-2025-3849"
@@ -4197,6 +4285,27 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47914",
         "aliases": [
           "GO-2025-4135",
@@ -4527,6 +4636,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-58181",
         "aliases": [
           "GO-2025-4134",
@@ -4844,6 +4975,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher137",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.42.0"
@@ -5209,6 +5362,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-61725",
         "aliases": [
           "GO-2025-4006",
@@ -5548,6 +5723,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher137",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/machine@v0.15.0-rancher138",
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.24.7"
@@ -5560,5 +5757,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-01-14T14:53:07Z"
+  "timestamp": "2026-01-21T17:35:58Z"
 }
