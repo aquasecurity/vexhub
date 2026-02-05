@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-caa65f06d6811ad5a0f791ed738717b5df11904317a93c81a54aea16d696499d",
+  "@id": "https://openvex.dev/docs/public/vex-6a9f7a38bc8eefa5e2d747b69af4d3c327b926a04fa7ffb7f3a66eb4db2950d0",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -3039,6 +3039,48 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47914",
         "aliases": [
           "GO-2025-4135",
@@ -3369,6 +3411,50 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-52565",
         "aliases": [
           "GO-2025-4097",
@@ -3774,6 +3860,50 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc4",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
@@ -4261,6 +4391,556 @@
           "subcomponents": [
             {
               "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.5.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.23.12"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.6.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.24.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc5",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.0-rc7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.2"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/vm-import-controller@v1.7.1-rc4",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
             }
           ]
         }
@@ -4270,5 +4950,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-02-03T12:14:35Z"
+  "timestamp": "2026-02-04T17:27:04Z"
 }
