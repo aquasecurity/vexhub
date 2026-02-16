@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-d5b7111701fd2096da2048cb7f65ce365d37c2e4240bf99e27bdff56cad5d464",
+  "@id": "https://openvex.dev/docs/public/vex-0235b95d2c99c7e701bd5601cbd772825009d0d795c5c62f13a6f1e3ff1653c6",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -389,6 +389,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.10-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.10-rc.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
@@ -1158,6 +1180,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.6-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.0",
           "subcomponents": [
             {
@@ -1357,6 +1401,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.3-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.3-rc.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
@@ -1906,6 +1972,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.10-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.11.2",
           "subcomponents": [
             {
@@ -2654,6 +2742,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.12.6-rc.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.0",
           "subcomponents": [
             {
@@ -2853,6 +2963,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.3-rc.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/eks-operator@v1.13.3-rc.2",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.50.38"
@@ -5741,5 +5873,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-02-10T21:28:44Z"
+  "timestamp": "2026-02-15T07:23:45Z"
 }
