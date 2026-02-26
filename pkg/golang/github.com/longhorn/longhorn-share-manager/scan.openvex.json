@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-666d69e86e62101e4fc58f041307e7f7ec946b8e9e1181e87a00e219b4bc57e5",
+  "@id": "https://openvex.dev/docs/public/vex-1e59a0b332cbbf530540826bda64d7bc0661a5edd42f75af5ea1050a0e8504b9",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -4369,6 +4369,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.1-dev-20260208",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61726",
+        "aliases": [
+          "GO-2026-4341",
+          "CVE-2025-61726"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.8.2",
           "subcomponents": [
             {
@@ -4919,6 +4941,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.1-dev-20260208",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.8.2",
           "subcomponents": [
             {
@@ -5108,5 +5152,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-02-18T07:06:01Z"
+  "timestamp": "2026-02-25T07:06:36Z"
 }
