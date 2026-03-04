@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-2be48d77f186905b0acf076841d353dd0303af4d7840d724df721b81dc3b9353",
+  "@id": "https://openvex.dev/docs/public/vex-c2cc83a14941d899100d36f9870ea832a1541e634c0ed0981783249ba74870c7",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -5708,7 +5708,61 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-agent",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-agent",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/system-agent",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
     }
   ],
-  "timestamp": "2026-02-27T20:07:37Z"
+  "timestamp": "2026-03-03T21:33:37Z"
 }

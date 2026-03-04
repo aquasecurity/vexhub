@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-92b39e2f6f1c6b6a1bed9788728b924ad4058aac9988349c61c87f6bd10313a3",
+  "@id": "https://openvex.dev/docs/public/vex-a194726fd00f4a04a91a53a2e7a13b86b38606f87988ccae18f897f81a40ecec",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -586,6 +586,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11-rc1",
           "subcomponents": [
             {
@@ -1334,6 +1356,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.7-rc1",
           "subcomponents": [
             {
@@ -1555,6 +1599,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.13.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8911",
+        "aliases": [
+          "GO-2022-0646",
+          "GHSA-f5pg-7wfw-84q9"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.13.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
@@ -2588,6 +2654,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11-rc1",
           "subcomponents": [
             {
@@ -3336,6 +3424,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.12.7",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.12.7-rc1",
           "subcomponents": [
             {
@@ -3557,6 +3667,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.13.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8912",
+        "aliases": [
+          "GO-2022-0635",
+          "GHSA-7f33-f4f5-xwgw"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.13.3",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/aws/aws-sdk-go@v1.55.8"
@@ -4986,6 +5118,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-24557",
+        "aliases": [
+          "GO-2024-2512",
+          "GHSA-xw73-rw38-6vjc"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11-rc1",
           "subcomponents": [
             {
@@ -6723,6 +6877,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.10-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-41110",
+        "aliases": [
+          "GO-2024-3005"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/docker/docker@v20.10.27+incompatible"
@@ -8858,6 +9033,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-31133",
+        "aliases": [
+          "GO-2025-4096",
+          "GHSA-9493-h29p-rfm2"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11-rc1",
           "subcomponents": [
             {
@@ -9723,6 +9920,28 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/rancher@v2.11.10-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52565",
+        "aliases": [
+          "GO-2025-4097",
+          "GHSA-qw9x-cqr3-wc7r"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher@v2.11.11",
           "subcomponents": [
             {
               "@id": "pkg:golang/github.com/opencontainers/runc@v1.2.1"
@@ -12124,7 +12343,61 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.28.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.33.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24051"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/rancher",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/go.opentelemetry.io/otel/sdk@v1.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects macOS/Darwin systems"
     }
   ],
-  "timestamp": "2026-02-27T20:07:38Z"
+  "timestamp": "2026-03-03T21:33:38Z"
 }
