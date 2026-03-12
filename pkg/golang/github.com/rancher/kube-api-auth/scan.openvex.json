@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-3d3fa442f8d6e9baba7b155992f8ef2b593c2ed13389a6c1a3634fcedb455976",
+  "@id": "https://openvex.dev/docs/public/vex-d4b3cc78ff06800351cfb728dda44f2d28d4a703f219f49cf37c9e40f86ae8aa",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -1577,6 +1577,24 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/kube-api-auth",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v25.0.3+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "This CVE only affects Windows and binaries that rely on Docker's pluging manager"
     },
     {
       "vulnerability": {
@@ -3841,5 +3859,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-03-08T10:24:41Z"
+  "timestamp": "2026-03-11T17:15:40Z"
 }
