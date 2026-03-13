@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-d4b3cc78ff06800351cfb728dda44f2d28d4a703f219f49cf37c9e40f86ae8aa",
+  "@id": "https://openvex.dev/docs/public/vex-c24cdf15f01c973d608642ac89b0d1e21f732373384a4f50dd5514e8beb26385",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -3642,6 +3642,864 @@
       "status": "not_affected",
       "justification": "vulnerable_code_not_present",
       "impact_statement": "This CVE only affects Windows and binaries that rely on Docker's pluging manager"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v24.0.7+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v28.3.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.29.10-0.20241012053846-6cbbd2736730-build20241014",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.29.10-0.20241016053521-9510ac25fefb-build20241016",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.29.8-build20240910",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v24.0.7+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250612",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.13-rc1.0.20250516172343-e77f78ee9466-build20250613",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.15-0.20250715012432-9e1df9a1e253-build20251017",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.4-build20240910",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v24.0.7+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.6-0.20241012053748-29fd916cc958-build20241014",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.30.6-0.20241016053533-5ec454f50e7a-build20241016",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.0-build20240910",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v24.0.7+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.12-rc1.0.20250814215358-2b53c7e4c817-build20250908",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.14-0.20251010190929-c49b201b7cf5-build20251017",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.2-0.20241012053821-d74ad4253a54-build20241014",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.2-0.20241016053446-0955fa330f90-build20241016",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.31.9-rc1.0.20250516171836-812206503b28-build20250612",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.0-rc2.0.20241220224140-68fbd1a6b543-build20241231",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.0-rc3.0.20241220224140-68fbd1a6b543-build20250101",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.10-0.20251010190908-d439f1a03318-build20251017",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.11-0.20251210094421-ded016535487-build20251210",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.12-0.20260211145907-0dc662e80238-build20260211",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v28.3.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.5-rc1.0.20250516182639-8e8f2a4726fd-build20250612",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.32.8-rc1.0.20250814215348-fe896f7e7cf8-build20250908",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.0-rc1.0.20250430074337-dc03cb4b3faa-build20250430",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.0-rc1.0.20250905195603-857412ae5891-build20250908",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.0-rc1.0.20251210002518-764e98cbb4c1-build20251210",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.1-0.20250516163953-99d91538b132-build20250612",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.4-rc1.0.20250814212538-148243c49519-build20250908",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.6-0.20251010190850-d6b5244412d1-build20251017",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.7-0.20251210094413-291666bcc1a4-build20251210",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.33.8-0.20260211145912-3552cfc26032-build20260211",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.34.2-0.20251010190833-cf0d35a732d1-build20251017",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.34.3-0.20251210094406-1ff6ebef7028-build20251210",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.34.4-0.20260211145917-c6017918a65c-build20260211",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.35.0-rc1.0.20251218152248-a6c6cd15c0c4-build20251219",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.35.1-0.20260211145923-50fa2d70c239-build20260211",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-15558",
+        "aliases": [
+          "GO-2026-4610",
+          "GHSA-p436-gjf2-799p"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/image-build-rke2-cloud-provider@v1.35.1-0.20260211145931-c5b158798933-build20260211",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/cli@v27.1.2+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     },
     {
       "vulnerability": {
@@ -17712,5 +18570,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-03-11T17:15:40Z"
+  "timestamp": "2026-03-12T18:57:09Z"
 }
