@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-22606419dde578b020cb5e6c2054685923218b54204f8f8a71aeaf761bb975a8",
+  "@id": "https://openvex.dev/docs/public/vex-7b43dded2d7b4f9eed6622e09265435c5679f281728ddac987f274dbc8b368bc",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2366,6 +2366,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis@v0.11.12-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis@v0.11.13-beta.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.38.0"
@@ -6081,6 +6102,27 @@
       "products": [
         {
           "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis@v0.11.12-rc.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.38.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/rancher/fleet/pkg/apis@v0.11.13-beta.1",
           "subcomponents": [
             {
               "@id": "pkg:golang/golang.org/x/net@v0.38.0"
@@ -15509,5 +15551,5 @@
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called"
     }
   ],
-  "timestamp": "2026-03-12T18:57:10Z"
+  "timestamp": "2026-03-18T06:28:45Z"
 }
